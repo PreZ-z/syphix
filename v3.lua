@@ -1,3 +1,28 @@
+local env = (getgenv and getgenv()) or _G
+if env.VeluneLoaded then
+    return
+end
+env.VeluneLoaded = true
+if not game:IsLoaded() then
+    pcall(function()
+        game.Loaded:Wait()
+    end)
+end
+local function ref(v)
+    if cloneref then
+        return cloneref(v)
+    end
+    return v
+end
+local function svc(n)
+    local ok, s = pcall(function()
+        return ref(game:GetService(n))
+    end)
+    if ok then
+        return s
+    end
+    return nil
+end
 local Players = svc("Players")
 local Workspace = svc("Workspace")
 local RunService = svc("RunService")
@@ -5322,7 +5347,7 @@ function Velune.ApplySkyId(id)
         sky.SkyboxUp = asset
         sky.Parent = lighting
     end)
-    Velune.Notify("VELUNE", "Custom skybox applied — ID: " .. tostring(id))
+    Velune.Notify("VELUNE", "Custom skybox applied â€” ID: " .. tostring(id))
 end
 
 Velune.CursorList = {}
@@ -5338,7 +5363,7 @@ function Velune.ApplyCursor_Pulse()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Pulse — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Pulse â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000000, 0.18)
 end
 Velune.Cursor_Pulse = { name = "Pulse", id = "7732596388", apply = Velune.ApplyCursor_Pulse }
@@ -5356,7 +5381,7 @@ function Velune.ApplyCursor_Veil()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Veil — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Veil â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000013, 0.18)
 end
 Velune.Cursor_Veil = { name = "Veil", id = "11744422935", apply = Velune.ApplyCursor_Veil }
@@ -5374,7 +5399,7 @@ function Velune.ApplyCursor_Pin()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Pin — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Pin â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000026, 0.18)
 end
 Velune.Cursor_Pin = { name = "Pin", id = "11886426936", apply = Velune.ApplyCursor_Pin }
@@ -5392,7 +5417,7 @@ function Velune.ApplyCursor_Cross()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Cross — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Cross â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000039, 0.18)
 end
 Velune.Cursor_Cross = { name = "Cross", id = "13549422277", apply = Velune.ApplyCursor_Cross }
@@ -5410,7 +5435,7 @@ function Velune.ApplyCursor_Spec()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Spec — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Spec â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000052, 0.18)
 end
 Velune.Cursor_Spec = { name = "Spec", id = "9894461349", apply = Velune.ApplyCursor_Spec }
@@ -5428,7 +5453,7 @@ function Velune.ApplyCursor_Ring()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Ring — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Ring â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000065, 0.18)
 end
 Velune.Cursor_Ring = { name = "Ring", id = "11532581419", apply = Velune.ApplyCursor_Ring }
@@ -5446,7 +5471,7 @@ function Velune.ApplyCursor_Mark()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Mark — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Mark â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000078, 0.18)
 end
 Velune.Cursor_Mark = { name = "Mark", id = "11600175385", apply = Velune.ApplyCursor_Mark }
@@ -5464,7 +5489,7 @@ function Velune.ApplyCursor_Blade()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Blade — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Blade â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000091, 0.18)
 end
 Velune.Cursor_Blade = { name = "Blade", id = "12436991326", apply = Velune.ApplyCursor_Blade }
@@ -5482,7 +5507,7 @@ function Velune.ApplyCursor_Shard()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Shard — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Shard â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000104, 0.18)
 end
 Velune.Cursor_Shard = { name = "Shard", id = "11263221028", apply = Velune.ApplyCursor_Shard }
@@ -5500,7 +5525,7 @@ function Velune.ApplyCursor_Halo()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Halo — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Halo â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000117, 0.18)
 end
 Velune.Cursor_Halo = { name = "Halo", id = "11918800419", apply = Velune.ApplyCursor_Halo }
@@ -5518,7 +5543,7 @@ function Velune.ApplyCursor_Needle()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Needle — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Needle â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000130, 0.18)
 end
 Velune.Cursor_Needle = { name = "Needle", id = "11419715081", apply = Velune.ApplyCursor_Needle }
@@ -5536,7 +5561,7 @@ function Velune.ApplyCursor_Orbit()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Orbit — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Orbit â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000143, 0.18)
 end
 Velune.Cursor_Orbit = { name = "Orbit", id = "11818642550", apply = Velune.ApplyCursor_Orbit }
@@ -5554,7 +5579,7 @@ function Velune.ApplyCursor_Spark()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Spark — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Spark â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000156, 0.18)
 end
 Velune.Cursor_Spark = { name = "Spark", id = "10921301524", apply = Velune.ApplyCursor_Spark }
@@ -5572,7 +5597,7 @@ function Velune.ApplyCursor_Ash()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Ash — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Ash â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000169, 0.18)
 end
 Velune.Cursor_Ash = { name = "Ash", id = "10747382789", apply = Velune.ApplyCursor_Ash }
@@ -5590,7 +5615,7 @@ function Velune.ApplyCursor_Iris()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Iris — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Iris â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000182, 0.18)
 end
 Velune.Cursor_Iris = { name = "Iris", id = "12142774654", apply = Velune.ApplyCursor_Iris }
@@ -5608,7 +5633,7 @@ function Velune.ApplyCursor_Knot()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Knot — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Knot â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000195, 0.18)
 end
 Velune.Cursor_Knot = { name = "Knot", id = "11378944521", apply = Velune.ApplyCursor_Knot }
@@ -5626,7 +5651,7 @@ function Velune.ApplyCursor_Flare()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Flare — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Flare â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000208, 0.18)
 end
 Velune.Cursor_Flare = { name = "Flare", id = "10849618402", apply = Velune.ApplyCursor_Flare }
@@ -5644,7 +5669,7 @@ function Velune.ApplyCursor_Crest()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Crest — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Crest â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000221, 0.18)
 end
 Velune.Cursor_Crest = { name = "Crest", id = "12201938445", apply = Velune.ApplyCursor_Crest }
@@ -5662,7 +5687,7 @@ function Velune.ApplyCursor_Dart()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Dart — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Dart â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000234, 0.18)
 end
 Velune.Cursor_Dart = { name = "Dart", id = "11688201933", apply = Velune.ApplyCursor_Dart }
@@ -5680,7 +5705,7 @@ function Velune.ApplyCursor_Wisp()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Wisp — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Wisp â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000247, 0.18)
 end
 Velune.Cursor_Wisp = { name = "Wisp", id = "11029384721", apply = Velune.ApplyCursor_Wisp }
@@ -5698,7 +5723,7 @@ function Velune.ApplyCursor_Axis()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Axis — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Axis â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000260, 0.18)
 end
 Velune.Cursor_Axis = { name = "Axis", id = "12501938447", apply = Velune.ApplyCursor_Axis }
@@ -5716,7 +5741,7 @@ function Velune.ApplyCursor_Loom()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Loom — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Loom â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000273, 0.18)
 end
 Velune.Cursor_Loom = { name = "Loom", id = "11192837465", apply = Velune.ApplyCursor_Loom }
@@ -5734,7 +5759,7 @@ function Velune.ApplyCursor_Vane()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Vane — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Vane â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000286, 0.18)
 end
 Velune.Cursor_Vane = { name = "Vane", id = "12384920111", apply = Velune.ApplyCursor_Vane }
@@ -5752,7 +5777,7 @@ function Velune.ApplyCursor_Glyph()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Glyph — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Glyph â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000299, 0.18)
 end
 Velune.Cursor_Glyph = { name = "Glyph", id = "10938475621", apply = Velune.ApplyCursor_Glyph }
@@ -5770,7 +5795,7 @@ function Velune.ApplyCursor_Spire()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Spire — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Spire â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000312, 0.18)
 end
 Velune.Cursor_Spire = { name = "Spire", id = "11729384655", apply = Velune.ApplyCursor_Spire }
@@ -5788,7 +5813,7 @@ function Velune.ApplyCursor_Coil()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Coil — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Coil â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000325, 0.18)
 end
 Velune.Cursor_Coil = { name = "Coil", id = "11482930122", apply = Velune.ApplyCursor_Coil }
@@ -5806,7 +5831,7 @@ function Velune.ApplyCursor_Rift()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Rift — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Rift â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000338, 0.18)
 end
 Velune.Cursor_Rift = { name = "Rift", id = "12019384766", apply = Velune.ApplyCursor_Rift }
@@ -5824,7 +5849,7 @@ function Velune.ApplyCursor_Nock()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Nock — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Nock â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000351, 0.18)
 end
 Velune.Cursor_Nock = { name = "Nock", id = "11293847501", apply = Velune.ApplyCursor_Nock }
@@ -5842,7 +5867,7 @@ function Velune.ApplyCursor_Bead()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Bead — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Bead â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000364, 0.18)
 end
 Velune.Cursor_Bead = { name = "Bead", id = "11829374650", apply = Velune.ApplyCursor_Bead }
@@ -5860,7 +5885,7 @@ function Velune.ApplyCursor_Quill()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Quill — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Quill â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000377, 0.18)
 end
 Velune.Cursor_Quill = { name = "Quill", id = "11501928374", apply = Velune.ApplyCursor_Quill }
@@ -5878,7 +5903,7 @@ function Velune.ApplyCursor_Arc()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Arc — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Arc â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000390, 0.18)
 end
 Velune.Cursor_Arc = { name = "Arc", id = "12193847560", apply = Velune.ApplyCursor_Arc }
@@ -5896,7 +5921,7 @@ function Velune.ApplyCursor_Tide()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Tide — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Tide â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000403, 0.18)
 end
 Velune.Cursor_Tide = { name = "Tide", id = "11384920100", apply = Velune.ApplyCursor_Tide }
@@ -5914,7 +5939,7 @@ function Velune.ApplyCursor_Hex()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Hex — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Hex â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000416, 0.18)
 end
 Velune.Cursor_Hex = { name = "Hex", id = "11938475611", apply = Velune.ApplyCursor_Hex }
@@ -5932,7 +5957,7 @@ function Velune.ApplyCursor_Node()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Node — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Node â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000429, 0.18)
 end
 Velune.Cursor_Node = { name = "Node", id = "11029384799", apply = Velune.ApplyCursor_Node }
@@ -5950,7 +5975,7 @@ function Velune.ApplyCursor_Brim()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Brim — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Brim â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000442, 0.18)
 end
 Velune.Cursor_Brim = { name = "Brim", id = "12401938470", apply = Velune.ApplyCursor_Brim }
@@ -5968,7 +5993,7 @@ function Velune.ApplyCursor_Sable()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Sable — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Sable â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000455, 0.18)
 end
 Velune.Cursor_Sable = { name = "Sable", id = "11629384712", apply = Velune.ApplyCursor_Sable }
@@ -5986,7 +6011,7 @@ function Velune.ApplyCursor_Pike()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Pike — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Pike â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000468, 0.18)
 end
 Velune.Cursor_Pike = { name = "Pike", id = "10829374644", apply = Velune.ApplyCursor_Pike }
@@ -6004,7 +6029,7 @@ function Velune.ApplyCursor_Gleam()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Gleam — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Gleam â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000481, 0.18)
 end
 Velune.Cursor_Gleam = { name = "Gleam", id = "12293847588", apply = Velune.ApplyCursor_Gleam }
@@ -6022,7 +6047,7 @@ function Velune.ApplyCursor_Oath()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Oath — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Oath â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000494, 0.18)
 end
 Velune.Cursor_Oath = { name = "Oath", id = "11101928340", apply = Velune.ApplyCursor_Oath }
@@ -6040,7 +6065,7 @@ function Velune.ApplyCursor_Vesper()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Vesper — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Vesper â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000507, 0.18)
 end
 Velune.Cursor_Vesper = { name = "Vesper", id = "12519384701", apply = Velune.ApplyCursor_Vesper }
@@ -6058,7 +6083,7 @@ function Velune.ApplyCursor_Lumen()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Lumen — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Lumen â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000520, 0.18)
 end
 Velune.Cursor_Lumen = { name = "Lumen", id = "11401928366", apply = Velune.ApplyCursor_Lumen }
@@ -6076,7 +6101,7 @@ function Velune.ApplyCursor_Nadir()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Nadir — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Nadir â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000533, 0.18)
 end
 Velune.Cursor_Nadir = { name = "Nadir", id = "12084920133", apply = Velune.ApplyCursor_Nadir }
@@ -6094,7 +6119,7 @@ function Velune.ApplyCursor_Helix()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Helix — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Helix â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000546, 0.18)
 end
 Velune.Cursor_Helix = { name = "Helix", id = "10919384722", apply = Velune.ApplyCursor_Helix }
@@ -6112,7 +6137,7 @@ function Velune.ApplyCursor_Mirth()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Mirth — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Mirth â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000559, 0.18)
 end
 Velune.Cursor_Mirth = { name = "Mirth", id = "11701928355", apply = Velune.ApplyCursor_Mirth }
@@ -6130,7 +6155,7 @@ function Velune.ApplyCursor_Cinder()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Cinder — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Cinder â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000572, 0.18)
 end
 Velune.Cursor_Cinder = { name = "Cinder", id = "11284920177", apply = Velune.ApplyCursor_Cinder }
@@ -6148,7 +6173,7 @@ function Velune.ApplyCursor_Auric()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Auric — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Auric â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000585, 0.18)
 end
 Velune.Cursor_Auric = { name = "Auric", id = "12319384744", apply = Velune.ApplyCursor_Auric }
@@ -6166,7 +6191,7 @@ function Velune.ApplyCursor_Pell()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Pell — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Pell â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000598, 0.18)
 end
 Velune.Cursor_Pell = { name = "Pell", id = "11584920190", apply = Velune.ApplyCursor_Pell }
@@ -6184,7 +6209,7 @@ function Velune.ApplyCursor_Skein()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Skein — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Skein â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000611, 0.18)
 end
 Velune.Cursor_Skein = { name = "Skein", id = "11801928311", apply = Velune.ApplyCursor_Skein }
@@ -6202,7 +6227,7 @@ function Velune.ApplyCursor_Thorn()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Thorn — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Thorn â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000624, 0.18)
 end
 Velune.Cursor_Thorn = { name = "Thorn", id = "11084920145", apply = Velune.ApplyCursor_Thorn }
@@ -6220,7 +6245,7 @@ function Velune.ApplyCursor_Vellum()
             end
         end)
     end
-    Velune.Notify("VELUNE", "Cursor: Vellum — enable ShiftLock to see it.")
+    Velune.Notify("VELUNE", "Cursor: Vellum â€” enable ShiftLock to see it.")
     Velune.PlayTone(110000637, 0.18)
 end
 Velune.Cursor_Vellum = { name = "Vellum", id = "12419384790", apply = Velune.ApplyCursor_Vellum }
@@ -6272,7 +6297,7 @@ function Velune.SetCrosshair(on)
     Velune.Flags.Crosshair = on
     if on then
         Velune.EnsureCrosshair()
-        Velune.Notify("VELUNE", "Crosshair ON — enable ShiftLock to see it!")
+        Velune.Notify("VELUNE", "Crosshair ON â€” enable ShiftLock to see it!")
     else
         if Velune.CrosshairImage then
             Velune.CrosshairImage:Destroy()
@@ -6716,7 +6741,7 @@ end
 function Velune.ChatRoles()
     local m = Velune.FindMurderer()
     local s = Velune.FindSheriff()
-    local line = "VELUNE roles — Murderer: " .. (m and m.Name or "?") .. "  Sheriff: " .. (s and s.Name or "?")
+    local line = "VELUNE roles â€” Murderer: " .. (m and m.Name or "?") .. "  Sheriff: " .. (s and s.Name or "?")
     pcall(function()
         if TextChatService and TextChatService.ChatVersion == Enum.ChatVersion.TextChatService then
             local ch = TextChatService.TextChannels and TextChatService.TextChannels:FindFirstChild("RBXGeneral")
@@ -6815,7 +6840,7 @@ function Velune.PaintName(player, role, color)
     local lab = gui:FindFirstChild("Label")
     if lab then
         lab.TextColor3 = color
-        lab.Text = player.Name .. "  ·  " .. role
+        lab.Text = player.Name .. "  Â·  " .. role
         gui.Enabled = Velune.Flags.Names
     end
 end
@@ -7140,7 +7165,7 @@ function Velune.Flick()
             end)
             RunService.RenderStepped:Wait()
         end
-        Velune.Notify("VELUNE", "Flick turn 180°")
+        Velune.Notify("VELUNE", "Flick turn 180Â°")
     elseif cam then
         local from = cam.CFrame
         local look = from.LookVector
@@ -7151,7 +7176,7 @@ function Velune.Flick()
             end)
             RunService.RenderStepped:Wait()
         end
-        Velune.Notify("VELUNE", "Flick camera 180°")
+        Velune.Notify("VELUNE", "Flick camera 180Â°")
     end
     task.wait(0.15)
     Velune.FlickBusy = false
@@ -7287,7 +7312,7 @@ function Velune.SilentThrow()
             knife:Activate()
         end)
     end
-    Velune.Notify("VELUNE", "Silent throw → " .. target.Name)
+    Velune.Notify("VELUNE", "Silent throw â†’ " .. target.Name)
 end
 function Velune.GrabGun()
     local drop = Velune.GunDrop()
@@ -7667,7 +7692,7 @@ function Velune.SetLowGFX(on)
                 Velune.FlattenPart(d)
             end
         end
-        Velune.Notify("VELUNE", "Low Graphics ON — FPS boost active")
+        Velune.Notify("VELUNE", "Low Graphics ON â€” FPS boost active")
     else
         pcall(function()
             settings().Rendering.QualityLevel = Enum.QualityLevel.Automatic
@@ -8456,7 +8481,7 @@ function Velune.OpenSkyPicker()
     title.TextSize = 14
     title.TextXAlignment = Enum.TextXAlignment.Left
     title.TextColor3 = Velune.Paper
-    title.Text = "VELUNE  —  Skybox Picker"
+    title.Text = "VELUNE  â€”  Skybox Picker"
     title.ZIndex = 91
     title.Parent = wrap
     local x = Instance.new("TextButton")
@@ -8595,7 +8620,7 @@ function Velune.OpenCursorPicker()
     title.TextSize = 14
     title.TextXAlignment = Enum.TextXAlignment.Left
     title.TextColor3 = Velune.Paper
-    title.Text = "VELUNE  —  Cursor Picker"
+    title.Text = "VELUNE  â€”  Cursor Picker"
     title.ZIndex = 91
     title.Parent = wrap
     local x = Instance.new("TextButton")
@@ -8706,7 +8731,7 @@ function Velune.OpenSlider(title, min, max, current, step, apply, reset)
     t.TextSize = 14
     t.TextXAlignment = Enum.TextXAlignment.Left
     t.TextColor3 = Color3.new(1, 1, 1)
-    t.Text = "VELUNE  —  " .. title
+    t.Text = "VELUNE  â€”  " .. title
     t.ZIndex = 96
     t.Parent = wrap
     local x = Instance.new("TextButton")
@@ -9066,7 +9091,7 @@ function Velune.PaintNativePage(id)
         Velune.NativeToggle(body, "Show Normal Bomb", nil, Velune.Shown.NormalBomb, function(v) Velune.LoadNormalBomb(v) end)
         Velune.NativeToggle(body, "Show Shoot / Throw", "Spins the gun asset. Swaps to knife id 9695655416.", Velune.Shown.Shoot, function(v) Velune.LoadShoot(v) end)
         Velune.MakeLabel(body, "Optional buttons", 12, true, Velune.Muted, 18)
-        Velune.NativeToggle(body, "Load Flick", "180° snap. Shift-lock flips camera, otherwise the character turns.", Velune.Shown.Flick, function(v) Velune.LoadFlick(v) end)
+        Velune.NativeToggle(body, "Load Flick", "180Â° snap. Shift-lock flips camera, otherwise the character turns.", Velune.Shown.Flick, function(v) Velune.LoadFlick(v) end)
         Velune.NativeToggle(body, "Load Wall Hop", nil, Velune.Shown.WallHop, function(v) Velune.LoadWallHop(v) end)
         Velune.NativeToggle(body, "Load Fling Murderer", nil, Velune.Shown.FlingMurderer, function(v) Velune.LoadFlingMurderer(v) end)
         Velune.NativeToggle(body, "Load Fling Sheriff", nil, Velune.Shown.FlingSheriff, function(v) Velune.LoadFlingSheriff(v) end)
@@ -9293,14 +9318,14 @@ function Velune.BuildNative()
     local title = Velune.MakeLabel(top, "VELUNE", 15, true, Velune.Paper, 20)
     title.Position = UDim2.new(0, 44, 0.5, -10)
     title.Size = UDim2.new(0, 140, 0, 20)
-    local sub = Velune.MakeLabel(top, "MM2  ·  v2.4", 11, false, Velune.Muted, 16)
+    local sub = Velune.MakeLabel(top, "MM2  Â·  v2.4", 11, false, Velune.Muted, 16)
     sub.Position = UDim2.new(0, 130, 0.5, -8)
     sub.Size = UDim2.new(0, 90, 0, 16)
     local close = Instance.new("TextButton")
     close.Size = UDim2.new(0, 32, 0, 32)
     close.Position = UDim2.new(1, -40, 0.5, -16)
     close.BackgroundColor3 = Color3.fromRGB(40, 28, 30)
-    close.Text = "×"
+    close.Text = "Ã—"
     close.Font = Enum.Font.GothamBold
     close.TextSize = 18
     close.TextColor3 = Velune.Paper
@@ -9588,12 +9613,12 @@ end
 
 function Velune.BuildWind()
     if not WindUI then
-        Velune.Notify("VELUNE", "WindUI missing — floor buttons still live.")
+        Velune.Notify("VELUNE", "WindUI missing â€” floor buttons still live.")
         return
     end
     pcall(function()
         WindUI:Popup({
-            Title = "VELUNE  ·  Murder Mystery 2",
+            Title = "VELUNE  Â·  Murder Mystery 2",
             Icon = "sparkles",
             Content = "v2.4 loaded.\nGlass floor buttons auto-loaded.\nNative UI is the control surface.",
             Buttons = {
@@ -9813,7 +9838,7 @@ function Velune.BuildWind()
     system:Button({ Title = "Reload Config", Callback = function() Velune.LoadConfig() end })
     end)
     if not okWind then
-        Velune.Notify("VELUNE", "WindUI skipped — native UI is live.")
+        Velune.Notify("VELUNE", "WindUI skipped â€” native UI is live.")
     end
 end
 function Velune.WatchGun()
