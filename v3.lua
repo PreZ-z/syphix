@@ -1,2 +1,9992 @@
--- This file was protected using Luraph Obfuscator v14.7 [https://lura.ph/]
-return({AJt=function(e,n)local n=n[2]return(type(n)=="table"and n[3])or{}end,mCtLn=function(l,n,e)local l=9515 do local l=l+58 if l==9573 then if not n[31884][((e[4]or 6)-6)]then do local l=(((((e[2]or{})[3]or{})))[5038]or 0)local e=(n[23513]or 3969665)-(n[21145]or 9837)n[26908]=e+l end end end end end,["nlB"]=bit32 and bit32["band"],["OIa"]=function(l,e,n,o)local e=62 repeat if e==62 then n=(n or 50)e=118 elseif e==118 then o=((l["F_BIT32"]and l["F_BIT32"]["bor"])and l["F_BIT32"]["bor"](n,9025)or n)e=171 else return o,n end until false end,e=function(e,t)if t==nil or t==""then return""end local n=e["G"]local a,x,c,d,i,f=n["string"]["byte"],e["d"],n["table"]["concat"],n["math"]["floor"],n["string"]["char"],91 local n,e,r,o,l=0,-1,{},0,0 for c=1,#t do local t=x[a(t,c)]if t~=nil then if e<0 then e=t else e=e+t*f if(e%8192)>88 then l=l+e*(2^n)n=n+13 else l=l+e*(2^n)n=n+14 end while n>=8 do o=o+1 r[o]=i(l%256)l=d(l/256)n=n-8 end e=-1 end end end if e>=0 then o=o+1 r[o]=i((l+e*(2^n))%256)end return c(r)end,IlZ=bit32 and bit32["bxor"],OGTFp=function(n,l,e,r)local l,t=(n["qD"])(n,l)local l,o=(n["Hw"])(n,l,e)return{[22209]=l,[13103]=o or{},[6242]=(n["eCW"])(n,t,e),[9827]="",[23598]="",[3965]=r or 0}end,Hw=function(t,e,E)local n=t["G"]local C,p,r,D,B=n["string"]["char"],n["setmetatable"]or setmetatable,n["tonumber"],n["table"]["concat"],n["string"]["byte"]local P,n=(t["pA"])(t,e,1)local o o,n=(t["pA"])(t,e,n)local m,l,M,F,n,b={},t["NqMhP"],true,(t["pOuw"])(t,o or""),t,{}local function A(o)local e=#o if e==0 then return""end local l=B(o,e)local n if e==1 then n=""else local l={}for e=1,e-1 do l[e]=C((B(o,e)+175)%256)end n=D(l)end if l==11 then return r(n)elseif l==4 then return n elseif l==7 then return n=="true"elseif l==6 then return nil end return n end local function R(e,t,P)local h local i local f local d local r local a local x local c local e=e h,e=(n["P"])(n,o,e)i,e=(n["P"])(n,o,e)f,e=(n["P"])(n,o,e)d,e=(n["P"])(n,o,e)r,e=(n["P"])(n,o,e)a,e=(n["P"])(n,o,e)x,e=(n["P"])(n,o,e)c,e=(n["P"])(n,o,e)if h==nil or i==nil or f==nil or d==nil or r==nil or a==nil or x==nil or c==nil then return nil end local u=f+d if i<0 or u<=0 or r<0 then return nil end local b=#E if b==0 then return nil end local c,a,h,m=l["bxor"](h,17741)%6,l["bxor"](x or 0,21090),(l["bxor"](c or 0,29716)%6)+1,l["bxor"](a or 0,25517)local x,s,F,u=i,f,d,r local i,r if c==0 then i,r=e+x,e+x+s elseif c==1 then i,r=e,e+s+x+u elseif c==2 then i,r=e+F+u+x,e elseif c==3 then i,r=e+u,e+u+s+x elseif c==4 then i,r=e,e+s+u else i,r=e+F+x,e end local x,s=0,m%4>=2 and a>0 if s then x=(n["p"])(n,t,a)end local u=(P or 0)%4 local function F(n,o)local e=(x+(t*31)+(n*657)+21090)%256 if h==1 then return e elseif h==2 then return l["bxor"](e,(x+n*1011+t*13+a*5+38827)%256)elseif h==3 then return(e+n*29+t*11+a*3+38827)%256 elseif h==4 then local o=((o-n+1)*1011+a+30765)%256 return l["bxor"]((x+o+t*19)%256,(e+n*3)%256)elseif h==5 then return(e+((n%5)+1)*17+a*7+38827)%256 end return l["bxor"]((e+n*13+t*9+a*23)%256,(x+n+38827)%256)end local function x(n,i,r)if i<=0 then return""end local a={}for e=1,i do local o,n=r+e-1,B(o,n+e-1)local r=((o+(t*397)+29530)%b)+1 local r=B(E,r)local o=(((t+14235)*495)+(o*601)+(c*19)+18624)%256 if u==1 then n=l["bxor"](l["bxor"](n,r),o)elseif u==2 then n=l["bxor"](n,l["bxor"](o,r))else n=l["bxor"](l["bxor"](n,o),r)end if s then local e=F(e,i)if u==3 then n=l["bxor"](e,n)else n=l["bxor"](n,e)end end a[e]=C(n)end return D(a)end local e=x(i,f,1)if d~=0 then local l=x(r,d,f+1)e=(n["moL"])(n,e,l)end return A(e)end local function i(t)local e=b[t]if e~=nil then return e[1],e[2]end local d local f local h local c local x local r local i local a local e=t d,e=(n["P"])(n,o,e)f,e=(n["P"])(n,o,e)h,e=(n["P"])(n,o,e)c,e=(n["P"])(n,o,e)x,e=(n["P"])(n,o,e)r,e=(n["P"])(n,o,e)i,e=(n["P"])(n,o,e)a,e=(n["P"])(n,o,e)if r==nil then b[t]={0,0}return 0,0 end local n,e=l["bxor"](i or 0,21090),l["bxor"](r,25517)b[t]={e,n}return e,n end local function r(e,l)local l=F[l or e]if not l then return end local o=i(l)if o%2==1 then local l=R(l,e,0)m[e]=l==nil and n["hE"]or l end end local o=nil if P~=""then o=(t["tUr"])(t,P or"",E)for n,e in pairs(o)do r(n,e)end else for n in pairs(F)do r(n,n)end end local n=p({},{["__index"]=function(t,e)local t=n["xvSiR"]or 0 local t=l["bxor"](((e+24863)*375+t)%65536,57233)if n["gju"]~=t then n["jLux"]=nil return nil end n["gju"]=nil local e=l["bxor"](e,18624)-2693 local l=m[e]if l~=nil then n["jLux"]=nil if l==n["hE"]then return nil end return l end local l=o and o[e]or e if not l then n["jLux"]=nil return nil end local l=F[l]if not l then n["jLux"]=nil return nil end local t,o=i(l)local t,o=M and(t%4<2 or o<=0),n["jLux"]or 0 n["jLux"]=nil local l=R(l,e,o)if t then m[e]=l==nil and n["hE"]or l end return l end,["__metatable"]={}})return n,nil end,vDP=function(n,o,e)local l,r,t,i=3149,n["JD"],n["cvLb"],n["aZhSl"]do local l=l+79 if l==3228 then t(n,o,((e[4]or 6)-6),r(n,o,(((e[2]or{})[3]or{}))))local l=e[5]if type(l)~="number"then l=(n["MsAaP"])(n,l or"",1)or 0 e[5]=l end t(n,o,(((((e[2]or{})[1]or{})))[5038]or 0),i(n,o,l))end end end,qcsBp=function(n,i,r)local e=11099 do local e=e+8 if e==11107 then local x,e,c=i[31884],r[2],(r[4]or 6)-6 local e,d=e[3],e[1]local l do local t=e local a,o=t[25377]or 23959,t[5038]or 0 if a==29456 then l=x[o]elseif a==203 then l=o elseif a==14869 then local e=t[21227]if e==nil then n["gju"]=n["NqMhP"]["bxor"](((o+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((o+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)e=i[7921][o]n["gju"]=nil if e==n["hE"]then t[21227]=n["hE"]l=nil else t[21227]=e==nil and n["hE"]or e l=e end elseif e==n["hE"]then l=nil else l=e end elseif a==9396 then local e=t[21227]if e==nil then n["gju"]=n["NqMhP"]["bxor"](((o+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((o+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)e=i[7921][o]n["gju"]=nil if e==n["hE"]then t[21227]=n["hE"]l=nil else t[21227]=e==nil and n["hE"]or e l=e end elseif e==n["hE"]then l=nil else l=e end else l=nil end end local e do local t=d local o,a=t[5038]or 0,t[25377]or 23959 if a==29456 then e=x[o]elseif a==203 then e=o elseif a==14869 then local l=t[21227]if l==nil then n["gju"]=n["NqMhP"]["bxor"](((o+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((o+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)l=i[7921][o]n["gju"]=nil if l==n["hE"]then t[21227]=n["hE"]e=nil else t[21227]=l==nil and n["hE"]or l e=l end elseif l==n["hE"]then e=nil else e=l end elseif a==9396 then local l=t[21227]if l==nil then n["gju"]=n["NqMhP"]["bxor"](((o+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((o+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)l=i[7921][o]n["gju"]=nil if l==n["hE"]then t[21227]=n["hE"]e=nil else t[21227]=l==nil and n["hE"]or l e=l end elseif l==n["hE"]then e=nil else e=l end else e=nil end end local n=x[c]n[l]=e end end end,SBLEM=function(e,n,l)local e=26847 do local e=e+35 if e==26882 then n[26908]=n[26908]+(((((l[2]or{})[3]or{})))[5038]or 0)end end end,rE=function(e,r,i)local n,l,x={1026},e["G"]["tonumber"],e["cvLb"]local n=n[1]if n==1026 then local c,t=((i[4]or 6)-6),r[31884]local l,a=t[c],(((((i[2]or{})[1]or{})))[5038]or 0)local o,n=t[a],i[5]if type(n)=="table"then n=n[5038]or(a+1)i[5]=n elseif type(n)~="number"then n=(e["MsAaP"])(e,n or"",1)or(a+1)i[5]=n end local t=t[n]if type(l)~="number"or type(o)~="number"or type(t)~="number"then local i=e["G"]["tonumber"]or tonumber if type(l)~="number"then local n=i(l)if n==nil then error("invalid 'for' initial value (number expected, got "..type(l)..")")end l=n x(e,r,c,l)end if type(o)~="number"then local n=i(o)if n==nil then error("invalid 'for' limit (number expected, got "..type(o)..")")end o=n x(e,r,a,o)end if type(t)~="number"then local l=i(t)if l==nil then error("invalid 'for' step (number expected, got "..type(t)..")")end t=l x(e,r,n,t)end end if(t>0 and l>o)or(t<0 and l<o)then do local e=(((((i[2]or{})[3]or{})))[5038]or 0)local n=(r[23513]or 3969665)-(r[21145]or 9837)r[26908]=n+e end end end end,OmOca=function(e,n)return n[5038]or 0 end,["xd"]="54852|5043|21463|K7*:9tDE=o1_o_|]*ZN*}2!/Q{kq@_68}Q88ppW2~gg~Vybqw(@t0DkhxDm~OOkYJ5qMPZOBF0DSEkp;rV&0vLB8uVTwky>WY`@/;Lq[6i|dkBWBqM]4^:#Q.ss8F$Nqn(op6qgJ42{8}Q)!fL2Vas)*J8oM8R/_wUv~<8KW%4i>8J=T9SY.!A^,e~78HW`OHk8JBl9S(dpXsPf_o21j7;E;t9L8K;nO:zD*~~!8OfRBeZ2Y42v:uRq2r|T@K6_C(@@.kP38wT>y+>HQ}k;|PP32w8/~7;Iq8P,mR{)mhv_}|Nl~RM/h)x(~l^~&{<qMga=dpoReb[fL\"R}8%T^xffhh=,p=u52lsW@Ku7]UFQrT88/2/Vp{#Xw]nMk2&)88tmG8D*OHDL2k<mXy,A}v[F`m?XyM\"FfL=LY7RPO~Yiuz|Z|R31tP2Yi4~XBHv2CW>eOQr9gw1%u8nmG8+[I5.q>XEd,8FCf?GW6;ddk/sL{[88PX1|K~ZU7P<ZF0KsTDboN\"v]D8h@&E`f6[I/Z7=,\"T3~629fWjxn[{y@y;q.Gi_:mIoWJz\"|T*\"E88aT>4FcRQ*w_`jw>YXdkPh8aT\"Ec&?/v6fUYX>6%HUU@%rbTiQ8NDo,k<tz3Xg75|p3tqAOS~Y6$9|<sRb]j/]/m85[%:6Leu_y<5nP.ORWp~>fK{[1DGU|4wQ+6E28el2>p4`Y<YnkF[a[QHc3i7L8%(cJ0YgLE6jN`)MBtF?DyY)d6+Hr)2fLxWLmLfat9^[w#;cYPY:NmS|Ng?M{Z~vM}Ps(D{g.Bk[KPf3B2~Z~8s~22:]Kk6p5e^)cAn\",};>28ev}qL;EyQHm)/8>.Vl^k>iq>B)cvMp22MxLDLjE@`kbiVZ+8`?4)mUdGP_P&sbR^V9ga}MeQ<RTNQlvRWl8Y4CwDG3*X)Rug.xceApjk`hb8Ebmb+l2;q^2zA1dPbQoG@&,X8/2Y{X~D*Kkk>c>}#P9T[/:U][P$+I4.mRv6mOw.l4JUWIPEB2~/~2Q.p)MfS88x2p90Kol<8ccb=d@lLhB*t7mDN799XLt%yU3p{|J}jZqs8%MlmU>Ewz8/rEjba?4=Um{kXP&wX8{w>}2}&uocL9$s(zV8twB*B?:z_!7htFY]LB8~O_6R_/dpk[rNOqJp^N0*2&I8;{k`9hzyorx9JCx\"PoB6rG~^MU~)cK4ji?4(Xb_f?}fTt%<f}`E43Pw)6881~hfu}KwYfP_(]7bPP0V56lm37`cL)%pf:f9#q8g{=F/?4+mBR5.}8D(Ao;t9fYs8eP~f8Xf3|}t8tMc/~.K9nek54;md?IF}PL(|@1IgbR4ew|T2~\"2R40mWoZeS7r_g?vmbB^7>Lz:y8RWRZ?2C@*U&`P$]2))W[N884%tzriVsI4lkGb=p5Il(lV4/Zi3)bkP};gL@|thD{whmS<}IIoTEB0)?&ew|8`2|YSbnL?*t<:rZ?P#mv$LR/lU_<).e}}~?;_h:wxzB\"2DxmE/ew|8`2Y.`0vLKrDBPPdRD2EksS2j_i1wH8>$|$W2}b9*!tR9C@bT2~mfiV@NHWBMCABMv72~&Qz&wXR%X$Ty,Z&fyK(}/VQOAWGQatH*+/1KUhl`Wm77R>FRz&rhde5_w7HsW*00m8>T<pBllY_r@g3@SNR|5Resl8UJcJrrbq`S5x9/BrkP4Q6r2R=Q)8F)7?J.9|^8zkLT<9gTkqOds$s#]K9llf:f`;m{/9vOm0}/_Ui1732~/96j_ZWct_O|p%in/SIl=Z<8&0K<M{FX>a<SL3Ox}K*$1>fxo>y6jdWGbBdht>umA@smb6]E*#)xD~2klY+}T^X@{eu?;rXkD8))E3gLj#{fh8d?,!lfWVI1:wa+|)wi,Ln`28|Q%sl4cP$bs`k:BV/9dzkrM=2IO8|lhhuK]g:Ye(qt`Q6r19{X2y&T:w9YW63+Do&YpYjUdh0dyJ`:SE\"z~vt2_]M0yu(*3!6ry&&cQ@n?Gi{O*<J.*Ni.z1&!8i/;&<Ky~K)|&/Sjb9YeZ],pL8v=!*=Lc}5N!MFQYgRWS8xE[_5eP<t\"`Q<&Uy2N/JXL503{}rG;E8_$l@+ow(}<yw4}BFG?wbgwu8Uq(^{wyz<m\"J_&&rf>\"mg[gWLMp$2~tX{Q+tSbK>:oiUZbE:v8[QcpV~9c]ETc;Ap0Nhgy.}+wf^w912@f!3vrgE?wBLwL&4Yzyo1mJ+8|uRnZr%f*o>u[y&a9gL[Z|GSvHf_;|<X~6s^2Kp(KX#MxgVX7}ov:)Fr$m~Zma2xnIF;{IO#4kI>vkf+Y05K,Le4wK*4w<%Pf+8Nl0.yMU:C0XO0tB43(vR79pCHs5ghmDMW988H2}4WR/lo_L/H1!@kij8}_nTO~;S4W@vQm$%~r!Xcl/Kx:~EPPQ8RDWl>VAhwvZwss%03<8(gqJY~MyMx9?m7rx}=,y^e!q0)2J2RZr8AhDrJO7lt[[4C>tfn^/%Z{tdY?<@bM}kC,+kl],XKv[2|<=L]S:^IzrtB1`2B^?Nxf#xB>,pO8vg*o!W}u&pm4eOMBhNbmD+I2;1?JXg6OY&J2}[O{%X(X61L5;fXFl4AwVlP3/_l^rrvuDNM{Qm^Y%y:WC~+5f^V+k8_meLv4KDQ|OXaDGg.#W|ZMI=^UB8_;jMCMPv[IF`6eM{}8Tj}Qa7apd9_QIm7Mi]iKtz,6`xl4)1XOv!jnSNYx.>38T9w3KWucCl$)hQKp9m~Mz42~AXAjI26~f$G+<+qd28=8x!DBwq0&==8v3m|6HrL82V=iRU6x|%*j#bwi28Q));s~o%f/D|pk}0HlHUqW$$m8=O33}Qpub!]&BKKwA^88G~uJmS3(lu@.5]c}:o_2:\"3{28RDZ5wW}e|cvOC:+AyZ.<u8O2cKvvP_WF+4Tv^K8~$D]CpB8M;#88Z2dr!XE9.!^I($$!4rb`z8SmR>N2U^3<p!3A4LTT)=[P28ulVk:Fu]0sEujLxI!1k}\"m&jZ84^RZy{|1YP0q~%pr}2eZGWBMVPmddHsDAEYgsN&%Imkw+MRWb2se%(k2/%v^OW`9I8eMeL:XIf^Y~<hpfCV8G8nOi9\"jlrmFbfhe^l`Rs:q&syp;WN,;t\"`%CSk@m~W8#jTX.}VcWk{h)&^qjjhM.m~L/4oAIkZI?mGiWeJ`]#$p!fYVfL/~D=<m}~^2\"AU|(+_:%YUH{tSb(8\"z2bd{k0UNO@RS=^2~^8Y+5Q4XcA~q8T)nQn9HJG,}t!m8lOhm?7d!+qBSTj2~XXp*+VXO|7`sp)yE6Hm{$WSO*8{<@uKW1LX6s(RHKvJVnw=Lc2;@h}JX<@Z0IMcq7TZ9!fiXi9(yjE<{ol|FFQdE4aq2CaE;YMahOnr(6Bufd5VDn:%0)/cM_M<0gmu&5Q4*1I!.Rxh[8b~2<fq}B|LmArPeryqygPH+&w_e#VkReZJ&!9OlI?ZuL1s_P~X2r1.zHfpvf7kD?SVC`FO~OZ#f+L^:aQ#/28xXv2BoxLA#hDnQVexQ08/JJ}eLf3@3Hr#42~2P<m8P$VS}#i(l3~fL,/=:&Bkk{HeB[{p4V*lC=jCGdMEQUV:eif1%vg`2UMjP=[/amuSwqdS8j4xA%u%/_SM#IaGz`>kP%mNHd~{[D*KuCawl;k)j?)+Tu8&S5.w9t24PBq{5<997g@cG!7U3@.LUrT9Dx+6):\"agbiIY/<lM&3PfOaT5xg7ulz15u,2vHf9eEQSKP<o{i9PJj~^3MbWq)=tnm8fTZb_uGSMMTg/IcegaAPCS2j<XIgB&$rP`~]0|~$0&xn~r4OqXPqt|+.[|AdQ!(1w8:%~:`:<PL_0:d2yM/qmm]qz|XA\"dWl.m+rcmTf_l14Fom8?X?3r6txC@ms$%x9>mC9xt9=)Yl8jOp@Sm*+*z4LUiX{>X}<I2ro.j6Mi\"2~rXQ|h?z^@Torkx9FsI0;|0.Ff8e52Ap{?2ay7bc/u;m?VLYkX{yX`jTX&t@~bI^!fe0zU[y8#=g:c2cLFGF)^l{7][gtGVRa@H8eFNrs!/>bDGHm`xs2w)^2~+Fw_p~;D0{<$%4Pc)Iq>~#MZ59.(!K+N0Jv6JITfP3mdff*!Q_Adb(xt2=eLzhF<m+c9l90hWS@p@s3d02JrUP%[A#!`#KyXoWp?L@@TlBR~8$~Q4#)QR`nyNXt)DGb:][HhyR:jd/>Emnxs2%l.m1YDOYQvq=f@sP^rwIbSrFwFTRWQm!p*2Dp:)M;Xkt]MMTrXfwwrr%8rjW`4;CgvYq26r{910780K$S;yw]9[l[iBg*$J283TbQ_=M<?XPGTnE6EntfyBRWp~nG:~&KhG~JTu64yoh_FmZexM5QodCp[\"`lAL+$&QG6TL^a88%Xgj0mLh>#xk3w8<VqIqQR:]y~_H#I:W*1Ltyd>V)e}4$UAeJ~@lA*)lr3$?j*O`^?P<Y4q0Si[yIHg;Gr@3>rziW2lMI_QfazTf\"I*K$IU40+m_!/sKRwl`k+SmxNxR/zB:D!z>}zSrQXAP4>w9p~E]Lf9VCCPs@su1S&C1dI4CDgqrw/7|pO8F(]K]s:XPbYuPhHtF=o~i0kMN5}qT+vv)f8(Ii,7I@b7!E&iFk+;j0coLR[0Lk\"2jy212,.qlSmmrL_(j5:1Vc&T{(rHeGJJsg$#mJmmdiwb;wLu;rZ3u];hkEKr<6.*M)TQPL)?~~;p;P2BVa\"TqJfE$!9J8{DmS^l|/kKw;95Dc/F^&UL|aYM69QPkaxL~Z+NZ]Dd^cvNyuYLJ+K*rYUT.m,{y@d3r39gJv=0PwYDMM~zr;2~f:eMVjhjVjQ;/>E`E\"/lO@(uXs0L{SAh9~RrJ510&2HQ9f1~fL$~\"Wn#?H&.tq~q5$0pUVJs\"ODQN4_TjGfk8tJ!FQ9V2~8Q8BgMbvx^Hdc_sjg6B~EuR@7z7h385\"BF~})^l_sB6/$Y%oa0~A}6If;[8Os~{rlk1VmlA>tvX*n^k+}m+XG2&IAO8UwA1<{t04\"f+8~T;zN`#xG;Ya*s&S$?iPtvZr7wlm?rQL`~X01}jO2\"^K+Hh?ujbP9uS07u}K&u:H>xtfnQhZEXp}bsLBre9J665&=wkQX{MRkDy~IM$%]mq&>E6V!`8t/Qs??)$}v.p`Z4A2/J3N$2C$d&(!wJT(HN]!/E&S:nm{HXa,cMRBjdF#G<Z!J|1Y$YQA6GX|I8zr9vKv(I2dfb|LlC*Y(S(x4w2bNMp^x\"Hwrl[zD9fPO8`fU\"*{)Bwrie#opNk$utx;I/Ll==NtXU8p?~D<}t}%A816}fsPC^Zoj[Vqcs+?D{$a.FqBO8\"65#O~=mSF1?(6|VR42ARk_w7ORW.2>SSm,s#k[G1uoQk>l8}z7hf8`nJv$Vf3~c$i$6%/Dd`SX8=AQ{M,>/W1Q9X^NMXDLeq&MXyI~Vo2XbS:i<eFP$h0{p;nF5t7M$D8SDKS+_08EFj]YcNQU8KK*loM~PY5k$hlyMRL2XD@9zzK5Z{BkyIqf4\"RAIq~T[Fo3>mYUUdfV)=VBE@X6OV<GYQxp2X}9u$tMokvV2&E}dg2o{x%%cNZr&aVPImE[Ijr~<wJwkx.[9oFj(B.@6vi8d7kcselX72;wwY`~Eqx3ZddMYFkPck}7dR`!LZl)AJc#eWkT`d)8wSD_P3)7$4)[kp:n(+JZZlU1t@{<m$^mS$@7,T.H#:(uUw,A~0MR|,*MG_ZjMp3LP%_>:t,yIirK={Vi%{$1AyB:1s*\"zPjn\"sv.<;S$zTwMgWe`J1R,,jfJQ^IN(*V{w1Qit]jN$X6?+\"fdOcaGc%<B8Dsr*UBrW$mU?prIw9X3a!Q=w`m=UV.U}]lPRL&m.)9WM!i\"}%Q[tn(t|mf#Fr6Xmb,9bnt[#%]fETP]n?G27VY1LqwoQnQ&0.fb~!f]L/0qNBRk6L0&R;^.9T:#z5nGj/lD%K<l@wPBc+J#pm(t!.07)?7$]uC([*=8Fnmb_x|RN2},mEVjT6AbBAS0ZWu&UfB$)9gux~H,J,YNMXt+ldid=li&iD4R];2sgldm&d@#i&.!!uSYI5wVUtC7ts4^Be~C}{o7pC,B;\"V|GYZ|48l0|10YyVbz%Wql>vV}*Zh4HE]kBU$[@9iWyFdBA_.4!yu@uF>Xox,]zL[oNZQqtaQWi_+2O^mdnFmuX4lZD}h\"*MbGam3/iFsQ;YjF>}6(vt1>x4z?SQm3Hwg6?%>]qeI9IG<zY?sj]JVLvFsEjW70L[~oQi,PBw8Vo.]tK~A_*$m7|dOaZzR.bqo+nl:HwWI)2(x(W[``YHR!K}3bw^#).<u@.g7Eh_q2mAYw5KI{Z/)LLd+,DMz.me+ne)\"IVMlM;T!Z}#IAHZ&1P.K6hEu|~2j#J0df3&Q%KS,w#bl`pUQb_?:n]m/S]50wg<.qanQtk~*T=vI[MN:F*U>l7E@I&rXR*f?:9tM$iPU_S:o[\"_%bGn[}x^p#aO]Q?C4VbJD6cO!4JaM6:i}`d5q40HrB.6iQxJzZpS>X=9|M}cW}Z+0,B9_;!H^5\"XNQW|9!,GISaO/~~d)@/D5sIl)/gjTbquj.0<q8E@?i*DHO(vneG><P%%/QKBKNfG]oqcT6A]~DG(Prt>5?5WNiaN@r&4,i|[!Im}lsg&\"Hb47D3Ava;LS)v`WbywN~*Wb3GBXL4N20F]60nA9l}0D%T@*dom5Ui1B2CA(@>o`]GE2~0OY0_yH:;#[\"*]asyc#A#E4pi35E[L5+R`3U|M1.nBfj>vcj>p_&#n$T1#d+Dk{d2fulJI~Ou{FdK(I}J:?{F>u:G,6=nVfH,~}EOU/.Z98tEB2x=O`I\"C~tmgk0Jy[#Cnk0PHmEe~c\"IcbnmD[?P9GS5[#g$yG[zz4G(CN`AZv$s=RV,)NNZV#2H>7z#PKaXR4pt@#0DU=p*k:]7jD;3yx|qxWGSL7a=fB<Z+%U%;`epx9tJ@`gN`DeIh(?/j(SlWMgA8%Vxs2i*\"D\";:riP{uoTw|l<vdueI;[[K1?N(Y54F!u+=iG7wq7%)~l;5rJ_i4%d*Mu!hzv83BE8[9gD~z915MWI%W{tc/FTq}!Yi&i.C[[e@a;>)#Q%qqj*(Bw&9=O;BB<^lP+w:5OfHJ2|EL9w,H]DSl%oSS7,=y>7\"l:32|&N[bx|[~BW`XpWy0z,J\"eF5qbeSXD>o[71{n8rX~|<sD)9g_R!Bj^/z_&>}h~i[Q,._};j{9,zrDFncDvk5uBH9B/0$_/fmtTTV}%Qqo+X#uf1)PTH~?3a#n]l[J<QWOPVG,1T/I<<hu+aJB8i$+xkMg{^:mo?rDm>=fb~hSlH}odjY/Py]|MEr\"rx.ZQ.4=>i#^lW^fu*BITo+^x1lM0`T|8M;9LOI]r}T8d=|l;NIV]sC/bO&Iq:+wB`#],5\"f&f0cTq\"dRu@UGW,awqP~\"=`y$1/[=9>f4>T:0W4i<[(M::Krn/dGS\"5Wv<Sw^zYcG!!iR.,1F}v?,JT[uPFdAo;LP:v`rmOHGJ\"J6_@#4R$s}5O<Hc+702pn?a?kM$Hz`C?7Puo,?/X.hO@@pU>`Ls01?:E<bP?X^y5G]y#g\"lTD=Z]vN95kM=*pTr,DUHQVydUJ*qqjPcCS?|DP[N/Kj^r|.ONA[t_QX6*`aZrt=i10?%YRCVc<HeUD\"V909K]Vr$gcIc1!<lGu\"X`(I:$_W)^}.WXv4hYkH|{Oaal=l<QHw(pqm$iF,wHHfe#.?4Erlremh1rC0u/E>$6nmQW<pq\"7USMZ`HV_t#:7gE1>e$):G/3/^IAeX=N::CWJ_.}M$^A?Pg9qGsXCZQ/I3][#l~o5Dz2jt_5#Y|PeZM+;evZ9DT/uaY)N?,LP_4Q7qR8ICjUR43/iPk/$F)xDZ*!:f?RkuFJT!D,%/|]>N4f~(w#4yz`1fZ#`1Vq2>R$5aL_=MF*a>?bR3>9wz1hLKECv]]AxiM%&17{]?K,w$s2ie/3nLI?I[#>d#UR3&}xW/%l01&zW!e{?HN^67c@5+R%%,[Nmy!lzWzCnxL}R]x%cznRKI$/o{3sSv]9?NPfZyNZ|!(n5S]AtTmLpP(VO/CMv;&waToc8+km$BfLU{CQxz&]nL;CGq1k@[>Bw}(diQO2.l^>]zp:*1z)5B8|`nM73uw<P6^.1|;n4}?[27BBN~)fbNIf(3dR86_LAR:>Qpj5uR(\"oI2NuMyYznXgC/H[7s2>Wb~2N9ztZJ|poeAiRn.JumLZ)WVN;vDb[mE:&FE4KAGiKW?dx~VpfU((R%yf@7/~z!TXxToa4vu/DrspKZ=PCdb7^^H/u!L!*/9PZd2O723O{(BigTffj`9N0pQj/w[NW{~FXvN)NH`tZ}#4=@::\"m\"U(yL4pu*~UFY%=?Piivu4)r(*;`SQ#%v|1Dq3Id{fW1J$^8x:BP2B;}#.}Na\"RO40%5%\"*!qfE8el}6|#*Dk\"k{8J`hMk1j}5<LM/7<P(W;}hki>41_mNzR]Qi,;LHO&wJUh[FR81w!l~P))13KgKj5PJO{5`vR\"+J(t01<%tj*v(Z:h^eNygQsiShjwXb8*@H[7R[@2+WibmuW.IG^[#q:0vQV;BDf)\"N>WC[Q]koAe1Yd$R@>`f5T+^IXf!iYSQ/Qj40yt_;hz.~{*w}bLOuKTN^F:~R}{8Dc}u!r/Xtp`@@O)G*;{W%p1mYMu37$1M(AAF[(G)V0hBz#`KyQrpJkfOIRsi<gTZu%/(%/1v0g`j`XfC41,>)N%c|<c;FGqq5htspHM6Lb\"WbfgxT7^PVBm[uM8yTm7g|9Z9VJ@2ZiXN&WDp:u#^es,*Nd]h_lu!Xd&i7\"(PbH7~8P5[h8w`mVeYxP>8+F4r&:RcVLOta+Rtw1^xC;F~]G7laZ2WX~j8tc))1;]4A8y]o=5#@5%W7%E$UK,$jE^OBx<oHz&K0@M4UT.K.HHV#0G,?>W<E[Y3DwCe2Wz!Gb+9ka0wQqruX]O+1Y2`(I]sZ=FwD&NLypO?]azAF:,b=lMyaEVK&A7gyBd7jmY/egOR?YAU=@W?,a7t@n21<E%fTz~y<4jMf%_WnINt/rBsP(n~zor>5VN[rtf(~v`;WJAG[1k_H.kM\"T[m`_5\"BPTjis<vRshl\"v)#Q4(q>b\":=k`%k4I]4);};<L1rV7N7C=0=8;N[~3q!{E\"),:\"kvThQiHPpRep9o>>+C|U+jz4<g;~CRFakIL/$q/&$nwRr\")mQ`Drbl4\"..K?d$}%rhiG$!67O#~1]}g|sdAB/%O,,)0R_c*~`n\"}KhN.,*)*`BH*Mn$lBUpMtv]n?A@Ll7*D,}yUuSy3)4REGBZDnlFV;2V&XlUN#d>6bOneDwjP0W>!nn$n#b;\"e(w`U973>;qq@?SJ,RAh0ePTV>t.{=C8gFjNq*;@u*U0!QHM_szYzt?`[*$Tbt:!)LiV$Yd%Fi2^FyDl)q^(\">,ph4[[(+ZD6Kc+WW*F^h!75Txr=ej,(Gmqgv?xnJ@@nLwWG|HytH&fdV>PemMw&RIO01R+27wg=8\"3:M.]>2\"&LE=(fkIo@Zo\"Cn^a;EjQoDoHeKP_4{#!f;6k%yrs6b(>2IyCE*Bl`S^x5fZ&X:@)7kQ>fa<D@=Axw^3&[.R0p/u?Ny|1#1qTGET;E&._?DK`kH$Q}^<tWgGaoi4u^[$qd*N)U|uz0TZWHw={esW*[Iw?O~J*?wxf}Y~m&*wx`_CNic#8BKnFDPSWxJRT}o_eP0IFuDH=5HGig[lBUc2Cgw@Vxq$d<0F4qDdmFdu8KJuv#,E`7?^NHN7AV{<t9Pn`hpSaV@4zy<kW$J%N&0wpY+eRwXbJukN&9QV6n+H|ccgAzHwTbb.^3iFC3*J0=}?^#@XUo[CISqtos=X1,tn4rrGvM>0zFAL${$DoA9!8U<zl~^8\"`ZNHeg7>4dsnH/fs<d%D?Kcd@$I{T3eFeQ5RDsdRi/q0`:zvUWmit|)Mw{&^m{gxPD;\"y{<sgxa%0jq5!GS/knn%ATK>^^m,t^}Uvd6JchQ`r12,9BUc1w>\"8T+\"/NWF&,:?Jnz{^z&G70g>=A?$+G4(>:cH<rJ[ny;Lkj`?h7)L9;9?rKj^t8OX^?xWzaMLpjoS*S}b);/an80I0tm$k6`)ztYv*I(g`:s0{k/O^faKOVz\"M3dM6o={g\"QQ\"f%SZ*,)BYrhG7/@_4lmK\"VB$ARM7,t2d[M:tLBlpI$$QfaB}dDJ]9RPVf&jf?O9;CB?Wr~+7vjEP,v,|OpAuKi3>+5EYURu@tG1xq=dbEjj@/jXgU+s(tWr,Cg[qz+vdOit[s@Xb_`,)g4M#]I`aDCy)}:s%LfmtdkCc_AWqy<+$n_^yVkERJ?Frl3Yh*M(>*d*LHNR#+y0=/1^9FjKU@*%\"3P2&vt&I0c9?+HC!bA%P&x[~!E4Vk04I19DKplKS+acd9X*~=Y1e6e%7gz^OqhfxMD$Hb>@,^tfh6T2cfq`A=Z!:X]2E]*E`6!@x2XDPhX?V3CSOs+!H{jy:o8>XR<FNug(VoOS.}+U/l.bwLCaV&O8Uo_e>dstF`0JHuJc4KzMX?[\"Rh[TAafpYB]Z5x9vq8p$\"Y1`Wy;Vi{e[]T@sz#m_9:vM[3es0q6vXcaTOOW.>A3n`79Qa@aEwX_h?Nk3t|i0bbe#ty=d(0KEC4/?kyMi4dPB&ys\"X([5oFsqBBMggwso!G]gJ)~jZ%k7SBR[\"|(:+bBkW&k.qvCy^Nj@KB>^Z_`T(VkorN+BOeO(iB^b.8Of(BoHrh9g32~r%WD^_PDsa6Z@)/JKn!08}fAMp3baju{p<J(`ZX%]Z_Xf(4H7:k2^\"L_y*@i4E!O0T4dG?$ACt)uF[*,KlR>Q_)*6j6g6A2jZiQJ9hEF55B@j%wI5jc[2kElM1eB{RQ=Twk]i6}~(21hrqc!ZiqRY`/&m3I>OY!~G4,:AdEz7*1[`~=$)A/7XGLO]T|xs1y<iQg9Dc?J#sm>cQAWFon!WLe3v3sZD^7X*d%d.folL/o}rl@zNw(<bqB|?H!IT:WYYQz;v=zkwSemAaN9XUw+a@e1s_(mb<dbRRklsOCf9y:ae(.ayS!P{3_.UZ!4kN5qa[{4qj$tmDa3[bSzaBiDj.pp64jK`bjz@s=\"{5#nU8_5]V;9Z@:/=&._J>XE,f]eX#h}AnD)y^/2WH+iMsA*tJN5r+V~~5qjD,N)T|\"R64h@A*c{D<)dF/*.W)oUE$UC*9d;%xLKvjnFgZnVh<U6j*%FS)W;FPR*H=_&h*dYR;B&/6]#DSm.vJ1?IMANy)~Uo5jW9+8`k5<]qtGS{\".T<();o};+AK0>k?B#BrM0Pu)^y1dnCSshoFA>\"`<0EB|t5wN{?aliuFjjavT1)yh_Tm%PYsE~zWSXRz,dD!}7,ZZiw)E(Pes^*zUuz#q*mIWc[83Z,u7{y9`/y<<Y~7GO$,sU5;c~o:.al%FI!lJa``qk%,+e)lKl@Gk+YIc_C>v6x(j6deFF?mw&wF8*s.DL,<g(C$pMQ>yjSC`~*%%|Pr_1#HiUEGy/`?WYxq9y)>?n(/?xH5[|9SV4N|hnF`o4Q`kGpd?eJ6p`/M}MU_)34`(r1Ga*bT0:1`\"c#MU|YDM^Fa?]91b0]xC<n@1aI95FWv_j1IPR{`X+ZPeM(tdW0osAqfUj<`RQq/M%?OV#*P4Iru9j&;B,q]_YpVejcBOpO\"AIh4tU*:sb{mpJNSBj#vOHCOdUkLx:Qkg[Y2Q`.HMOp`^URoKD\"mSSq3Z>z\"?W$occ~BxU7ih+{3;2wXaV(OZR__mZ]Cx9)2.z7znz\"Cp:>cb2{F86M|;^?(aAopv%gAu/+Psu9P.z)a6C^:/l;/Hsp@B|H!@Hl&,hU6yW<k*N|._cROVcG+\"E&Y!bR:/7;[TtRlG+{&DmE:]oK[|\"M=@N}>8/d\"#+H:v(_fm2DA7cIo*+,b}ad/0B~T=1jvH*8]4b]Pv=)oADmrFH<=ZDl[E*cv{kKOWYpHp!);)s*,?Z=?9+:RG[R0Ge2d$vW3Xok0D+i*8.t$C;Pr]JTu=D2rM|tW;?1kn|+4S*^k.jdsf=Uq#84Dpqul9(y(0|2>ueN~SD+uD4Oe%tcveMSS4wEsY>_1S@/G{!3aXhl/KJ#_jp*nAYn+6986>.,V]2yL/6Ce}~0[[lYh>p~&;$$XT*i;+ZRA(/_eAEMVS`>d*iF$XWO[xFK4KB6BrX2GR^)3|@C:m!S;o!ca!yTyVh_f``]UNgQZuuZV1Z}^<P[k?g).5y)<RK@s!mht$W8Nh0<})UYEPeP#K5+[&oWpeG`5uo]<#pEhs`grRj^%B~{6?_bZ$nkG,N5DlWx_n34XO}r@6U@a+TD~@OF<OF)*\"@\"Ve.d4ol}w>*AxL]Z!R0~cGms^*pa5f6FO:aPi#j;t}7d%$&X[C+p:Ce*E3Xy#Z_[GWvi;8~u;>i}[_+qN3@Ww2!@VwZ3[rM_BVxx,,aU6DLCl$C,+.\"QS>D@*nDzb*eyB%zPT3?%&ouW9i}XCb&s[s;+rFgP.mq0;0Ec{<3ov$eS,yW/SS~+G)_IxB5%03zAi5rEIy#5*}P)}BJ.KHca.fg)Z~I}mfUyf0RDGrl0Jp]f&(1=0CuJH[Q/Y=+_/[}4RL%6NO<YlC\"~$BS+:;o>[#\"@Fw/wpfRmFUHz}K(ChA(:Hsb\"3{o^7Pvs_l/@SWEc$(zR0u^s,QiUbDGBO8#L(s#s3qs/(}DPHNT!)BRow:ng5t=02[%:J@Kw+BHNSfZW1h`A=s\"Zd|rtH9X6F0R<Y:t9:CAOVmn4_(i$h,i7!Y9iun$iXvg|F:ZIC7#K|di{%G}/j4+=!T<9FcKAj}2R#0lG;2^nB$gF2E:wS[&Fe`3cr#/W/xJ!wZEfiS3q%WO^DY`q/QK.5xDL;StR>K,1tw<5K%mxFl&IT_CwY0SHM>U)>b@R`433zJMos^rd84#.Bzr#0.,<Q?`jGhVTfgNrV0IP{DRA4k\"S1duR1+RTbs:ixtNXe8kb=,`qv/P=OR%D5|4lgQ3k*RVEw$[h(tX+G!%Hep3j?q(y^qY>D65>tB5)@nO)KMZz3J%TGPq7\"kjp>aTS<bN~q&M+mNp$2;hw:3U>/lH^fn1K|apDeV,d]KS*pfu6\"N#`<pZH_erwjHCXz;OP.hN7o[Kgo$dTO>3D`ULI)r{2w&w&Gj0aN_dZA(5vRwPHqP7gz(l`LcUTxt?a7O|\"FF}%vk}Ex9x#PrW*{fLm76zYX5c?ZvkF?dfgbycX1N!f5hH.2Yx3[:U.:\"fk4/<v~>fUZIkGJfSm#T+vaV:wX{yVXPpBLE@kl%u$%AO/==#!d32iRB\"+2I@thY@WB!+,EEMb$N^I1FC9zpj&fItR`!Nzhnke#:E9,oI*2uKjtJ*EQGjYcCv>k$^xPU^k1wQyJW8^bKY}%:/Q$viTMTE,_%kIfGKl@sk\"GH\"qRXbH7rilJN:ug>vxp=P?[&]S,A:a}lSS&NF~,7H?JcK/Lpg^K5F:DxeQw$!LKO?jJCH=(G2W]ohWJ*2;!%z>B*P58(;Iw,F23/~^`VP2|UvR=US+E/p7SJL1A{~+z}4hN[`1zjbk*]6)W,IA=*FPg_)cEx:}8a?_]uQtOH%xDz@.Ta^YYZsG>ZwzN_q,b{MTektyK<L8[$&2]T#u\"*YjO(iBbZ,r+jWrDgw{pt].;*MdN=>$T+1Y^?KK]Ab]u#,*o_>J;(%F4[o6s2n}P^0>{_=+LBLf$j!mikK:YA]7:H1~P?yC=AtmD[.y!!>*>40.6S9xoV:%Ou|7~R>/!w[}w;i#uzWewD2O#=^fFJJK4iVMf#$B=|V/Tt?WnjfBDHQn|q9>kD5c+w\"!)/lNkx^0/7>(wpXg_M8m>;h:Q7PaR1#Az)c9VnQb|i1@XpnSB4xT;4Glj{stx*CR;[cNldvc=X,L>GfUk:3J4I_WiQmaXz2/{3(b22G(Ait!/(V\"O^oG5}=_2p4cP0jdh9jVQ0_^.f~%ifhX25~[h6[,Y%ge!y4h;PyFs+rAj=:xX!EvkA<!*2$TKX3snKz9+++T_fdswhA[X7Eb.+&&vXy]AJNqvf}LXk;hY]@V<WQeM|><Ci<0?>W`iXg[XfNr<[,2`N.Slz.9X?k7qj0#;6_:F;`U:.HFx@mMZugv=9M@~H=EQt+pW#U/ptzP}c$^ttj`;}B/HYA}y6QfmXAV@?:lJA^E8E}`(N=PP!FM`Rf(~k>]UBoamfRg?r/P;dQW/3Ef(,;s?I)itkk=F\"Sn7rucHr)!:cjHXc8c6G_1pw4<ts{I+.ZzT!PL]g@zuOwM&Y!]%)uDF`mJWiFs*D]E@*.FZh{;e_EBmT#EMtP9@t>Jk\"p&.UypU#p;fu\"7x+qL82uggeV|.h)BT?VJ\"}wKtGu2{0o}Wqv}\"zWJ:`[:Go9pVt$ywywfwl^\"=O@_%zx9v9R5p\"z~C?\"6z0oE!}!)}{@NMzNnoZgR7S6/1nT,:g!d?UFa|EXU,:5j.{HpLS2vqVH6#0|)CztqHQ@csvlgNw<ofdz;>MWcX%CiJLcFfd0W=ySN+TRD(=?(p^5T/ywWN/fvk.Ef8tJV$C}f{5K;Z00VgqeKZAP~_Nh5:$r6i|/{$8!Wi>#Jpv_)B#9Qj2mEut|VPERJsmP<S^%q:ET#:_R4;!a+v%a_F0Yvg2kb7MaKCIkqHYJ9s_k[rZ]O\"{HlD~mv_aV@`gZwFnRdC:WdHhMkE|ox%uF=U|/%XceeO\"Ap4/\"2C0[38P<5ry^;pG$o>9te@rp7fI,Xcat&t0mQmf)KeNzLb6U2.?b~]3d}>;#BA4ljx_F/X]jcb`@yt^Zg3|_Vb;r,w*q`K2D~rppzlfOe4P5OHN4#\"+cf0}];iY#<;ITXtJ$`w`dl*R[dfF(5FpDIGWoU{D<i?{wNM%acJwcmZ@}Cp\"$w$!NF$Q;F=G3@E/{v4A3Y5zZ}:WIH&[Ae<krOYq#BmhRPxb~rFm0>vYCDLP7\"UI:ZuDAZ$}:I@0~L=)FjdTtE4c%xPiL&8z~iQMsg%XGJ+8Qb;}~*.O]cJf;q/Mw1D9evT/EE;h!!)d4$qXD?4|OHNM#1Um/5/%CeZ>!lPQQh@>wo[YyUR:h,b.n_Ikr205BtXP6eWDrgB2|CbqwYk\"Jd?n<{`p\"\"@+;Xpg#2cZwN+$ElbW>\">LO|t#Amz_eLx>#q$!Uk/iL&z@CRA4$TTa#=aMmuJ~)#.?!%R+N_>0^<LbY`Ldr^X?u2_~5|/oKQGc/5ZT#*A9}EQi!|@wnp)(%h{;~f+l16VvA3GYq9jL0*k!qTOe)vFI=#@79UUoNC9D0{eeM|qwH6b+Ukkz!c>#CCQo44&t|@uQk;9].d9_QNk.G;Od)4m$s/4q.y?B)DujotX~}Wxm4lf[Gie19rw5~[A/ec6T%I7LT}O$44gGYvru1Y7|w*;9i2vl`DV#cfP\"6zdm%h+{e[1m9+cld(x9)+7x[A2%nf6hX\"`8y<BXr:m,eRS0Rz@e:V2K:r*k\"[`H;x^+.w0#P1x1IrC!vu#aQ.n\"HO7ZXONpOxj(yul<yv36sPTg$43y/gWGA,&9BZvGnUt!T%T29/t:]FnOJIkhI,wSSb!&{iBP@JGhg0t@V<xgM+)NkwK!G/PTXm#;fW~&$$F%%1&Is15aI2W~Z2^<?Tp%5mu8P\"QJ6`=v<6nxN>C!f39)68H,OHl%9KI)Z1p20:a1/q\"_K$M%J}2vz!zPJ!nq7qS]jeVIJ66dWvEj3BK<]CvgZaFB2\"/Dl%Y7?t]6sG=aDKS(p4ui>FIZf5P;5]_*Tc\"(lWL#.n1h,o9LRfJmHT^.]9fX$HiK**fia$HtW#;7.w]~mb*:Kr}M2!]J|{:`lF^gX1,`{wNXCcd<(8c!8;lhDkv4@TbB|9?1v`H:nRDn<}Kw(dDZTHCW^v<&2]7WxK:^qB/0*)Y*L,h7ULkx*b=b1*Ly~|&)OgtJx(HiG>>p}DK5ILg.$``b4!NzmQvAc3X{$m%s%+c>(Zm&Q!y1L2SFP7:(VZN$S7d.dcK[n$:Q;Dwu095PjZN0RX<!HI%9:_Z+[AA_L;/Ea$s}NdzvNtfE3JY5mb;D?d2~O(:;(6M42pbBvp9Q+8\";TL&lYP3o%fL/p#hmC({<a.JPM.t(OXEJTS5]:vr$Je/(]jI`]/is[^C4`4MIB0#Efs^6zi3dX[n_*Q>..F5[Y>QPG(HnQs+8/ZyVq|[mW:{t!1j}=TxV{WM^`n{vxiCp\">xA9RS*en\":&R)@zuP==;Z`D`@;{Sl:aJJ3q9VP<V^+XNVe~Zubx7{?!zmfN0^3%4QJV9gMUl||(54^<P0I85povw#G9`Iz]ZaCt#9MxI:F4A7s5eS<J2/|tU(Ec1WgY%Ebk[<nKOS#w>e+YFrTaufM.C*}gO?+,_CMKP]JQD14;#b]1DPx68q_4D,h\"9mBnS}OwXa^LdA6[_rSbJa\"4mN0NN%zY;vgVR$m8[uD)v@tAab]!p%(fR^&H|=8kWQ&cX].8uFFTFXb$AN_&;6D%7\",@7dwG$9;^4=$(E4OO&!Acs4]>R;#y}s$wG:qetsTeOY~ApIbZjEMuF8wwsFT.XJP~T[a1</Wy~J*t@+P27hZga3jND.Fi=;aax&cXZet)ZP|5o;M.)}YuBZ;Le!?MEh17KW}M9mrDETMKbTolg?hV2+sE3sBV`OeiElx|[H?R,FD.}ka=t$uuUwtXJJ3x1`=0m!(SR;#C`sQ)X>rMDtpg6*o})M\"y#K.t+0/}mET$wJmG>R(k#_KA(5jr6mCjMhHpk5eqae(>j$_/1/0(?UaZ{cz[uo;U?mE<{pVcgK#_?!gD])vyZ8S+.6eP$)?]iKtDe|5cEqsNTi!xc9Nfwr+uGns1nh$5]YDtW`!C^_3y*[yR70lQU)7sU~tGp;HEX}r4=CQ44GZLo6@kQm.@~FfaVXL]fq|GRVvGJ0{LyQ$TP<1$l#wcK9d4Hnh{K2g~pX5`itsR=l.(K/h%b+J*#@:D2FQBgk=#4Jdpz1iOLg0C;Uy|DXE&Ll_&oN<H;gqFJfj7H|<#S1/2,OU$y2+44Se9m?XQ=}]x)R&Z#9LTIo^bN+kCrArh%W`kyVn`cDi}*>Ys(o+MHY\"WBc6NSv4s~sq.I.EC|qeE;/~:%Ui:=xm3T4.=`)7=.J<FO?<Q%Zi7KB*t4&.1MylYBFK$FgoErU(,?3L?)[*!{pBAKa4!?`+Ok%\"FsQZ)@vpePph0RU@DbH5|_ju.(NjE[45CIch=88[dT(~bUl(1z{[XczD/xmj*e.<Fg,QzvZ8]g)D,/8Q$*c@c<Y1>m!CV6XM(FbD6_@\"WApexJmToF9S;B5>Fw4lR4OZ>&Z|YXZ{k&,=0>uCz4];*MAEUPuX[r|e!P7dX|;4p^Bw^AX;>4**^1UBw3rh=gUDY!p?cAa+bqsp52a=B]Z`,`P]!QwcKIJ>@Uu.7G={H%Ntk:#hNnYAJ`TTGx.}1m8GE|1CFIQ{*S).Fcq8X6@yM~E\"Q{CD_si0;oF+ql3]j052$BMDldZ.X\"%|~zl=V5*/7GmR6^7B^!|T7W920ZrnA$rSFa9>xz78Z@VK/hvH,MoP@ylDWEJ0&u55zoZ@|^yVo#5JR$:)7Zcowx0h_.p^~LqGDV229Its$_)N*n/EqmHt>EB,|ubAI7;j>\"3F%tJLN^?bsFOD_7q?O9y=<Tp8@qL]10V!6g\"\"6^l/X3.ptG$\"$u@W92<`>\"A^1z~[GM*ooS#*Shce=[=6?0+iMM*}XFwa0zbPDt9VW(G{nqeZK@eJs+3WPjlixkM`xv0_dKj3Gx%hAt.#0i7K25RJTh?P}:VCP1/GO0].O%7eR{f:98ws7Us#I<<UP>SNt+]UD(!qe[MY/AZ5p7mZl:pU]u0W(q{c!YVuP/hLxP>qP5w%#5M~`KbtV>.|JeFl;@f{5M11Dkb;m%3,Z].cLB[D,AQ#,>UM>7817g@t36@/!,K5D%P|F3~$HYVM_gRbw7?m(6z,ikJd,Weh:.mBzIWc3zdz&tJ=+(Q6EaB9t_;={wRu?~kf0>fLlYm6C9HXc]i4RRv|Gk#a0k\"\"?C={:;5F][AyEHv}6(!{s(p?W[DCLCcNj`*ow+tb4u*_TgjH)5GTL,$:/^bUN(pNR.vwXRykobB@4)1{M~~)Vr\")^UAp^%m9xEtDWSd\"MYk,I8|6_iA1~%.xJM\"2K2!Yes;=K2khdWbe1UR7xtvxw,(!\"^*[3$:spmXp?&al6<,93Hq8#7#FU9&CAA`IV^:hY.cv4ZKsfPmZ=EepR^D&L}SYT7&umrDQAgXU$(0gCOBe;_hc<,URlVXeT%\"X~ir{&<`g462s&$Mt0a0xljh:r0fot%>2bPN0V~a=tRn9aMmbwP4G@ud?mq;f_{Vzqza@=B/yU5;>^`gJ|mcj5Pdp)hZZK~#Z,xg2W#h\"6VM**y`.v7Kjba8(qJSE`=)to{H((uleu^w8r<mHP\"jcCQ[MRnc%Ht||l@BI2zA/Rhhjl)>iF8.uJ@T.G(>;|_3]+3g|ib2JccS=6]ZeZghi4Li?:Y!>*I%u<t#pqR^<@eV+bi+,:ctE=.ma*%u+,1:2^W&:t4RcGEsyDi9nj>MmQZdpvlzhx#J0*LhnVI$X+w@[?.ERe)c!aJaO/jZ#1Ch5fiXYsUa;kR3Q8fBK7@Y+l(02w8(KkLZE.6s8u*@[mdWj}\"##!cz:Fc6IN>6x&V9Df|qlU4[](w?}jZpS`/q,Dn_$3=cD%_)uR2K\"NP]<rSYK.^j@DrW880?@KdjPUr3YSMRPd9+a@]^7a\"~0zH?Ssdr;F*\"!ip+=hTj8A\"&k`8C`P>7TtkY?Vc~~A!^nr?Z|omm7~W~#(tRZkTDQUPJ|Su*7)fn6+RDcKNe|V&vTEQYd7mCJocdH7b&/.5t$\"We=m^uPX2}Yq%YF<wya?nIRlBH9&6A@/h[wfMp7.$s(T(zTxTHF6`l))Qs`jIO)ca<QT4ynOrbypR9<GgaK\"65Pbg}hE3Cv/o{gO^QCGlj0q;(Hl!C]QLI:kv>BYG@|j0%?SyBBM^_0gXyPTz#|U@,axuTTH$kf#\"])7JQQd{xO~(a%8k,`2(B;T.?*@3/~F)`[4i7f,(ySAn7v+Fn4nnz=K`]z#>FD*KuzxU=uE`f:1b=7zsS>3g4U6r\"><FO7BGSyyZEfg\"b)}}u@f`kOMK/la_?!Wf>3DMH6mhWA.s/[B=vX#YmaWjr&O6X1ousc`*>@Yk3*7;gmyEv)k<vP(<J+`76Ye<\"IM#]GjMIIk0R<}z>.VFFGb^{n5Pl0))K;8an`l3N\"Ylt.a*q%)f><@3mdz]}Jq`;J>+4BZZTu.\"Y]t1d8&9F8f#A:v&dD@v6gM+Z~@!M=uKH.gP1<f*tP)X}2@_7yPA)&|gOsmdu?B#~zoBYTT)M0Awf;WqVZE7]TA2OeP=+#T$_^bYM}~%uFkM@TZ;P\"i#bV\"nxrM]}+!S:Nu*vFA!bDC|`MS)hy#g`GZoIC&N2cf6k9a0watCB2ew:K/@j8YxhH>yY%>kPj6oM[KEm`r/J0,=XNNo5hp@qrI6YN*_WEd>$@Y+kyd3S.<d`NXoK$wQHqc/#U(+C}hRn%=lpE=,#_V!qyrT2t^~S`k_OGc/[C1$kIi7(iK/{CZ/4}dIS=`V@}JX1KeM!>nmArY@I:9YXrryE5T*P8)sBFAh8/4l7mjs9r4cPET9(};Msg$YIPujx*]t$.q~V[G2buw,cvV1?D5%F>2m6E&[ny!eM&BjC*HfW}KSABhbI<?QP+})s:s;(y6Z`{YPt[Ud8p~G\"0JOO;z+q?:Cr[+ITd?!N!yQ)zK)BNGc[cJ^w>fh618E|*@\"@7]K<BFLkCe>yEK\"bk@VP}7}5FZ}}chK@U>%H\"g1Z/p}^C]I&4|bx6&o(a&Ht<ugGRSltuDVc>NU/R;8jxzI4/EL&fsSt/C%|kPBhq)=_vaaMxDvWJs=I~4^jr5/S5MD(dD\"d,9]%)W4*AY%_k%}ez@}+aA}0ZpB/34[,ubsXc|$qBbtEV]ZQy}oC5Xp;LB41K5:c)v)xlq?#JiR+wzl=\"x)f;;2SyN7[\"d8ayLO*5bN=WHu~yfKG=g(p$POD6k)2!=fsE+/W_++aFx.KC*q?>_s8+q6V$HFWZTp78RdcJ9+N|ZdC3qjp,8c:==u&R`JdD!a,0#fZ24U!coXPrQRF8}Jy3mVvI6ZkTg0SoGH&VXDK)Jx5<Ad)xgyNH3enZ:qHps2B7xGctF148sI52%G7L!hY?|ucc=!1}6xxm`_H*S3Zhk_Ne5=;l/`,sP\"QzN@>G_K)yAB(zmOpu`<oe*FrnO%|)A)#<_>MX9jNP]UA#CQ,w*y>CQ^j&GFgOfRo`N4]a|aFg_mKCM~.tLSp6=>L3dvZ&W)&kX%^c{<c1;KZ\"}5fseGu`XkZ3G!N?LQ(%x`KKHH3u25\"foZZ>qux#<)fVx&9V<<Zws>JtXsjU33qYx~~:Jy2La%9I|yU\"bcF~YsNBQ}bW(,6{BIs^*xK`#|G!FVGC@6dj(az`Grv.wZb%Q!B_@tuyp!FhX5WXS|2zsK&q,du0cd(3k&=_t.nJ+e>#8@G?=S@oozi9qaRk$IQ;I(g6?h[tQ>g7a;:sQ)dI@#{na_&=]xM@T&6R^%pNoP(nQW}Y;QbyyD$]WB`*FI2wov@RR5bLNC)q_/A!Ba7MNVZu7>4S>l*f}VX)Ln/6[#i)wY4}%1:mX<3a7DH)e^RF?>+y=PDrLSSp~3Avkr:Hc91PT+ik>t\"mD?Ir9Pgh!m;l#Wk@y}al)chRP>jDOuOCFW,XIOsx:sG}YSm^Etv}mUQN0j/l_vf*Bw1^iiq}y4KPk[k.YcXrI*5&hlu@czF10POlM,q1;g\"8Db%vQ~%2f:9c5DaBy|Sw;oFSYC^hP33E#/4?TT*??4m?eg,R$!fmsFu#ofBM6;K>GbpF~5u8x)E#(#Zqq3DT<u/.dlsDg&F0m1TlUWYR[?fxr59&n|iq909=1_3O+BwTB}w>dA\"F.h|{KS/p1`RvoR!%oIBr(4/pE_2k=,fTA1.>1P:to`v<]as5^DE&e5u8Md4+)z#0W)%D8323ums>z7dr4^pB3qm;tVNi@`5OqqbonD|z]ck*6\"X*56`:xd7e**J0>_]491SF:C&IH|3=50yCU0]6fAg@X=|/gK*s29}2w@+MAkt\"2)IK~BTM0MNdny+eXLv;r?!DRX2??j~hhv~:XMQJAgB.PnZb|=1aepU!S)n.N{l+D>yK9_N{=8}KR,+s^lUjWs_6]*a_Mz[gz)Hemo=5JbyOa:HIHA)N/|i$.9O)<2!Z<B;I7>T%JP^?2/?C^Vx,]5Zt2B.rOGG@:Wqnakhnu3x}2(xc/hx8<qvA.stZjoJo5rXX7DUT:R?KsZok2(&P9hHW[/icW>FX~vuiBZdhahV|}6/#%95n8>F=v^>X*e;S^Z{bW@CNm_4PCc=rgHC7%6Bw_4o<J8Mh2z91~yFJ7.bYp!$1e1JTDIiy,X,IyXJE6J0zD3t#]yO(j/<HWL*IlBX@<!VBj9SQgHac~,r&?F[H*!dPNnO%BuR?C0N[D2>nt5EP`.:Mqo~*j:dhzNP`BlXQ>I9(Z9mHYz/X44]~v@W&I3C#o+S4;%e},$cgRf~*|T]8SW:Yh68.Cn\"t|<%_Ski1@{3=46Jh.)MxLZ.2>^a0>(1OtS#p`qX6KKusUSwAl;&ViHE!Ap3SLK)dvL9hoGcNn2K+i]5[!m=5L<~5f4e(>.T)1xyI+pq(owi=c\"<E)8<?dD!55d4%n]LV7{ye%N_u!LvIrBfc_iQvD/4=we5J5z,/e5M36=t%!C,1hU{[M}b]W#g?;}@B;lZCghiv3s^d\"G8v:_+?#wPznctzInh~<E%u%g=W<EH#B]s\"7=Yy(%DckGz|lyE_7_MU/.9L*@/(Vi+jYTQGS?0O]f9PHHkQ1IM2,=#r&]cb(#q~kkBBv/R0*.@P\"4v|;IW=FZw9nGgLKx4p?%XL|ao*2{?;]=cS|<29(!N_Zzl/f,(w/Nn`A,y`}P4._fAf<4FyVxNuRowO.A:<f>Lwi@I1rL~F`)IDnBq!y0Ot+DU}{?UR^_(4A>z]]d6,5E!#QBtZJSH,6dG/ya&j)oR1Sp?d8*u}}HvY}&iNr~o#\"8a[Eqy1CBE`0NpEREQYDA)}#QC1?5vW*AfGArMTE&RF#Z2_Be`)#Vgo`;>;lBQZbJCV~8LepH5)Q$Whm5_tA(ng^)wro]Q!Pz]nLY_RscvUyg~A{kH`Hl<tHotp`N<YVn:k2vR.`e6vK2#NRH7&SR+g$qb#d<>kfh264#wT}sRlD%8e:8NNclV:|_:P6JaIY3<u^%qTLM!H*X&|w,Rp_TjT#v[1GIVk77IYKrB~YIp@BKDmp[HeA0#/`&_k)r,U#N=J4>6uDs}MyZ:u6&WRvg;&hd[a2?^goOBd2{xJjv<4RRkcxoX09,@P1=f]aLOyI?KDyRP`(;15HV/bW\"I<(t3q@/(qheM=w)+]F^tA.)Sr?x0y~Z$F>X5N>r@!6Rt(/U7g<zKx6)P$p;n/q)d39\"eY+RoHenI`s7SNX`=J<q(Sm1jo:h@oP&&Ew:I~?l]/QWI*<G/(0WHU}2U#Gi,z8_0@+E%wC>LZrOA<u5xOKq,jSyh~roVfhOmn]@@v`r,FgV@o=\">8,tfx,b[K,k=MhZH.>I`.LvkmJCTv,*I?8c3{=::FbJ<~{i+;X@Xq,|OtmLaqqDxkXSnd06~`kgn{;s7lt(<3_IRj_][tQBdFsVH[lNP]?AG(l_/VjT,kT$5smJ%rEgz|*(Qamb:%yqYB&ylh1;:b>Ne+4O_Bo+T^t1nCToUp%GEDM<aV&:nb0/;Q%y,]]z#+XPkiW2X(2]qA}E;UEMdR9FBD$<7_TF?s!PvS|Q_66{&VjED<7FHKI}*mDFWdj.4<$rTq$p!NVX}H\"KF9v#Q8Xz!c,9@.~~*5(tGRHkg^SNX|FZb]?9#7Q=5MS.*8U)[GIRpvpp2Ju)I&SR*@]H:4t|6=h>U^&}EtXEGc@JkTKu0?B#qZM8skt?>|%~10(bd)k1dTNqZJ>4Eg?_$}XdbhJ`9fd`k~$$?7#v?f8QbXD~o0W3gJABDJrf~CJ?Z<Z_;X,1\"VJ]qCe0k3v(wm]<t;]$P.NN~s7K;Sn+MX,&Y.@qf7t}RU279R+gBKR+&77,;O[c778rHBfoO!EAQg0\"=;|Qc=h{*/^p>\"D0rm=32t.m8]r#lY48b|#Kif/>9+d:\",TgqIgqR?Xf/P`%5sm0wCqt>R%`Xyp8qB_#J|rQE|*Ca=F~,BP7m.4cpE9F@B`mTir7Gsv>L/xi>!+*3C:K$J:lk`yTKD0+4X+UTun_E#>J+/E&tA\"6X?*Q}t.YP$vM~M3[Zzal3;tYC.xXwgKZ3)Oxi55.$YKU*wUYqaQeSE@/&WE`mRZe[$hoJC&)G];(\"HEVV@uggM7dU=\"&:cSS.^[.,z/Er^fYRM{n%J,}}f<~6NQ8=&_#.G^1r|v,Pi7G1$pROpQ`uje[E$@V~?XHVddoee<U`^0:OLH[,^!3@EkV^Im(Rq>g[L[~3[#18YFG:XcmTKk6[H%S?I=l#YIkRq*wZ3V$q7j=U4Zz_0todpp!4&Mz%QFTyra/3WuZvv<[r&4mj[C1Iz7E*dwSU+h5oMw&#oD@VPeUJ3hkithbTftk|b^V[6Dl!5Di<CIFP)WW2YkenP5uxq4yl~/f)<g0<{R6TmIU6\"UlG2h$P1@4/3pp^f~8xw{6~czH53.v{$B1:[e7fJ,s:`Cep0[=:fG!R(dVnRfs6h#_.~(ddn!_f_L?Nq4g4d!yoQpOh7~nF[:UL_/!!.|iMRz7NgvxC4?l3tl*iu`I5)xD}JtNmIModK&1ft)|p5owKW.#n%j%3yzatJwwQ[G|t@mQdhq*~[r)#WWKw}h7!1LXu9weiDN]ssr.2:vZr@e57|6!F,Xumy)*wZM{f\"nocpmE/Q&i?JjK9i~bbI!/Hv!Hs,HB%$Qf#ys5+F0=LsRHY,AEPaCKp>T4^^fGsH,mmv]Cy3X!VJk#dzYO;S5;nJWHy2j^R4:#H!!zz_qkg$zdWQLrb98*3h<UC6]6|]*vn|~a1a#$HY54DGe?w3\"q\"3XDGx.+2;j8a%TVP@FX4\"MSdm&#D!>*bB+$CLyXJkG(|mhnf2:QG(6QxJ{lYF\"%zK_fjLp8K}}OfS4&DCV%V1)(MC4:@D/I?=&r,0~@+]Zr]KZcKFeH<_6fKw=LZg)KBJ_Fc>W;Q,=;Y?o6P+RbQr?NOFSwzi@3sL2_J*%bC*ynwX;uVWpq>$c[Os4]hVJXTZE^^~y5Rb3Ti$kf!wl/5,r`QQ7uieS2Cb&HE=#LVwJ($R(4/;H|8kN<3\"Yf,4rg;Ax%OBdZ/]uSPpwDYWjUYd17s>EFPgJde~kyfoXbrC}}.bbh,T!v;{t1hz]0o=o!7=0em+xEUKf<3E3Qlr4Xs[@|L;\"3ELp^LK+HP$5fXK+l:+#yprak,vt\"4=^n14nkwPHNUg_.^E4f|<CqtgId`s}d?Y*[7S;$KNl!*dDQ\"2HRnv2/e2fC<M|3doksMb0w&HAt++>P\"g3G]Owx&PN1S<tJ8B9DA!c#ONhQF($*\"2An\"~EuKof=O#1p~AM?@GarmXx&(8}VS]WjwhK},x.mD(d&Ste?@9neZ0NOc~h67y1HF=tdO82seCeim[upDo,o9oGx+o}3t@OtF~wtc{#i^IgifLt}c.P7:<tvlnNuf)@M9is1BmY9}0G2IBVRpvTEvFj\"yac~!8*<n4hI2=YPx;)~$2];,r(kW1Pyl1W|h=cPwdaz34E2Wh<wT[%C`zYx\"hw.Z=.pp3~}8_LxXxQw+tu^zJmd.;YO\"s1C589:6`17M%+P+8L=U[E)*rOF6tl~*5G7$~Sz?S1sr=_@qVL)#VaPDjmz3^+IxXK8AUj*A>hqQYenAYGSWa,p2^Y4ZnL+IM|CZpwu!s]aJd+MV\"B3dvT$|f.hGof59@*^D*7yis+$;)/ev&=0|PPo\"\"g=<6RolZD(xw>j9Yzj;U>%dh]R*Ui~MC$#]^LY~kvSRa}V.\"wd0,qWq2j~o0,:[n>T[Pt~O+Z[mt&az&oP<a2By`^c<mlxzI/SdnG>j,d*AWnvmVgXk2Pzo,D.TrGl65]0pIP70&go&%Yp@J54doK+zGS${<4cN{rX%6B:+)Sz1hoQ\"c^QTQk3(zmmV2(N1\"+_BvxBlA+:WoWZtSbT4)_$gL.~m}3N\"vy9]c*jW|}ekJE1^PPFti/E3,.A@ip=9EueLl[wsm\"YmSY6/IqhkU,L=}e3_j1U!MQoat,rGM5(MI$PdRi]0KM\"PBIspH!`OBml%O/yKcaAHa5Fhim#0U[7Jb6G|Yd{cIau)euC]vW9jRvr#j3L$O0)vF4Qo#/C!q,ye51QPyv7Ivg]jpv@DB4Efer{|W2FnhE@uIL)(C4$GAW4l$Sh`fkvnV>9S,c+yx^ixM@if+>|JXVw?a@5r+2B_gN?Ni7(8i.vA5$O2PwsE^~!+KN:P;ICJv4uh,|@uQ0XRE5f1+TdX39SGPnA5<$kS\"`<)6Dj[o<TTS&K,yu)b9`c#9%A~6H~YyuDUbNHkP9$UHLeE~ZG%RKY$v2e.p4}z.4YW{1d(zIc_}O8NfY.^K_r}sCAF:h%!9jbJ!_[$Hd3/YlN<I/}#(FJ|F28nYT<^FLR|t$61jmHngUOQsg{8x)XEF?U<!zlyInYS)$||Xtuo{BA{uNGl5&j^*gZu11Y;vD&wOzfFR:<MOCA*.{uC5:)>_V4{@CYiSNl0)+)gTx$KH;M9xcvMjmzR4r[!VP%E5Sw.1f+0DxWt!kNI1u]_~O=}Bb9.S;i]12qDq>xeWlCZ3;X72_B.1l:iBD`ebw<0<_fD4`(\"0TIqk_`wh7}QCuGT{5tKYhAg]5Bo>SJ51o~ml|5dj16nXSs`,C5$CUt>,TWz+Jt(r*0j3&$<8*6JJ$@V2XKa1s<mlI>NJ>f\"_yCOu4*Rb$b6:fTB^C0~%~^P$0t.`5bJ\"GKEQSZP`.#NEUepo3zgd%{a^2HyXgI2lay^,q9MT4<3UYA.$^z<lV@I}DK(.9M+N^|1:4?2Gt5!fLTOt0G3YsELpM+S6~yv~a]b`mRE{0J!`H/)~N6m5]M7/HcrVkc^)1`6Qtqq?vUCc84Y7_<jp+nF^5glFg~.z*xCH<+lt]SL>}n?c*osUL@AM0k[C6_Dgz9V,m;.*7D{^sdwj9bgy<Rn%hMMPK~8o.GEE%bw9GRE,GDE7K~8,]0namPk3/s>i00rriF^dw?jX%)5;!O)|$D;6`iK;3r:JqXV$~@Z+:T.*,?X[mfA%,9+:emMMz9LAs,0Y6,j7t70kL?|1#cSUAj`TSaXd|n)fon=sA79Q&nefD.by?RIwXeU\"#0QdBO`83:6;KCTW&&2~<35J#a!u1u}HIs:E,>]bjOLBTAI!K3<17wnC4;sXCY|lJNlQbK8|yK*?vS8rr1R4![TYFP5jpexX`cP.FGndz^~E5w;87eG7hEVfNS(2LlCaMDDNhiFih]r55VP\"`(_Rli*^/X>rPuK?KL9[255C*^kdUD3Jd%Rjk3!HG`0tukmkXie*+qg!(rwR:KwO:5VX@O0QftFdx6@>|Xun.a!zDahTR^0!\".Kl2dE7b6#(z#nx$m\"^r:~5*pdQb0YEC*x@k8C6S>1BY?]?J;,d9A_%_1s;Qu0&HTVXQxx~/estfkP<jRFHBg00r(|#t<%S^66|)16}t~m|b,_0/Yp;|1iwgxhaI~VI{Qa|Jd@|UtTSqlP$[GOG~y5V2m@&Yz\"_Yj3T2`e.)]C`hT}F>,Z1BLl6p);jTyW]_k7Dj)$]^q<(]Lx>e|sv[p(Mnls/q2]qJ3=*W*})P!GdwL=JlNe*1mc@h>;C!FhJ2!zhQyi|6fa/9wG;]43wZ#3Eak7@x?#s/jZWbi4$v^q:WV01TVP$XiKDt!R}GIE>$d<=q`[sz<(2N8SN#yA0XRCir^xhxh)ub5z#o{AC3&;X,_z4PMh32)D:_YH{2,,n]7mJ})=<u6%Jjn/[JWF&VDUSYD*[Gx;YobqiIW,|33p[l=tTK$g]e\"q8(<^tpbs&H<Ccr(7ZBFTg6]J._CfsMI:0a0Y%myX|D^v~uzQ3?/5(!B1HG<^9}{,{Jn^wQJCuVd}MRlLs?L%!Hg5Pf*28_q/%iTg?TIKVo*WtPWAxgam&1(;@!m4!_0ve@Iy=V!x+l1ZF|O*_oNl4hd_K:d6Lxx9YQ}wePOcS}}m8_Ex{KM=aWYwwPgh<(Hwf,(`c!m]5)oNs.6M4n6?RvgQ=s$2bem<5^$!Tzmfk|U)#dZ?3sn`AjsdL.av`xJH}*[t}N&.`Ch>sa?uAL`a2TQwNhH^NH_:|\"y})h%j>Fa~}4ZtFj>GQmVEK6)/:x}EqTNLR0<cvIT$!Db2E=m}84s~n{B)W$f=MP[AmOFn#qXB46H;^UPr?6E&iY`f^R$Ssj6N)gG#csAT)idK9D<0w3a!7V.>r<<gS*\"765i%a<dWBr3JMC2?]rR(H7,Z3,drsVoEN\"#po%%&Y&#AD#[tVktCq4ol*6YK!F5,+6gt=OFVC#Hp0[`|?7XCd@4.&Pw,1\"zUb+g>SfjNM0/FLY=HhpfrM<QbQymVbp\",DGms!yGu&RnQx$c~[NcTM.@1qP:l@oL=v8Km.w6~.~cf*H\"LLY[l+=$cN$Ynd\"HE*}Ps~X(%sZex4LD1hz]_=w~_WK={9[}twfnNvV4>Pj/,HSjVbwUY7BO+MX/P=RW>uG#kaMbxH:.?cH%vRf%y`Rn*Ix.:xq$!0hP[Z0t5nt1X(^;#.5iJNp3Pc:9_?dI*sn3CIj^#*)g0.P1rC+kI!*[+8L@W,Hb*~,&vE&ljj&bf/0#s2G:]aI*~X#AmtQ$*|&};ELH~KWYRSD{Io\"PB$0=z\"UWJac_B[v6:}2F*XQ_Xn@PrRu8n[G/*llZL~W99xxrO^+/?fh9Qcn#0&S?FavRt;7k=l(%Fk\"]5:yv!YBG}></Oy$$ai#nN2d+Sjd2@i2B*+~f,d*?>2/H^NIS@+g=RXnu7<I<Fg)fr{t:3H?|6Tw4%c5x(:%OWR1DrQxhY2ZAo?I&mwTpo{Yq3i|RVVjBxmJ0N0hpJCuWrIBG*v32ddQ=xw)P1!lhM03p\"l2G!E^#pYMOVKg+6MavY+B|Feb,,q#M(vF.fkmCAK@.OS&kcWt;q{ZH6r3$fyi{cZ;?}T(2`%J^s&Qm8[([ih30,0:*Y)j,i`&#vG&.uH{@8TTMRzbJi;jdGOFUMrDzs8ob!>e?,3xUiI:_>}ZpXE*say/3r,^rO<$[D;b<LuCN?ncv7q)Wzw29#EjsDq2i6Ez28D;)rNLX8eu[uB488{XgZ(~w7]WaN|gS/+_\")q&L4A&ki!E#B_`kNkOq%EuRpr>!vAWj+z}b1f@,aT7$,}/QFT8=!oY.~]],=2#>esp@<I]2%CqJM_A4O&QZ~*sp>eGo91|al:X(EWrl9yk(,.Sk&BqNZ#c.XTD%w</@9i1H~F%7)$s+ZvY{4fr%B7d(Ph>9B^e\"sNB@^u}3?,/!Q;I,P>IJ;3Y@g@2M}P|Cgjs9;]oPLi|jJHBrthcv0htKt!yw06r*<)C!~16@;[JCQ^`z1ugo|b9UZ3:x>&_q>S;`B!b=`6k2Mw&~oomrRTu^t&~m}q#oA3Jn?s?{rOcgF1Bl1@vO6+9z6]|j,@ay5H)wmx,MXG,U{VxlO5KSRRUrL7b~CZjOVQ[>m?Yrc}1O&!=R(&oI|?H2*HECF]kC73gsX})nQcAoKtZkMI=m@(9wu]kRNg&6V/,Bm,hD8Dt*[u\"h+i)s\"[0Apnz^$A<,TQcVwen%Yx]Gzb`Drm}<ssk2UYTSc&P9Vm8mUO6`r5)fvOBhR+76?}=/@(vQ*R^0o7|v*H%uQmor\"RlB;g):QjADflYhRb0NcfwGTCKchUu7iRNLBt7s=1~NLy1o;w4,hStlP{REwql:))k:92T|6WH^p]owlOK/5Al;2oArovLu@Y0txf?w78>\"Cn~^J9:ewj3s8NH@u4v88JWIJ^2IqmPwU>9}QjW{<o&TzxXHhI<I9$;9xbcQX*kt4zS58+_2@S2CVYymM&T[~^P}&M2]BFrK2CY_Z`m|<d2y$w<3_>(Tn[m2jpi281|.KnqNAD%%$D.}QG8pY}m)Zgg)9<H}BGtnW,K;]22{H)T{vSrsO2Kc7j{t#efA$u[4w9aJ[,fYKFj\"[veeQccu/~liiY%}x.j?l1kFlKX<g+4,m_q{_iU4}hqVB}PX:HtP#7!IGG4i;io#/3LL2ZiQ^c]sfse82P$}2Yve&t?9?N0L3&p8jq/p*dC{bly:u%!TEM:Tq,D#9(@`QH@R[H\"&*Urgr``JQb3(6Lb9]a>l=R#pXU[Opk55`V}gM!U`,Iqp]H!kSJ`p>YeD$VFu+l:+:ODd==iun(17\"_T#?ARPym|$xG8IDsX@r;$xn*e^QTzoE>gVEU*4,/q)1+o93bw.s)cAW(OvooGEXiFG$9\"25u^|x9GFp%KhR\"k!/.ItbK)w7\"Q62zM))&q+z0*+e=7zr#Qv50uW#,m}~%RKhJqfV],v\"~E|~>B8PE:fQXn3wVj\"O7)$lA+}Ou}>}m,w/hGbsqLf`@F1B7?wx[C{;sa4_yU?T[SlM]:&9R0z\"xWR8}PzvppamIqmReSr8GmBKn/_?,*nx^Q8Rj,y5kbo4xWV6!P#R@w:)s8^$!yx9z?z:<_,l\"h2~{u78\"g4U;fe(hVOftMosc)EfzYU,X8V1#L}4p{kqQPApi4Oo88TQ,!m{mTg4i8s4}~Hhc~h_5M.gXfX3DrFCf.Iq{5+N&\"88D;FXJNFJ~xB,0/~Y2C2KXHi`N@28{{*Ni,B@T&9DVwSy#Uj|FT5N0oS)#A%Nhf?d3ml@RmW*?`0A+<EE6P8&2~GQq~9.RfK8%+e45P]13<t0U0cOlk^YB5[(Wlw@?$sX5i$$3nD#h9G%eLYEVJ/}cVH/JT}IYIk20g0AD(2w;}}v.lM&7DzC/+YZ.Juc/<NfUNxI.j+Hy.Dfsje}+;b=Mc%<Y9<Bz#VfU_prO.a]zZ(:M0Vtx*^/+0kQd;U_#JM)7+%lo~3}$^o&2CBPi@};=pIApAe#GncWH&$\"zkKY9F@4JrffQl5|Hfqz>*r|^vq^wH.mHmz=V|uBB#|fNC]Q29fG{C%Xf+8R8lK@$&:P]5qQW<y,KJq)s%C8s)c2W60}E,7~Pb)JBNz!lTH4t1,?aYP>Sj(ey(@<!\"iz@qPOKZ}0op[=ou;z~2Qb3=6.s>v%Oi61XEd+p({`M+oPo6C>En~73,rKx~<rTgwp~!E}T(ImArPhHsfyKvQGhk\"{C[YC0Ns:|lYpFPe=BF3IorXg6P`TRF5%ssf>?PUCl(r4t+GHoo7fa\"1:ff.`U)5QPUnd2&:1IPSak@/L=Ve**/!Kx+$ld/?p)((d>@A3y^#0O%1/APc+YiHAqp(8%)a}fRznJ)J5y>}jl/95q*N4C0pZZ=#ti|12%e.Ishdsat%FyF[;H(WdK?wvm@o;LEKubQS=^W(sr?K]S1_K@Fx%qO=Nu%#w2$OqBAQlXNC+xj=pSza|/,Em##CO[Swg4(GMM+<_qNP0@n2QUpayiX{il<kjmscf,3dhAES&@W+h!]mc%|FN;4)UXa9**#A<FmHqX7WiQRifR)y?sl&IYY#,p/rl.a/PLA2M?[BZKPMm+3kR7)9t@eY5]z5,HsAVJV`|k/Ej^L`!~[@.L|Tr583R\"]ZBfOwjr}D7v,h_v9E]pTc({:xXMyIZwko5~`oWYG23F(w_[G6&U>}NIN?,/cgYPk9)6|wPs[QUaeMOMf~aJ^FPdy>)sRe,6Gv?V=NGXtZlo5)XF),j/,g>.)w^\"])&F*>or[D!(XDw\",\"eGWmM!74^{S{=i(/9sLxOs[+<UE^!20y&bMGRDQ@Hj9sMm|pZeW_nc$q!|M3AE1.>mmJPp#9!J6}fM~,%[~QEE^uSH.ufE6XTpO1$?IiE*j(bxhaW@m2G=qhu[S*[_F`Ts6\"<yS`:[rKH$%`A*X]>r}%`JScuh?yO!ah@oe1zOuq,rZ`YHQIul,r3Fd5lMh,:GfVp^47Dk0)F7K0T,ZT{TQ)a/W..iEh<a/WZ~\"e,n2XzB\"gAdM6MX$gM6fAQNd^kk3>?^8\",Ou2j5M0gKjv(eU\"vRO_bE&_+Ktq}eO2Y#e^#{W,Qid`t&3<zL&r:{b|F,83[:l}C$dVK}Jzc.iGQ`F@/j.z/T;b{?]JU7WX3lwbe.`feWS>,~4di7{22^J,`0&UavBfj2OqTof/9NTZ/TNH&dTl#8:!rarwzJ*@0M&r2FOx3PpN<YeX7}aaibmNW,h}QlX;lW&b>g_.{b(F[X3L|>qrajr&|ve}~1i?(x@=,8V>UpJl:e!(&12@K=/s=\"}l|3`?XT<:kmPZn:5q~f]>{K`.XqCbr8angqP8M1{bn,n;>3FfQ5LU1RN+})ytZ?eyPJE^vy6mzTf0;A!1<Ffp)x)skU&0xqmJHR2jC*^]XO)ekeZB;doS}2E]s]J\"hVhSlyHJRe)fEkCw5|YUF_>>+:zl1u$j.wr]L;0Q;3N:x(V9M5*ZG@f>o!#X&9^2z/9p9yJB2PIY3__?MF|s._%8NA03UB!44x4J/!)Ha9{J!,}WSxd.>F|09Qyn>n1tlQ[Iee<Pdrb=I(]yKusfLsK^H^cQm>ti<8zfA<Tlv/MFH]N3[ogdFH#TC:W)]yW_j%>e<3^vYygTN&:KzyalBsp,AsGYt2UQN3#aqo5Qp!z6i~8&+|@rFQc]G8:40DB)k8bQ2jwQqq%guw*E~Rvi{J?)jvzc3MG3ou<7mt6E(IF2&O`MDhAZh8BTk<\"Op+[ZOOp)x{MJDri2QGpv[KeI9VkFD;L#3hh@+ae2b+co<&Fz9nA*?)\"dk!yj/h%JZj0TN3bZDA3)Sjs<UoRuuYUCx.S=hq)nmK9#mRT<l9UXkm<_EY%Vj=(d!qc@qqwVk^3t;E3}dW<HM?R9cvB_U+,vY}#*/44Q^ch;u`H9Y?TuIA`rp92z3_/L$k?q1zjsq2?A?)K\"TYAGx9}A#:xSvA[;TQ]3u|n]p\"$Xd@K8[WU2KGNbgtFvEOCx.6#j]h~Y]joE&8`G{!YFGinJl+dI%g|tBgH%*_ZaMkvI1kS.4k@?iJIJX7hQt)5kQt~/Jj9/15!K(rJE*ze$ghz9IBwLnzC]SFwg!VV\"r+Q%qD4pNV2.AVeI6T>A!qd+GvZ5#lIw07/q9oNMQ_w,Qc@)PSUMG$m/j>j@3LlW&+o@5U!DUb%T.^V&X7n:R]83PDZtAyW@zjn=srYETCOF,7\"E7.,s:FD?U$@[Q}FA:`)Jjlo.,Kv=]~J?~m>`>v@h>[5[nC9rL11bAjK^%>~O(~#0.>o@|{_@Wc(jA\"_)O2x;KSP5=(nTqH5:eMvu_)9v:NpT!6aBDLZ.&$~bUzxpQ}kO6rza@(rjPm0z$bjvYE{a/l>rth=]Y:[C8C5sN,#4N]Od<3s4;gri`#HNaKIC7k7q1!9iy;<s&_Ce:!XbL5[)_eEOp<L>j%hNd!Q1I8HiG}28Je_wv[Wzbhu1nIcm8=5|1:f59t#&1MZ!yB0mGk,&cs>I{bGZ}.WuM&8#C51yBa860J3bO8s;25Dei?_`4ORb=pkP(g[Co9|f>Ns;j%D;^}(z0Z|<hU9MAdE<8HO?*.YWKnUJ`[a3I|m1X1FtTDGtJ`;@kWU3GWm$w@[b7DrdMMzk6dGeNjW4N|VM|mj$YU4MfT9TAp_ApG}k(L2plY+z1{m`ISaq]zVnM9+EmJI)N=%q{#ndG/N^kyZdu{#BKFVD!?eDLhj>~,N>wQIthE6dkp9`*BR1f>G=T}:68XO*vKYRmN<xB>VY!?YVxnE_q|a\"#xfSuqjDN|X(x3z4!OwiTQ^:^iuuBN+#8LzmYw5#D@tbNDNmrcrpQH>++rYHs5e|Xz2o}em|U=l{Ik4Xf72xjy{3}$MT}0^m<;Zjl/MU$*}kc/pltQfP2a,bBPe*/\"K#_ozl6#zQ^;c#*MPw?3|WwRZCKBf:7Xm*o\"QxjWeMrMPC8tw]1cd/|qOZFmue_$og+x(lXHLowh|o8q)D9~.~kR$zUd5M@As_D^]{4Vf[TJe0I|{L5C[GVie~Xa>UFfs!taE1gNiM!jM3LM>u^llMEU@E7Eg_}iVY1(E2]wn)S=z!Mp7OQ>b9kq?Xd*p3T<kRT1Pu`&KHB)~57)4*`^WEV,@m[J:U>^6zK2\"poQm]mt4EWgB;,pKSQDN!/|_xK2~,:B@wVvjalDiLf3Rg+byi[}@TrD|{drpU)7?r&fEa2yev|f,BccnyN$s?]_#bDBRR(+8Lwyeyt[j/n0]XO=t>6Y=Z9K]|4Xfvz\"r1h^@9mqyd\"SFch~xB@{QmY:;V@b&R#4&aeinCz{1w84/.mHDHL4iKZ+I28\")DhA;+}J}MHb(jL:#M{4Qg?ZelQ;3nM4)D{q~RZw>]eZ&=w#Q2~Mm&3cK(Dgm*F(^*p^2IqXP<B(~#mV}Z5cC9$YQ<.PME2dYWy\".K0W*~mm{XPwO?swz<^+n#DeZmfeOb[:=Ni0GuTfL{W/Y99!4]v0O~MQ42~tXsCnw0a(%30q0M8G2#[VzIKI0h9i_2~x2wVE87Z5UAbTSx>#8_uRv5X\"4@F%~wq!VzR#xZ5HQm{{~cY=a0b,<z9GXH3H}*z)Y/j60a~VlDjrgVzYuk&RZ<b=c+!Rw6\"_9dj=ZOgw4TwlHPgzBF.gk=>4ejjoo28_)HN1Dgw\"q+T<Z7g~;rfU^6Zj2ulk~jEUyr+QAUmCankE?#$=7g@0FeYe`fLmfRmNWYU7r{h#>layb88jEd${qFx][5)$IfX6[y(2&w/_+>]}Pofof3R^NmF`DCqxg)VO*WV|1WPx3$Pk%nCGR^NlE_nOE;gq%~qeilXq\"DFd$IA=JuG0wS[669QN:?wQ[,KHoH[g&*k.V5Ww\"J_NIjRpCyBJi]&NG]<s!V(}X4t9t7*iR5+lT:s]?b01OcntTdTcO.`UcXCAYYT/IpAIT!@/VQ,rC_<!@3b)1SJ>3xXY%avh`<]N#</8o5a|SK\"T>.u!.V6.zRXOo#;>zk}7=em!oUfef7vd*IV(j6d_.>D(~XW!qSmr#/529,Xa.&rpbk]nLij@=]=!b0DwN?nXFV/)LBFGU8j}ik9Mn^oRdehD`fpt_Xi+rS7+R_A5>vBK!ih^(PXdkh5z4>eNmof3,$G.9owhWCRV`Lrg0J8{!u5UIWE2;#k.XJIx[\",#^d6ppQ[8PE4gu?qD)$17t5Fhut~mM^U!:^`<5?OB1JHV`3ZHJ}X1x[;h??Eq<r@]3J#;_Co\"gmq?=1^~.HgB,x0@=OiE}>m@!YMJoE)xV)qUwma!A$;DKY2r+2Wg7&Aw<jDNG5`%CYTGaQX1*dx,^5*LP%<`6<&~vBE?E2nDPTD:xG!E/Il&k*N(;!@i53YQ5i4>w{Tl~LMDM)8Y.]:hJX/YDruvnJwsoA?4y.:n|CRwK~<IgNgXz#;xg@Ez,:?gsm+VFQ<WNeaBG!BUC6<D}&[>`.pZ5ux5&]tcMD(e`)RK)^q?Er}rZ6baSYf4>9H9/K~Sxod<dIXo(,E%qvZ:]!F;_EJ(RDg}ojVqCt!_pv)v_r`r7[?Lb4/hAe+T!{$?Peyg5TKVamh~2!f|4P*[oy64l)LHwJP?fRb*3[M+OMMj*HGF`(PAwg_9)aM|X%UwA;,bg[D$`K0/PY8eh7&EJO3}9==eSA./eHwM5iPjx^Mn1.1$+W^s>fX9n0IRvd~|zc_r(fhYC(COR.>q(L[SC&2{=5;<,X$c(#Ydj_}i2C1?@R>o0g2o>{u;D|0U<[k[C]ZPjA?aX$tL#w8}3}u;sOW9t`1{r?(MaB2$^A[L%f);Ez!=TD;nBaU\"<^7Dc*_~HM+]Jn[~U3!F\"C+w<)AmP6B/yYgkGAw3<Ja)~4[3Nc:7Sxv^$u1`uMd<1UWzhc<e]/}l&}bm7e+5bs.O:[!*S|_O`KWo%+H[)`xmZ1ZmjOW;S~>W^MKA1:\"2u=W]Y_17YK@\"nTAd?:L{%@n}itEZh]SM_ZqOo4Q*k>`=`(j|F}jjLZI#Qej\"WFGx3\":X9,oi9lo7mV,9CN*FS,q&ji|kex,l=/*=*[)L*udDAzX)pZ.Ha_g&.)Z&tX.\"1fUsFiV:E<_$kG:PoXruq4tCW]w*1+#A2#ITH,rCfrg~Q\"lMJ.u?L6P0Z)R^}3pC`k:\"R%H{\"}6c)[>j*RxnVoDe+VkylBFOg_C7t&zaxpRLmoXi%e@o0*bYLT\"B;2J>QZ#AS@SRPVQBH/~:gG~;$0d5r,P1$Lk||E|~m,eTu/8ma>DWh<Vgk*U)~7KL)2RD6R6(AV12v3y}^%<<#)#9ZyKE)n.rW.vCaKI2oy_cuNsuV!NZ{b:A<1|igYsfOq|4|PcLR<c{WGWVFR@2+rUf{=IXa/05gw_HE$@)mS7$Zt4s2w@/wU5gfn<lP([b)4|8N,3R|UO4xI)T1!vFd&TW`w:H~XS&Qj\"k^:Sou11VZy<|s3=w+:}<r3AfX2bjS=Tk``c)Gmci>;6EN!s;L?nWB1Zq\"BOHU2[V/%a7!*R/zdz1pT1pPk\"y*ZShFf>nqCgXeTu`t|5]h0+Irk<cRx?4tb8==;b5=>9>.<6/tz:/v}aX+gr;2uec%SRC9h/Gt__jaz=0Y#fo:]FT.q<y@.\">k|fj13m&uX,l9eMLu4P7E$LRs?T(81AOD6BDmVdcX]pD3Y0$S>H(H7Zn3I@QAa(vqVsT>f0tm)m_!\"z~)X9nh3%$}@X1qjTB;xl*`+ywWdNTb7~8V4j88Lm/>v@,jqI06UeshIsIiX~`ebPN95vK$lo?iUR:]^K<^*^.c7mCvds3x`ti&Lq+LC}M$i*_\"h>3S%>8O,/^~8*qeT4$BBg79_}4:;{AY%E~14s=fU6c%p+sH!A>CA[W$2};JxPlF0V1WpO&V1/H}>C;cW&BLZ+mzwLUJ4}/,Ex)5&WO^!=CWtv:O5k}BLAA\"\"qEA:}bK8*qDw%|JM(;b9GEpG5YQ20]z[K;B=@ziIGQR[b?#tzY[\"5WHstZT9Jdq&KK1:L7G?i%*n&mGw_3\"8p)\"wxTNx;hyld&(|J*BuIHv#;*Z8F6xqcw5%AE/17[uPa0r,=Ci|bbFkLXG%Fw\"Ur)z2fXpGtKMZ_|ry.}X?_Y4~05cQv~(Q=:8@Tq9FySo*nOjKo>nN,UV5B\"_O?@F,(b58@Zm|a2|O2$C]P~}fA;C62hVTMDcwk)fI9Je:r^;I6ho;V`(Cw?st#HyPuDpe}2/xfx>MA>i&{?^bxIZ1YKV10,LW~&`Bl@2]WX@7%n&,m]PF~9jQ;.c02o9f`=W_&%.xx*O8I:T;D1Ux(hge[.tw(.L8pJxt5`>.FakTFxbWll:G8]!SA;V]DLxtf^h6Fvr{SGjBl#ckQ!`OBK~a]|D|#knTDGI+lAr|G&~{UN$^pM:2D96@p8P?`8~>L5NsPW225B&G>bSmzZ,57N,.MWu&pFWtMylgt$Vb&[;^nHn0G<,.oItGgoYxcQ7^dB3>%bIL/T|B(@y<U%f*YH:Y`>lmFUBE,h$i^[Hz}ZA}ifh[]^%J:C\"bv;y`:Nsb%@7v93K.f!Lc3cz&nQtX$vs(rvZ;NvZ]968&,3`s{j>Lf#5LN:u2@q}ly&8RP%+S*>m*t!U;cu4x_ZYx3NYdQ5&Q&^W6Y3Nq?wFPomSMQet$H<GEuR9/dK5bZkY@Gm:Fh:6~:*n+OMP3XgQxogB3L0ZGf0QXoSm(?@$I^peXxxtFQ*%\"$W{2&KD\"[Qg]ZtTxO<`.Q6O221GD*{Nj1U@jA{3M$NqJe2[ok.%]I^_(^X]>F6luN370sAG$0(t>5ZDCF)vZ.hI&#[A51_Xi;_B.uSyIed\"Tzc~0*8WZ>6Ww?9XNN~Xlm[X^esc;uzJVwsbTHEgfc_R&2)CDo0NDAm?$r[@j3:q*5W5.p%[Wq4d*Ozs<JL+Zh2]JLvR{@65oT)Ypm7wg|&l&RijHYpOVOCo{M?V,nm@*mX|n/b3_{*ge/Y@0N?6xdZKT=CXp>|G5Nrl|I6We&<,4+_B&vY8K(Ot=T/4fid~^h>n.DI))!f$_\"j<xL$9PvHFi~}X*0N6nzx&VW.i>PKva=89>,=UynoWW6]CBoy&r4>tdv|=a0WcUt>\"|`PED7qJ1wy!3tQ/{xg8xln9};ncCM``76]Hg868cu^^c2>>>Rphb`alWL<DH3;#2I68m#!Xl/n$.\"#f\"0[!vS]JN%++Ym&W7\"z4Y#/^L~,{pt<lqdjdSI]u~`%5=d~Y!]Kapsn<+$~kw?JJ7U!:w3[$W,.Gl}Q]e+C=ED:7$D|`6!K4%q[@VV,|YsRT#`.G!~GO=to33~N#Jy%^ps+9hv$[u+u9Nu;Ep@]ta)5j6q%@LR^XRsFaaXjsSssSAfdPFHK?k5YIUxgDQxyEn+S^xR,cU5z\"UW,)NrP?k5<~Zv{s*I63DjA{ai7^.m_Ls7B{ij|?$B?84y,/S.`t=RF\"A9*|s~h>|x:/kM_Vq`)niPyD^o{[Q)#urfZI!%&/=PKO(Q>;E^E*Zm?l@XV1aEKrk)ao$8J<Hj^/$*IS&)grDx~M8DVPY_y:v.M&r1NIv*(unJK*mEfj(:IA6y/A]C<Zz+k^f9[(f`V2%*%SnRGAGKe*%WYy8q)EHpj[!=06KnOJWf\"3hlasVd;G4&?!aOk&fkTo<(~c<}L8*?i&C9:m0ma`8&S1Smb:/cM<Yw*IW`O8M:K`+rxlEHkad`pI8A+QHMAR^?T~TWg~l(X}G4}YN.3z[\"B5}6vwyMd{MHeZVB]1s:K[0Ny~8aK!Ra5g0FRpk\"XXt\"%ZQl{_LN4Xj21@xobWjXQ;{_70m/&iyl?ojOqd:}|?S#/m=usoGpB#9\"|V}Jqm[#|)2kdHLHVeaVN~:W&0\",im/8[/b<ueTP0yi[!eW;mxueVL9:GKRmiK]QIGk)VyN9iKds@j8c~sIay?{CSt3}]zwx@^+7~#Ik%r;|PE>SQ|pWj~sKjY}pvB/G#43`h#t4r%Bj3GSFArC9MF`{nFrW%\"h<eGo~5B%ubdH7=/Ll*0K9)Ui+DBl^Ri7S=]?e_a<L&P^<:QQeFD2@/~O@Q<1*{<20N5DP<P/dWy,hg9#oaBCGr)G\"oDO_o=fSzLv8tvN#W;_Z\"::}~J#Ry}B;WBQ7HVqi_}&sf=JoH&:>nV[28><ZE_wyp*}/(IvM)`PMAgEHPMNy5*.gYH9B9c~5O~);3W<3\"mmsQar$o`?hxT@z?/1,It6w/ush^s~Gl)va7rV4OSIBCF<+uw_0Z=<jImXfBtw2[2@5]63D_C:WpXRXa88Q5m^oh@f8aX1QQY{65SCD+mZjFV2#MBB<_F7Al#ZFvAu^VrqvBSfwA)oW)yMj23tNbFX2rr#Wm|BEqs>Re#T~vl%`qpW^R^T^5APSt9icrV$DO4AL;Poluhh37E4wT`,N/d6_/kFSiYz~T,d:mBvj7zI;f[yUE)wgrDtF\"2(:1uqHIW)misTJ$4Ae5Z:)kem.(:,N}v\"$.0fIRCpfFk:#Bw^$har.fdRHQcBDiY@CAdyVG1_`s)bK=z:(63aBLRIFNn:DwD9>SVtT_F1x((D$|@rbfgaS3XHFYG^j`x<^jmslgk2{0F^*$$\"QXuiENmB@rxa_!FfM]6[X46=]*=z&:WB$`*%$YM/]s7WD&rU`!jZKD4kb0`sjDHt@]JC]$Z?oT%dL3|IxMa[;p/fmd(KF1cF}zLB#:0]]mtPN!wUuZc[\"*_vH)0OGlaD&HJ>ok5Ju*HV2QOCUcYcqmnx\":o%D%apjKm!^fP{L`Q]u[3mGM;W,ThG5kxm}JI4*zTg|0H*~i%$0Wppr}FcS@d=$px@o?%=5tAh)IN>1A6!dZFWVXl+{4&Bu|?JT#T%p/7^WP00xvaExpeh>L]sRzZ+m%KSN?>c&U>XLy.e7A4SI>{26FYzChM?`Hsp.HPKFaS6Bb9PHkef`?Qb<_TPOLdnz;O|Ml^sZ)c^<bh3?~8z(Z_PD+@03i*mAv/ogy|Qy0IVA$!cx(E*CCjD?3\":PO&iDD:=:qhVET\"5&9VWN9nAh.0BFL/Vd}k]WnrBr0+L4#=B#vpS#E+^*IXMlP}Nd>loSV`yl!e3cBrXm=~qyLm#$Gf;P,%<|9rrAZzJ7Yi/8ia&dJm4^q~28)ZR?<q)62o&`Ifxe0!`:=5c9F&C^R?mxdfC7I*6rAXy:OvXJLnQ1Sg=!*ku*[#g90uz[f:rjVoltiO]*h4gmZU?2fgPLOw8&rK~Ueo:lEjg|=JiY}]N}16aN`k;;Q&]P/,.)phsg+?}&)\"GcNRTNz}+Y7Z?OKK0l(~wDR_BX!QgA4b7TZ.h?}p:MS]t\"wEL4g|^E#ZyQ^sUc5^rl/%Bb2,qUDhYi+R\"(+XCUbit4%y{x$n:d>WO8jjBi_V))wfkuiaek+qP=+0Xi6OXMM5G<IsI=m~$T!HDf8`%,1Nk`Nl#Hl0N[MiaS0Vnp$n%[W73k#O\"U\"<xlZ:m<EX(J!Q\"|JBbeX|yX?~gp63v/q3c8v1A3G&zQ)Wm75}8~}=YucM]B(AvGh4,}\"}KT$C8v/=E,N[QVvD9x4lR5Q6hH0>B^R60JF~S>(6UG!gqO8)on@@^MBq}km$yU#];B?Y^1xhodR;%n4Zoj[C9a895VsxF&1R~vm];b`esO2p#]k|\"`&X,~)<g7^\":WFS|.$}d\"k<n`W~+wuuV48v(,_cQ{dF1K^8zmYQw9O2:$95b[i[I2WPl)<XfzWNFm2j46_<f.FQ38Mo[u*ZQKm`h3?~ea+5)|Pl@PszbU4Lig)_&{m[+Px<t%g5m=>24Q<zyt\"4`xR~[/>;[THU^H1V#pm2Sj/&c/MF}[:N;T!mni#]B+14B%kJB}\"Exsc:Di|(W_L;y40?/DmyLmf3JtYUGekE*F.P3.9M1{]l%5s=d2u/0YhCcxU@|CLF:gpMiWu=/^hK&`2?\"HB\"Q0jMbnYpi&NelC*V~i)!Iw+V1*TL7a8UQ&RNt}/JY09@qig1A@\":#Kl4Sk0Kv4BD%J#G=<w,p[ZxsdR*21@Z[[q*K?+8JF]IQA9C+dV.+9=L;yp(^0q)1BgwalEreI^,v~0qmsx&Zz:z=56Jfi}J3L_),mf4{6wLo87.ZHkfoV$=:_/t~~ND]z;kZ07|e@^[m%o7$hv2$:tt,tv;uiboQc(=z&kH(VI~(:^;nw_/VadG/3_kCSb9vqabh4!ySAoHh8|jKtyM#*/(z2DA}lNM)bg[Nx$Q6qTz:?9T|i.*7f?Sc=oGZd*f*gY@#>J*8rTzy{W#n8vSq:4QStpG}uYX():duNl9Yc|>kg5urP|[|Dq.x@juGDm=@wGTr3&h.;LU#^o!TS<ln2B:u~n3=vRW~G59UfYu<lKmI9KL~uii7pJ,89N23#~m,xITCmG:]YWLluvY`]T!2^Wygs2>w4mSXjlxwdmAc4eCm&=1l3d+#Tg7aJBov*L!F12d0m)`b[dMCn@DG~|,,+[u8H;@CxUEs1lfao(3NXd/11Wsdqk`&l.ln<%|ADm2K^nyGKu2{>UN(G8Zf&CV6W<sjd|J?g:b$,Oz%wF4C?IK.AwFUOw}XJ69irAVD%cWpOnvg4^R&/,/cn+95!_/}l%Om9,&vzdUrt0[^UU7Mw.az;KJc7&SPr[p8N`mm#qbvmqQi=(0h<rg?{4n>f[7u=<[JKI.U1lvU_]_x$Av&&ixbsuX@laQ0PRkdfgS.U=`(]o?|(0Rh2}*YPz{Wg:gHX8$ialT)<xb`L>sN0kR9N|$e&<o#4!29AnvlM4j4^s:UzDba8?yUV)&B>O~#$}PjFcsih+xpR[gJzhu;Wg[y*YiuPL7|(A9c$f^KuB}?i.s;m_LK)s}`P0e|oi{$>]7B2QSFoxu<~I3foX2x^jjNxe4er=0RkF0J$&NgQmLe[nX#+#I2(Cl^XcP}#/FIigC4BUok|(O!3C<IqU$q/a8HHz2cR]7)K6LVBiLZF|YX95u2n}<\"s*|BJ<UNL.<,MTL]G3kn3,!^oANW6$nzS;YRPZ!}Ir\"EKL9(=#SC4#Co^>g^4e/.UcSr%gy1ATUY9X~|MS!yEGy:Wv9.D3EyQkK$wa~xZ}76[=QDwBbMXZpyD8xx3w)dB?wC98}4Zyv`;l@dfgnDf3V<6PQ}EC;ubplDxz%pBE/)xLz~~pQ,TR=8m@(1g?f|np4B;gx?6D!attAM_ao(4nj5lre^J`b7wb~&n0c|^KlmIrnJ4`ncbDzFs<YTWIXI,Pj+u#Wxe|^y}yot&^zgW[U0}jQoj(WWC]AoZ;kgfwB2N6gi,pJXO#GZf@C=Nt[+e$;Gh@<7|,U(&<P3;HOz}Q8G@3;5z:%P&d*W5^~pZRY$KPxmJ&!VNc?15oECW<;AQ$o;coZ7of0XPCc>k=l\"Wh^{($r:6i/#Oi=Y2<}ZH4%U%!lC(}}c|96cvMwuDt4um<c~`Ly3:/^,3#MvM,tQZ~XlhG4U6yOd9%Ppf|=Gl$i{1N#XvFBcm7<3X*o<tx+]mSQ0Q0F@Tbbvs\",QX<O\"EhUIHl4I8mAU~Z?5887*}CByD%~<SR*(Sb<J}oYV,jrl(hv6Dt[`3{c7x*<mUR]+6WIf)nq_U0&.Stdj)OqhTz9@>B%;~5If5UU7C_2Dn%S\"V@U(f|Sn_Rzqm$}C4D6xkkdDm<9.vGR~*O!|b_xwl?9B4lIUI=WkTY+b6in^p+`XM9M:AzItze^Xy<Zt?hR7$/mj~Xbf$0&uR\"Vz!`9D7Li>Z8sVPkeO!PklBFvmFnOBlx?X89vK{_w7r,BM8\"kifAHd}+W\"R<IL\"ap@%1wK^.b<zj/`N+`TF.lyonALGU7C\"FHxX68gsq6l+a;/gj&Tp)}vx:2eZmPR`NWNC`PS5|,P$(G88R;86RTcYRW6UTf?{pgT:>M3_a8BHIk)2Fc_9{T23#PcH@E^I`4@<2}W0HG#_dF3avrmyqp9zB;s_F<Lpht!zK+=,39J.l_1EGv4_YZ:}&@[(lJO=AMOq{p`X[UO2WblP6(JI).n`I?(xe=PgrO_{0tr\"p;ls!CGbbA3*=tHRK|~<pVOcXHuXsk7<PL$>F#pOV<i2@D&/Vf8jQVAJi7arimk&TU`0bXQHAJv[e^(MO<(RD>h766d1(dEPD>_,e>C=:MZ_sUpT<SXHu,eICay9&<#TDQr#mWK0sv7zu2Brz#$n_}{)G)EuO<=204fCrn(VRr_=_Cp6twDQQpF6Ml~&c@h!HjaG?w|{k{45fdYfoe<MY)&+~7pB]7`:dlCQy9v#]zQ7N]jJ}uOSCA;PO5/Mk5{9WZVJl~QRj,L<`wZ<m1J/)pnfp|BA9&_lGewLOdI2>BP@C(<0Va`&]W|.;kJ)KfS+#`wn!<;BMI:FvS*va&QirHU`9,tau\"Z_bld486$9c6`Ot;!*6GDrx&mOE7.zLU:gv@@#NvrB@_*>$}fh%Q9[NY}G\",cjFL,(~LS9<ho#7XI`GVQa;A9_OEjRV!8mt]V4hojSsc0U~!Y8y^I};*XYYb{2])|4>fy1%LXI;}l]|`[IhLeP~W:g8l$*MybZd|=p0N<cC`WUm~_acc%5`<Oj%$|o<0?fAF:@#`WlY:b,Izp5`p*1=W0tlS+(4},XB|FCZTIRg~>Kkqs|)IinZOc(v570GFE~%6PV\"W&0owN9@kL&4C+xwU`tf]bzYdmD[{m$5LbHj[*[[gpkNK}__2iniNTEPirYzh]TpPcFjw(+pJdM\"cb:Fv,fS1\"~./JV_sOz1f%zZ_Hi:qeR`3&|njAcz>/[O9Rmu*$aFoV/Iw\"/etZ~g`+.g<!:nIpj%H81+9Dz1}Wzr?UWT]uRx}bA:3nffXD/(tt4]45PfFi(emjohG3KBNR}8E4w.I#BAmNn:gANcQHBAt6hyOgX}N+\"P4w(tTI\":})DA>`\"YqN<e$KgFzfm]S4h\"/p,|I(la/c\"RMvUhQdi*tc#p0KiyN^|ye#ZdMSfn@_eu9[p?7_o|utK1D5E^CDt9rUe!\"%axFPJ~QoR!!Dvx>8\"{alRv||,Mr[+T!iVys9&M,B5s:]N>JZfB8&pB8m\"it%,t3$#8X*;!FtrUzOh%,+s$Q_m,I_.1E%_W2s=t8jcZ#i>$dDc6pN%NvkbS1fe\"XR,Ru=@Oyeyq;J6k6ekSFv1g&q9amdg$L_*`a0dwibc]!|.T<F660A0^2Rtg1GTyfUeiyR\"7<W=nW0,C~/5.RaT8i79)t/2%Wa2229O2&\"hRmsf$:cNcn6eKbGE@3>)[#0v;:~+OEz]v8T&26F*=A3H0qF4Z|Io12!0J7\"&?+N<y&hsS8:7p|E<zyaw^JD3}@HX@FW#1aqAy?`%`V7hSc_4Jjq;pJ,k4pan3jFiEHZ=a|Iz;qT)qS#/>7Edx^Oj!33%jiRLC7}Cw{nSVT4Y+K4Nr*u}UYc~QQ#,{r;M$S@u(3ygRZU|>I15ot<_Y@Kk5l_a~;EwC`6RRzy>)/;!`<Q[&w[6l[@AkJ:01O{*S2zOVg4&E8gnJxfQ^qu8o0EYOg!9@*9]G<JO8U{Y32@6=g+NQEQu?gy+[}CwES6:qW%Lh>6M!Nou<kzac$P:3,AU>M#omOxPd*5Z1Vtf%DH>G)V>B(**+e&(AzF9T7wNNUgi4:eh6A+rc@8P+7WYSyDOiSXS:,PF5WL8>^![A2=p4[wLM#$dj8;4)75&u<X5AMopsc]p#n&mUo[jcz$tNpgr<!f_ps3V*ZL2^4@sM(r=bX!yQAD))Y{C0!Fi??k*4l=Rra]>A&U}7Z)]\"CC!\"`t2.JV$~N$iaR)Sy/QYYTC.k~SSIlqlbhdkLy{TuEj@CV$P[g,11T5@GG)P<W?oJ:S,[2?^EAqfwFm~@QvWU~Ym5Qt3o=W8QPY(bPyKM~Whc}3Ey7:/fL[2ajCJe\"y>:pP&T[%K<z4W;rm\"WZ1o%t%Q5evmF:.*:;bH+E^|Hyl0R#;0BFvi,j5!nuj3%@,h3cgWji`/fYLr~uj:?BkezqAO4TO^]jVKd?%%QPD|RlIMBW85xRGaUu(~(j2/*stf(Q@k>QpcVg%PYB_TyXxiHa*J?dG|OBj8f[lZvr#8|8wwP6Ww/~{5pe]Vwg(2jUW@xB}VFs8GjX:FqEI~{8Spevd:0K!X0X@SgM/~}8zyU7s`6rRm*rRLTcMuAn13~IF9/F.2muDdQuPG?eL47Rr<sb!ZQ{#RGr|N27<.=J;P*G{)Z>^=6\",RUV2VfA:Ljf/oX0/LcIqf)!(n6RXv2j$?kke+a0`TjT{3_e%.G*Ms_j$MLL\"7@Q,UAx$%xEuz&8w=wWpRrq@Va]Dx[I+a2Gv.5z2eQz]4*k+FN=2iYkj;^}M+g:P6OuXt}2z)YXSByN%~RX^rUJfq3W)9WwaosCw;6?Qyv9C=Z2Vgi=>FT@lW6]h=pZ3X=V9~WJq<@~xYo4vti0ukR^t~BWYZzI76g+[JEW[_[agp}j69Z,&:F:v>k,Q#oUHAAm8p0r_,F#gu`o=gzv`q`Ze~Z{/,&R[,~!%sk4nwvqoRs[Z9ai3v($kbDu4I[ORW|OuL!9f&y9A.;EZetgmK5h$GOtPeD*$o>/=L21+6()nTpEp//&Wu]7yNx1=>#xnuR~O<n]TqR\"$}ew=wk.E^w&0D[;ic3jX7dpeY_+LD_hnwul_@XvjJs2Ps7f]5{^D/dAf@&h]Pyy!FpI`Y}Z(GA!^KUDRTm{O;22PE&L03D=pJ*6qtEuGKd4|Jr>po0s>x9Q>;6bDyE;}q]1\"w`NIl0y6/Cw==N|.^_%s.*\"4JnY(fc;w{.dHw629m:U&maK&8!kS}~;HO^z&VBqx)$T`@6:^MW*cU}9{GoP)$0uw&{YOyt,\"U@)*NV)OhH0p3r3icCw^|{tU~|74Fo_Cug]<7:AuM6ylCLYN4$I3:~E`?w+KFEfYx}Zw}jTIY6oR|?O)<rMSFhz6aYIqG4YMH5j!Fw9:0~#,>oCE|}[qD&YC<Vk8f2JFbF3=:>.pQOlPv&j,0.Hl:VuTTY<+<R4.z>PFZT*[tbG,2|J5X#5xFPu}8@p$kC8pXzS888m{Tz8_u@eO``f0LzHNyZ,T564,5S|XU`16L2SvM1g08xn|$%8r@l:/Q0[||FFgQey88}V!xXOD&EK@3=~`3lUW&W##YuuhwPcpri,joM{sW*R@}Qp=P[fBq40Lv{W#1HxIIYs=fBOd)3\">;Nt_`Fhsg#!qNYu#G>.[e>XMt${s~i?;7Lg5!$1>07JFXi#tB`kdY>m<Y5gGiLP[hb>5!%*G[NHk9.=yX0=3{F~c(eY#yFW%QLNYbAxg4$}FOp9iIPOGj4?.uQr1t*9TZ]IbPe2;i>V%NuG)Z^&4/$^KNnrQ>*#xOd31#PnN>&2Ipr+}6.6$r.HCu|HVVqg4Z3bJz:iz1Mo*}>VUcloiC6@cR7;Lr}>UodjC?dJ\"!D#q9%:]Q~ZMh~BTz}N:m~o,_mD5=kF:Yv(F4R|.N:|RC&Yfkw.7gm,kM>>4*d`j7}k)gYY09p+}9Vs]Tq5^+iv4vyE{rSCB$uBEC}uu2phirQ6F]!fV>/T$j$n$IbD[>zzQA>>|#h:EC}zR.Xd*RK3?&,O!);OO_(B!\";o#\")2%cqGO4/WXakeImdkuN*<$3YQr{#M@q(+Xfe{00KF~cyYOc\"SD65`DMtIt^#hA$ejRK5[f1ExpP/J9D)mHanl/C,:Z}h]<e(=2Jl$+wWQPw\"W>GUUD+\"q^;w3/h7]BuSl]Ul$`m7/LKRKQCI!e!TExQI>J=E9;mLS{sN%elV\"!i+X5:BH=Ct[_gGzfCU^]$?z>B3~:r/cy~hX!Xb[kuZr}Q.oJ2Ob{5#P#OW({VFl,w]k0EXh?[vEXOPC>vU&S)AXFX$x^=OSCd\"j$)f~K5TLp&J\"Zw|2)yiUu7PzG17tWWXPF^(JCPht4reYw3cA@+0KY:KeN|447=,p{W[<Raek0<U[v[UlDWX`<V1d?IC._iv%Ydu#}/oBg7GikAP5y),Px:NwkZ?v8=?z%~%,rp.r`C`]Ze%TP2OiO|!1;M\">\"wl?T7V3nj$%$tLYiF#8V:fL5HkHr[$7f~AhWtkCtmpJ_56Z[}ZG4)g0b+iP>:M39O,2u/v^V1sXIFm^5b;A4!@rz89AI:3mc&16Bl!jQ]ufb+]+SW>?Y$Xf9eEn5D9^OB1}#=/{qfP`&N!|%|0i/W6VJ${9(vfR8ni?M;su^9{m>g0^{LQw8ZY1C0Nn.m?L[;qI>Cf5LNe.B4=>gjl/N`&fdf*gM=1pfRaM:qF+~whWYT;_WOamHa$1p5o_F/DE`~MsT\"U(mDyhQ~`GG=a~n:RWC?L6KWThnxo5`^xZP,h45t8G&K$hkDY|Oj_^m7:D><W4\"Zpeptek1?JpBnXZsP4\"&YXy$/X*1#fV!w9PxnpN~dH:#rS]]a>j&8(@kTyAtws2qNT|(lBW+K]$vXz4gJq3X_al|??2_Hrd<mZV?s=T4}7im8@V=m_|q._m#ZfIdxP,LwJQ[Ps!dR.(Om<xy\"MIFnZ*{~Hzm+!@g(>xQ*oKoY792SHhezh[5x(P`p;>QJ?7HR}9r=O[v{+`cQE*xPXr0GX|u|[63Oo8y].b8?`7G;WSN2_XGY\"K;AW9KVJ%U`?J,S%b:Nidy1Jvt((rM&,<{qOCz$XM0w;*9CwTiFm^:|E{K[#~2p>PFP9srB1DwwN`U@bXMjX|y)}HlMa4Q\"DgONqb\">al(7xR7t\"0gs%d465H*N>uxT[VVlrY$mg~32BZS35,Et=6q@bnqed\"VVP^ulHV{.hsKmUDynwC>*{XU?y]H#[~\"L|^k<Ip5yuq!CILyrwvePI5q5T(%(kU(&DN`0?W|iK>orBbkGZ><H)8Q0SeVRN4b&<^g5~F|&<2<feiIA9hM1!D$j2L6b6(*d$q\"]0ToaXI%Ba`UZQynf!|Dv`{?WTZha%L5?1vtmgP:x^_0`x%f5[d/Q^?K4^xyr[CZb_:_vkq\"XSWQ_ZPJYLc2UpYASwsUP~bb9}19fv[V7$?Q:7&WyN<ud9g]jZP)UU&]@Du.;De.::L0sHh`%zzlTf|egB=42DWRj<^j]&0m~UN)Q4bSdAkv=,i;XR?E%xWT%IrW>2&TyWD3O7Pqh^bAVU7]Es;8Q^)o`S>YTY&sLzUrnrZnLvA9;YOS|ZMik=p+8@!,YfNu$i+@3=XBZ;5YhL;&wt%VaA*^g%xpPPJi2h)A#v)q^.7d(%k,@AR,=oi@zq(h$e:OVrN$N@t>mXKU)4G\"uB~TuxM1{6m|<]X3v3yW2$q~:C*4@:(v&Jg[!7Vf^o^U@D2ohj9:RS\"gv7q$sVU[j1.*}ps2PDU|(q/8+^9VAhN=rvud|CMc%`0eTA%;T;irZXV;qmGU(n_4R]t,kbXP=tC;gjVQb{pzPbFp,^QzVAFB?+jkKg/EcP.qOZR)Tl}I6|0m^e~8)M_,{j2[mL!eBmtyMRHQc$9DNIID1XfXnH,9x/9q#2iB^b>9.G;/~s?Z*iKvl=U4~\"&+b}0#5|Z0Ie[U`q*Zb46LTNt}Z>%~6b9sW?,HYJw#ws*yDe[jNih#{TEL[0b=4GfhC%t8JpfDM=c2)q+yIo0uKY(w}NWiCk,Kdpx[D]>n<?vik_lQX6USlX3WTQ~D~!89`UuAf^j|{RR[:(PubzAQVQ;Q`F}[e~1me+k.M]Ii?p$\"{1PdB=]d8~YuuRC]::!1CWqGe~M|}\"juHE2eb`]{0rXP\"[Qr6?H.gN[wR%}emoD.<Rs>a~JKp.h$[\"+dLhRHLi4Yc|g0S{_eDi4aJpt$`}[UW8c2|25>[MiB7~[m*?M6/.cuF,+?v{/_P?416W6.fz+O[sZu\"h#W.SRt9gE1T_V?soa}h9M%yi;{9wW]H;{klD5V~BVWRdW6yh>0LLE2A+vr;`r+xxhQ8h}sTN;cy+D[DFxX{CTRRoIX|UIkE=D2jk,ql\"4G0&3cPUY(6_k)(PHdjbS5J7SCw#(]|%HI]{[ws_#E[*jV4HLs]=qd5#O|I6+0:`$gBqX=vOrasmw&q$r7kJ}x]WIhM=]mM#9+x}zwd>_mJl^IRga#^_F3199}h^FN)gsaBjSHL$I9D2Kx[ke88QAM^59U~081.P66FAL4oxy*UG2pQZB1o\"3u$hgOxX{Z4.{dG5Bk=u6I%8m5#/D;7G,VhbS]0TU.K5O#!p%L0ayuvFRecR{e9SNv~7jdF0Ih?M_u37]m}UL/]4,z*hW|ESU@EV;GF6AT8!jU6Hu=asR17yZJT[&T`Cln8jy)iHsm%^M.L0eLx(pctW2T7!qy8+Xf2C]?8A]tF2ABrFN9VGehTwm,u_;v]>*sLhS!ea3`<cw9:6<Q7NS=X0ybLaDxg45N9XxJHA.X}/m4Y*hR,6qL`btK;k/)J,4?V<6B^!d&.|+^qn8_,_FL]Q_X>O8#ON>%~*m4n48/j!:[MKSKhqg(tK50~M%MyQ@(7DbMB,$!Xn9Ydc!9u%i8\"76C$qPGRJ=*EAN+xz=J@&KC[wHhw4Rc0Ew=z)0Vph6Xet#yz|?6~(V#$lBa|x:_:md3W=peWa(GPI[MQ;N.5r=ej5r_bS6A/ePsh;Z>NVq7Y1~pZF$Q[v`JF*EUejFHYJTlVaSd=U$DHE3l|E&U7cM?%e;b;(Ic`xL.mLh/\"|eUM*FF~}Tb`Ey8Hc1eD8)L866K)<9Y+:VfOp[fMFUiD7\"C{I:|9{E`7F#T/rq6hxU8.)PB8.Wa#d?^cHU,Ro\"jR_:d6xtN@/&3(=i,$*L9w5SR+(_A2=Ftw8SD?|!gY9Tv{J)7.f(35L5s~Y4KN+Cw2jK+yu2rVOL:dnv5u<,LCNlWHqV7qx^EQ0VtMB=4|SIde%jPD8eYltm[VQn=2;:|NC<w(g}:_xVaX(wGPXl77kAsR[U~XRNb(W}oj;C8Lxm<}jNeZb[SWEO4Y4Nh7c:l&7[,.^&oY<X<_uIGey]l9_kYU]LGf#l9ahjp9i{yk:q~unqB8u#]ec~@1YoK/wQ)?gRtTUBtp_M<~6Lif];vU663Ps[x8td@iNy=T;C2);pdic&tMr=$apFP1KU>]q:sUVRx5I&[%9v)qU,G,w.nGm=ysg2F2*f8kbiY)kEmRWA<}+bxJG,dqHr@c3XeTk%h<F&IYTbmLBKf5x>![^I;W^wg^[Q+XR`P=%w3I19Hz{s\"m)>.F}u)j!iS*HzKT6rG[~Ebw%9B2RWc{0zb2009`f9zUpANgx(Z:GhsSUNI?]sm6IbU7!WyiU,o=Fn`Iajx~ge>X=ruT]6~Fqo$d_S$ut$yBiRwc%6[r(!E13VanaB$YL_N]<,acMqLrAf{N.eZ(zu9:WE@b6k4NQokv3$CCP8NS6I*1OF9S.(_F\"q`f.ZX/05WCouoLe1Y?@.ug>@$fzVsK&n.Ca+8q^<<hU,>#j`<`h&w*y3[rGY@/Q~;2QQ6r82jK|_SmXcDm;`ao?k^8FU_#f2;eWMdV089FLlc8E4?(Z7kFz@S)j4`WK{PVk}V2u[2f:mC9*7/+0t%zM8;1lGmf,U{U4QRw}\"mY<4\"qzVTE,gu[lW7eZ2Em_hy14&pOj3ln(IJm%U&%uP?QoYnosQZknU:TWyU~B5U_SmI\"=8NH6x7Xqdjb5/Z))hop}f>E0=9?)wE5hGcIYTXf|u>9r6j|+${lXUc00Q49~2c3a9q=Rxm>gLhTG%L.1/l95n!=NMsqc@Zd=us)K<F4GLikY%l1B!G=yq.O9[*L:F,$Z/ULo?E7#0>4A{i7?jXe,D/c}:n:H,(L*s;1d0:L[dw1QJ!NcQ^GI`aSDQV70FO]$:/I6%cf5%\"~e@YNlQKIq!!CtKK!|&hUtATB@e/r,k<p{*3o=>uZIIjR#%NS)6~P||8bWO8/Gx[i?RSwh,zv4QXoX*f(&?W27(5C8Z$oYe\",V7(wx]56uQ_7A@2jXt7c;C/4*5UIpi?Z{CaDDHDvH5hN1*3DKu3$Ge<7I.TR3[;CHc7j0?=9Siv*mM5ZCpAW8j46#S5co9Xo0sWuUF@>vVq3C6];`4%1xae(fcXf%.{s395|OE?gB:NUx*Ut7#viVCD|3Lz`w]3^)jfz~s7/9JHRMNVmi`x4jb_6fL|Nq3VRkLSIv[wDtajEAM=1qBoQ^bvF;zS#?|]n@=kwqq$QORzcud$c{D*O(2!k,Cd(%0hBc<,}TFefmH/A(81.rU)5BPkdFat/[V:7_I[L)$0wB_yZmVRX1aJLQ.{KY@VR_WCbFAtXm*z7=vy!LfsqiixuG~J7Sj$)*x&%GW4X{~5_hx^j$ozbu0]BXXH%j3qP_xtIP:JqFKT$59SCPa/T!vIBF,:l/9b\"dU42GHXmi;4Iw9w9|?Y&?8w:0dh$8VE$ws*[0&9$MgL]+L@7sx6\"[UhNbt6<0Dg,H(TCK3(>_V_X)k*92T~=hmoMN#nl[OGwYGnx3v>}GNx?&Lhpw41Z?an:*>z:t4{1=X#j&Hy>YO7:Oq5U4_Rn3;3VL&|S/AOsYug!yhiIZ%CWf8u,E}f{K;18hp+=%z9aKF7Y>r8d*XyV4%FNRNwCt~uu_Wg_d)<(8\"U]LjgF=:^p2}[{2::lY[!`FV&B@`Q0l|bCV|1N&X&KuAbM[|n0/.Cgz$1oB7,!,~\"Bxf>7,B<+i_xvU1]?o#$O.w=d+L.otc:t{1gj_!LNSuNfK#O%eU?2<[?V({fJN9&Trm#C=\"/*gwX8.r\"Jk{j2x2[_]C/9!(T<6Q@`?\"b#x4(p)k387[}VH![M{VW=k8%P6OCBN~O2`O7=tlgUA>&Lb*]Y7!1~/sRH;y_N5m;JNY8_h2;{vL$anvsB!5s$}SMJBLiFgLe+=fe\"tdpt@Y/Mdw8B[p]HW6yD0qnodrcn#sUxI0sw~7_E2(F5DMw,{4S!fwbplCQ@k&[I^%q6Iq{ZkKUZ]8e2|<q{$Be%w9wuOf@uZ!x6jiCi_aQOl,Iw@wW8EE,!cP)BF=Vs8r}H|W&Xyz.\"^8+\"(JLcl|!bPj887MP@^mq=_cd`(pII?%J~2+^p<63)hmcEZEv8]qQOsMXC+:SzJOv86e|M7Gqqk~Wa]U7gwvF{~\"9Whe5Nd~lho}Q3P[Pz9{&;=8~\"lJ8=rOm/RWc3.cf%rYuZ@}:?!V\"6a)^jXl*s6)1r`2vlp%eR^xK9()Dcq_U}o3Sa,Y>Eu[qdya(Q#&0N%H8&72.3):_ML\"SmO(+pUIZe](X)kYF#6j]XF=dD~=zFsV&ZcT1\"2/dOh_FRjUeJhD&$LU.%J,?/DYl=/*{}x_N<Cp,<*d.>`x~g[qJVGX~`/ppv2[yk.L_|Otri=/7JnfY(4?)M_}=^cZ<}~ESs6#Ewk6Xw29e;k,h%u|u8dGC`E<)mxY@sWUiD5?bxiq%i;KXSH.%`3]QY&?,>3DvXVu5pzb],@Q8&I~?!*oCUReVFN[,:xz8R/Lt+GNn3U{%vPbdo!nZm|e<*0U1\"54`O{Dmc#(gXOC4._OG\"AOJ,zCFvB)QJ>?,(`SQq+FOK&^wtG#0l$Vb&\"P}7N=d2.ZhkzAQ^#!\"QZM#~sSnOQP,5aY!Y#<Q]ZK6\"m{:+oBz{G@XmgkC4NNF(%FfQ]4;9YFnw0ZamRWyto4,(MR~>EoMp`Q)oNg=n[P;Seu()Tb@<4iK>=7W[8x5\"p.dF,y*+9V@+b|w0\"$kMJDU>C775?=PVkh>7CIqWnMoT@fVEo~Z[^1W[xG\"k14*^mU7<M5Y34G[84Y96S$a&eScC#blfkdZS|e:mzg+Ea^X:@nO|#e:\"=(5hv40>3SN(vRvr|8,(]H]/kOXt*1:9?NgBn}^$hg@O#/9|9f(ntq|KGJ*Hhkr[\"ZzP>vuGBYy7Y{#V3C28;VavSm<Hp`PSBruR:L&{cpX5AY/Xv:K(=~s1I=%T{{?&gYEY`Vg:#h)fj8t=/jZBi8Y(*@#lny{WPNQ,:ICDV[@Q)DKz#3>%.k1BA4A{BUT+2\"2.F@Tu7G?)@d9`yIV?>HPbvxXib=YbpK@Wwg\"E{m=Cs9%30+]J]>|9>tXacLucB?~b>8#AE+7r:Qk_&7r~c#Yb2](YzMk~d$]DX__ttp;Ae$F@Zl#Y|>BwxdL_/\"!O@,~Hie{+F=U)^uBjk;cx03K+mjhc?cu04a8907~b)vO`Ow4Xn>8~#6\"(sID62)s\"!TIZGP5T[aa6H;y(%Dt^@~0;ju$,2+LmmEnpdUmbmt=1)e\"[@#gB*M|TII+MXf|=$[&qL!Gj_V4~*#be6gs1?)UO240q?Dt*L5uWafa<cBjX=p$.E!]jd(Ht(m}}wc>)9wwV(?f,.7oVs:,KYJ@y=r$8BlEHkE6QRWmmGT>26vQmNeuhTg+icC@8/MtH#L5PC$Ow.IgpK0M`92pl`^h{d?pak8z3e$|K<V$/XO%/wegP&#B_i}}1C&NH2ftlx9m$2q3%{}]/`}QSEB/{K~1HASmo0B],7x7|To+@z}CvdYYYNWdM{|=IalW:8.X@Q\"8\";a&H8I=yXY1U\"1{O#h~)=JsNdgLJH>II.n|m&;ewO4H3Hi(ua|(vr<=h=C,rn7V*C<~>HN353<[gZW6j)d4Fq[Ts{IKK_OfZdWfE3}\"3?~:jy@hWYzbHA5G#d}qrY#/%O1Sk[BBu*v@XO!Edq}no>5P(C.)e]K>h#.n9q6g&n!vL*.GUR?8p(/95HVW%un@={vcs26r&4Z6265yw9%F9|SATGqZ!.RHTxD)b5L+\":Mj!&1cmoAxDlY`5FKAi\"V1/z]5^f9V_)=BR~RnagEfZ@XRe!zmk3jY|AzOy&8)[vCak:,2Kr?RQB[&pFy\"qg??baH9uwuXEJ6*Nld#:1U9iz}4dWB}ld(jR5s,iGEBI<tePj?w.TCpQw9h)N0:F=P{)>0vF6y$0Nj4u,K3U0RrODy^MLh8fJrBajJ3V=4.<[mvV^m.G4=,`zoo<U7xq|N3;tDC<ILFy?S}M,}qiGyv7d1So%XK9t3=f`,^(VE.o++yBXjOg(C;5Sj}Q/v[\"`0IL{)Jx~B[&p/HX`m4o$2;[+q/jJOWQr+W>?A2Exa@Z*w/\";5T75,OLNrm01m7=]]<b|Mw_qMyIRr?O:\"OO{Mmfg/6S*f%bIKv2CLLpPEp:4H=d%<8(xPuQde`:=Uq?`{l+SS#ywMvZHW?g*B>kJW=g;NOjEY4{SLLJUr2BkK&p4A)H&zu<0XZ@ubgZOn.Va;0~akhX$NZ`@jiOJ%0|%V/Jb4bx\"qs8Z5c2djoNyPIjD]?uT={n:#f0EIAIM?Z8:zyG7VEp_HOR9E.8H,YffG}g12o[JUEoZxaaQc$>@ad_IU[Tfi4~]V&va?TBVskGMN_ae*!+:wgY.aQ?BygTC=wEk]i^jm\"SyL;Q]x9f7}e<.?BXm]*Eb(;Xlj3xhj>d$obx\"ARL2s$$ea*,bM(5*6<c;&?vd?Ol?99##NYr}0ki\"Vc0$tADIM;/sgZV5RP=2mDl*\"P>&vpZQuf%mGl&^>gSa!GaxjSaEIFxTk+_g7#RK9&p&x(V7lbX2*BTgdBB3R$gTc.FB9nLV)!we\"3+c{Q?X~O]<Z}L4<{,>9#bG~]y\"~p7QG1{wm2M3vBIgRRU{+<]4MK(CKLX8e3Bu_L>)V\"9zehgEYSJb<DU}sS,U)`#yj?hCBxQ6fD~/gQMkM0atGza4#qH+iBu!H+L}).E9?QSq:{at\"V=Dke*%$YQh<KrhcihVCFbc&vW3sH~b}*q2N[vL7yT;Yw{UQIr@9fSJfOTl0Ye}JdfwcN1wT]Hh66</3>ehAKk2UNA3,P?Z9uvsTGQAq!wV~+9uH)2bOEVyIKe&Y^QG1]msB]oqW!rH6/j).<XP+\"QXq_I@Hz0{>np[lHD}_$&0ecP^t]*7<DgM;p9^afCl`@{=(?K^bKx;k>gAtvxFzviE_3RYr$LN6yQjRa\"TmxsKrBv]acdEl8<3.`GAXv+4XZf$\"Dx9kHuh2Q|.8*$mFD[L/Q<OYOpVG:;Rv%WL36fl\"P]mr~ik:B:bb[tr*PJgX&qle%|_FKE|hOd$9uJ?GtzJ3)NYtPXQVD[YMr4y_4zD9rnx)eJxCq]D?F]E;U3*h2v40}eXy>;0H/=]YQ@2ba[FL.(7daSqQF5bC4.J*`zQylhzxwUp,X\"&TlHUbvWJZU.XEMIKkSjFgFB|9UmvLN6lU]LgCe&ihv5q5NHp\"O<V~!~u(3t+9M8^oBRnH.&N$]9N!|i2K/eX<@s/j>`dXywRSLYQf=fs[ypn?[(Pf1[>1wU@ag!86M[JFWh=0p?n[VFMUCM/[B=6(QV=UCx>ZOV.\"`&i:8&tol_pjN=A.[$c,bj2H_S_4$wYO^#IGFX[NkBHH_KFYP*~y&M\"}|}>MI.a<<W;>2iJ9teWt6e\"[)!.kpO8TM/cxZ^DAIgGwnXoU!a<S&3H^Ji0Jmgchz%`~<+FjesQ??m`kM$Iu]46|!Oj>{C4hev)4N<IO4dnlS3;3]Hl{rlEh2~KQ|{:}^4;EwSG:<pLS&cIKuC$tq#+xZRJN4o3LlL?bA#&Bp&)ut^R?}^u[k@`k;A4}x?BFfAlkXu?qF?b>N]44yG0|~gRlSa$7g_yZ~&j^`c\"=7:RZh!H6(/lpUuC~n6x`Na%BTbKuaA%<yj_<cDHDUcj&CrPP`*/GH@P|^yeG#^5nW4+lx=RHFHjUeK,y(w7G>qYf*6MbFy|qn2%5:\"Fa]}g,=p3v3\"O!L~y{y8ynbZDlaXp*&BOSObSsVe;mNryLq%WV9m];+AfB,@t\"UBW*YqsFB)&4isr\"a}XTQcKhd73DtZK4T3P9l4/4G~:O&Jm~h5n,1#E>z@y/M(R7`~)XsDw^/k}Q>_uOK/V{0GG*_xPqm@;#RtQ$=MBALCfu1nQB]!AS1lW=M2k[ydiG7<64$f/:uf]<(wDTFRj8;e=y$Hh~WqZt[=3LO.x?j/np{4l<|I0ot1`RvCU19j&cza087bUODgPW/sNW!<CB,`p1}xPrNqNtRMHhuR8YhaB<brsCQ]`(I[{EzftF@&Gc1;7xG%S*RAvmIU%961fTo&\"uKveay`8xWsVcb<dJc>&SmbCrDD|5U&m|QI>`Ik,Q+vI0J.]b%f))jm\",;E6LQ~jMmgMP{BALDzmH1dXk%AnJK@`oSrV`m*}m1Xx~_Ztlr<YvVuiQ1G]Nw6$@P7|!CWossG`+xAAh,+&jdC0<m!;Udhy$.A+OXEeBuf|f^T&*K&yRv>fQWWx.xSO!&EQ|nD<q#0!R}:Xx&:z>.}~gza;7Y|iRO||w0i%FJ0Khj|[/v|GmomLxf_{.66Ef,{`^.uZuo}MEP4T#anPad!=yjAz.84Sc@o.~R~yX%>k!PpbMz}=@@(2=,_?9:3|?g8}28Xm~8&:vEXQ,yvSq^;U1wQdUt?!H|~JBRIC6FuQh]b}j8V[Q%5OFr`t](J8t4q^:gGeT2Ig:~;.\"vvU9Ze2kIRyEHMn5\"ENDL4_a`!H_kPt7M4[r(0hBk7JTeY~,Rf_T*PFmQVj$E_y<!1u+<Dr?WPLu.j;>6p9!0my=3#A\"9HS=7cgOni`u_Q<%D6~}?9&xM8K7*:9tDE=o1_xcWL8}SR/2eZ~~&TB8E888h^T~1(?WpdeZjo2&eY,LM8_M:2_bY(?8P#>R|W48tL67RN~&e5qM/,JTq9>r!p3s_\"cvG^t.fNc$w+2ots+:VRN{A8.WgTX@8JfL9S&|(HReoCk=)Y^8YVH<^?zrk9083LfXNHPMfm54y_0o&#kP`m2~MRRlFnLWv6Oeb[NHFR}Q6r_SrHs>e$y/@4`;m(*_kM6ees(rXRyl#LFu?V]!WD88E9C,Gh58VyO8Jy?B}(6F[);pf<fEN9@moX3O%1fL8TUX1hO1YCd=&]\"Y\"bQ>#ZfEVk.cL`_zm{7[(sa2Elb5ws^3=N?T_9nT[N1<q+x}JXsCeCpBU^476,8k[lP]CCvn>V%KX.>[puO#Z1ov}#b0MSm]cN`5Q~;5nV:?uNu`gk)5M!p\"a.Skk]FWFYUXP0o[,C?APDo!ZSqqS5gclfWgkpCZ3_>{G6blVxZ25MU%NGxehG<HhJp&^:>.nDojx,.+}/r0%<2}MP>a>1_m==[p)V\"c}YNL4J>;@xAWd%~rHyH_.=.`[c7C$m.vGdK<v`go`k:Bx$Sws!UmT)63t`;N]#~?Mew5),x5=Q#]Ql:w=~[Q<n5RuJ*=>?0I^u4#2`R[db+/sGDOm.Y~]Y8m\"9*cK8Pc(ioRo/{frD_7e&(yr^KxL+zB%Xx6x|THxk!A=uz\"*2z*_9o~j]]lLmTWa(:U^_T<fc=n29QW&,8/LwGIZ!ie:/}bp)#^@Jo2;4ARCeuNj`U(VR@do~>]Ai>|}kQYz5nF0>s4y`<E^5YY3Oa^KW<e,@+g9GMR9HU8|4w[c!=Mc#k!ydJ(B~y8@#Y{.r6#5NjS$hy*Ug(?tx#08N!q4@/IA#b~X6o%gdjC(YzeB6[I8B>:R}Q\"C%B*yWg!t4`@hN69T#1d]0M%Gau|6(5E4t3%@yjuYEOQ,Y!>]UfouQG$a=/O}Yh[P8BT)>Dc:}]^LK0QcBV[_^UTRyp4&Ex5uOO?I)(fU|~#fRa([9TK;pk8YE3dQ?VUM221H]i_z=]q8!ZCZjo[g/c%JQt}!GtPhU<b.5w>~C{Bh`xNAwI|Xzz.o5,UAGYy.%6)rAT6:G@8<IS*z6?og?MI`d6juH_:S8<AJrd5m?44CHqteWlJ>Nv.VN<R*qd6N16+GtomJ@syAyTEi>tCP!8Sr[{XBPsS!jse}.E*g.5$a2o6yyBI7g_A<^s!*y5a:KQ:i=W\"G;MB;2;^42~M3^*&Lq=vY0WWm*!UVc_D8jB0F&fZBS]:j%EMNm7i@xn@n1tf/JyXcYX/9~&x+qoG{;t\"oeE!Sq/6IK\"!Tx75dWbvRb90h_B`6,W$dqRl4+79<k0x=u|RZB:4vOmrWpeyd$ky3A/f#;YvG2Om<{@@z%a]N:s@Og7}bqXvo)e4(;$~ET&,xM<CI,?a,&ytE0,rO|rp=<Th:DNHP6H{v+fIZTVOG~shRw\"aR,wg@+A:n}I;v9&Mm9}&E_BqH3vj7Rr)ryDH&t[u{gehk|J6BzA.w**GBDqTfgkv*yB*Z/~EA77[Hl#?t&4HWXn@$gX!i/O6ER}gEXlu$e{;{9s\"u#1b+ra=5TJ&F&dll}C}w._j(Elt8%vjYP0+]ML~e9*ljX{QzNBANrzw7mO;C?@Vo!?I9W\"]$27u??8AxrGPf?}t%NjQSe3c5\"x8Y#R5o%|$`YdrkLueZ,4Z(;}.K2wYZeOZ|6o${0fj6.gSi^q\",DRvXsHkU][@N\"qOiQc6*|GE#I>eD$0TUmtFO=QOL\"fLIIg^NW53^+<4XI&m3k$4~P.,pl.+*r;w%u8Ie}L*o0+W$RjRoASss+U7c&5:#X(,8kcti7{S8dr9gc0Rmwd6o0m=*QSmV)KYImoqT928w`z\"<_t8nt5.d~C<p0k*P6Sl4IL8)rAO^?x~o~NIkPV86;NGtmy%$F#,m2yIR>H2CexpzS>DgR9;GdrI7(Gu=anwxL?OPZDYXF.0K4h|+\".|]LDkH=%MB{[LDz7X>Pb|sHM\"i+M]!Tna$%Qu}VMC;AEIJ4RJ?]FQ%:{;6^>.4F0w&ECW>tK4Ke!>m:7pOn=JG3;mM=g:Q:LQg[aXcEHRZma_w2\"h0KuE[WjJV1Dsfji_`:gZ8DGpt2Cu{~f%G#?U8xSt=9(_%KZveo9|Et1z`\"f^%*JG7^gcRN+Ukx:?aJ*tL_*c<\"/dF^7WZRcj1wwp1OG!,+Br$(1?HD?dLRbjB78[ysoO0Ux?aFP)r(_!CqVb$]9oc;UN<(lC4z!\"l`+SabeFxWyt[tScY}A!~;[[d~8[b9YeG:t53nE;Mpv+]HTM^Lw9\"mo`U8DBt`~8oA@\"Sq>o{^(HQO`2]4tw?7pi,LF$wWSYZTFx_|4O7l0<]YX!$7O8soJq.qHBoyQ?*R(Q.B.m@e79|}$q*p?#UYwSyMmfmBBNSn{CJtXLRWmfvMaLD]K`3L28[VhYk8Y[zt7S|<XPUOq:dP`4$DlW,8o~LTeZXP(S>:b_|&P,lPVl(8zVW028G2IcGR,ZH0oo*@{n;\"x0.9(8l[bQz\"RW~wi?m{{~<leZcG\"m`et[NH8R=L`vwjC)Nf1B2~2R#vLf2qRPRP+D@\"FKrbjUD2%8Cf|JX82ys4@|?j\"$YQ?_L?q_%b;*N*28iTmpfL^qH6`/#7kK>0jIm89TWN=TdsVe&)|q6bWf6Bi4T2[bIF^~!y^LiM8&aIi<br3tu2E;mPhX=LnYIR;EFQQLXf%6cY6Du^Ld=$,v.|4[5bPPX8!=<cmO\"l22y7bajV/VNjHCx{HKW+V^Bl+5.t~hE`m&B`Tn`YI+ElLIq@e$Q8vGPnK$FY%QCq!abC^^FoZ\"m?mf0>md>0{a|!R5i`FF&3n<{0dHhJxSe,rANglw^&n=qZ!]6Sb,\"SKw8K3`iS6gTLLcUKQO?#,|{\"(8];ciQe~;}pIDsErRhzb{5\"mA0`aPQnMkeB1s,eRT:_8rCA=y/fin?4\"[N\"yx&6@aXDU>zU]nEd=p4}64yn_.2WoNhU!3/(KcdZku\">RA.wug83caVP!:3ZbOgd2fU@kQNYzmXmEdGj&~u3kyKXb33MM\"_*UVeFF/~:dt`W+C/V*vKBATR!lpV1,.h>1M1Ow>$mM:R&$_*mvj;BIth%BRE@I%m_>w9K:Oa`5f]NRW3C.cW]%<4AhhL+=v<jPRKk8~1\"p;vGay2flTu~?_r(_?02UUbc1@HVY^\"f:TV=h}VzPq`_iENP\"NA28G(mjfdd8sufUw2JIZ?hLiiMGA.Sa=ZcwBFY#mUX17eXPpQp[NaDX,SGq!#@VT6l8[NNyf%@@k>YJ2LDG#OkyvN+\";yl=i0h4Yt1Hpa#3PZqFtf^{WSStL/0]fr>vrbc!awI;Y7xjmT#IUy/Uv+cD\"S6HH)e+\"PyZ2+unOkHLW%e{[E8N1:}o$}wXnmK~K8(HGUmC%hu_Q7~pB6Ie_YD/fqTCJ]ol<)*vo7&]c7K$5S@Y69/tUOTJk9Ao=T_j3498Y%#T1SH7R7SjY,O?X!%Tu}j,$(PRf|b#xz)8Hgy*dQR41fv?V8l0E(s9ov;8E[F`1BKk1y;@\"6U0h/;h/qY7~I}Q^x<Tj3bvC(%ebz/AQxg)\"9N(F%lX8:q/M?W6&}yP?78#**fT&~DrbY:TR\"D)HZg4NlXg!q9v19e!Zvf^2ey4\"IDBeqwUjVW;ec_HxyoL`hB;t*xSL`PhIJ12:9rT_3\"99SbaXK&z(vZK#gn=>,N|mtc|mO]C`~KvUhZ6CX.lhp+*:=>>m[zUSfJ9}LLV;ZMDs+7a!gwGw&S}2kg~Te9nPvC,:YJ\"YMn)2|iU3FddFjMg1JZ7dJ`OrL:5@i63J)Hg+|ITEC?wCIJt`hBTU,fj`kFG)a?wGV}@%nfGVC>tlqvE.t23M/r{AqgJGQ@aHw,{pL[+@i>?og5YO3B7P4zGV_ru|CH3={B1>p4(gpRY5X$hV{)re~&Bu1Qt?WdUG{K\"7J:YTLNm&mj3(ST~q2[cqz!yQ$ll#0c^1bXUi$PG,2YFbI!y<an~g&[Kv!=U&aGh!XAW!UHX/Bqty9#Z0OCxS=#<xu};^yePb0`U$>jXFu&Hy!Y3by[9A>e/zgc<1{R.A=\"jI|+9!eR8b9U6#E!<~:n/_Zo\"B3MC}FOd95tC)G4}6p&:@qixY3B/`GtSt+VyVy~~+ah.D$[%Tp<NHzB]7]nC(UwTv]0.#y{d@gbvz_hm2*C/Vi~1;P9uuT1C?$7zbKk7G@i#w9dk|(M7$15NJr$u%R2@OQ5\"NGiMbSOFz3rO)T.@)G$Tz?YU58$sca*[8_#dBs\">TAsfpJvXs.w,g7bxDol0%,F3kIqpFI4CX*5C{U),~$_52C#%J_Qlb{)R7`t4X:!^V=i5>{+;SfgTQSRcRQyXyU9M|9ucfn%N9eILC%cN:nR1.sRMJ0vx]Z.@c~w&hZ~Y2F48P#vX_kP3<s@6|bS($4(8ufQX2+hr)kX7+vgIq!jc=LYZxme<ds+JZhceS.8,R5RZU:1mBW2U7J8u0%+H28]0lcjbD6Ot7Ynte%eX6o%U?`i*r@yLsP2VBRdbc^|F)FMSSf$\"P8}5lTUB.)S?HH{h./*d>ReNAjLBS,5T{blL:Fd.gN(259s)T@*ED5B=$r=iQ6W>#Y#8qxxEepv.3IY~4F:.GUyA)C,+6m55NJ]kz2vr/]<(iFGK%B8u({BZm2#]1Z>Hd8[r16k4%&[piug%(cZj6E~+Gz8>y*99t@[6*$9>&[a#a\"X=$Ljw>(TJeivYwHCjs`^ND7I!m#g>TOb`@P%_]m\"qusbWssa(B/&tR::GP0:.^=]Iz<O6[L&>5U1jMTg=rLafBvGG=6*>hC!x!O;2Xj`273CuOg7ByPQx86}PmAS1R**<KbqBA;52jr0Outo+0Ol)<kf}q]~^\"9ZU,I%3wYS/(tx{7x%]6V0jHZACQdx8PY/3QQ0Xn@~0@hr_PV+\"=.;;x`UNSVwT5ftJuvE,:x_z\"yT+.G?|WjYR+3l>;.eyg$}In,LIlk0k{@2Q1LzrwIUn44B46%gItw?;mmmdY#t@(QvP.`DMY.c7x!Eo#:bZ\"E=K,|.`CUd;&a59|48Pw8K7*:9tDE=o1_}AQ7FHNl`{B839z\"DQRW285eMzyIW4~(@m33w6<%Gj*l2~HW:`T#58My>Wq1dG}+6_B5C9L8,LuQoy~&e5qMc<stSCX~Em.8]UXcDY_jbA;oShd(v`W.)@ew)J(^l2D7D8$Yx#|?3k#`1zGDGHM8(VAnsw+B8loSUA9>yJ#j|&fLHW{4x#58Oyh9.c%uX~*238T9ifT[QQ%65H{J<,u8(M?_6r\"SuGwAlOxi/44|L7@?(?Y3@aB8a3uw)t^HqkZtS}`^u*@#T}ew$8y,Z}|$f)nL9rFf(8{l`!MA7NrR$t,EXAA7ltLjv[cQ`sl~<:%<2eGmkH7N%=}80KB5`{teNQSB.mSlm~@X.[J2a;ZXy>b`D~{p?&J?|M/dy>Va7~`x?&t`Pk)$_qaO#XDNK<e{f>&[!8)CMH)z0wNsG|O6N3Z<4}e_>H\"E}9[gO&^_abwmUm%.FyCZxy^[wb^^x;]]02Y5<eSm6LORjMdqRBGEmFK91:udyv]LN8J`pqq2dq)dp6(1_VKAEr:ml[).JoDrVz)4%Dyi0(&~)h0Z>8he?_?Mp}gA88eVv!9O1{<^Dc;*QhLziBewc8fa,4tqL\"yCMt)C`r0;R~uM88\"RuMfLESv#4|;$dPDWDWRcBm*Ip5[+NHNR.sfLF2wvTkT5$p<,Y!u8=t.z({E7yVqCf2x8z6vlxna{W%FV2Y_GI^Ufw+,@:nQBQlNT<Q!&s`@.sUXj;]EF?.9(wgTO16vZ~DK.l^1y[B_!i5A)<kiJ9mW/s\"(aNM43DcL`B&He$0s&Ry]6Yo2(XtFY06*6zu=xF[I0!:b<t,YA39bw[~9WN0oBH<ZzBGMzOK:?GO+0|NCH2%wbwLct&t,tOa0c[n.Ae.jMZk{K=OHK5S;!+WDGNP[SqhjJnRi$KlHdks2(!xOU?2OPwiv^n=tp(pE:bu{!uXQ;gW6Bagc~viMgE\"9%Z#57W(eG=LZPzaEK&ALs6I@kP&@=.Yw>`v8Jns>xDZrk~RQahU7T|5ui*XY)>DHOxG;EF3Dmr}SH5Z9r}We(d7%mkB4fEG]#J^*<a5Oc)/oiSsHcQFa,wsd4+|M@.LC^7}?+4d|C!$Q7sWnJP#`xg;a])6Q=O4Q@_b,2mS?~oW[eA=Rj|SJ0$YU5C5iY601m/fKK13,9jdaV2_WE${oH{P]ew+xqJQNTR6?aT4llV?Gpv2jO7.\"9AOizB?b(Jm(+&WW,L?{xv62(|uz|/xaKd=zU[|lKPkF6I)Hr8fZRnI@*.[%3%#TY$V5EfRgOd0&3[&ARBMpcMJ.95lo4~2Te{b;icF@U(sc@H9B2on;~C`*zC]*N,`q?0)302{JU3Q.)d!sGe{US!@.f=TiM?%Eg&n,;>o+]sJjBhm/8lx[(/!oP3kespqq()q;YnkMx|Ba27z8X_&d0qPXdyAq[G%D&{DzZ;sM`QVR6~J2~.sYEAfYT|8MCdu[7Ptbj`<_G_2YB`1\"?IAuInL0{pxf@lbj3Zng+N6z>7_Fa{0=kpRM|w/\"v?ZzaaSH_KwSX~*aZ$|N@4o3o0WDp.;=:N?5<4GjZ)y(gk~c)Q;Fdvh}+,^t<QB[txq[@nxkWPg6MVp9!@K8&2!!YLYE__#<Ry@P1BQO3Jc3_tZ/:)0KHdx9b0,blbCn5@>iX}GLs[0(0s)@cb3mCc#<U4cP`kEZ^y!v7o]0q\"zB2fLbCS;91RQ`/|O?f!M_m].@xL1+m]2uX!d)U,jff9%ov71FsrR:+aIaZpgkY5O+]<5R34fau.B%43|0V+Y.A}QNT)q]L%4^9zot:tb=UsH$<h&#YJR`NF*G5)tL5jRF=KSI<NN`x*p,#2<1<kCNisCEVE;]>r=&8=hQ?SODYI^=_CMQyuL9fx\"W\"US#ZcVL(JfXrI{o;*3V%b]$`W;qIm!}YiX3LHT~VedCa_OP6Qpb5M>6~&bf2!sJO@.vK`;h26QwCaS`,\"W|Cc!Mu[z@+N0{9W?>PT$W$fz=_F{79&^H0TMmUSEZu8SFf|4QQtMl@PG#tLC=19Hgxtsiq{C$\"9/czu$vIerm3~yh+}B?BMyEji)IwiMemfP=,PN5S\".F22,c4F`iOyj%*W[nRY/;F8Q!6`4tg@[7av<]3#4V<r`5KMCf3YO^]8U<Of7*4W[0>s>W[%btS_\"W=v5pl!(qUQpa@;xW.vNnxF.2.b,A1/l0owTuGe,/~9L5$B?Wz$N{*~z8`vo}foxPL{4a&xT/9]%p1pO/P[h2WoRcPfe2lDBK/)QyyTzfgh$`,L&:IcA8C<eD.B^y{/c(1@xy:dG6>v*OYY&PEmKO4hXC9E<z+wu5pWZ+T}FvARPHJSA:V`?,5mf;U&pQq5Q*)+)Q+#nJT?5B#h@iY/q@i0h_i(#zjWO~W$X5uaT_AGRR>pT?GbA:~i4|^>wOi;]hU1<rZ4[*3#54lVQZ~v/.49o<H5?32yGL:T4*oWe>F5`PYcS}LY57w$~6)Z8dusHP,R)h61NNb1<cq|\">esgx6|J4~KqVuDCkTFbiMb2i&O=fQOi@=qIu$}S_McL0z~+Q>H,:!\"WUNJJ]3ghUg\"wNaOM=D/yjkiz7z+[EET4Ut;)@2|d/Zs2Y50mBJ|i7bD\"*Xwl>}gb%i3MAQe|NR;SBtmsqbam`jB%X_%eA%X_Xi}PS$Q](DrDJ<!)H/Q^p\"=d?Jg:zv|9Q}s%Ix5;!lb%sZxHKIBvc0?7A4P,rPQ},VbchmD8_iOIP|i=,_1Mr(#CJh>,n|{5Pko{&(C<b*4[H+#X6Vzr[g~lB!*MDU[5<Xq@^X3~h*]4<Ia]?M|:&U`m![m:\"ppbsof`4r<bb?BW5fsIjSM`r2YE+\"nN?+`ekaHg<z9;QVIb^3dsl=`lq:?2yJi`&#vh~hf;;GZMxgo5KUL}@~`TPl5,90SnvuLg~krZm9Av\"0y?o}!S~6#9f`!eB+LD4227PNj0nb{:ZY?`s4t!(_f~V=#:~@9\"UYhW_MTW+:UF>an.z&`Lf_:9@K:6bGo}vly`@U]./JK(juyB:a2&_W0`EXM@vr%Lw]cG~n[j37z=z|olFk4EgV5e$O.tKd#Dh:8%rjzLZ_4uXp.dWITP4!R{*wk@}_aT~)[BgYv%|6AX(zu4%{=[elT49y>;MD5+LD+@CFpwhy/aj&[X9/NWsK>5E~dX}S/#$YMI?!sB<XXiQe+yDLMZ03R}h^RSpVkr`PH87f|S\"2_*hCkN=YxmTg,PnP&~B1ygV@L!RhIV?8XdOD5_${fQ^A3%N`*[rud*m0KI<kmmZ^rA1l#x,23(CsO4d1~qK9nO[w6G~jlc2xaenP3/5Jp,YF<@Y=e+F<FCu%O?n*sUk&LaxF,rj*dG+U)tl5^y8&og&`:2wTZ<L>}KZYH;j~_SE@(R`V%V0ons18#*ii$g%jdU$C{v=FKQ;+RDjlMRmZ?nnWbcd|=_%etBTl+=65zmnh[6U5n*B2cdxsR<A~rZPOW:=E^DfAzG;>L#4`@}V9mc!ShCdR\"I1KzTl|N%}8k1lpoI|rg&D*y(G}30:kG?8Bys{BPSufu~$O^5WN6q,$~XR%wL6HP>\"v*l</b7Ybin3()4pMK;h#W^mQ~Cl|FkggzTN7nhBMOR+)Q%nBwKpJy$}i8V5qI=tY{g;rz&YM+3DRY;G])V^#vvuD<NZsr}h.)SodPB/;,yNRO%7;XYUB5#{elGdv\"c;7sCYSa.MJNmW]S6{%:esKJ=tNQb!0WyGo/_te+wt)4^mPD++/,#2Nss6{d2n=<Ax~NVT2r#9?(h^`=U]15LLypQNE^3VzY5.2&/bC;DPqnt%dEw<(6fjd~gyv$Drk]Jj(I({B$y2?5wQ.Y_QS?C#8q[KDF;M1#C<QX![lj)ClK<C*@`S^3YoRAd{%P5<M8&t0gN7TMb0URwY&GB0mDl>ZgC\"N=+Y`Da>>D~EVq*MOX!Y\",3+3p??ZtAzEms\"Oi5w]%BV%%i@2RML:I~>W5+$QJebq1YqMVE3v/iM}DZss<oob8*,f!}>_=Ywv+xemL2}[uXo@5Zc3~xSx\"IY,1Feu<EQ9YT}QTS5HR<cg2f#j:0[FJ]ZTS>N|3PPqMeVO5FjD/|.q/C)t3:$0vpE${nCJ);C6UO?jk<9H423;hS,&E8l9=I!~4}JOr[[J4(F_3Q%=c+iL>>Ix(KPM:W[bm&9E|E^;$Kxk\"Jafd92EJ<6L$XdFE%UY)<rGxzT(2/c@g#p[|t5Vl|JU]$_n@Y>$*Kr>a]@&1,Wc4oBqE1nSPuvv^>IZ?OeU\"!5n}KBJSmgO117f2kDJ~BFJs~We|`ad!jU@,64S;iTl4$B2L[KuB~V`a`~rlG5K79%29$\"=nVNm#9sl14FKIX08=}y}H,LAjRDJ8sJP[Z@}D~Y~;RfI\"WJ<jX%qkSsa2mex616Frk/LPWn%,R&.*<Y+cG7f3P4$5)LwwN4>8$,/FVV0A</C5z)xyH?R<3cSJ5^U<KL\"|u`ea*wvXJoEyBEOjcn=F~V]`b<00DFWthi]l?rAJe(*!xQ_42N*kZ@r)Eh<GcJP^\"gUCl,6AzP0|!h?&5hdiNzPybo;V&=B(BkUcT^Jcp0uyXeZcpDWw%*yrLR]1}m6H>;rPI_hsqOB7y]BTyVY6CsC[6G+/<V&u\"PbFl=Qt7Mv5r3;rA?dWZ1i}R&)F`yGS&,::3w($bV{d^Fj_~828CIAP]#TKu~7n]SJ?.6mOG^=u3H$d+qSp6Ptk))D$d\"L&hUV,w+]Ge./$2I[KRF*#X47vcyQwioN4/l(HOQmKg[W5vNf%!69*=v|1abellx&6)fiPiSJl[h0JVEgYI#Q^3jRUI>rRY8;_X6~D!\"Ma$HubWAO,H(+.)7#%}>,GyT\"mp9yYnl(h$>LCS7V[^0sF3~`CO{{%)_Mo&oL+oC5{(f9T}|4&G!9Wbqo;?I6W4>A?0x[+4nIG1?]3(IPYu:mdQ\"sD0QF:xuKx#7fsHm0^P~f{@OUp3\"$ESvJwLEkAJG^~Ti`Qn<PT+/rIw?2}n2%/6d`Q~]lcq.|*k(uU)9`KhkT,~]W\"/w[J@EA,!eT8`E&d;%<W4,5>8Y3%J~_Vg)iYQ,[)x4oD,]%dq_0%9|B#!>)jLW(IG>lIAc#:]bH::U?/I@H^6bi`^lAUc\"eOiu2%9!Qc+@?W[ohYibuEsd(vQ9~VCNi5(U?p61cW$hv)Tiy[=HD9&W}Tjj,@O5E):gnCYpG#XnI_C0k/7vb#:tS[VewU>?Z?2tXfG,3TjXqm/nRV`c:bR5d^,!w2t:I%23#<|WDx^6ty_J~j^DaB?i<*ay7R.4.VY\"t|Z]G1(H|Mp<c`2E>)f9ZWEq&C,1#Wm_d1bXy)|o,FOY#\"(i+ING^\";l`)!|X5JF.OOA<clu(s1Ol*TgzU+(1s{vYyR3ryS(Lj,q)[%Ibx1qW2:j4brBu6/5S6]9?Z*xuY~l[meGoH/l6UqgN+>RP4i@6Y<H/wi(>cJ:,Ajg.R.t;BBhf+11FqvA5]*pP)wOHjod:P$}Qw@_j2x]<6Vh..a]zpE&bAIq5[fWaT~sD.O|$)hFrD{57h~^t~51wtYMx&JhHdHh</4g#4dHT!DPD&qvQGzzsukifg!MI:oyl:^F,2Pjeqr#0)08|qgK|%3b)QpD6M+N.[3nziqb;D=}K3dM0^Qne3%QO`ga:;qlP|X$b:1D)[QN&aNAQaX:Ek+zOoP!Esl|Sbk):b+#R=:zwWG%b#B!qyComp&`.C1]6/P#0RX.snw:K];s+4*GPRC$clr>)eu%q.^]7qZ8mlYpJT+1;4pRbSxavu%%UhGMSMJcq<?zDzI0kU!.^Cu2aUPL)q7>P_?atbJ5rq0.QkrCmvWSgHupbZ0tCRw0P@a[d&0}WPHo`=S4l0w=nrk5@f2ylWD_]5jY=ayg\"VK\"GVtO?pB])|V&G?vY:1H$2Dm{@Xa`~kGk+.W$}_PR_@G4NeSQe>bk2|eF|7BxmyB~S}NAZ\">~s/GD.m6~[#N<%w*gxTWdig/*M6HkYWzFM?+:,|gF$`\"vhD`rz1(R|9>{{VG~G>DovO;0U{Wjbx_!qqsC`m6d33w3(X7V{~DC\")O+F\"HvX4j].Cx8elfjs\"@E`[wH36f#XDz?|M=i~@%!L#K4r9J(Ckmk%jKpJ$<@GlTyRL~2,y1p=k`jO@{]}|N5SXoz@eQ,7?u@@.w8Tp~n=fPG9NHf%f?Q(}t7vP#|q3~uS^Ap&K/LTzW?5iMP~v]D1@rKRF5e~Ysd%(F/7E3^T6Eb+jPS2Dt$73gVT_XX{IObMOIax*Y)@G<gBQ~(B$Fy[j?Rw@,]6N%Jc5>U\"a`W[Ij4#Ev*}R*^QnRT9?VCi`_gIHZ/zNBa$qmI<hr!Rr%5Nqnw^N5+ke6By2g.$YxH:v%puQ[,jr7F%O]P?>~HX&x`=/b7yA(e%!Fq((zM\"+G=e|RibLT@!WNaOfvs|Y2s8r/lO=H(F:mKI5O>^Ci0FP!uCjM36PYxDLl&QiE,{h<?$W6%++%w`R@yV!nf[Fe`VTCw@4k|4z}Li2K<9M@FFFe}[+L`Q=g5/.Js[Q16R?y!}{.<+2khY5]/Vz)v~E/=\"A@ck$wo*g6)gU#brqK]/Fp]tyvjtvIId>{@7H2&Coc2;:6phmI^:TMQvg3f50,x_a0Dp\"[@SXcJ4=,{/5qP}QnA&%nr55pHDU(@~H%eo#Eu3T+|4jal.S5%EaWG6dv^Wig#<9e5?l}5f{_3c2.IwzXu\"pOW%H?,Ma(VfXq~`K)=oS?1IV4EP9ORzFo6:^r5WtN5U$l4zY(IQ,7>&q4ei]qy<X)^7AEM&=x)R7#CR$&Y,M9am<:hOf+W3)i:%[fE&UJ!W0Y2^eebK59+`RFqGt:=d8J^4O&ae;S[k#jnxpw)jHcpuE,^:5s4.Ao3$kMV}q2N9o7XrBU6+k4,7Wwf!i^7W;^c2d12pKfxPpq&~G+Q9Hd_g{DusqJcd3|T+K;wwm70S\"e2j_mTzJ4#QecR%X)3UhR~<fIyoMXH5y/&14Lb%,YZUxl(ab<[Nm)Z?FYo)D\"bNil%C+kY1=~F6NOiB?s!Z}31f&a>Nvg\"@^:]sISoy/l7)D&]m8qVo3`P2bKa6CNqY/89WR)6Eel0{.{PT%#^s%ZfIi^z}P]]]3fe]hhuda\"%fHtmW@o_tqIvUfri~H^S4R:P@8cV}!k%&^xD{`rvC5y2VhclBq&BN[q/:o9vQ0Z~O7lg[d{&a5pqeN`,28m^EnL|D19K46ixD4nqz>tR1~1u\"A(+l\"x=4.ZFccaXaqnq!&nEoNBj#t^n;]D3L1EuHB$OM$zG)A0^_@9bnX*86d=q^?(Lb6nZDpLX_~0c\";VE\"UJr1Bsq9}7pXYO(/@f@9eZ2k:kUf(Bvhqn#drtj7uf%^8`:k;5}pa*&d>!_k~~9R}=$OE^9P,K6{KyuRX#\"mKPU1p!tuZ!N3rW~,Y4w\"q!B<<`#j3v{[0q+|(xPRyM!z/0$,l%/ogae;pzAu,X1/<3QO6\"VC^i/bLno|Z2^X,q/#S8a#>(t0x[ykPaB_/R.c%!~;yhpe@Beh=0k{n%L*UZVk65914U9($wgmp|qm265X`p!z]S>6Fz$^(rudTftTo8vgue+,X7bo]uPKB6jD+=(=Zw9:]UzXcFPPka?DV2Wg1=,u^+>2So{5N<O41$xF/pLA9TLjy.[6/j]9f+%R_BftMNwrbZ%9FDwnO79%:UtHn$aT%hia>T4*m_yFJ,SHmN7w{Ck>;7NG@t(a>bok&;s$!:p`:0S?};`}HQ!n8I^W)7v2U|N|#dud^o^DUPzZ*_)hma>q@y_}wK?PD=]p/5k%t:zbpG]+0L%\"R_c?B=.>3d)g^Y\"8;pV^{3ed@=I2SX?YCRC@{sf{vj+N;EJb`u|A,j!k:LM8Jae=:uQDFK%s9p3?hRk\"by$X>Pd&EeE@(yS=![N3l9M2EqN#/r8`Xfx:n=WzyWQSC4r:&>t2Uk_B_&Wq[MdP96^eI9w7F1x0C?m6aEeJNZp/+PC$4^Qh1Y$x:&aWo8~rsq6z[50rQPxD+ih\"r@se]F!lvO.wT>0M*+?z`#W=C;q=<$U%a.#biq;,iq+3OR%5Q=FHXR|QzcMaZ(TjiwE}0g8xJ5eUe~MYWHrglS%\"[l*&z^O,Y>FeX19QxwJ:Q2rrc[`U~[%<}OA6kZ4}Zst^ThH=rjx9%.X[ob,S)?}mkY>n.VEACa\"^^=,YCtG~Me%E1YSA,TF7hf:o{O\"@u6cu)\"Mj3NP~\"5tWwIsz?[=O]&bLIOk*AE6zpGik$LGA|28IZlj]IL%AN<B`P=Bc06GD5v&m`O}rOt/%_mT^BL]>n3:oXOugVRaEues,G3a*me1d$VWR?n{d8drvzk[^teV[vyyyMh!Awr]|?\"J*Yj2}hi$&hW/|g^]<5wvYx%+he*z*jR}+!EXjyvV8cVG~9?k~W)b<\"i%FGeuV9Fc1/x(Ze;r]D9oynJP6<X78+/J>ToILkK%.p)CI{b#X\"GRK.Jud]<3tA!ZOmCn.FEN&r+HNgJm3sc]fBZ03ocY$}>>4Rpr7Z+O3xm0ITl=Oga2^p>a<#`fg)5G{\"o2k6W`J)_WyL<8.zvWv&qt;ml#uogb8kn4Fr%[cO\"q+0#[knJ84NEz3MBtZtzfDe=cQ3MWV1wo6I5{VGQ5[]_Sg_beK<r(L=,n^Lt#=*^fEb|b`9pUmzw<&iLZ64a4jN9`[Ojg%iXcGGRw+Er*;voCOI@vG!<AB@J>u(NqTHQ&{t4cs}<zJ6#G_8`,0)gyRQ3M)|.HD`+@%xi{Xmm\":FD1fTM7,ruuvDwpT35Ubr=T,}9qjQy&4Dy,~C/9aS!.NpaSY3xby$QjjK}[_`|HW4bgYSr]`A@S[lXLE$,Yy>rpJYc6bG^W81oY/3J`MM~F;f+{_|jh,nVbXuIe9og~,#~fj&0M]8p~co3BZsw,jkdy.0y?zG%w{Y.]vWr[SGHNV(4k%+C&\"3N2rAf<E_zCEYj2ZUy]s5rgn3?HC/^zR9onycRugXdLqVjePiA&V%`;g@K#em@tS)4E^eOFO672cJ*bD|wHU~W>]lu4flbRNSCr!L)EEdFZVLMr@BJfQ1gQ3wQWesnGySMhu2YO`%VEf%uG14B+=&V*N[:0+4nMy>G.A,eauD<[xA6~lv~)lz<SHx/)d>:RQgG4C09eYTcRcdAAn+fjyJ~]svMP>^E7r&S_=OE2~UT`$8|ZgCEE>4|2I.rlBBO_wi#*>}47?{E,;H9Jf!Pe3cpfZ]j{9_W8)eTEVfn5vR;3km{QqiNQ2ZHDY.reovD%v:^5auV=wo4R$}C?a*mWMJXU+rq3J`y{7s~@\"3a+&3+6:OoPYeh3s=F>yzj+@3|9T6mS)=}gw?r{(rDHQ3eA=q}:6ia6%6l.DchLIUzu}=)=(#`Sp/`:`ban_{X~]i+Wsr~8r0~4reWd^a9^+_F[O9z_n]#2LhlOup^w5X~{\"3Sn6p5LW`|fO;4gb@9AQ$._dDf.QB`gepUR`L7eEe\"Z<&mEhVB:!6oXb>5$)$H9DawyKmVuY{0{2y>9]hL~~eg[h;Ik$ti9hyNOOK~w^J]#r=_e</M?G=N4_scf%$&{O;SF/_o}~r#SMJ?W+?QN8V6Hn(<,pDY5):lwSwJSeVrO2R\"1bt<50{n*CD^};/Dhh.nYs}2zAw?qqMTm,Y4Z*2yW;[2&L8HhzM;H3tXl;L\"IBd#@<&s>l0\"Hg)[R`f]Sw5d0r<fVxVS4myF!W8k85bi:]g=HdnBwS+{)sTtc56jP+#LbV4pvNDk:l6=i9Yz)\"En&cy^sa/meI&cqLiQ7r,c.TJ\"#L>p[2*C:N0?;wK8ihv_@=kO!+TB\"eyHto1B?Lfdiqt)xko]sP9ywLDm`i9oYUJBHuem8{a14o~3cK?mtxegLbZQxtW*?TYlo6/4WrKqoqZ.>#ZsQ?Aab)pwBgPyP5Y.UEttjO,o?)KXK7+P;aUd;%v,B_Ig^zSckU(w$w.DQ<v{U6C$dQElBr8Se{M%uz@mq93&|e;gxQ5EqXh9n^wJZ&/V^R3*zmwn~$BS`{m(~@m2c:PnI?J*DM~b,c{,I;ugxYe{*9%&9JNsf1wwsiVwuXkCHibJQEK42o}QtJ?[%;Yz+Va,s>He@$Y$Femh;n>h?7@iuPYc:9H\";6PVNS9itf~O6+uy2/,k0R`uaip57ook_B#pxa16&KQCubwL%(%ZGC3TD/k}l4,4]&h1SBwv6L:o7P_TXhA!EUaG,l4p~~q`]B/641>A2m]oqk0(y?E8pKRT#??udP%;nxMs$4IjN*^dXeQ`\"q0v>WFue2o44<[/><mL(/+3)HC/jtv:}[z1g3Q|{P!McMBPm?rbHLLSv:gCeqLz6nkY3fzk:j~Og1(XyJ]4@WbR2c@y_[}R<=;e>JbV[R?],w]6E:7Z>/c1]~CSOvCbcFBv>`dh;.\"D>~MMm>KFy~X$@Hw[zxc_H]phn7QuB|=l>Rwz,/br2NC^_a$rjJ<=tg<dkiD4(K#_nmB/LYupp}hPho;H7|a\"Od)H*R8AYzCZZ7VU0qH4MRoKj2ERDFXd}?@d}p)ZFth*,4/rRPqhHXW.Q{=;\"jhWi&|wI3*vU0Ma:=WR_Kkc1vv/Zgo)8ZWTETPLtUK%_B*VbP]TMe{)bND5.z^PKhBcRgN0LF8())t<|[T2sB9VasgUdV~as4lNuz}GN5)|.Ho8svP+pQleIdJwqs:!@D0z39g[(Iyaz#w~SjmKB?Vh!@ud~9o$5Q7KzH8RGA.ZJ:=w|`K#.o/n{1cPwrMot_EC}g3h9>68<Zvv4>zv~XNm6r@8?4X,lR[s=~?lk:5@hS*Z4{MQF]?mY(cN6[V~ueoaBY!6A6Y\"8wGFZ+hQ{l^J(f@p(mcXG{}q~uxs8&A~P5^xEb[M`}B{Qm~;G{:iwJr&t20[S{.mG8f=\"C.HqN5Tgrw~]q8WU=9&`Ou[krJ~kkr2%WBB>^6s4h\"%)((8zVy>)9E^cWSM~&gDn37ueG%$5}%H9wn.P*n\")C3>$s2Vv}L3uVVfmt_GFh(!4RvP&RT@S|?K\"_vPg8%&YeXWL/S*bnqzV*wIE794B0CS7v[/b%nvcmZUF(xIX\"rHw),D;iS@YPpOf9{M8o7:1>QD6AH5FnwA/`]mvGTDM.bdnCE7Wa.1VRF<8<fs|&nfE@G_J?uvA!1T\"0G{B0MPMsE65~#Ag`l2/5<$8m+/Irvm|ZUn.Dx$,>S(xfcR1G{5/q!+rQrNgqR,3RP50]@E)s|pI+uryTJE7%W~U$/w}bv.;EOIOVRPv=JR?VMul.68TTG.a_a2RsatR{:45D~hyLQa<ZfbLOhWO&1wMp8K(xh5skS*`M8fRuB1x#Qm{F/K58}bstE6N\"0aFOV&!Up6(bEkQ}jTE;]@P~g~;lg7`~=ku*pZb~zl@ePGVOs5qV.MZIM0C:J8C/qs.?GL(;kD_33f!3~;ZxM^*y9\".=Lfa?y5?Mio+7$*dnjO4v<6e+{1*3kAN,}Ci=.d)Cp/!\"~A^s3.7sq?Bt&L,0/AAMsS/oMDc~+>j`EL^]ZhlSu2GQ2*vFa9&a9P[5l#+3Ap^,l<>`]C79BxczGplf*h|\"%oT+@9E!sSfxT(?{kTFiW,jc,s@CY&Ftv<@[ji9lx<9@5I3xBsq@BdXtlutwM$;Lw=rW!:oi.4{e,oWG2Eq4Cz>y~9~Y8|\"1bBO~upM6o%R.{>92C\"7<A5(&QZ7pG2[\"`w{Npq_rJ3tr?W0Y>M>KcgKf/t.KCtoC*Y1(MHh`^%bohEl,(3Cb;kp2l?i%;M@Y#.(M]sJj&YQ2~_P*.T<HCAs3jQ}[+kXG2naA1y1ck.i@Eo2oKd}l6e[ab%Jf:nVwl1&Rsjl.;9L,NZ*.\"9u%!?`9FSh*DLG?]{#Z7w3ma[OcyFI/BNGB`\".,.J$Jn$#hL$5Kn.{sl215!KBPJ(6cceA(reuX):r9L7j*%jDK*oG7uXp1f]44i4rhYm_>#JqXAtZ.{YaES%8`QO\"OMZFP6Hdcn(V$dqYvjry8X^=&#pT43>vZc0k$X%].o6z&~oAF#jOnq~b>.OgtYtB=BP|Bc4BINdiuyu`4%X5v79JuFZUQ8Ei>81HSX2f`^e;vjk`23{,m^dPPUW74c`HY;tsEt9FiBVJ[S3GGWX7~R?bTkfH:G\"FL[})b9b0]sF<Qjh{BAoU6HT:=}J(m)KS5/Z4[+/~?~_3/ZWWl_\"EjBQM7Br.O[NHKHrk5#jhYxn{mK/|0r?y&pTt0Ij*k(lgPRzjF;17GS#Y/X;%8s7,3X,\"+NuMYEV#ySobD~4*,OP4m81bL5Hl.v@13eu9Mb*KW,Bm<esD>O#qTxQdh7gc$|(9OHQsTRO@W1Hx6WIvad@?m|$]O~`#yrV}:ZfZ+&7HUntkrCK7%O}EZu,zNjQ#tHPlY_A,eUN2legeDEDd;[lrM2M|VkU&hW5`mc0ibqpp7Cg?0mr<LX79oQ=S4?;kMii><*F^_2{J[YO}{TWGk4an}zGFWhPY3F*=Y7Zg[:;|@2>EYnVKJAEyTmt8YoH6\"jl%]V13u>g^|!w\"B\"jV:2D`y2`(.guaoioCB=JCD4h2EKM5w4\"BQgiNa|\"6~yVg(Uj@Iwx\"R8GemZ.{0T`jCMDy`f}cP(@V]HNBIse,<z=@I]Gq>$i52/O7o|[hz@x=]=,NqV]7Y%}iFLVs0:}y,*vrvmS@>=d1sEJSwvVv<l%Rb~}V2y`YW*`aL@n8?!y<$djpz|B8/cA5w)WqOhI^b%m2iZ$Ujr26Y,P_!t^`^o/}n8u+4#a~XDyo=?73WL1_PHMr%M,823hK2|}8j|B8j%c\"DjIItTQbk4!SF&p;;kQ9Ih,7#vm`!`8UQfpP}X<q/VgQL1H!mO.Q]WHa2s~1*S75:&l,j7K!/^ua8:]I93#?mI%,/AfiJ=38$6l3+*n6ggO2*K>A\">aEqH#V3p}:GpEQ}Z20A}&=cg$\"i`kq]Al!J{X(oCkAB>OyqX]j@~PE*CWN<Ny1K\"XjtI$n>\"spzo2:JsAiX!kW$G$nTg{@0`x6W/lEX,S!rriyBl;:(^Fhe{w8v6iG6\"x`_[GEsnCiB#LCvte+!mpTq&x9^t(<Im>jNjA{XE%4Nn<5#i6_fy\"!ex~1(#VR2v!dg};NQJme|o8\"Y$4bm[~Bl`)QmK_xH,TVpv<b>R%@~%T8dA0JjR0.cF?K7B~oNz?5w\"Wr+$wl0bXZ24uiG8.pl4WM.83yDJJ)(ie3ek/;eDm~X4mTcXY`f0&TXfnkW:.~h]LL+R7XL#Gp}[Gn&7dxC)C;*2|E|a].mgdF;VmZ`]^]~T?<1ke0Z|3uNG$f={.2k..h_>h6EEDZ)aiE6>me`r1qYL2?i+E!\"CRCBO(@7,t<WMVd2/*<?3*\"W#7>E}9./\"W,up`!|bVA78NVpAeD*@_`5wr3j!i?e<NPsw[maIbd_NCL?s$IQk<^QWInWCYuY)NY1dsiPtINW33R4=bb3xP69Y:.9&RU^UtxJ7us1S7Q.shnkJ;=Xw3,McppRKbR0xzW3uX>F}^T*iqe48}@6_$O~{i>sPdP2#/Qn~~0z9Qm=_^m(D/JQ[G`Eb=AH/S7L+p$s&]6$DY7Y=.$TBre2(@|QRD}D6\"9|3KUylHFr)A~6tc/SRZt~l(qlF3~(|^7K:,VRa%ZYZ(|&rrR%md>yfl~(?ha(P63FCYAp$/`JQU3B>KFwH`t}WS?mO,NMs(}3?*(dOamzgj8iW22;Qar,Lfi@w(^%pvS!Z!qQVzVY2PukS%Dh?WS}l`lHIlqsG:BvX^!93E9{(:.+t?Lp/!vOjmw+KF.f+;*`y679P_AKhOhS/uNASa!qJ@AN{}t=%yd71YOV)/)O0C~Bmm].^V7XoAD68Kh[2ZL2#s@J8mEl{&OCybp|G8+)GH=J4IR#hz7o1wMtc|=z9zc1.2r)G44%S0>N94!iFewWt[5Lu|AloCmU(*it!QczN+q~C|9Y@QlBzJ()gYHzR*AfXLXYgeh<&>kRTO^vI*2u1!F1y%N6}#j\"7]imS:qu,Q|ea,,9+dsX0f_&ioj`wp.%.NUpSkT,Km%5}wk*JlZX=/M}PK6q]SNAKMS5jmye6D/;utD}5_=ZZn,F4.!YyD%.u]G#@|pt<gBQ*DoMXr2oeN^B(75ymzpZaIUII;?>UtpN1R0.fx]`c3Xs732?S*f*dp*})Lq1Y7pJ~`A.wLpG<D0a^Gf?y7NE)[+@S7]7|e836hr1M_$n3vP~92nwG9$Bye796DBY+Kwv4dLcf*7\"!QWuk`c&ng>^a6C*\"se.L~tOr8h:_$]_Y+l#86L8WTp{*Z:C<,Isw:X~4VGWGqyZZeNS3q88VQeNYc]/Q:L}!0Lv=80;`tQOdq5oKf;!<%O8]o5Q<9ZP<5F?poAP*@t`8H$fTmw9QRs&^$<g^Z6$HShzs{lQfy9Fi`O@w_Yx1TNH2@A2P\"ZY53\"z{.L8+WT=LBZ)UkA=UY;8IOa#JZ.pyotA#biO.m2tyXo%0s*f@1gTfLRrI;C9LnpmQaB:<_2~x2LSp{bC:r6.^LZ&s{AX*6dQ`/9ag_:UT5Fd&@3VIq~LtO)mA^l;RX6n_Y*=rMN>X{OmIVp{`~tDh@i4$39xmYf9zPGqp:\"cmGk8Dsd<[2Iq2YI2V@,zRdL9i6EQ?z8NM8lmq)>.$6iSc[m{SQPNA#O!T047X#!gX8HvuuDXSZXp]+rYGjkk68Z%^69xvt0xJNc\"(D$BDCiWMQb;;A}hFE]j937WM;LLUuAsl(?c^Aud\"FLx#ZW6w4:?BRc?4.Yg&s`U791\"V]aP07At;yTYKj#fC}BZ#]1/T%|97.$(#dEHf47)$toD1k6LE?t@0/[{Li}a*^*jvVY3SGHE3,\"J*33)Gxz7*@:@\"[%76=f5wNU9z/7V}x@+B.YJek)%?!%%8sRj:K6nEPL?slBXk,S}}htQ|\"TwZ>i3@qZm?$U@&l];^sUL54}4qc(Tn<1wjyMnLcImDQk@UiX=[:k[/6^%v*YlR@2h9:PMUcit&5GEhW_Ta}H:k;%*V\"MSsZ[+L?u)\"2qSp\"@rvRux1I){w9sy]bv=&8Xe*FYE2,Q3$$Pu;[kRK{J+gG,K%A2!u@C*X?>vS=G{MFCAkBq3W4DJ?|C_Se$~!}!+Y1j]Qz|b2Q1ae[te1jtwDXlPO@O6dQ.1`s2ykJTLAG2f{,`Yi8USSVdcf37Kr|FD~%MU]o.n.i]MLdYFL>V+aEY%yclnp[kbBu{Y:Be1s}X(dD+y7lF9F%Q[7V*Q`h/H.T5W.nY`y{VV&Q:+8KTQXaQ9Y5faQ5%Wqt(Umv|1jxsBE>\"!DVjw)i;KW_=Lh~z&z/36(~s,^/H4q@}0?Re=\"~2r<%XQIhI(]Pj!2%s~^MS~qZCKuPp5[\"pNObw,u2H+ZU`lD/J=iSG/4UtQD76+4mIJpgzMHSppNVvD[as41RM;1]|xL3yr3yeXAEZ2tUcoxv[axi%vf$Jq<kGawsOtg$(K9vGz:/m9:^0/J^ALybFUa~FyA*@<5uHVQL}/!l>x^is2dY3>81p1w.RWI`Bo+>mtpvF1.{W~i:cwES9=62A/F5lYP[m~Tjem|%^}/F4j|UN/RH\"I|?s4{Qa#E:XT}48t[Z.gujf9{x5};C1m^/qcKex^h/voj/f&RSFV`Usd&|yu?Unn3fvM{m\"\".Z_&GDheI??7V,HE,,8fJ>dA{]f1}xoMD2tP<aib&E+&DI{!Gz*_{E^)5V!Ty(;P\"N:1HWp&78#op_t^QVOTx{x]vGhb3hp@<GrjBY/6$0$H7XpH8dKP;!9>bfMpgJS1.Nuz*E9+)t!M9&LP[lA3`fR}8A]1==8G<Yu*pZf`X?i0*9BOqj/k$3S.BC90JI0<p(R@luc{KpOZ>{NNLayH6!+I^2Krd1PrR<+MZDm~5bX#L/KAmn<;SCxD^`=`8{G.VBao;:(2sjr~m_Os|X0NbA]hovQx_eu@/p>P8BP2P#l#rHdu.(B{ntuIh#8Aw%/Axkn!>nAx&OQ0yHop%Jcfe7}r/tNrDFH~gI{L+5DQ.c]9&J31E@qJ#&`F^cSx<KT:%FW4?yo7)}<0H!fE8pNS|b{CdbGEDas}0lj|BlA@,Gmaz(T+xXMUVr.2Afe2z#iW9}k&r.zfZ9cIi3f3Uau?uCW!h+L!M?X:Tt.m6)S7tf9LO#LDEk)U+N<1~~/a~0tt/{r=7q39e}ZR6ckOeDvI^v<c$%*\"L\"nIbd1y56KLV2(N`eVwNa;x`YJUDOrC{Em=Plz!&*jh6;9|_InN@^(9QiYYLP:=W*s[#ww|s8jSqW>^ys9xOl17zW_HG!}#C4qVs,gT]*6HsQKWrOAx~r&moZrE5_al(Yl4q7Og/z;j;1]K[xipNA/9O);tct,\"8~`&h?pVoq@?>e/FFtsG^{M2WL$>RENeFWYoQX/~kOLba9Sopi=@ao+kV\"~\"lw;+Kk*HC2]?l[!1(W<qj/OLG?WX;GT<F.n@p=(7k[`TMp$KAQZviM*Q`OsUF]7L{HnV[0]eIyvll\"$6TFCQ^aY*Ws$h_ao.KjR7I/oP}n^>G?j?RCxg]e<@nf05de}(:DrGS^|Bv#zb*R`hYYj8RVwTtd2+T2*(;;iN:j[_xReXn0TjpS4j?e8S)Re=x?JVxn3cCn~f=^C2&J9db,;`jWm<B@8&(l+8Aga=rM8k*R28Z;@Nk=U2@NMY`F}du#y513N|~Q^yO^uRm[w~W8|{MUI`2yAvh=?5e0HI%ZY66RR?N#LfMXgCRJ!wO}gK`8Wk%+%(6f{3&nLZ<:biA9^D.lPO5K*(1vd.l[hXK#^w:zS]U!d!r/NiU=k|YcRg|p#G%W%M!2?]CE)]6eo`Pp5Zz(MG84l2mEOz{?(<*l8gin5+OowBaWNpeKJB^}9]nH}q_CxY{put/.K4&s}5k|D&mghqu>QC%pw$vrV0T,C4s?~/.Wzv=h9g8$Ni=[U/Hv2mNAV+V~C@0v\"&<V0OpuOKdvQt=_}n[MMX6}:1B)*|jYqiOg0vmd?1cPuo:p%35RgG}sN4uV\"yfJOOW:Iwu(@,.,^MF4c\"17s!D(AvK{peYD8;>c0S9X>$XudR(OPI1M@kwMu1pN:3).~&#SMfd01Q0]Y\"o,&S$?zIxRFk0FxT(=5]0!/^,!zE4>\"8;Bq%qn*U2H)*;DGa1r;7C%:L(SS$|u}hY@*@AS{+AF@N>RM&}0X=TBvfrAw2ZDz?jc.]#]@o&a2}33%)h%mi5YW1ZTxV}}iOYTokb+%@4ZhMFPSN+RxlVQ*@FPjF>0nZx^<RCimrTUwTfPY;~owTfOVl*jjF=z|3#WM7Foa#yLVX$tM7\"0vd:Uj*0osw0p2E!frcVSP~k=Fq@2Gb&P9zFRf4Y?9J$AqO}qfhI2L5%P=n)#t.<Pv`65}`6JTm(G&0JTdRZTRf)?hWyIA:uH;.hQRr\"uY_ygilL&GRp\"Rhe;wRUT]o+a4uls8a;[2wg2Kvt>+RA98SP^ZQ80AhDSEA:8|ib^x{{X3XYchgg`X{Asnf~t9uxnBBpBoIi`o`pBB#1E>8;fWl%mvx<7$TfLMQi$O0G:H>T<SOz7+js<8QiQfDZr;T#%)R~L?+?%#@m`4?u{,+Skh(|Ul8r.`>Gq>$zG*b4R60[UI}8KV7q/{qPym[b>a={O/os0)5nMd1a+0W\"`7KG,FLH2#_[de|_,v^H>&_\"6?ZsX+<ewd*BuE:F,SJ+`Yn#zq9g*,)D<67fQvF$yVQ{}(NJNw>^G+SREQ7K#I~yD;9\"u>59=t[}Tr/TS?.\"u<Ri?.QWs|\"B`7_gS[*5t+&^5*u@GL$kPles2#vUG1qOx_fx)Q`<ba9)nQ*3`eCV?!Dq$g4/TC2cM>x0Kc7H+te`z>JG1_(;6^H/6=My3@$JKA\"w_B0$fpwgE@L36aB74/b/IJ~%P4x!8*mxXGD1h94;7Zq~uzM~$h+U|a~ch$..\"R#uj*y0RLaNQf*Qf2QR{P].r[>xP.=Ij*i/kn7XzKdn{D;^5?lD+!1RXwyA5oR6Sf?[~ZjlsR/x:,/!(ON@Zyf7[GGQ_wL^xyxNar~x|c7HR}4|hO_ZHcGMc5~vL[y[^gt+hJFqPD^9.TtDn}ktX4N#1CqxfPB#h/WK<4im@ERsl{2WK$@VLS0kk6rDI#Ms:MVkMRGGu[\"<[2&05I2viVa?UB\":,t4y2\"hnVrd7hh(`MIxII*UFv&jM2zu^HK4vP[rs}cK2qiX%I?MNV.;9MDu40N(:ydG=gPJRv|&[8o\"2$VyLusOTiU8|^Z!>N^?2T.URYX@*Y\";OncmDw96RNr/!Ag7Q]%CqY+Putn@mN82E&{L=9ga@3W#Fx{0l):ubyY}TV9X&mO_{rcYxnschPi+>R=8e?!w]r+X*8BK[/78wMVQ8)5g?Um{kQU~0Nj<;W/jN}0mcH4#5[.LG3IA2<U^T##\"cO&L?W11~_E*M7u7NanR@I+TWWN#0,0$)/AdlkY&dl,~%MPrn5:Oh{/C&=#oNcYnzDq?\"mzLW{pO4kqo2dSrtVoAf[RLjY{!_u7ph9q+KT1~<:)Ke9+t9*|WEk*sZ@%@c\"LCw!+UCt<iQVx?@H1T(??WM~XP<,?{:XUxdm,>Az%vi0H^iO~Q>|H[LR~[0CVmg+;.U0e#6|gf3>3ffyhpFsh5cT&H{^?7`e8y&PBR0=P+n>`qKdqQ8zr9&qqZTB<1;@?bi#3ig]}}A_;QxZes0[Qo[?9A1$Z4mb2KMGKszK_k8(6oQTax<zFo7O|aQ3sq0Rs)H7?`}9a=g%MIKfkb;(V\"sV(kWz5[+l4~ywc){O%R%>yGT#/)OdvNfL;[11/B2JJPgd7ohYMtMy>IM5h}7r$a7h!.db^|:cWPWzg@K%<NtxRQBzYa2&{@a4Y|ryCAqG[J4$<5S?Iqmi>a+[9[K*\"L&=|Vm|e#s0$ZSVP/D5EhrwkWfMw_NmwgU)J|Og$<n.p%y3M|OX<J>?|,,1_u48X~${T;RW%M91nwYOeJt9kt{CR/8XHYF{k*Ffc$NM32a)fLmZ\"]qty7I^ZB)=bW{ht}xJyRnl_N))$N%5=i9$:~wo.6^ZI3H\"\"+5me>kFxrx#S}=CaP_kk5+4abvjQ+(`+Tm0SC.=<ss54f=$FfgPSFv!zpnU#!8RbjT+%GnPljM(<35qP,s\"]Hma|A7\"|#ShXiED{9*qn+g3df>~L:j[=&DG6Pbk{`>E*gm[WDSfkCM!mBlIZ?#LeKr0Ho7Og?ITsaxrC3Bk/f@;62{Nv&S!B`Lw[hYMv~9%8eReOGj@g(R3JoqD+,]wOPYr~RF+7gM9Bun(?_(0Mw4m[^V((Svb+`%,dl<1(3BiE\"RY?=np&v1]VQ/aM[iqK|!}A}U5MW`stF;mS&!dAv$!~#ux;z6=2uC#f;%WCVT6)9M]SZ@El0hewVzT=/n[H&tFk+::W9FvjpC:><%e7oPCN\"6bTgV~[x}=B.7vT?V5n%]+%O1hUAKjRWx28VrGMAcJj142rQZ{]Pt7^}|Dd)MPoa^*r7ADDf!ETH_9U,03kaZjv6iQIQ]mK(aDtKv6jMh9Cgw+%\"=*JI9{#[]Ji^%g6dy^RNz|VzjnCvOTE<qU&Lz_Wy8a$ioV^i<a],cYnnD]!VvO@m3h[IWlb(V)y9X0DF0{^2&mt9U;Xiy2,[OJh)&gW)]8A^e8\"n%2kx2&[D=m}x(S=tB`se!I=~}e*Lb:~OMZw9K;MMdwBz~{$l[(oogVNRdwZcAlVPy~EOkE[Vdt/k*%_.k=+cZm=)Q`xx~6TCfCvRbw9&uv*?MY#bxPECUSi>/V(iXj5]uNn,`^#^Xc+?;:CH,t)RbocZuqc9h&vgqL3)?vnUCl&DxmlhG&N1}Pk$emc&{<JXa0Y^:7@S6vt|MsKYsUyt!4zVq{UZdJ_oGI_av;.5m:IP,8vJ;HR2WR/jrD%+Tc6m!17Ve5`>A)dL`:V<(3%wSNJY1WW)c2no4.8GxHf=~2c%+5B55[1&btJx]\"!A$rA`gJNM.a)BIM5Ov\"%?E40ANXY|jkV5TGrMFH4+P#HHAyZ1Nco:N\"4m;A$?$@<A<(HVJS3>yNHG]ZcEtM}znovmqxl&_[I]^,Ai`EK<i\"RY+{$_%lVXkj*P{MLwpoF*%u4t58|<Dr@:Y}lh{$I]]OC^z:g~UV+6HhtzOX|<6:(2#$~[FQ=1QP0y&YFu,;K)+KkZ=|US>O<{1Lu{bu\"`$m$?8?pf74[tVV);J*^5I}rJ@>&ncl8&a/%+MOWUN(I=&Z4CV1lN@#mmlalq,}L~$K+f2=gLpVRyAn>MU<eEe\"GN(@.:qr9k[\"g460hnwkHil26){!jKd,JjY^WBA1/+i5hMRel!B0Fb&4jls!Ic(I!w>bU/nbFHV__{+=M*rgy6gn4guR}*_VN.jXMBj2i`LGEIz7oqbuaz,e@Oq%Kzt=W?0X$r2wO:xME!Zs4XG.F78?aXbDY$b}#934)T)Z]~1h%)4,[qCDVr6<7}9k_K~=tH?;Jr>wSyAF.Z$yeHwH%P=a`gL]U^/,!6_b46CAU^65)iT6ab8pxmTbtP<335J!(g44rDnOn?\"m!`$?i5V,:Mga!2ZSq^ehS.:s0+hR/}ad{i4$&|zC&ea3AOv\"*^ws8~z[v.7F0hO\"zb{PS:7*FL#gTe_6aII~?Jk~,K3yQRzRMZ+4wOHO%n?sAy&x(_M6^fq!o4i*BF5zm>I$<2C!WS=zBL?if6+m`0=yhW^[b/~~C\"s5yI}M1)1C]J^nVO85T}i|=CQ6isy1Al%t1KlV}SHG6B4^1mwN(]AL~s}%g;]pyVAtZ+_6(<2{C?M.=^Rd^(F_5Cj\"<j)Hrt{?Z%^trbR2K+RH&jQ~Z$i:hUpP+=|gF=%%BL,$~EN^Wu2P#%%,dC>uZ9@\"_(OvIvxHt,F_Bj[*57DxT!wrEzV^4&3?{12_iN!>w;x7JILv,Q#[|_w2|t?<IOul(S=b=507f\"60Xk3\"|U7_`}sL)\"W,&P`2=,|Uk2_R?I_fC*9=|=Qw^<Ccb9g$Hb$!TLe)ql1|,&i/Mg|TJg4I2MYhCDI`095H&<@QTZ>x=Cd@+3Y?FF#X)7mwLb;7R6v\",xMPu%gt%5{,[wU,;GV@i$bi`;Wwlc35vQP;rNzo]F7hjPEHggND0#67b&L`S!f*XN@omkU)NuY_gI4}4.JZ$9:(blGmK]0fgF9yQ`0@Tclv*Zd*x/[LR~jm2~p~e^7rGBX8^oga7v|<1QCKv[~KErxT(xq>6xRGiwzgQd%(]^BeGEDflU,:AhvJXNOd<u[jvX9FGRIRlx.6BzyKapV\"@Z|`B\"68:m>vJEwtD8J:45o_yk(.p23C_/g8HCJH}$bH\"k.skp9JS)Rl4I=ve)25U\"Q8Q.9&Ijy230BHP<e:I3#_@E}Syv/=_e(0CsQ^lAs[^M>ihUCW<SH5qI7M|$AR&7{S9HZHcj:Q[^!4eP3QQPS)/kl2|y[w%7`HM?g!;(7}1x^]>9hEMl?uqYS]j6vA`W^^,UQLIc^nmLwWp~R(5c&lio}N5DxxETsZ$*{qV>(PF3bfQUhd<l`v?I|)xMz.3j6Q1RPGbD/\"lU$AQ48\"|[?i+O]4|]v3nm,L4{>&GvhLlC/@Y1A/XI54v4i{aB%L*&76P~`r2=QC<QIg/@nZ(itC|Co1TI25DL9S+66;}\"=dz,xL.+[p>uDthKZH\"c6WTmx+0r`PJxQP}45*Ry2&gSvEkxTB0j(:Yuhh2/)ZT7l^kLd(m68h,Ol<+ZVN8",["tI"]=function(l,e,n,o)local e=116 repeat if e==116 then n=(n or 47)e=170 elseif e==170 then o=((l["F_BIT32"]and l["F_BIT32"]["bor"])and l["F_BIT32"]["bor"](n,22458)or n)e=190 else return o,n end until false end,ZTPas=function(n,o,r)local d,a,i=n["ISQU"],(n["G"]["table"]and n["G"]["table"]["unpack"])or n["G"]["unpack"],n["aZhSl"]if not a then a=function(l,n,e)n=n or 1 e=e or#l if n>e then return end return l[n],a(l,n+1,e)end end local e=22052 e=e-30 if not(e~=22022)then local t,l,c=((r[4]or 6)-6),r[5],(((((r[2]or{})[3]or{})))[5038]or 0)if type(l)~="number"then l=(n["MsAaP"])(n,l or"",1)or-1 r[5]=l end local x,e,r=i(n,o,t),0,{}if c<0 then if l<0 then l=0 end for l=1,l do e=e+1 r[e]=i(n,o,t+l)end local a=o[12823]or(t+l)for l=t+l+1,a do e=e+1 r[e]=i(n,o,l)end else for l=1,c do e=e+1 r[e]=i(n,o,t+l)end end local l=n["xH"]and n["xH"][x]if l then o[17273]={x,r,n=e}return end local function l(...)local e=select("#",...)local n={n=e}for e=1,e do n[e]=select(e,...)end return n end local e=l(x(a(r,1,e)))d(n,o,e,e["n"])else return end end,[92]=function(n,...)return select(3,...)end,EJUn=function(n,e,l)if not n["Bp"]then return end e=(n["WDz"])(n,e)local e,t,r,o=(n["poi"])(n,e)local e=(n["OGTFp"])(n,e,t,r)if l and l~=0 then(n["USSBr"])(n,e[6242],e[22209],l)end return{e,o or{}}end,oP=function(l,e,n)local l={21601}local l=l[1]if l==21601 then local n,e,l,o=e[31884],n[2],e[17333],(n[4]or 6)-6 local e,t=e[1],e[3]do local o,e=o,n[(t[5038]or 0)]+(e[5038]or 0)n[o]=e local n=l and l[o]if n then n[1]=e end end end end,wr=47772,cS=function(e,n)return n[5]or{}end,zos=function(r,x,n,i,t)local e,l=x[31884],x[17333]local o=e[n]if i==1 then if t==1 then o()return elseif t==2 then local o=o()e[n]=o local n=l and l[n]if n then n[1]=o end return end elseif i==2 then local r=e[n+1]if t==1 then o(r)return elseif t==2 then local o=o(r)e[n]=o local n=l and l[n]if n then n[1]=o end return end elseif i==3 then local r,i=e[n+1],e[n+2]if t==1 then o(r,i)return elseif t==2 then local o=o(r,i)e[n]=o local n=l and l[n]if n then n[1]=o end return end elseif i==4 then local a,i,r=e[n+1],e[n+3],e[n+2]if t==1 then o(a,r,i)return elseif t==2 then local o=o(a,r,i)e[n]=o local n=l and l[n]if n then n[1]=o end return end end local a=(r["G"]["table"]and r["G"]["table"]["unpack"])or r["G"]["unpack"]if not a then a=function(l,n,e)n=n or 1 e=e or#l if n>e then return end return l[n],a(l,n+1,e)end end local function c(...)return{n=select("#",...),...}end local r if i==0 then r=x[12823]-n else r=i-1 end if r<0 then r=0 end local i if r==0 then if t==1 then o()return end i=c(o())else local l={}for o=1,r do l[o]=e[n+o]end if t==1 then o(a(l,1,r))return end i=c(o(a(l,1,r)))end local o=i["n"]or 0 if t==0 then if o==0 then e[n]=nil local e=l and l[n]if e then e[1]=nil end x[12823]=n-1 return end x[12823]=n+o-1 for o=1,o do local n,o=n+o-1,i[o]e[n]=o local n=l and l[n]if n then n[1]=o end end else for o=1,t-1 do local n,o=i[o],n+o-1 e[o]=n local e=l and l[o]if e then e[1]=n end end end end,Oj=function(n,e,o,l)local e=(n["Hc"])(n,e,0)return(n["aEvsn"])(n,e,l)end,CJoDB=function(l,e,o)local n=10922 local t repeat if n==10922 then e,o=(l["R"])(l,e,o)if e==nil then return end n=18554 elseif n==18554 then t=l["s"]n=28451 else return t(l,e,o)end until false end,DHI=function(n,o,e)local r,i=n["ISQU"],n["aZhSl"]local l,t=27915,27915 if l<=t and t>=l then local l=e[5]if type(l)~="number"then l=(n["P"])(n,l or"",1)or 0 e[5]=l end if l==0 then r(n,o,{},0)return end local t,l=((e[4]or 6)-6),(((((e[2]or{})[3]or{})))[5038]or 0)if(((((e[2]or{})[1]or{})))[5038]or 0)~=0 then l=(o[12823]or(t-1))-t+1 if l<0 then l=0 end end local e={}for l=1,l do e[l]=i(n,o,t+l-1)end r(n,o,e,l)end end,HXDh=function(l,n,e)local l=((16303)==16303)if not l then return end local e,o,n,l=(e[4]or 6)-6,n[31884],e[2],n[17333]local n,t=n[3],n[1]do local e,n=o[(n[5038]or 0)]/(t[5038]or 0),e o[n]=e local n=l and l[n]if n then n[1]=e end end end,Pv=function(n,l,o)local e,r,t=10149,n["jku"],n["ccL"]or(n["IaYp"])(n)e=e-3 if not(e~=10146)then local o=r(n,o)local e=#o if e==0 then return end local i,t,c=n["NqMhP"],l[26908]-1,t local a,x,r=t+e,t,1 while r<=e do local o=o[r]local e=o[6]if e==nil then local n=i["bxor"](o[3]or 0,30763)-29450 local n=(((i["bxor"](n,4341)*993)+78485)%131071)e=c[n]if not e then return end o[6]=e end l[26908]=x+1 e(n,l,o)if l[13142]then return end local n=l[26908]if type(n)~="number"or n<t or n>a then return end if n==a then return end x=n r=(n-t)+1 end else return end end,j=function(l,e,F)local A,M,t,P,B=l["ccL"],l["G"]["error"]or error,(l["G"]["table"]and l["G"]["table"]["unpack"])or l["G"]["unpack"],l["G"]["xpcall"]or xpcall,l["NqMhP"]if not t then t=function(l,n,e)n=n or 1 e=e or#l if n>e then return end return l[n],t(l,n+1,e)end end local i=l["uDW"]local C,a=l["xvSiR"],#i+1 local function R(n)return n end local s,o,D,m,u,d=6,26908,15787,3,17273,13142 i[a]=e local function f(n)if type(n)~="table"then return end n[31884]=nil n[23581]=nil n[7921]=nil n[o]=nil n[23513]=nil n[21145]=nil n[12823]=nil n[16871]=nil n[25883]=nil n[31657]=nil n[23198]=nil n[13142]=nil n[17273]=nil n[3393]=nil n[7013]=nil end local function h(n)local e,l=n[21145],n[23513]if l==nil or e==nil then l=3969665 e=9837 n[23513]=l n[21145]=e n[o]=(n[o]or 1)+(l-e)-1 end return l-e end local c=h(e)local function b(...)return{n=select("#",...),...}end local function E()while true do local x=e[o]local r=x-c local n=F[r]if not n then return end e[o]=x+1 if n[D]then l["xvSiR"]=r end local o=n[s]if not o then local e=(((r+12642)*999)+30763)%131071 local e,l=B["bxor"](n[m]or 0,30763)-e,(((r+26720)*771)+6839)%65535 local e=e-l local e=(((B["bxor"](e,4341)*993)+78485)%131071)o=A[e]if o then n[s]=o end end if not o then return end o(l,e,n)local n=e[u]if n then local o=e e[u]=nil local l=l["xH"]and l["xH"][n[1]]if l then e,F=l(n[2]or{},n["n"]or 0)c=h(e)i[a]=e f(o)end else local n=e[d]if n then e[d]=nil return t(n,1,n["n"]or 0)end end end end local o,n=P(function()return b(E())end,R)f(e)i[a]=nil l["xvSiR"]=C if not o then M(n,0)end return t(n,1,n["n"]or 0)end,t=function(l,e,n,o)local e=69 repeat if e==69 then n=(n or 46)e=164 elseif e==164 then o=((l["F_BIT32"]and l["F_BIT32"]["bxor"])and l["F_BIT32"]["bxor"](n,2783)or n)e=229 else return o,n end until false end,KE=table,SMyW=function(n,e,o)local l=n["Bp"]n["Bp"]=e or true local e=(n["EJUn"])(n,e,o or 0)n["Bp"]=l return(n["aEvsn"])(n,e)end,bk=function(l,e,n,o)local e=115 repeat if e==115 then n=(n or 62)e=191 elseif e==191 then o=((l["F_BIT32"]and l["F_BIT32"]["bxor"])and l["F_BIT32"]["bxor"](n,11789)or n)e=212 else return o,n end until false end,kWZ=function(e,t,n)local o,B,l,u=e["G"]["table"]["concat"],e["ccL"]or(e["IaYp"])(e),true,e["FT"]if l then local r=n[5]if type(r)~="string"or r==""then return end local o=e["G"]local l,s,i,f,h=(t[23513]or 3969665)-(t[21145]or 9837),o["string"]["byte"],e["NqMhP"],o["string"]["char"],o["table"]["concat"]local l=(t[26908]or 1)-l-1 if l<1 then return end local d,c,a,x,o=o["math"]["floor"],l*5,{},#r,(((l+7936+41)*563)+3814+8615+(l*11))%65536 for n=1,x do local t,e=s(r,x-n+1),d(o/512)local r=(o+(n*43)+c+((n%7)*19)+e)%256 a[n]=f(i["bxor"](t,r))o=(o+(t*13)+(n*31)+(l*7)+e)%65536 end if a[1]==nil then return end local o=u(e,h(a),l)if type(o)~="table"then return end n[3]=o[3]n[4]=o[4]n[2]=o[2]n[5]=o[5]n[1]=o[1]n[15787]=o[15787]if n[15787]then e["xvSiR"]=l end n[6]=nil local o=n[3]if o==nil then return end local r=(((l+12642)*999)+30763)%131071 local l,o=i["bxor"](o,30763)-r,(((l+26720)*771)+6839)%65535 local l=l-o local l=(((i["bxor"](l,4341)*993)+78485)%131071)local l=B[l]if l then n[6]=l return(l)(e,t,n)end end end,["tydmG"]=function(t,n,e)local r,l=t["cvLb"],22204 do local l=l+49 if l==22253 then local l,o,e=n[16871],(((((e[2]or{})[3]or{})))[5038]or 0),((e[4]or 6)-6)local i=l["n"]or#l if o<0 then for o=1,i do r(t,n,e+o-1,l[o])end n[12823]=e+i-1 else for o=1,o do r(t,n,e+o-1,l[o])end n[12823]=e+o-1 end end end end,avN=function(n,l,e)local e=(n["Hc"])(n,l,e or 0)return(n["aEvsn"])(n,e)end,USSBr=function(l,t,a,n)if type(t)~="table"then return n or 0 end n=n or 0 local o=n<0 if not o and n==0 then return n end local e,r,i=0,t[0],n if type(r)=="number"and r>0 then for r=1,r do if not o and e>=i then break end local t=t[r]if t==nil then break end e=e+1 n=(l["CZ"])(l,t,a,n)if not o and n==0 then break end end return n end local r=l["G"]["next"]or next for r,t in r,t do if not o and e>=i then break end e=e+1 n=(l["CZ"])(l,t,a,n)if not o and n==0 then break end end return n end,Zj=function(n,r,i,l,t,e)if t~=nil and e~=true then local n=n["NqMhP"]l=n["bxor"](l or 0,13516)t=n["bxor"](t or 0,3799)elseif t==nil then t=0 end local a,e=(n["nw"])(n,i),(n["JD"])(n,r,(n["AJt"])(n,i))local o if l==22951 then o=-e else local n=(n["JD"])(n,r,(n["xqed"])(n,i))if t%2==1 then e,n=n,e end if l==22844 then o=e+n elseif l==15641 then o=e-n elseif l==26229 then o=e*n elseif l==15022 then o=e/n elseif l==14284 then o=e%n elseif l==10712 then o=e^n else return end end local l=i[5]if type(l)=="table"then local e=l[3]if e==nil then e=(n["BuH"])(n,a)l[3]=e end r[31884][e]=o else(n["cvLb"])(n,r,a,o)end end,LlCiU=function(e,n,l)local e=((22070)==22070)if not e then return end local n,l,e=(l[4]or 6)-6,n[31884],n[17333]do local n,o=#l[n],n l[o]=n local e=e and e[o]if e then e[1]=n end end end,["l"]=string and string["char"],CZ=function(e,t,r,n)if type(t)~="table"then return n or 0 end n=n or 0 local o=n<0 if not o and n==0 then return n end local function i(l)if type(l)~="table"or(not o and n==0)then return end local t=l[25377]or 23959 if(e["xvSiR"]or 0)<=0 then return end if t==9396 and l[21227]==nil then local t=l[5038]or 0 e["gju"]=e["NqMhP"]["bxor"](((t+24863)*375+(e["xvSiR"]or 0))%65536,57233)local t=r[t]e["gju"]=nil l[21227]=t==nil and e["hE"]or t if not o then n=n-1 end end end i((e["AJt"])(e,t))i((e["xqed"])(e,t))local l=t[1]if type(l)=="table"then for t=1,#l do n=(e["CZ"])(e,l[t],r,n)if not o and n==0 then break end end end return n end,iDl=function(n,t)if t==""then return{}end local i,a,l,e=n["NqMhP"],{},#t,1 while e<=l do local l local o local r l,e=(n["P"])(n,t,e)o,e=(n["P"])(n,t,e)r,e=(n["P"])(n,t,e)if l==nil or o==nil or r==nil then break end l=i["bxor"](l,103)o=i["bxor"](o,103)r=i["bxor"](r,103)a[l-1]={o-1,r-1}end return a end,["oIR"]="readu8",XLGL=function(n,i,r)local e=12855 do local e=e+30 if e==12885 then local d,e,x,c=(r[4]or 6)-6,r[2],i[31884],i[17333]local f,l=e[1],e[3]local e do local l=l local t,a=l[5038]or 0,l[25377]or 23959 if a==29456 then e=x[t]elseif a==203 then e=t elseif a==14869 then local o=l[21227]if o==nil then n["gju"]=n["NqMhP"]["bxor"](((t+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((t+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)o=i[7921][t]n["gju"]=nil if o==n["hE"]then l[21227]=n["hE"]e=nil else l[21227]=o==nil and n["hE"]or o e=o end elseif o==n["hE"]then e=nil else e=o end elseif a==9396 then local o=l[21227]if o==nil then n["gju"]=n["NqMhP"]["bxor"](((t+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((t+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)o=i[7921][t]n["gju"]=nil if o==n["hE"]then l[21227]=n["hE"]e=nil else l[21227]=o==nil and n["hE"]or o e=o end elseif o==n["hE"]then e=nil else e=o end else e=nil end end local l do local e=f local t,a=e[5038]or 0,e[25377]or 23959 if a==29456 then l=x[t]elseif a==203 then l=t elseif a==14869 then local o=e[21227]if o==nil then n["gju"]=n["NqMhP"]["bxor"](((t+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((t+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)o=i[7921][t]n["gju"]=nil if o==n["hE"]then e[21227]=n["hE"]l=nil else e[21227]=o==nil and n["hE"]or o l=o end elseif o==n["hE"]then l=nil else l=o end elseif a==9396 then local o=e[21227]if o==nil then n["gju"]=n["NqMhP"]["bxor"](((t+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((t+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)o=i[7921][t]n["gju"]=nil if o==n["hE"]then e[21227]=n["hE"]l=nil else e[21227]=o==nil and n["hE"]or o l=o end elseif o==n["hE"]then l=nil else l=o end else l=nil end end local o=r[5]if type(o)~="number"then local e=(n["P"])(n,o or"",1)or 0 o=n["NqMhP"]["bxor"](e,9837)r[5]=o end local n if o==23937 then n=e==l elseif o==2160 then n=e~=l elseif o==3103 then n=e>l elseif o==30459 then n=e>=l elseif o==1975 then n=e<l elseif o==29660 then n=e<=l elseif o==22490 then n=e+l elseif o==1120 then n=e-l elseif o==26160 then n=e*l elseif o==26141 then n=e/l elseif o==12033 then n=e%l elseif o==31849 then n=e^l elseif o==7898 then n=e..l elseif o==27395 then n=e and l elseif o==32474 then n=e or l end do local e,n=n,d x[n]=e local n=c and c[n]if n then n[1]=e end end end end end,ot=type,vZlG=function(l,n,e)local n=n[23581]local n=n and n[e]return n and n[1]or nil end,QV=function(n,i,r)if(16541)==16541 then local e,x,c=r[2],i[31884],(r[4]or 6)-6 local d,l=e[1],e[3]local e do local t=l local o,a=t[5038]or 0,t[25377]or 23959 if a==29456 then e=x[o]elseif a==203 then e=o elseif a==14869 then local l=t[21227]if l==nil then n["gju"]=n["NqMhP"]["bxor"](((o+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((o+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)l=i[7921][o]n["gju"]=nil if l==n["hE"]then t[21227]=n["hE"]e=nil else t[21227]=l==nil and n["hE"]or l e=l end elseif l==n["hE"]then e=nil else e=l end elseif a==9396 then local l=t[21227]if l==nil then n["gju"]=n["NqMhP"]["bxor"](((o+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((o+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)l=i[7921][o]n["gju"]=nil if l==n["hE"]then t[21227]=n["hE"]e=nil else t[21227]=l==nil and n["hE"]or l e=l end elseif l==n["hE"]then e=nil else e=l end else e=nil end end local l do local e=d local t,a=e[5038]or 0,e[25377]or 23959 if a==29456 then l=x[t]elseif a==203 then l=t elseif a==14869 then local o=e[21227]if o==nil then n["gju"]=n["NqMhP"]["bxor"](((t+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((t+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)o=i[7921][t]n["gju"]=nil if o==n["hE"]then e[21227]=n["hE"]l=nil else e[21227]=o==nil and n["hE"]or o l=o end elseif o==n["hE"]then l=nil else l=o end elseif a==9396 then local o=e[21227]if o==nil then n["gju"]=n["NqMhP"]["bxor"](((t+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((t+((r[4]or 6)-6)+(n["xvSiR"]or 0))%4)o=i[7921][t]n["gju"]=nil if o==n["hE"]then e[21227]=n["hE"]l=nil else e[21227]=o==nil and n["hE"]or o l=o end elseif o==n["hE"]then l=nil else l=o end else l=nil end end local n=x[c]n[e]=l end end,tUr=function(n,e,l)if e==nil or e==""then return{}end local o=n["G"]local a,e,x,t,i,r,c={},1,#l,1,(n["moL"])(n,e,l),n["NqMhP"],o["string"]["byte"]while t<=#i do local o o,t=(n["P"])(n,i,t)if o==nil then break end local n=c(l,((e-1)%x)+1)local n=r["bxor"]((e*167)+17654,n)a[e]=r["bxor"](o,n)e=e+1 end return a end,BLQRb=function(n,l,o,t)local e,n,r={},0,l[31884]for l=o,t do n=n+1 e[n]=r[l]end e["n"]=n l[13142]=e end,["Kks"]=table and table["create"],pA=function(l,o,n)local e=l["G"]local t=e["string"]["sub"]local e e,n=(l["P"])(l,o,n)if e==nil then return nil,n end local l=t(o,n,n+e-1)return l or"",n+e end,bAw="readu16",poi=function(n,l)local x,e=(n["pA"])(n,l,1)local t t,e=(n["pA"])(n,l,e)local r r,e=(n["P"])(n,l,e)local o o,e=(n["P"])(n,l,e)local i={}for x=1,o or 0 do local a local r local o local t a,e=(n["P"])(n,l,e)r,e=(n["pA"])(n,l,e)o,e=(n["pA"])(n,l,e)t,e=(n["P"])(n,l,e)i[a or x]={[23598]=r or"",[9827]=o or"",[3965]=t or 0}end return x or"",t or"",r or 0,i end,Mx=function(e,r,n)local o,x,l,c=e["G"]["table"]["concat"],e["FT"],16568,e["ccL"]or(e["IaYp"])(e)local l=l-22 if l~=16546 then return end local o=n[5]if type(o)~="string"or o==""then return end local t=e["G"]local l,a,f,d,s=(r[23513]or 3969665)-(r[21145]or 9837),e["NqMhP"],t["table"]["concat"],t["string"]["byte"],t["string"]["char"]local l=(r[26908]or 1)-l-1 if l<1 then return end local i,B,t,h,u={},t["math"]["floor"],(((l+7936)*563)+3814+8615+(l*31))%65536,#o,l*7 for n=1,h do local e,o=d(o,n),B(t/256)local r=(t+(n*37)+u+o)%256 i[n]=s(a["bxor"](e,r))t=(t+(e*23)+(n*13)+(l*5)+o)%65536 end if i[1]==nil then return end local o=x(e,f(i),l)if type(o)~="table"then return end n[3]=o[3]n[4]=o[4]n[2]=o[2]n[5]=o[5]n[1]=o[1]n[15787]=o[15787]if n[15787]then e["xvSiR"]=l end n[6]=nil local o=n[3]if o==nil then return end local t=(((l+12642)*999)+30763)%131071 local o,l=a["bxor"](o,30763)-t,(((l+26720)*771)+6839)%65535 local l=o-l local l=(((a["bxor"](l,4341)*993)+78485)%131071)local l=c[l]if l then n[6]=l return(l)(e,r,n)end end,BV=function(n,t,l)local i,r,e=n["JD"],n["cvLb"],bit32 or n["NqMhP"]local e=e["bxor"](16914,6412)if e==23326 then local e=l[5]if type(e)~="number"then local o=(n["P"])(n,e or"",1)or 0 e=n["NqMhP"]["bxor"](o,21364)l[5]=e end local o=(((l[2]or{})[3]or{}))if e%2==1 then o=(((l[2]or{})[1]or{}))end r(n,t,((l[4]or 6)-6),i(n,t,o))end end,R=function(n,e,o)local l=type(e)if n["jQVgE"]==nil and n["xd"]~=nil then(n["U"])(n,o or(l=="table"and e)or nil)end if l=="table"and o==nil then o=e if n["jQVgE"]==nil and n["xd"]~=nil then(n["U"])(n,o)end e=n["jQVgE"]n["jQVgE"]=nil l=type(e)end if l=="function"then local t=e e=t(n,o)l=type(e)end if(l~="string"and l~="table")or e==""then return nil,o end return e,o end,IaYp=function(n)local o,e=n["NqMhP"],{}for n=1,12 do e[n]={}end local function l(n)local l=(((n+2531)*6309+8675)%12)+1 local n=o["bxor"](n,6151)+8675 return e[l],n end local l=setmetatable({},{__index=function(e,n)local n,e=l(n)return n and n[e]end,__newindex=function(e,n,o)local e,n=l(n)e[n]=o end,__pairs=function()return function()end end,__metatable=false})n["ccL"]=l local o=function(o,e)local n=1 while o[n]do l[o[n]]=e n=n+1 end return e end local e=5039 repeat if e==5039 then local o=n["hFq"]l[43052]=o n["hFq"]=nil e=6083 elseif e==6083 then local l=n["W"]o({128780,112015},l)n["W"]=nil e=19896 elseif e==19896 then local l=n["XLGL"]o({124493,115240},l)n["XLGL"]=nil e=9796 elseif e==9796 then local l=n["HXDh"]o({107392,14681},l)n["HXDh"]=nil e=30510 elseif e==30510 then local l=n["ZTPas"]o({27514,130775},l)n["ZTPas"]=nil e=14233 elseif e==14233 then local o=n["kWZ"]l[131001]=o n["kWZ"]=nil e=5102 elseif e==5102 then local o=n["Cjnkk"]l[39150]=o n["Cjnkk"]=nil e=6539 elseif e==6539 then local o=n["mCtLn"]l[3942]=o n["mCtLn"]=nil e=32415 elseif e==32415 then local o=n["zTlTO"]l[123505]=o n["zTlTO"]=nil e=6939 elseif e==6939 then local o=n["aZ"]l[34245]=o n["aZ"]=nil e=6307 elseif e==6307 then local o=n["Zlxr"]l[36081]=o n["Zlxr"]=nil e=11159 elseif e==11159 then local o=n["DHI"]l[115013]=o n["DHI"]=nil e=26123 elseif e==26123 then local o=n["b"]l[124568]=o n["b"]=nil e=1749 elseif e==1749 then local o=n["tydmG"]l[75088]=o n["tydmG"]=nil e=1114 elseif e==1114 then local o=n["WuLuu"]l[81296]=o n["WuLuu"]=nil e=15595 elseif e==15595 then local o=n["fckUX"]l[124428]=o n["fckUX"]=nil e=19768 elseif e==19768 then local o=n["xno"]l[48842]=o n["xno"]=nil e=20743 elseif e==20743 then local o=n["oP"]l[51506]=o n["oP"]=nil e=14698 elseif e==14698 then local o=n["QV"]l[123207]=o n["QV"]=nil e=26800 elseif e==26800 then local o=n["lOc"]l[42942]=o n["lOc"]=nil e=24039 elseif e==24039 then local o=n["iS"]l[11266]=o n["iS"]=nil e=17123 elseif e==17123 then local o=n["WIrNo"]l[30108]=o n["WIrNo"]=nil e=12667 elseif e==12667 then local o=n["iKs"]l[75578]=o n["iKs"]=nil e=11955 elseif e==11955 then local o=n["qcsBp"]l[112317]=o n["qcsBp"]=nil e=5570 elseif e==5570 then local o=n["SxZ"]l[19045]=o n["SxZ"]=nil e=24554 elseif e==24554 then local o=n["WEq"]l[9300]=o n["WEq"]=nil e=13463 elseif e==13463 then local o=n["jy"]l[4112]=o n["jy"]=nil e=10042 elseif e==10042 then local o=n["ljU"]l[9210]=o n["ljU"]=nil e=32465 elseif e==32465 then local o=n["YL"]l[51176]=o n["YL"]=nil e=11000 elseif e==11000 then local o=n["o"]l[17944]=o n["o"]=nil e=3298 elseif e==3298 then local o=n["BV"]l[54688]=o n["BV"]=nil e=2286 elseif e==2286 then local o=n["wEQ"]l[69000]=o n["wEQ"]=nil e=24550 elseif e==24550 then local o=n["Mx"]l[34480]=o n["Mx"]=nil e=28546 elseif e==28546 then local o=n["LlCiU"]l[91161]=o n["LlCiU"]=nil e=9893 elseif e==9893 then local o=n["feHj"]l[3117]=o n["feHj"]=nil e=29581 elseif e==29581 then local o=n["fx"]l[40861]=o n["fx"]=nil e=31346 elseif e==31346 then local o=n["vDP"]l[31919]=o n["vDP"]=nil e=15472 elseif e==15472 then local o=n["QgYCs"]l[1203]=o n["QgYCs"]=nil e=31719 elseif e==31719 then local o=n["lRmjg"]l[38662]=o n["lRmjg"]=nil e=3771 elseif e==3771 then local o=n["SBLEM"]l[52574]=o n["SBLEM"]=nil e=23640 elseif e==23640 then local o=n["QI"]l[79933]=o n["QI"]=nil e=5783 elseif e==5783 then local o=n["LW"]l[94070]=o n["LW"]=nil e=30596 elseif e==30596 then local o=n["Mfrfx"]l[52004]=o n["Mfrfx"]=nil e=7341 elseif e==7341 then local o=n["i"]l[36896]=o n["i"]=nil e=12568 elseif e==12568 then local o=n["rE"]l[96596]=o n["rE"]=nil e=22195 elseif e==22195 then local o=n["Pv"]l[58342]=o n["Pv"]=nil e=118 elseif e==118 then local o=n["wFe"]l[41856]=o n["wFe"]=nil e=18364 else break end until false local e=l l=setmetatable({},{__index=e,__newindex=function(o,n,l)e[n]=l end,__metatable=false})n["ccL"]=l return l end,O=function(e,n)return n[25377]or 23959 end,i=function(l,n,e)local o,l=24685,24685 if o<=l and l>=o then local o,n,t,l=n[31884],e[2],(e[4]or 6)-6,n[17333]local e,n=n[1],n[3]do local e,n=t,o[(n[5038]or 0)]-(e[5038]or 0)o[e]=n local e=l and l[e]if e then e[1]=n end end end end,FT=function(n,o,d)local t=n["NqMhP"]local l,e=(n["P"])(n,o,1)local f=t["bxor"](l or 0,15023)local r=f if d then local n=(((d+26720)*771)+6839)%65535 r=r-n end local l=f if d then local n=(((d+12642)*999)+30763)%131071 l=t["bxor"](f+n,30763)else l=t["bxor"](f+29450,30763)end local c={[3]=l}if r==22998 then local l l,e=(n["P"])(n,o,e)local t,r={},false for i=1,l or 0 do local l l,e=(n["P"])(n,o,e)if l==nil then break end local o=n["G"]["string"]["sub"](o,e,e+l-1)e=e+l local n=(n["FT"])(n,o)t[i]=n if n and n[15787]then r=true end end c[1]=t if r then c[15787]=1 end return c end local r local x local a local i local l l,e=(n["P"])(n,o,e)local h=12588 if d then h=(((d+29770)*437)+12588)%65535 end l=t["bxor"](l or h,h)local d=math["floor"]((l or 0)/16)%10 l=(l or 0)%16 if d==0 then if t["band"](l,2)~=0 then x,e=(n["af"])(n,o,e)end if t["band"](l,1)~=0 then r,e=(n["MsAaP"])(n,o,e)r=(r or 3)-3 end if t["band"](l,4)~=0 then a,e=(n["af"])(n,o,e)end if t["band"](l,8)~=0 then i,e=(n["pA"])(n,o,e)end elseif d==1 then if t["band"](l,8)~=0 then i,e=(n["pA"])(n,o,e)end if t["band"](l,2)~=0 then x,e=(n["af"])(n,o,e)end if t["band"](l,4)~=0 then a,e=(n["af"])(n,o,e)end if t["band"](l,1)~=0 then r,e=(n["MsAaP"])(n,o,e)r=(r or 3)-3 end elseif d==2 then if t["band"](l,4)~=0 then a,e=(n["af"])(n,o,e)end if t["band"](l,1)~=0 then r,e=(n["MsAaP"])(n,o,e)r=(r or 3)-3 end if t["band"](l,8)~=0 then i,e=(n["pA"])(n,o,e)end if t["band"](l,2)~=0 then x,e=(n["af"])(n,o,e)end elseif d==3 then if t["band"](l,8)~=0 then i,e=(n["pA"])(n,o,e)end if t["band"](l,4)~=0 then a,e=(n["af"])(n,o,e)end if t["band"](l,1)~=0 then r,e=(n["MsAaP"])(n,o,e)r=(r or 3)-3 end if t["band"](l,2)~=0 then x,e=(n["af"])(n,o,e)end elseif d==4 then if t["band"](l,4)~=0 then a,e=(n["af"])(n,o,e)end if t["band"](l,8)~=0 then i,e=(n["pA"])(n,o,e)end if t["band"](l,2)~=0 then x,e=(n["af"])(n,o,e)end if t["band"](l,1)~=0 then r,e=(n["MsAaP"])(n,o,e)r=(r or 3)-3 end elseif d==5 then if t["band"](l,8)~=0 then i,e=(n["pA"])(n,o,e)end if t["band"](l,1)~=0 then r,e=(n["MsAaP"])(n,o,e)r=(r or 3)-3 end if t["band"](l,2)~=0 then x,e=(n["af"])(n,o,e)end if t["band"](l,4)~=0 then a,e=(n["af"])(n,o,e)end elseif d==6 then if t["band"](l,4)~=0 then a,e=(n["af"])(n,o,e)end if t["band"](l,2)~=0 then x,e=(n["af"])(n,o,e)end if t["band"](l,1)~=0 then r,e=(n["MsAaP"])(n,o,e)r=(r or 3)-3 end if t["band"](l,8)~=0 then i,e=(n["pA"])(n,o,e)end elseif d==7 then if t["band"](l,2)~=0 then x,e=(n["af"])(n,o,e)end if t["band"](l,4)~=0 then a,e=(n["af"])(n,o,e)end if t["band"](l,8)~=0 then i,e=(n["pA"])(n,o,e)end if t["band"](l,1)~=0 then r,e=(n["MsAaP"])(n,o,e)r=(r or 3)-3 end elseif d==8 then if t["band"](l,2)~=0 then x,e=(n["af"])(n,o,e)end if t["band"](l,1)~=0 then r,e=(n["MsAaP"])(n,o,e)r=(r or 3)-3 end if t["band"](l,8)~=0 then i,e=(n["pA"])(n,o,e)end if t["band"](l,4)~=0 then a,e=(n["af"])(n,o,e)end else if t["band"](l,1)~=0 then r,e=(n["MsAaP"])(n,o,e)r=(r or 3)-3 end if t["band"](l,4)~=0 then a,e=(n["af"])(n,o,e)end if t["band"](l,2)~=0 then x,e=(n["af"])(n,o,e)end if t["band"](l,8)~=0 then i,e=(n["pA"])(n,o,e)end end local e=n["tNo"]if e==nil then e={[25377]=23959,[5038]=0}n["tNo"]=e end c[4]=(r or 0)+6 c[2]={[3]=x or e,[1]=a or e,[2]=(f%23)}do local n,e=x and x[25377],a and a[25377]if n==9396 or n==14869 or e==9396 or e==14869 then c[15787]=1 end end if false then c[5]=(n["yXMeB"])(n,i or"")elseif i and i~=""then c[5]=i end return c end,WDz=function(e,n)if n==nil or n==""then return n or""end local l=e["G"]local t,o=l["string"]["sub"],"R1CcqGntYke"local l=#o if#n<=l or t(n,1,l)~=o then return n end local t,l=(e["pA"])(e,n,l+1)local o o,l=(e["P"])(e,n,l)if not t or o==nil or l~=(#n+1)then return n end local e=(e["r"])(e,t,o)return e or n end,QI=function(n,l,e)local r,t,o=n["vZlG"],n["cvLb"],bit32 or n["NqMhP"]local o=o["bxor"](13504,14872)if o==3800 then t(n,l,((e[4]or 6)-6),r(n,l,(((((e[2]or{})[3]or{})))[5038]or 0)))end end,P=function(n,r,e)local n=n["G"]local l,e,n,t,o=1,0,e,n["string"]["byte"],0 while true do local t=t(r,n)if not t then return nil,n end o=o+(t%128)*l n=n+1 if t<128 then break end l=l*128 e=e+7 if e>56 then return nil,n end end return o,n end,feHj=function(n,l,e)local n=15843 n=n-18 if not(n~=15825)then local e,n,o,l=e[2],l[31884],(e[4]or 6)-6,l[17333]local t,e=e[3],e[1]do local o,e=n[(t[5038]or 0)]*(e[5038]or 0),o n[e]=o local n=l and l[e]if n then n[1]=o end end else return end end,Zlxr=function(e,t,n)local x,l,c,o=e["ccL"]or(e["IaYp"])(e),{14116},e["FT"],e["G"]["table"]["concat"]local l=l[1]if l==14116 then local o=n[5]if type(o)~="string"or o==""then return end local l=e["G"]local a,d,l,s,h=e["NqMhP"],l["string"]["byte"],(t[23513]or 3969665)-(t[21145]or 9837),l["table"]["concat"],l["string"]["char"]local l=(t[26908]or 1)-l-1 if l<1 then return end local u,i,f,r=l*13,{},#o,(((l+7936)*563)+3814+8615)%65536 for n=1,f do local e,o=d(o,n),(r+(n*29)+u)%256 i[n]=h(a["bxor"](e,o))r=(r+(e*17)+(n*11)+l)%65536 end if i[1]==nil then return end local o=c(e,s(i),l)if type(o)~="table"then return end n[3]=o[3]n[4]=o[4]n[2]=o[2]n[5]=o[5]n[1]=o[1]n[15787]=o[15787]if n[15787]then e["xvSiR"]=l end n[6]=nil local o=n[3]if o==nil then return end local r=(((l+12642)*999)+30763)%131071 local o,l=(((l+26720)*771)+6839)%65535,a["bxor"](o,30763)-r local l=l-o local l=(((a["bxor"](l,4341)*993)+78485)%131071)local l=x[l]if l then n[6]=l return(l)(e,t,n)end end end,o=function(l,n,e)if(true)then local n,l,e=(e[4]or 6)-6,n[17333],n[31884]do local n,o=n,not e[n]e[n]=o local n=l and l[n]if n then n[1]=o end end end end,PVmS=function(n,l)local e=n["G"]local t,o,e=e["string"]["sub"],"36aEe7DGBEh2PJ7",(n["e"])(n,l)local l=#o if#e<=l or t(e,1,l)~=o then return e end local l=l+1 local t local o t,l=(n["pA"])(n,e,l)o,l=(n["pA"])(n,e,l)if not t or not o or o==""or l~=(#e+1)then return e end return(n["e"])(n,(n["moL"])(n,t,o))end,W=function(e,o,l)local n,i=bit32 or e["NqMhP"],e["aZhSl"]local n=n["bxor"](9662,12425)if n==5431 then local a,t,n,r=o[31884][((l[4]or 6)-6)],(((((l[2]or{})[1]or{})))[5038]or 0),l[5],(((((l[2]or{})[3]or{})))[5038]or 0)if type(n)~="number"then n=(e["P"])(e,n or"",1)or 0 l[5]=n end if n~=0 then t=o[12823]or(r-1)end local n=0 for l=r,t do n=n+1 a[n]=i(e,o,l)end end end,iS=function(n,a,i)local e,l=14212,14212 if e<=l and l>=e then local x,d,c,e=a[31884],a[17333],(i[4]or 6)-6,i[2]local l=e[3]local e do local o=l local l,r=o[5038]or 0,o[25377]or 23959 if r==29456 then e=x[l]elseif r==203 then e=l elseif r==14869 then local t=o[21227]if t==nil then n["gju"]=n["NqMhP"]["bxor"](((l+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((l+((i[4]or 6)-6)+(n["xvSiR"]or 0))%4)t=a[7921][l]n["gju"]=nil if t==n["hE"]then o[21227]=n["hE"]e=nil else o[21227]=t==nil and n["hE"]or t e=t end elseif t==n["hE"]then e=nil else e=t end elseif r==9396 then local t=o[21227]if t==nil then n["gju"]=n["NqMhP"]["bxor"](((l+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((l+((i[4]or 6)-6)+(n["xvSiR"]or 0))%4)t=a[7921][l]n["gju"]=nil if t==n["hE"]then o[21227]=n["hE"]e=nil else o[21227]=t==nil and n["hE"]or t e=t end elseif t==n["hE"]then e=nil else e=t end else e=nil end end local n=x[c]do local n,e=n[e],c x[e]=n local e=d and d[e]if e then e[1]=n end end end end,WIrNo=function(l,t,n)local e,o=14275,l["cvLb"]if e==14275 then local n,e=(((((n[2]or{})[3]or{})))[5038]or 0),((n[4]or 6)-6)if n<e then e,n=n,e end for n=e,n do o(l,t,n,nil)end end end,["fckUX"]=function(l,n,e)local l=8008 do local l=l+7 if l==8015 then n[26908]=n[26908]+(((((e[2]or{})[3]or{})))[5038]or 0)end end end,jku=function(e,n)return n[1]or{}end,cvLb=function(o,n,e,l)n[31884][e]=l local n=n[17333]local n=n and n[e]if n then n[1]=l end end,moL=function(n,a,e)local l=n["G"]local h,d,f,r=l["string"]["char"],l["math"]["floor"],l["table"]["concat"],l["string"]["byte"]local function i(e,n)local l,o=0,1 while e>0 or n>0 do local t,r=e%2,n%2 if t~=r then l=l+o end e=(e-t)/2 n=(n-r)/2 o=o*2 end return l end local c=(n["NqMhP"]and n["NqMhP"]["bxor"])or i local function o(l)local n=173 for e=1,#l do n=(n*131+r(l,e)+e)%65536 end return n end local x,t=#a,#e if t==0 then return""end local i,l={},n["nnU"]if l==nil then l={}n["nnU"]=l end local n=l[e]if n==nil then n=o(e)l[e]=n end local o=t*13%256 for l=1,x do local t=((l-1)%t)+1 local e=r(e,t)local t,r=r(a,l),(n+d(n/256)+e+o)%256 i[l]=h(c(t,r))o=t n=(n+e*17+l*11+o*7)%65536 end return f(i)end,["c"]=bit32 and bit32["bor"],p=function(r,e,n)n=n or 0 if n<=0 then return 0 end e=e or 0 local l=r["xvSiR"]or 0 local t=l>=n and n or l local o=r["pFhwB"]if o==nil then o={}r["pFhwB"]=o end local l=o[e]if l==nil then l={}o[e]=l end local o=l[n]if o==nil then o={}l[n]=o end local l=o[t]if l~=nil then return l end local l=r["NqMhP"]local r,i,x,a=247,43,64,207 local f,h,c,d=195,146,120,40 local r=l["bxor"](((t+9505+r)*775+(e*605)+n+5044+(i*3))%65536,(((n+22283+x)*921)+e+a)%65536)local n=l["bxor"]((r+(((e+16144+f)*255)%65536))%65536,(n+36705+h)%65536)local n=l["bxor"]((n+(t*743)+41232+c)%65536,(e+t+57542+d)%65536)%65536 o[t]=n return n end,lRmjg=function(l,n,e)if(18012)==18012 then local n,o,e=n[17333],n[31884],(e[4]or 6)-6 do local l,e=true,e o[e]=l local n=n and n[e]if n then n[1]=l end end end end,["h"]=function(l,e,n,o)local e=41 repeat if e==41 then n=(n or 71)e=64 elseif e==64 then o=((l["F_BIT32"]and l["F_BIT32"]["lshift"])and l["F_BIT32"]["lshift"](n,19778)or n)e=118 else return o,n end until false end,r=function(i,l,o)if l==nil or l==""then return l or""end local n=i["G"]local a,c,x=n["string"]["byte"],n["string"]["char"],n["table"]["concat"]local n,e,r=1,0,{}while n<=#l do local t=a(l,n)if not t then break end n=n+1 if t<128 then local o=t+1 if n+o-1>#l then return nil end for o=0,o-1 do e=e+1 r[e]=c(a(l,n+o))end n=n+o else local t=(t-128)+3 local o o,n=(i["P"])(i,l,n)if o==nil then return nil end local n=o+1 if n<=0 or n>e then return nil end local n=e-n+1 for l=1,t do local l=r[n]if l==nil then return nil end e=e+1 r[e]=l n=n+1 end end if o and o~=0 and e>o then return nil end end if o and o~=0 and e~=o then return nil end return x(r)end,fx=function(t,o,e)local n,r=13237,t["aZhSl"]if n==13237 then local e,l=o[17333],((e[4]or 6)-6)local n=e and e[l]if n then n[1]=r(t,o,l)n[4]=false n[3]=nil e[l]=nil end end end,pOuw=function(e,l)local d,n,f,a=#l,1,{},1 while n<=d do local s=n local h local t local i local r local o local x local c local u f[a]=n h,n=(e["P"])(e,l,n)t,n=(e["P"])(e,l,n)i,n=(e["P"])(e,l,n)r,n=(e["P"])(e,l,n)o,n=(e["P"])(e,l,n)x,n=(e["P"])(e,l,n)c,n=(e["P"])(e,l,n)u,n=(e["P"])(e,l,n)if h==nil or t==nil or i==nil or r==nil or o==nil or x==nil or c==nil or u==nil then break end if t<0 or i<0 or r<0 or o<0 then break end local e=n+t+i+r+o if e<=s then break end if e>d+1 then break end n=e a=a+1 end return f end,QgYCs=function(l,n,e)local l=12209 do local l=l+35 if l==12244 then n[26908]=n[26908]+(((((e[2]or{})[3]or{})))[5038]or 0)end end end,lOc=function(n,e,o)local b,x,a,i,f,l,c,r,t=n["j"],n["YJRWE"]or{},n["iDl"],(n["G"]["next"]or next),n["cvLb"],3004,n["BuH"],n["OGTFp"],e[16871]if l==3004 then local l,d=(o[5]or{}),((o[4]or 6)-6)if type(l)~="table"or l[2422]==nil then l=(n["yXMeB"])(n,l or"")o[5]=l end local t,o=l[2422],l[19955]if o==nil then local e=l[18897]or""if e==""then o=false else local n=a(n,e)o=i(n)and n or false end l[19955]=o end local l=e[31657][t]if not l then local o=x[t]if not o then f(n,e,d,function()end)return end if o[6242]~=nil then l=o else l=r(n,o[23598],o[9827],o[3965])end e[31657][t]=l end local h,m,a,x,r,u,s=e[23513]or 3969665,e[31657],e[25883],e[31884],e[17333],e[23581],e[21145]or 9837 local t local B={}local function F(l)if not r then r={}e[17333]=r end local e=r[l]if not e then e={x[c(n,l)],l,x,true}r[l]=e end return e end if o then for e,n in i,o do if n[1]==0 then B[e]=F(n[2])end end end local function E(F,E)local f,e,r,x,d={},1,l[3965]or 0,{},{}if o then for l,e in i,o do local n if e[1]==0 then n=B[l]else n=u and u[e[2]]or nil end if not n then n={nil,0,nil,false}end d[l]=n end end for e=1,r do f[c(n,e-1)]=F[e]end for n=r+1,E do x[e]=F[n]e=e+1 end x["n"]=e-1 local n={[31884]=f,[23581]=d,[7921]=l[22209],[26908]=(h-s)+1,[23513]=h,[21145]=s,[12823]=r-1,[16871]=x,[25883]=a,[31657]=m,[23198]=l,[3393]=t,[17333]={}}return n,l[6242]end t=function(...)local e,l=select("#",...),{...}local e,l=E(l,e)return b(n,e,l)end if n["xH"]then n["xH"][t]=function(l,e)if l==n["eycz"]then if e~=nil then a=e return t end return a end return E(l,e)end end f(n,e,d,t)end end,LW=function(e,l,o)local d,u,h,c=(e["G"]["table"]and e["G"]["table"]["unpack"])or e["G"]["unpack"],e["j"],e["cvLb"],e["aZhSl"]if not d then d=function(l,n,e)n=n or 1 e=e or#l if n>e then return end return l[n],d(l,n+1,e)end end local n=((31919)==31919)if not n then return end local t,a,i,n=(((((o[2]or{})[1]or{})))[5038]or 0),o[5],(((((o[2]or{})[3]or{})))[5038]or 0),((o[4]or 6)-6)if type(a)~="number"then a=(e["MsAaP"])(e,a or"",1)or-1 o[5]=a end local r=c(e,l,n)local f=e["xH"]and e["xH"][r]if not f and i>=0 and i<=3 and t>=0 and t<=3 then local e,o=l[31884],l[17333]local function c(n,l)e[n]=l local n=o and o[n]if n then n[1]=l end end if t==0 then if i==0 then r()elseif i==1 then r(e[n+1])elseif i==2 then r(e[n+1],e[n+2])else r(e[n+1],e[n+2],e[n+3])end l[12823]=n-1 return end local a,o,x if i==0 then a,o,x=r()elseif i==1 then a,o,x=r(e[n+1])elseif i==2 then a,o,x=r(e[n+1],e[n+2])else a,o,x=r(e[n+1],e[n+2],e[n+3])end c(n,a)if t>=2 then c(n+1,o)end if t>=3 then c(n+2,x)end l[12823]=n+t-1 return end local o,x=0,{}if i<0 then if a<0 then a=0 end for t=1,a do o=o+1 x[o]=c(e,l,n+t)end local t=l[12823]or(n+a)for n=n+a+1,t do o=o+1 x[o]=c(e,l,n)end else for t=1,i do o=o+1 x[o]=c(e,l,n+t)end end local function a(...)local n=select("#",...)local e={n=n}for n=1,n do e[n]=select(n,...)end return e end local i if f then local l,n=f(x,o)i=a(u(e,l,n))else i=a(r(d(x,1,o)))end if t<0 then for o=1,i["n"]do h(e,l,n+o-1,i[o])end l[12823]=n+i["n"]-1 elseif t>0 then for o=1,t do h(e,l,n+o-1,i[o])end l[12823]=n+t-1 else l[12823]=n-1 end end,nw=function(e,n)return(n[4]or 6)-6 end,U=function(n,l)local e=n["xd"]if type(e)~="string"or e==""then return end n["xd"]=nil n["G"]=l or n["G"]or(_ENV or(getfenv and getfenv())or _G)e=(n["WDz"])(n,e)local l=n["G"]local r,o,i=((l and l["string"])or string)["sub"],1,((l and l["string"])or string)["byte"]local function t()local l=0 while true do local n=i(e,o)if not n then return nil end o=o+1 if n==124 then return l end if n<48 or n>57 then return nil end l=(l*10)+(n-48)end end local l={}l[1]=t()l[2]=t()l[3]=t()if not l[1]or not l[2]or not l[3]then return end local i=o local t=i+l[1]local o=t+l[2]local l=o+l[3]-1 if l>#e then return end n["jQVgE"]=r(e,i,t-1)n["HZsT"]=r(e,t,o-1)n["fCK"]=r(e,o,l)end,ur=function(o,n,l,t)local e=n[23581]local n=e and e[l]if not n then n={nil,l,nil,false}if e then e[l]=n end end n[1]=t local e=n[3]if e and n[4]then e[(o["BuH"])(o,n[2])]=t end end,MsAaP=function(l,o,e)local n n,e=(l["P"])(l,o,e)if n==nil then return 0,e end if n%2==0 then return n/2,e end return-((n+1)/2),e end,ljU=function(l,n,e)local l=((30553)==30553)if not l then return end do local l=(((((e[2]or{})[3]or{})))[5038]or 0)local e=(n[23513]or 3969665)-(n[21145]or 9837)n[26908]=e+l end end,ISQU=function(e,o,l,n)local e={n=n or 0}for n=1,n or 0 do e[n]=l[n]end o[13142]=e end,["AY"]=bit32 and bit32["lshift"],xno=function(n,l,e)local t,o,r=n["cvLb"],27283,n["JD"]local o=(o==27283)if not o then return end local o=l[31884][((e[4]or 6)-6)]t(n,l,((e[4]or 6)-6)+1,o)local i=r(n,l,(((e[2]or{})[3]or{})))local r=o[i]if r==nil then t(n,l,((e[4]or 6)-6),function()error("attempt to call missing method '"..tostring(i).."' of "..type(o))end)else t(n,l,((e[4]or 6)-6),r)end end,yXMeB=function(n,e)if e==nil or e==""then return{[2422]=0,[18897]=""}end local t,l=(n["MsAaP"])(n,e,1)local o o,l=(n["pA"])(n,e,l)return{[2422]=(t or 100)-100,[18897]=o or""}end,Xcv=function(n,l,e)local o=28451 repeat if o==28451 then return(n["CJoDB"])(n,l,e)else return end until false end,zTlTO=function(l,n,e)local l={23444}local l=l[1]if l==23444 then local e,l,n,o=e[2],(e[4]or 6)-6,n[17333],n[31884]local e=e[3]do local l,e=l,(e[5038]or 0)o[l]=e local n=n and n[l]if n then n[1]=e end end end end,wEQ=function(n,e,o)local t,l=n["JD"],16613 l=l-13 if not(l~=16600)then local e,l,o=e[25883],t(n,e,(((o[2]or{})[3]or{}))),e[31884][((o[4]or 6)-6)]if o==nil then if e==n["krN"]then e[l]=n["hE"]else e[l]=nil end else e[l]=o end else return end end,aEvsn=function(n,l,o)local e=l and l[1]if not e then return end n["YJRWE"]=l[2]or{}n["ccL"]=n["ccL"]or(n["IaYp"])(n)e[13103]=e[13103]or{}local l=0 if l~=0 then(n["USSBr"])(n,e[6242],e[22209],l)end local l,x,i={},{},{}l["n"]=0 local a=0 if o then local x,c,e,r=e[3965]or 0,n["BuH"],1,o["n"]or#o for t=1,r do local o=o[t]i[(c)(n,t-1)]=o if t>x then l[e]=o e=e+1 end end l["n"]=e-1 if r>0 then a=r-1 end end local l={[31884]=i,[23581]=x,[7921]=e[22209],[26908]=(3969665-9837)+1,[23513]=3969665,[21145]=9837,[12823]=a,[16871]=l,[25883]=n["krN"],[31657]=e[13103],[23198]=e,[17333]={},[7013]=0}return(n["j"])(n,l,e[6242])end,["jy"]=function(n,l,e)local o,t,i=26895,n["cvLb"],n["JD"]o=o-18 if not(o~=26877)then local o=e[5]if type(o)~="number"then local l=(n["P"])(n,o or"",1)or 0 o=n["NqMhP"]["bxor"](l,21364)e[5]=o end local r=(((e[2]or{})[3]or{}))if o%2==1 then r=(((e[2]or{})[1]or{}))end local i,r=l[25883],i(n,l,r)local o=i[r]if o==n["hE"]then t(n,l,((e[4]or 6)-6),nil)elseif o~=nil then t(n,l,((e[4]or 6)-6),o)elseif r=="limitedstack"then t(n,l,((e[4]or 6)-6),true)elseif i~=n["krN"]then t(n,l,((e[4]or 6)-6),nil)else t(n,l,((e[4]or 6)-6),n["G"][r])end else return end end,htHQ=function(n,e,l)local o=n["Bp"]n["Bp"]=e or true local t=(n["EJUn"])(n,e,l or 0)n["Bp"]=o local l=n["x"]if not l then l={}n["x"]=l end local e=l[1]if not e then e={function(e,l)return(n["ahTG"])(n,e,l)end,function(e)return(n["WDz"])(n,e)end}e["n"]=2 l[1]=e end local function l(...)return{n=select("#",...),...}end local o=l((n["aEvsn"])(n,t,e))local e=o["n"]==1 and o[1]if type(e)=="table"then local l=e[1]if type(l)=="table"then if l[6242]~=nil then return(n["aEvsn"])(n,e)elseif l[23598]~=nil then e[1]=(n["OGTFp"])(n,l[23598],l[9827],l[3965])return(n["aEvsn"])(n,e)end end end if type(e)=="table"and e[20634]==21997 then return(n["avN"])(n,e[13757],e[3774]or 0)end local n=(n["G"]["table"]and n["G"]["table"]["unpack"])or n["G"]["unpack"]or unpack return n(o,1,o["n"]or 0)end,wFe=function(n,i,a)local e,l=14041,14041 if e<=l and l>=e then local c,x,e,d=i[31884],i[17333],a[2],(a[4]or 6)-6 local l=e[3]local e do local l=l local t,r=l[5038]or 0,l[25377]or 23959 if r==29456 then e=c[t]elseif r==203 then e=t elseif r==14869 then local o=l[21227]if o==nil then n["gju"]=n["NqMhP"]["bxor"](((t+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((t+((a[4]or 6)-6)+(n["xvSiR"]or 0))%4)o=i[7921][t]n["gju"]=nil if o==n["hE"]then l[21227]=n["hE"]e=nil else l[21227]=o==nil and n["hE"]or o e=o end elseif o==n["hE"]then e=nil else e=o end elseif r==9396 then local o=l[21227]if o==nil then n["gju"]=n["NqMhP"]["bxor"](((t+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((t+((a[4]or 6)-6)+(n["xvSiR"]or 0))%4)o=i[7921][t]n["gju"]=nil if o==n["hE"]then l[21227]=n["hE"]e=nil else l[21227]=o==nil and n["hE"]or o e=o end elseif o==n["hE"]then e=nil else e=o end else e=nil end end do local n,e=d,e c[n]=e local n=x and x[n]if n then n[1]=e end end end end,nzsjr=function(e,n)return n end,eCW=function(l,r,f)local n=l["G"]local E,o,i,b,t,d,a,x,c,s,B,h,n=n["rawset"]or rawset,l["NqMhP"],{},true,1,n["setmetatable"]or setmetatable,{},#f,#r,n["table"]["concat"],n["string"]["char"],n["string"]["byte"],1 if x==0 then return{}end while n<=c do local e e,n=(l["P"])(l,r,n)if e==nil or e<0 or n+e-1>c then break end i[t]=n a[t]=e n=n+e t=t+1 end local c={}c[0]=t-1 local function F(n,t)local l=l["ccL"]if not l or type(n)~="table"or n[6]~=nil then return end local e=n[3]if e==nil then return end local r=(((t+12642)*999)+30763)%131071 local t,e=o["bxor"](e,30763)-r,(((t+26720)*771)+6839)%65535 local e=t-e local e=(((o["bxor"](e,4341)*993)+78485)%131071)local e=l[e]if e then n[6]=e end end return d(c,{__index=function(D,n)local e,t=a[n],i[n]if not t or not e then return nil end local m,t,P,c,u=t-1,((n*885)+29760)%256,n-2+(((n*309)+27348)%x),(((n+91)%4)*2)+17,{}local d=(n*29)+27302+t for e=1,e do local i,l=h(r,m+e),((P+e)%x)+1 local a,r=h(f,l),(((n+5177)*1165)+e)%3 local l if r==0 then l=(d+(e*c)+((e%3)*t))%256 elseif r==1 then l=(d+(e*(c+2))+((e%5)*t)+((e*e+n)%251))%256 else l=(d+(e*(c+4))+o["bxor"]((e*t)%256,(n+e)%256))%256 end u[e]=B(o["bxor"](o["bxor"](i,l),a))end local e=(l["FT"])(l,s(u),n)F(e,n)if b then E(D,n,e)i[n]=nil a[n]=nil end return e end,__metatable={}})end,qD=function(n,e)local t,l=(n["pA"])(n,e,1)local o o,l=(n["pA"])(n,e,l)return t or"",o or""end,Cjnkk=function(e,n,l)local e=32305 do local e=e+31 if e==32336 then local l,n,o=n[17333],(l[4]or 6)-6,n[31884]do local e,n=nil,n o[n]=e local n=l and l[n]if n then n[1]=e end end end end end,WuLuu=function(e,n,l)local e={24441}local e=e[1]if e==24441 then local o,n,e=n[31884],(l[4]or 6)-6,n[17333]do local n,l=false,n o[l]=n local e=e and e[l]if e then e[1]=n end end end end,["b"]=function(e,t,n)local l,s,o,B=10414,e["ccL"]or(e["IaYp"])(e),e["G"]["table"]["concat"],e["FT"]local l=l-81 if l~=10333 then return end local o=n[5]if type(o)~="string"or o==""then return end local r=e["G"]local u,h,x,l,f=r["string"]["byte"],r["table"]["concat"],e["NqMhP"],(t[23513]or 3969665)-(t[21145]or 9837),r["string"]["char"]local l=(t[26908]or 1)-l-1 if l<1 then return end local a,i,c=#o,{},r["math"]["floor"]local r,d=(((l+7936+29)*563)+3814+8615+(a*17))%65536,(l*41)+(a*7)for n=1,a do local e,o=c(r/128),u(o,n)local t=(r+(n*53)+d+e)%256 i[n]=f(x["bxor"](o,t))r=(r+(o*31)+(n*17)+(l*3)+e)%65536 end if i[1]==nil then return end local o=B(e,h(i),l)if type(o)~="table"then return end n[3]=o[3]n[4]=o[4]n[2]=o[2]n[5]=o[5]n[1]=o[1]n[15787]=o[15787]if n[15787]then e["xvSiR"]=l end n[6]=nil local o=n[3]if o==nil then return end local r=(((l+12642)*999)+30763)%131071 local o,l=x["bxor"](o,30763)-r,(((l+26720)*771)+6839)%65535 local l=o-l local l=(((x["bxor"](l,4341)*993)+78485)%131071)local l=s[l]if l then n[6]=l return(l)(e,t,n)end end,aZ=function(n,n,n)end,SxZ=function(n,e,i)local r,l,c,x=n["cvLb"],bit32 or n["NqMhP"],(n["G"]["next"]or next),n["aZhSl"]local l=l["bxor"](7362,7922)if l==560 then local h,u,o,l=(((((i[2]or{})[1]or{})))[5038]or 0),(((((i[2]or{})[3]or{})))[5038]or 0),((i[4]or 6)-6),i[5]local t local a if type(l)=="table"then t=l[1]a=l[2]else local e=1 t,e=(n["MsAaP"])(n,l or"",e)a,e=(n["MsAaP"])(n,l or"",e)l={t or(o+2),a or(o+3)}i[5]=l t=l[1]a=l[2]end local l,i,d,f=x(n,e,o),e[31884],x(n,e,o+1),x(n,e,t)local function x(...)local n=select("#",...)local e={n=n}for n=1,n do e[n]=select(n,...)end return e end local i if d==nil and f==nil and type(l)~="function"then local a,f,d=type(l),n["G"]["rawget"]or rawget,n["G"]["getmetatable"]or getmetatable local d=d and d(l)local d=d and f(d,"__iter")if d~=nil then local c,a,l=d(l)r(n,e,o,c)r(n,e,o+1,a)r(n,e,t,l)i=x(c(a,l))elseif a=="table"then r(n,e,o,c)r(n,e,o+1,l)i=x(c(l,nil))else error("attempt to iterate over a "..a.." value")end else i=x(l(d,f))end for l=1,u do r(n,e,a+l-1,i[l])end if i[1]==nil then do local n=h local l=(e[23513]or 3969665)-(e[21145]or 9837)e[26908]=l+n end else r(n,e,t,i[1])end end end,ahTG=function(n,l,e)local o,l=(n["Hc"])(n,l,e or 0),n["x"]if not l then l={}n["x"]=l end local e=l[1]if not e then e={function(e,l)return(n["ahTG"])(n,e,l)end,function(e)return(n["WDz"])(n,e)end}e["n"]=2 l[1]=e end local function l(...)return{n=select("#",...),...}end local o=l((n["aEvsn"])(n,o,e))local e=o["n"]==1 and o[1]if type(e)=="table"then local l=e[1]if type(l)=="table"then if l[6242]~=nil then return(n["aEvsn"])(n,e)elseif l[23598]~=nil then e[1]=(n["OGTFp"])(n,l[23598],l[9827],l[3965])return(n["aEvsn"])(n,e)end end end if type(e)=="table"and e[20634]==21997 then return(n["avN"])(n,e[13757],e[3774]or 0)end local n=(n["G"]["table"]and n["G"]["table"]["unpack"])or n["G"]["unpack"]or unpack return n(o,1,o["n"]or 0)end,JD=function(n,t,l)local e,o=l[5038]or 0,l[25377]or 23959 if o==29456 then return t[31884][e]elseif o==203 then return e elseif o==9396 then local o=l[21227]if o~=nil then if o==n["hE"]then return nil end return o end n["gju"]=n["NqMhP"]["bxor"](((e+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((e+(n["xvSiR"]or 0))%4)local e=t[7921][e]n["gju"]=nil if e==n["hE"]then l[21227]=n["hE"]return nil end l[21227]=e==nil and n["hE"]or e return e elseif o==14869 then local o=l[21227]if o~=nil then if o==n["hE"]then return nil end return o end n["gju"]=n["NqMhP"]["bxor"](((e+24863)*375+(n["xvSiR"]or 0))%65536,57233)n["jLux"]=((e+(n["xvSiR"]or 0))%4)local e=t[7921][e]n["gju"]=nil l[21227]=e==nil and n["hE"]or e return e end return nil end,BuH=function(e,n)return n end,iKs=function(l,n,e)if(true)then local o,n,e=n[31884],n[17333],(e[4]or 6)-6 do local l,e=e,{}o[l]=e local n=n and n[l]if n then n[1]=e end end end end,zWS="readf64",Mfrfx=function(n,e,l)local t,r,o=15608,n["JD"],n["cvLb"]t=t-23 if not(t~=15585)then local t,i=r(n,e,(((l[2]or{})[3]or{}))),e[25883]local r=i[t]if r==n["hE"]then o(n,e,((l[4]or 6)-6),nil)elseif r~=nil then o(n,e,((l[4]or 6)-6),r)elseif t=="limitedstack"then o(n,e,((l[4]or 6)-6),true)elseif i~=n["krN"]then o(n,e,((l[4]or 6)-6),nil)else o(n,e,((l[4]or 6)-6),n["G"][t])end else return end end,xqed=function(e,n)local n=n[2]return(type(n)=="table"and n[1])or{}end,zFV=table and table["move"],YL=function(e,t,n)local l,f,h,o=12631,e["FT"],e["ccL"]or(e["IaYp"])(e),e["G"]["table"]["concat"]local l=(l==12631)if not l then return end local o=n[5]if type(o)~="string"or o==""then return end local l=e["G"]local c,l,d,u,r=l["table"]["concat"],(t[23513]or 3969665)-(t[21145]or 9837),l["string"]["char"],l["string"]["byte"],e["NqMhP"]local l=(t[26908]or 1)-l-1 if l<1 then return end local i,x,a,s={},#o,(((l+7936+17)*563)+3814+8615+(l*19))%65536,l*23 for n=1,x do local o,e=(a+(n*11)+s+((n%5)*31))%256,u(o,x-n+1)i[n]=d(r["bxor"](e,o))a=(a+(e*19)+(n*29)+l+((e%7)*43))%65536 end if i[1]==nil then return end local o=f(e,c(i),l)if type(o)~="table"then return end n[3]=o[3]n[4]=o[4]n[2]=o[2]n[5]=o[5]n[1]=o[1]n[15787]=o[15787]if n[15787]then e["xvSiR"]=l end n[6]=nil local o=n[3]if o==nil then return end local i=(((l+12642)*999)+30763)%131071 local o,l=(((l+26720)*771)+6839)%65535,r["bxor"](o,30763)-i local l=l-o local l=(((r["bxor"](l,4341)*993)+78485)%131071)local l=h[l]if l then n[6]=l return(l)(e,t,n)end end,WEq=function(t,l,e)local n=bit32 or t["NqMhP"]local n=n["bxor"](27875,10791)if n==18116 then local r,o,n,i=((e[4]or 6)-6),l[31884],e[5],(((((e[2]or{})[1]or{})))[5038]or 0)if type(n)=="table"then n=n[5038]or(i+1)e[5]=n elseif type(n)~="number"then n=(t["MsAaP"])(t,n or"",1)or(i+1)e[5]=n end local t=o[n]local n=o[r]+t o[r]=n local a=l[17333]local r=a and a[r]if r then r[1]=n end local o=o[i]if(t>0 and n<=o)or(t<0 and n>=o)then do local n=(((((e[2]or{})[3]or{})))[5038]or 0)local e=(l[23513]or 3969665)-(l[21145]or 9837)l[26908]=e+n end end end end,hFq=function(e,n,l)local e=bit32 or e["NqMhP"]local e=e["bxor"](14711,3626)if e==14173 then n[26908]=n[26908]+(((((l[2]or{})[3]or{})))[5038]or 0)end end,af=function(e,r,n)local o=e["NqMhP"]local l local t l,n=(e["P"])(e,r,n)t,n=(e["MsAaP"])(e,r,n)if l==nil then l=o["bxor"](23959,80)end return{[25377]=o["bxor"](l,80),[5038]=(t or 32)-32},n end,s=function(n,a,e)local x=bit32 e=e or(_ENV or(getfenv and getfenv())or _G)local o=e["setmetatable"]or setmetatable n["jQVgE"]=nil n["G"]=e n["hE"]={}n["x"]={}n["vmFVd"]={}n["krN"]={}n["xH"]=o and o({},{["__mode"]="k"})or{}n["uDW"]={}n["xvSiR"]=0 n["eycz"]={}local l,t=n["krN"],true if t then l["_G"]=l l["limitedstack"]=true if o then o(l,{["__index"]=e,["__metatable"]={}})end end local o,i=e["setfenv"]or setfenv,e["getfenv"]or getfenv local function r(e)if type(e)~="number"then error("bad argument #1 to 'getfenv' (number expected)",3)end local n=n["uDW"]local n=n[#n-e+1]if not n then error("invalid stack level",3)end return n end local function c(e)local e=n["xH"]and n["xH"][e]if e then return e(n["eycz"])end return nil end if t then l["getfenv"]=function(e)if e==nil then e=1 end local o=type(e)if o=="number"then if e==0 then return n["krN"]end return r(e)[25883]elseif o=="function"then local n=c(e)if n~=nil then return n end if i then return i(e)end end error("invalid argument to getfenv",2)end l["setfenv"]=function(l,e)e=e or n["krN"]local o=type(l)if o=="number"then if l==0 then n["krN"]=e return nil end local l=r(l)l[25883]=e local l=l[3393]local o=l and n["xH"]and n["xH"][l]if o then o(n["eycz"],e)end return l elseif o=="function"then local o=n["xH"]and n["xH"][l]if o then o(n["eycz"],e)return l end end error("cannot change environment",2)end end local r=e["loadstring"]or e["load"]if t and r then l["loadstring"]=function(e,t)local e,t=r(e,t)if type(e)=="function"and o then o(e,n["krN"])end return e,t end l["load"]=l["loadstring"]end local t,o,l=e["string"]["byte"],"82mXQMBOV4SLuslT;j&`}^Wf6(cg[,Da)qY3eJ*vzU0=+~Rw7?<i5>h#ry|C_%@!koK9PINF\":.nb]HtE$pAZdGx1/{",{}for e=1,#o do l[t(o,e)]=e-1 end n["d"]=l local l=x or e["bit32"]or(function()local function a(e,n)local l,o=0,1 for t=1,32 do if e%2==1 and n%2==1 then l=l+o end e,n,o=(e-e%2)/2,(n-n%2)/2,o*2 end return l end local function i(e,n)local o,l=0,1 for t=1,32 do if e%2==1 or n%2==1 then o=o+l end e,n,l=(e-e%2)/2,(n-n%2)/2,l*2 end return o end local function r(n,e)local o,l=0,1 for t=1,32 do if n%2~=e%2 then o=o+l end n,e,l=(n-n%2)/2,(e-e%2)/2,l*2 end return o end local function t(e,n)if n>=32 then return 0 end return(e%4294967296)*(2^n)%4294967296 end local function o(l,e)if e>=32 then return 0 end return n["G"]["math"]["floor"]((l%4294967296)/(2^e))end local function n(n)return 4294967295-n%4294967296 end return{bxor=r,band=a,bor=i,bnot=n,lshift=t,rshift=o}end)()n["NqMhP"]=l n["ccL"]=n["ccL"]or(n["IaYp"])(n)n["IaYp"]=nil n["a"]=a local function o(...)return{n=select("#",...),...}end if n["fCK"]~=nil and not n["rAsiR"]then local l=(n["Hc"])(n,n["fCK"],0)n["rAsiR"]=l if l then(n["aEvsn"])(n,l,o(0,0,0,e))end end local t,r=e["error"]or error,(e["table"]and e["table"]["unpack"])or e["unpack"]or unpack local o,e=(n["Oj"])(n,n["HZsT"],e,o(n,a,e,false))local l=n["uDW"]if l then for n=1,#l do l[n]=nil end end n["a"]=nil n["xd"]=nil n["Bp"]=nil n["xvSiR"]=nil n["htHQ"]=nil n["SMyW"]=nil n["nzsjr"]=nil n["U"]=nil n["HZsT"]=nil if not o then t(e or false,0)end return r(e,1,e["n"]or 0)end,Hc=function(n,e,o)if type(e)=="table"and not n["a"]then return end e=(n["nzsjr"])(n,e)e=(n["WDz"])(n,e)e=(n["PVmS"])(n,e)local l=n["Bp"]n["Bp"]=e or true local e=(n["EJUn"])(n,e,o)n["Bp"]=l return e end,aZhSl=function(l,e,n)return e[31884][n]end}):Xcv(getfenv and getfenv()or _ENV or _G)
+local env = (getgenv and getgenv()) or _G
+if env.VeluneLoaded then
+    return
+end
+env.VeluneLoaded = true
+if not game:IsLoaded() then
+    pcall(function()
+        game.Loaded:Wait()
+    end)
+end
+local function ref(v)
+    if cloneref then
+        return cloneref(v)
+    end
+    return v
+end
+local function svc(n)
+    local ok, s = pcall(function()
+        return ref(game:GetService(n))
+    end)
+    if ok then
+        return s
+    end
+    return nil
+end
+local Players = svc("Players")
+local Workspace = svc("Workspace")
+local RunService = svc("RunService")
+local UserInputService = svc("UserInputService")
+local ReplicatedStorage = svc("ReplicatedStorage")
+local TweenService = svc("TweenService")
+local Lighting = svc("Lighting")
+local TeleportService = svc("TeleportService")
+local SoundService = svc("SoundService")
+local Debris = svc("Debris")
+local Stats = svc("Stats")
+local HttpService = svc("HttpService")
+local CoreGui = svc("CoreGui") or svc("PlayerGui")
+local StarterGui = svc("StarterGui")
+local VirtualUser = svc("VirtualUser")
+local TextChatService = svc("TextChatService")
+local LP = Players and Players.LocalPlayer
+if not LP and Players then
+    pcall(function()
+        LP = Players.LocalPlayer or Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+        LP = Players.LocalPlayer
+    end)
+end
+local Camera = Workspace and Workspace.CurrentCamera
+local Velune = {}
+env.Velune = Velune
+Velune.Version = "4.0.0"
+Velune.Name = "VELUNE"
+Velune.Accent = Color3.fromRGB(225, 29, 72)
+Velune.Ink = Color3.fromRGB(9, 7, 10)
+Velune.Paper = Color3.fromRGB(243, 236, 236)
+Velune.Muted = Color3.fromRGB(156, 142, 144)
+Velune.Surface = Color3.fromRGB(19, 16, 20)
+Velune.Elevated = Color3.fromRGB(28, 23, 25)
+Velune.Border = Color3.fromRGB(44, 35, 38)
+Velune.Connections = {}
+Velune.Flags = {
+    ESP = false,
+    ShowMurderer = true,
+    ShowSheriff = true,
+    ShowHero = true,
+    ShowInnocent = true,
+    ShowSelf = true,
+    GunESP = true,
+    Names = true,
+    Boxes = false,
+    Tracers = false,
+    Skeleton = false,
+    SpeedOn = false,
+    StretchOn = false,
+    Fly = false,
+    Noclip = false,
+    InfiniteJump = false,
+    AntiFling = false,
+    AntiAFK = false,
+    PingPredict = false,
+    AutoGrab = false,
+    AutoFarm = false,
+    AutoShoot = false,
+    KnifeAura = false,
+    SilentThrow = false,
+    WallBang = false,
+    RoundTimer = true,
+    NotifyGun = true,
+    NotifyMurd = false,
+    NotifySher = false,
+    Crosshair = false,
+    CursorSpin = false,
+    ButtonsLocked = true,
+    LowGFX = false,
+    HighGFX = false,
+    NativeOpen = true,
+}
+Velune.Values = {
+    FOV = 70,
+    Speed = 200,
+    Stretch = 0.5,
+    Walk = 16,
+    Jump = 50,
+    Cap = 200,
+    Aura = 20,
+    FlySpeed = 90,
+    FarmSpeed = 25,
+    FarmOffset = -5,
+    FarmRadius = 3000,
+    FarmDelay = 0.1,
+}
+Velune.Colors = {
+    Murderer = Color3.fromRGB(255, 58, 58),
+    Sheriff = Color3.fromRGB(61, 139, 255),
+    Hero = Color3.fromRGB(232, 197, 71),
+    Innocent = Color3.fromRGB(47, 212, 106),
+    Gun = Color3.fromRGB(255, 215, 0),
+}
+Velune.Shown = {
+    GoldBomb = true,
+    NormalBomb = true,
+    Shoot = true,
+    ESP = false,
+    Flick = false,
+    WallHop = false,
+    GrabGun = false,
+    Speed = false,
+    Stretch = false,
+    FlingMurderer = false,
+    FlingSheriff = false,
+    Fly = false,
+    Noclip = false,
+    SilentThrow = false,
+    KillAll = false,
+    Farm = false,
+}
+Velune.Cool = {}
+Velune.Floor = {}
+Velune.ESPFolder = {}
+Velune.Lines = {}
+Velune.RoleCache = {}
+Velune.RoleStamp = 0
+Velune.FlingBusy = false
+Velune.FlickBusy = false
+Velune.NativeOpen = false
+Velune.UI = {}
+Velune.CursorId = "Pulse"
+Velune.CursorAsset = "7732596388"
+Velune.LightingSnap = nil
+Velune.FarmStats = { coins = 0, t0 = 0, running = false }
+function Velune.Track(c)
+    if typeof(c) == "RBXScriptConnection" then
+        table.insert(Velune.Connections, c)
+    end
+    return c
+end
+function Velune.ClearTracks()
+    for i, c in ipairs(Velune.Connections) do
+        pcall(function()
+            c:Disconnect()
+        end)
+        Velune.Connections[i] = nil
+    end
+    table.clear(Velune.Connections)
+end
+function Velune.Char()
+    return LP and LP.Character
+end
+function Velune.Hum()
+    local c = Velune.Char()
+    return c and c:FindFirstChildOfClass("Humanoid")
+end
+function Velune.HRP()
+    local c = Velune.Char()
+    if not c then
+        return nil
+    end
+    return c:FindFirstChild("HumanoidRootPart") or c.PrimaryPart
+end
+function Velune.Backpack()
+    return LP and LP:FindFirstChild("Backpack")
+end
+function Velune.HasTool(n)
+    local b = Velune.Backpack()
+    local c = Velune.Char()
+    if b and b:FindFirstChild(n) then
+        return b:FindFirstChild(n)
+    end
+    if c and c:FindFirstChild(n) then
+        return c:FindFirstChild(n)
+    end
+    return nil
+end
+function Velune.Cam()
+    Camera = Workspace and Workspace.CurrentCamera or Camera
+    return Camera
+end
+function Velune.Ping()
+    local n = 0.05
+    pcall(function()
+        if Stats then
+            local item = Stats.Network.ServerStatsItem["Data Ping"]
+            if item then
+                n = item:GetValue() / 1000
+            end
+        end
+    end)
+    return n
+end
+function Velune.Tween(obj, info, props)
+    local tw
+    pcall(function()
+        tw = TweenService:Create(obj, info, props)
+        tw:Play()
+    end)
+    return tw
+end
+function Velune.Spring(obj, props, t)
+    return Velune.Tween(obj, TweenInfo.new(t or 0.22, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), props)
+end
+function Velune.PulseScale(gui, from, to)
+    if not gui then
+        return
+    end
+    gui.Size = from
+    Velune.Spring(gui, { Size = to }, 0.18)
+end
+function Velune.PlayTone(id, vol)
+    if not SoundService then
+        return
+    end
+    pcall(function()
+        local s = Instance.new("Sound")
+        s.SoundId = "rbxassetid://" .. tostring(id)
+        s.Volume = vol or 0.45
+        s.Parent = SoundService
+        s:Play()
+        if Debris then
+            Debris:AddItem(s, 3)
+        end
+    end)
+end
+function Velune.ClickTone()
+    Velune.PlayTone(138656262630730, 0.35)
+end
+function Velune.NotifyTone()
+    Velune.PlayTone(106553517979212, 0.4)
+end
+local notifyGui
+local notifyStack = {}
+function Velune.HostGui()
+    if notifyGui and notifyGui.Parent then
+        return notifyGui
+    end
+    local parent = CoreGui
+    if not parent and LP then
+        parent = LP:FindFirstChild("PlayerGui")
+    end
+    local g = Instance.new("ScreenGui")
+    g.Name = "VeluneRoot"
+    g.ResetOnSpawn = false
+    g.IgnoreGuiInset = true
+    g.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    g.DisplayOrder = 120
+    pcall(function()
+        g.Parent = parent
+    end)
+    notifyGui = g
+    return g
+end
+function Velune.Notify(title, body, dur)
+    dur = dur or 3
+    local host = Velune.HostGui()
+    if not host then
+        return
+    end
+    Velune.NotifyTone()
+    local card = Instance.new("Frame")
+    card.Name = "VeluneToast"
+    card.Size = UDim2.new(0, 280, 0, 72)
+    card.Position = UDim2.new(1, 24, 1, -110)
+    card.AnchorPoint = Vector2.new(0, 0)
+    card.BackgroundColor3 = Velune.Surface
+    card.BackgroundTransparency = 0.06
+    card.BorderSizePixel = 0
+    card.ZIndex = 200
+    card.Parent = host
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 10)
+    corner.Parent = card
+    local stroke = Instance.new("UIStroke")
+    stroke.Color = Velune.Accent
+    stroke.Thickness = 1.4
+    stroke.Transparency = 0.2
+    stroke.Parent = card
+    local h = Instance.new("TextLabel")
+    h.BackgroundTransparency = 1
+    h.Size = UDim2.new(1, -36, 0, 22)
+    h.Position = UDim2.new(0, 12, 0, 8)
+    h.Font = Enum.Font.GothamBold
+    h.TextSize = 14
+    h.TextXAlignment = Enum.TextXAlignment.Left
+    h.TextColor3 = Velune.Accent
+    h.Text = title or "VELUNE"
+    h.ZIndex = 201
+    h.Parent = card
+    local p = Instance.new("TextLabel")
+    p.BackgroundTransparency = 1
+    p.Size = UDim2.new(1, -24, 0, 32)
+    p.Position = UDim2.new(0, 12, 0, 30)
+    p.Font = Enum.Font.Gotham
+    p.TextSize = 12
+    p.TextWrapped = true
+    p.TextXAlignment = Enum.TextXAlignment.Left
+    p.TextYAlignment = Enum.TextYAlignment.Top
+    p.TextColor3 = Velune.Paper
+    p.Text = tostring(body or "")
+    p.ZIndex = 201
+    p.Parent = card
+    local barBg = Instance.new("Frame")
+    barBg.Size = UDim2.new(1, -24, 0, 3)
+    barBg.Position = UDim2.new(0, 12, 1, -10)
+    barBg.BackgroundColor3 = Color3.fromRGB(40, 30, 34)
+    barBg.BorderSizePixel = 0
+    barBg.ZIndex = 202
+    barBg.Parent = card
+    local barC = Instance.new("UICorner")
+    barC.CornerRadius = UDim.new(1, 0)
+    barC.Parent = barBg
+    local bar = Instance.new("Frame")
+    bar.Size = UDim2.new(1, 0, 1, 0)
+    bar.BackgroundColor3 = Velune.Accent
+    bar.BorderSizePixel = 0
+    bar.ZIndex = 203
+    bar.Parent = barBg
+    local barCC = Instance.new("UICorner")
+    barCC.CornerRadius = UDim.new(1, 0)
+    barCC.Parent = bar
+    table.insert(notifyStack, card)
+    local function layout()
+        for i, v in ipairs(notifyStack) do
+            if v and v.Parent then
+                local y = -110 - (#notifyStack - i) * 82
+                Velune.Spring(v, { Position = UDim2.new(1, -292, 1, y) }, 0.35)
+            end
+        end
+    end
+    layout()
+    Velune.Tween(bar, TweenInfo.new(dur, Enum.EasingStyle.Linear), { Size = UDim2.new(0, 0, 1, 0) })
+    task.delay(dur, function()
+        for i, v in ipairs(notifyStack) do
+            if v == card then
+                table.remove(notifyStack, i)
+                break
+            end
+        end
+        Velune.Spring(card, { Position = UDim2.new(1, 40, card.Position.Y.Scale, card.Position.Y.Offset), BackgroundTransparency = 1 }, 0.28)
+        task.delay(0.3, function()
+            if card then
+                card:Destroy()
+            end
+            layout()
+        end)
+    end)
+    if Velune.WindNotify then
+        pcall(Velune.WindNotify, title, body, dur)
+    end
+end
+local WindUI
+pcall(function()
+    local src = game:HttpGet("https://raw.githubusercontent.com/Footagesus/WindUI/refs/heads/main/dist/main.lua")
+    WindUI = loadstring(src)()
+end)
+if WindUI then
+    pcall(function()
+        WindUI:SetTheme("Crimson")
+    end)
+    Velune.WindNotify = function(title, body, dur)
+        pcall(function()
+            WindUI:Notify({
+                Title = title or "VELUNE",
+                Content = tostring(body or ""),
+                Duration = dur or 3,
+                Icon = "sparkles",
+            })
+        end)
+    end
+end
+function Velune.FindRemote(name, className)
+    if not ReplicatedStorage then
+        return nil
+    end
+    local hit
+    pcall(function()
+        hit = ReplicatedStorage:FindFirstChild(name, true)
+    end)
+    if hit and (not className or hit:IsA(className)) then
+        return hit
+    end
+    return nil
+end
+function Velune.PullRoles()
+    if tick() - Velune.RoleStamp < 0.45 then
+        return Velune.RoleCache
+    end
+    local rf = Velune.FindRemote("GetCurrentPlayerData", "RemoteFunction") or Velune.FindRemote("GetPlayerData", "RemoteFunction")
+    if rf then
+        local ok, data = pcall(function()
+            return rf:InvokeServer()
+        end)
+        if ok and type(data) == "table" then
+            Velune.RoleCache = data
+            Velune.RoleStamp = tick()
+            return data
+        end
+    end
+    Velune.RoleStamp = tick()
+    return Velune.RoleCache
+end
+function Velune.RoleOf(player)
+    local data = Velune.PullRoles()
+    local row = data and data[player.Name]
+    if row then
+        local r = tostring(row.Role or row.role or row.Team or ""):lower()
+        if r:find("murd") then
+            return "Murderer"
+        end
+        if r:find("sheriff") or r:find("gun") then
+            return "Sheriff"
+        end
+        if r:find("hero") then
+            return "Hero"
+        end
+        if r:find("inn") then
+            return "Innocent"
+        end
+    end
+    if player.Character and player.Character:FindFirstChild("Knife") or (player:FindFirstChild("Backpack") and player.Backpack:FindFirstChild("Knife")) then
+        return "Murderer"
+    end
+    if player.Character and player.Character:FindFirstChild("Gun") or (player:FindFirstChild("Backpack") and player.Backpack:FindFirstChild("Gun")) then
+        return "Sheriff"
+    end
+    return "Innocent"
+end
+function Velune.Alive(player)
+    local c = player.Character
+    if not c then
+        return false
+    end
+    local h = c:FindFirstChildOfClass("Humanoid")
+    return h and h.Health > 0
+end
+function Velune.FindByRole(role)
+    if not Players then
+        return nil
+    end
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= LP and Velune.Alive(p) and Velune.RoleOf(p) == role then
+            return p
+        end
+    end
+    return nil
+end
+function Velune.FindMurderer()
+    return Velune.FindByRole("Murderer")
+end
+function Velune.FindSheriff()
+    return Velune.FindByRole("Sheriff") or Velune.FindByRole("Hero")
+end
+function Velune.GunDrop()
+    if not Workspace then
+        return nil
+    end
+    local g
+    pcall(function()
+        g = Workspace:FindFirstChild("GunDrop", true)
+    end)
+    return g
+end
+function Velune.MapRoot()
+    if not Workspace then
+        return nil
+    end
+    for _, ch in ipairs(Workspace:GetChildren()) do
+        if ch:FindFirstChild("CoinContainer") or ch:FindFirstChild("CoinAreas") then
+            if ch:FindFirstChild("Spawns") then
+                return ch
+            end
+        end
+    end
+    return nil
+end
+function Velune.LobbyRoot()
+    if not Workspace then
+        return nil
+    end
+    for _, ch in ipairs(Workspace:GetChildren()) do
+        if ch:FindFirstChild("Lobby") then
+            return ch.Lobby
+        end
+        if tostring(ch.Name):lower() == "lobby" then
+            return ch
+        end
+    end
+    return nil
+end
+function Velune.PivotTo(cf)
+    local c = Velune.Char()
+    if c then
+        pcall(function()
+            c:PivotTo(cf)
+        end)
+        return
+    end
+    local hrp = Velune.HRP()
+    if hrp then
+        hrp.CFrame = cf
+    end
+end
+
+function Velune.MakeDrag(frame, onEnd)
+    local dragging = false
+    local start = nil
+    local origin = nil
+    Velune.Track(frame.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            start = input.Position
+            origin = frame.Position
+        end
+    end))
+    Velune.Track(UserInputService.InputChanged:Connect(function(input)
+        if not dragging then
+            return
+        end
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            local d = input.Position - start
+            frame.Position = UDim2.new(origin.X.Scale, origin.X.Offset + d.X, origin.Y.Scale, origin.Y.Offset + d.Y)
+        end
+    end))
+    Velune.Track(UserInputService.InputEnded:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            if dragging and onEnd then
+                onEnd(frame.Position)
+            end
+            dragging = false
+        end
+    end))
+end
+function Velune.Ripple(parent, pos)
+    local r = Instance.new("Frame")
+    r.AnchorPoint = Vector2.new(0.5, 0.5)
+    r.Position = UDim2.new(0, pos.X, 0, pos.Y)
+    r.Size = UDim2.new(0, 8, 0, 8)
+    r.BackgroundColor3 = Color3.new(1, 1, 1)
+    r.BackgroundTransparency = 0.4
+    r.BorderSizePixel = 0
+    r.ZIndex = (parent.ZIndex or 1) + 3
+    r.Parent = parent
+    local c = Instance.new("UICorner")
+    c.CornerRadius = UDim.new(1, 0)
+    c.Parent = r
+    Velune.Tween(r, TweenInfo.new(0.42, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+        Size = UDim2.new(0, 88, 0, 88),
+        BackgroundTransparency = 1,
+    })
+    task.delay(0.44, function()
+        if r then
+            r:Destroy()
+        end
+    end)
+end
+function Velune.GlowStroke(inst, color)
+    local s = inst:FindFirstChildOfClass("UIStroke")
+    if not s then
+        s = Instance.new("UIStroke")
+        s.Parent = inst
+    end
+    s.Color = color
+    s.Thickness = 1.6
+    s.Transparency = 0.12
+    return s
+end
+function Velune.OnCooldown(key, ms)
+    local now = tick()
+    if (Velune.Cool[key] or 0) > now then
+        return true
+    end
+    Velune.Cool[key] = now + (ms or 800) / 1000
+    return false
+end
+
+Velune.SkyList = {}
+function Velune.ApplySky_AuroraVeil()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_AuroraVeil"
+        sky.SkyboxBk = "rbxassetid://149535001"
+        sky.SkyboxDn = "rbxassetid://149535001"
+        sky.SkyboxFt = "rbxassetid://149535001"
+        sky.SkyboxLf = "rbxassetid://149535001"
+        sky.SkyboxRt = "rbxassetid://149535001"
+        sky.SkyboxUp = "rbxassetid://149535001"
+        sky.StarCount = 20
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 14
+        lighting.Brightness = 2.40
+        lighting.FogEnd = 800
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(180, 80, 140)
+        lighting.Ambient = Color3.fromRGB(140, 40, 100)
+        lighting.OutdoorAmbient = Color3.fromRGB(192, 88, 156)
+        lighting.ColorShift_Top = Color3.fromRGB(180, 80, 140)
+        lighting.ColorShift_Bottom = Color3.fromRGB(62, 28, 56)
+        lighting.EnvironmentDiffuseScale = 0.00
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Aurora Veil")
+    Velune.PlayTone(138000000, 0.2)
+end
+Velune.SkyIndex_AuroraVeil = {
+    name = "Aurora Veil",
+    id = "149535001",
+    color = Color3.fromRGB(180, 80, 140),
+    fog = 18,
+    dens = 5,
+    apply = Velune.ApplySky_AuroraVeil,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_AuroraVeil)
+function Velune.ApplySky_EmberDusk()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_EmberDusk"
+        sky.SkyboxBk = "rbxassetid://153662429"
+        sky.SkyboxDn = "rbxassetid://153662429"
+        sky.SkyboxFt = "rbxassetid://153662429"
+        sky.SkyboxLf = "rbxassetid://153662429"
+        sky.SkyboxRt = "rbxassetid://153662429"
+        sky.SkyboxUp = "rbxassetid://153662429"
+        sky.StarCount = 60
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 17
+        lighting.Brightness = 3.10
+        lighting.FogEnd = 1020
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(220, 70, 40)
+        lighting.Ambient = Color3.fromRGB(180, 30, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(232, 78, 56)
+        lighting.ColorShift_Top = Color3.fromRGB(220, 70, 40)
+        lighting.ColorShift_Bottom = Color3.fromRGB(77, 24, 16)
+        lighting.EnvironmentDiffuseScale = 0.10
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Ember Dusk")
+    Velune.PlayTone(138000017, 0.2)
+end
+Velune.SkyIndex_EmberDusk = {
+    name = "Ember Dusk",
+    id = "153662429",
+    color = Color3.fromRGB(220, 70, 40),
+    fog = 19,
+    dens = 6,
+    apply = Velune.ApplySky_EmberDusk,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_EmberDusk)
+function Velune.ApplySky_RoseNebula()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_RoseNebula"
+        sky.SkyboxBk = "rbxassetid://150739273"
+        sky.SkyboxDn = "rbxassetid://150739273"
+        sky.SkyboxFt = "rbxassetid://150739273"
+        sky.SkyboxLf = "rbxassetid://150739273"
+        sky.SkyboxRt = "rbxassetid://150739273"
+        sky.SkyboxUp = "rbxassetid://150739273"
+        sky.StarCount = 100
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 20
+        lighting.Brightness = 2.20
+        lighting.FogEnd = 1240
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(210, 50, 90)
+        lighting.Ambient = Color3.fromRGB(170, 10, 50)
+        lighting.OutdoorAmbient = Color3.fromRGB(222, 58, 106)
+        lighting.ColorShift_Top = Color3.fromRGB(210, 50, 90)
+        lighting.ColorShift_Bottom = Color3.fromRGB(73, 17, 36)
+        lighting.EnvironmentDiffuseScale = 0.20
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Rose Nebula")
+    Velune.PlayTone(138000034, 0.2)
+end
+Velune.SkyIndex_RoseNebula = {
+    name = "Rose Nebula",
+    id = "150739273",
+    color = Color3.fromRGB(210, 50, 90),
+    fog = 21,
+    dens = 4,
+    apply = Velune.ApplySky_RoseNebula,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_RoseNebula)
+function Velune.ApplySky_VoidBloom()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_VoidBloom"
+        sky.SkyboxBk = "rbxassetid://162619974"
+        sky.SkyboxDn = "rbxassetid://162619974"
+        sky.SkyboxFt = "rbxassetid://162619974"
+        sky.SkyboxLf = "rbxassetid://162619974"
+        sky.SkyboxRt = "rbxassetid://162619974"
+        sky.SkyboxUp = "rbxassetid://162619974"
+        sky.StarCount = 140
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 3
+        lighting.Brightness = 1.40
+        lighting.FogEnd = 1460
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(40, 20, 70)
+        lighting.Ambient = Color3.fromRGB(8, 8, 30)
+        lighting.OutdoorAmbient = Color3.fromRGB(52, 28, 86)
+        lighting.ColorShift_Top = Color3.fromRGB(40, 20, 70)
+        lighting.ColorShift_Bottom = Color3.fromRGB(14, 7, 28)
+        lighting.EnvironmentDiffuseScale = 0.30
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Void Bloom")
+    Velune.PlayTone(138000051, 0.2)
+end
+Velune.SkyIndex_VoidBloom = {
+    name = "Void Bloom",
+    id = "162619974",
+    color = Color3.fromRGB(40, 20, 70),
+    fog = 0,
+    dens = 8,
+    apply = Velune.ApplySky_VoidBloom,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_VoidBloom)
+function Velune.ApplySky_VerdantHalo()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_VerdantHalo"
+        sky.SkyboxBk = "rbxassetid://120641307"
+        sky.SkyboxDn = "rbxassetid://120641307"
+        sky.SkyboxFt = "rbxassetid://120641307"
+        sky.SkyboxLf = "rbxassetid://120641307"
+        sky.SkyboxRt = "rbxassetid://120641307"
+        sky.SkyboxUp = "rbxassetid://120641307"
+        sky.StarCount = 180
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 11
+        lighting.Brightness = 2.80
+        lighting.FogEnd = 1680
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(40, 160, 90)
+        lighting.Ambient = Color3.fromRGB(8, 120, 50)
+        lighting.OutdoorAmbient = Color3.fromRGB(52, 168, 106)
+        lighting.ColorShift_Top = Color3.fromRGB(40, 160, 90)
+        lighting.ColorShift_Bottom = Color3.fromRGB(14, 56, 36)
+        lighting.EnvironmentDiffuseScale = 0.40
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Verdant Halo")
+    Velune.PlayTone(138000068, 0.2)
+end
+Velune.SkyIndex_VerdantHalo = {
+    name = "Verdant Halo",
+    id = "120641307",
+    color = Color3.fromRGB(40, 160, 90),
+    fog = 12,
+    dens = 7,
+    apply = Velune.ApplySky_VerdantHalo,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_VerdantHalo)
+function Velune.ApplySky_AmberDrift()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_AmberDrift"
+        sky.SkyboxBk = "rbxassetid://150739194"
+        sky.SkyboxDn = "rbxassetid://150739194"
+        sky.SkyboxFt = "rbxassetid://150739194"
+        sky.SkyboxLf = "rbxassetid://150739194"
+        sky.SkyboxRt = "rbxassetid://150739194"
+        sky.SkyboxUp = "rbxassetid://150739194"
+        sky.StarCount = 220
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 16
+        lighting.Brightness = 3.00
+        lighting.FogEnd = 1900
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(230, 160, 40)
+        lighting.Ambient = Color3.fromRGB(190, 120, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(242, 168, 56)
+        lighting.ColorShift_Top = Color3.fromRGB(230, 160, 40)
+        lighting.ColorShift_Bottom = Color3.fromRGB(80, 56, 16)
+        lighting.EnvironmentDiffuseScale = 0.50
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Amber Drift")
+    Velune.PlayTone(138000085, 0.2)
+end
+Velune.SkyIndex_AmberDrift = {
+    name = "Amber Drift",
+    id = "150739194",
+    color = Color3.fromRGB(230, 160, 40),
+    fog = 16,
+    dens = 5,
+    apply = Velune.ApplySky_AmberDrift,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_AmberDrift)
+function Velune.ApplySky_CrimsonWake()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CrimsonWake"
+        sky.SkyboxBk = "rbxassetid://149979502"
+        sky.SkyboxDn = "rbxassetid://149979502"
+        sky.SkyboxFt = "rbxassetid://149979502"
+        sky.SkyboxLf = "rbxassetid://149979502"
+        sky.SkyboxRt = "rbxassetid://149979502"
+        sky.SkyboxUp = "rbxassetid://149979502"
+        sky.StarCount = 260
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 18
+        lighting.Brightness = 2.60
+        lighting.FogEnd = 2120
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(200, 30, 40)
+        lighting.Ambient = Color3.fromRGB(160, 8, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(212, 38, 56)
+        lighting.ColorShift_Top = Color3.fromRGB(200, 30, 40)
+        lighting.ColorShift_Bottom = Color3.fromRGB(70, 10, 16)
+        lighting.EnvironmentDiffuseScale = 0.60
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Crimson Wake")
+    Velune.PlayTone(138000102, 0.2)
+end
+Velune.SkyIndex_CrimsonWake = {
+    name = "Crimson Wake",
+    id = "149979502",
+    color = Color3.fromRGB(200, 30, 40),
+    fog = 20,
+    dens = 4,
+    apply = Velune.ApplySky_CrimsonWake,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CrimsonWake)
+function Velune.ApplySky_SapphireFall()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_SapphireFall"
+        sky.SkyboxBk = "rbxassetid://151339958"
+        sky.SkyboxDn = "rbxassetid://151339958"
+        sky.SkyboxFt = "rbxassetid://151339958"
+        sky.SkyboxLf = "rbxassetid://151339958"
+        sky.SkyboxRt = "rbxassetid://151339958"
+        sky.SkyboxUp = "rbxassetid://151339958"
+        sky.StarCount = 300
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 8
+        lighting.Brightness = 2.90
+        lighting.FogEnd = 2340
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(40, 90, 210)
+        lighting.Ambient = Color3.fromRGB(8, 50, 170)
+        lighting.OutdoorAmbient = Color3.fromRGB(52, 98, 226)
+        lighting.ColorShift_Top = Color3.fromRGB(40, 90, 210)
+        lighting.ColorShift_Bottom = Color3.fromRGB(14, 31, 84)
+        lighting.EnvironmentDiffuseScale = 0.70
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Sapphire Fall")
+    Velune.PlayTone(138000119, 0.2)
+end
+Velune.SkyIndex_SapphireFall = {
+    name = "Sapphire Fall",
+    id = "151339958",
+    color = Color3.fromRGB(40, 90, 210),
+    fog = 10,
+    dens = 6,
+    apply = Velune.ApplySky_SapphireFall,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_SapphireFall)
+function Velune.ApplySky_IvoryNight()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_IvoryNight"
+        sky.SkyboxBk = "rbxassetid://150739229"
+        sky.SkyboxDn = "rbxassetid://150739229"
+        sky.SkyboxFt = "rbxassetid://150739229"
+        sky.SkyboxLf = "rbxassetid://150739229"
+        sky.SkyboxRt = "rbxassetid://150739229"
+        sky.SkyboxUp = "rbxassetid://150739229"
+        sky.StarCount = 340
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 13
+        lighting.Brightness = 2.00
+        lighting.FogEnd = 2560
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(230, 220, 200)
+        lighting.Ambient = Color3.fromRGB(190, 180, 160)
+        lighting.OutdoorAmbient = Color3.fromRGB(242, 228, 216)
+        lighting.ColorShift_Top = Color3.fromRGB(230, 220, 200)
+        lighting.ColorShift_Bottom = Color3.fromRGB(80, 77, 80)
+        lighting.EnvironmentDiffuseScale = 0.80
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Ivory Night")
+    Velune.PlayTone(138000136, 0.2)
+end
+Velune.SkyIndex_IvoryNight = {
+    name = "Ivory Night",
+    id = "150739229",
+    color = Color3.fromRGB(230, 220, 200),
+    fog = 4,
+    dens = 9,
+    apply = Velune.ApplySky_IvoryNight,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_IvoryNight)
+function Velune.ApplySky_Obsidian()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_Obsidian"
+        sky.SkyboxBk = "rbxassetid://162619974"
+        sky.SkyboxDn = "rbxassetid://162619974"
+        sky.SkyboxFt = "rbxassetid://162619974"
+        sky.SkyboxLf = "rbxassetid://162619974"
+        sky.SkyboxRt = "rbxassetid://162619974"
+        sky.SkyboxUp = "rbxassetid://162619974"
+        sky.StarCount = 380
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 1
+        lighting.Brightness = 1.10
+        lighting.FogEnd = 2780
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(18, 18, 22)
+        lighting.Ambient = Color3.fromRGB(8, 8, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(30, 26, 38)
+        lighting.ColorShift_Top = Color3.fromRGB(18, 18, 22)
+        lighting.ColorShift_Bottom = Color3.fromRGB(6, 6, 8)
+        lighting.EnvironmentDiffuseScale = 0.90
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Obsidian")
+    Velune.PlayTone(138000153, 0.2)
+end
+Velune.SkyIndex_Obsidian = {
+    name = "Obsidian",
+    id = "162619974",
+    color = Color3.fromRGB(18, 18, 22),
+    fog = 0,
+    dens = 10,
+    apply = Velune.ApplySky_Obsidian,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_Obsidian)
+function Velune.ApplySky_BlushOrbit()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_BlushOrbit"
+        sky.SkyboxBk = "rbxassetid://150739248"
+        sky.SkyboxDn = "rbxassetid://150739248"
+        sky.SkyboxFt = "rbxassetid://150739248"
+        sky.SkyboxLf = "rbxassetid://150739248"
+        sky.SkyboxRt = "rbxassetid://150739248"
+        sky.SkyboxUp = "rbxassetid://150739248"
+        sky.StarCount = 420
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 15
+        lighting.Brightness = 2.30
+        lighting.FogEnd = 3000
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(240, 140, 170)
+        lighting.Ambient = Color3.fromRGB(200, 100, 130)
+        lighting.OutdoorAmbient = Color3.fromRGB(252, 148, 186)
+        lighting.ColorShift_Top = Color3.fromRGB(240, 140, 170)
+        lighting.ColorShift_Bottom = Color3.fromRGB(84, 49, 68)
+        lighting.EnvironmentDiffuseScale = 0.00
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Blush Orbit")
+    Velune.PlayTone(138000170, 0.2)
+end
+Velune.SkyIndex_BlushOrbit = {
+    name = "Blush Orbit",
+    id = "150739248",
+    color = Color3.fromRGB(240, 140, 170),
+    fog = 15,
+    dens = 5,
+    apply = Velune.ApplySky_BlushOrbit,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_BlushOrbit)
+function Velune.ApplySky_CopperStorm()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CopperStorm"
+        sky.SkyboxBk = "rbxassetid://153662389"
+        sky.SkyboxDn = "rbxassetid://153662389"
+        sky.SkyboxFt = "rbxassetid://153662389"
+        sky.SkyboxLf = "rbxassetid://153662389"
+        sky.SkyboxRt = "rbxassetid://153662389"
+        sky.SkyboxUp = "rbxassetid://153662389"
+        sky.StarCount = 460
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 12
+        lighting.Brightness = 3.20
+        lighting.FogEnd = 3220
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(190, 110, 50)
+        lighting.Ambient = Color3.fromRGB(150, 70, 10)
+        lighting.OutdoorAmbient = Color3.fromRGB(202, 118, 66)
+        lighting.ColorShift_Top = Color3.fromRGB(190, 110, 50)
+        lighting.ColorShift_Bottom = Color3.fromRGB(66, 38, 20)
+        lighting.EnvironmentDiffuseScale = 0.10
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Copper Storm")
+    Velune.PlayTone(138000187, 0.2)
+end
+Velune.SkyIndex_CopperStorm = {
+    name = "Copper Storm",
+    id = "153662389",
+    color = Color3.fromRGB(190, 110, 50),
+    fog = 17,
+    dens = 6,
+    apply = Velune.ApplySky_CopperStorm,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CopperStorm)
+function Velune.ApplySky_LilacFog()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_LilacFog"
+        sky.SkyboxBk = "rbxassetid://149535087"
+        sky.SkyboxDn = "rbxassetid://149535087"
+        sky.SkyboxFt = "rbxassetid://149535087"
+        sky.SkyboxLf = "rbxassetid://149535087"
+        sky.SkyboxRt = "rbxassetid://149535087"
+        sky.SkyboxUp = "rbxassetid://149535087"
+        sky.StarCount = 500
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 9
+        lighting.Brightness = 2.10
+        lighting.FogEnd = 800
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(170, 120, 210)
+        lighting.Ambient = Color3.fromRGB(130, 80, 170)
+        lighting.OutdoorAmbient = Color3.fromRGB(182, 128, 226)
+        lighting.ColorShift_Top = Color3.fromRGB(170, 120, 210)
+        lighting.ColorShift_Bottom = Color3.fromRGB(59, 42, 84)
+        lighting.EnvironmentDiffuseScale = 0.20
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Lilac Fog")
+    Velune.PlayTone(138000204, 0.2)
+end
+Velune.SkyIndex_LilacFog = {
+    name = "Lilac Fog",
+    id = "149535087",
+    color = Color3.fromRGB(170, 120, 210),
+    fog = 7,
+    dens = 8,
+    apply = Velune.ApplySky_LilacFog,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_LilacFog)
+function Velune.ApplySky_JadeMirror()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_JadeMirror"
+        sky.SkyboxBk = "rbxassetid://120641401"
+        sky.SkyboxDn = "rbxassetid://120641401"
+        sky.SkyboxFt = "rbxassetid://120641401"
+        sky.SkyboxLf = "rbxassetid://120641401"
+        sky.SkyboxRt = "rbxassetid://120641401"
+        sky.SkyboxUp = "rbxassetid://120641401"
+        sky.StarCount = 540
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 10
+        lighting.Brightness = 2.70
+        lighting.FogEnd = 1020
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(30, 180, 120)
+        lighting.Ambient = Color3.fromRGB(8, 140, 80)
+        lighting.OutdoorAmbient = Color3.fromRGB(42, 188, 136)
+        lighting.ColorShift_Top = Color3.fromRGB(30, 180, 120)
+        lighting.ColorShift_Bottom = Color3.fromRGB(10, 62, 48)
+        lighting.EnvironmentDiffuseScale = 0.30
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Jade Mirror")
+    Velune.PlayTone(138000221, 0.2)
+end
+Velune.SkyIndex_JadeMirror = {
+    name = "Jade Mirror",
+    id = "120641401",
+    color = Color3.fromRGB(30, 180, 120),
+    fog = 11,
+    dens = 7,
+    apply = Velune.ApplySky_JadeMirror,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_JadeMirror)
+function Velune.ApplySky_NoirGlass()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_NoirGlass"
+        sky.SkyboxBk = "rbxassetid://162619901"
+        sky.SkyboxDn = "rbxassetid://162619901"
+        sky.SkyboxFt = "rbxassetid://162619901"
+        sky.SkyboxLf = "rbxassetid://162619901"
+        sky.SkyboxRt = "rbxassetid://162619901"
+        sky.SkyboxUp = "rbxassetid://162619901"
+        sky.StarCount = 580
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 2
+        lighting.Brightness = 1.30
+        lighting.FogEnd = 1240
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(28, 24, 32)
+        lighting.Ambient = Color3.fromRGB(8, 8, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(40, 32, 48)
+        lighting.ColorShift_Top = Color3.fromRGB(28, 24, 32)
+        lighting.ColorShift_Bottom = Color3.fromRGB(9, 8, 12)
+        lighting.EnvironmentDiffuseScale = 0.40
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Noir Glass")
+    Velune.PlayTone(138000238, 0.2)
+end
+Velune.SkyIndex_NoirGlass = {
+    name = "Noir Glass",
+    id = "162619901",
+    color = Color3.fromRGB(28, 24, 32),
+    fog = 1,
+    dens = 10,
+    apply = Velune.ApplySky_NoirGlass,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_NoirGlass)
+function Velune.ApplySky_SolarVein()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_SolarVein"
+        sky.SkyboxBk = "rbxassetid://150739310"
+        sky.SkyboxDn = "rbxassetid://150739310"
+        sky.SkyboxFt = "rbxassetid://150739310"
+        sky.SkyboxLf = "rbxassetid://150739310"
+        sky.SkyboxRt = "rbxassetid://150739310"
+        sky.SkyboxUp = "rbxassetid://150739310"
+        sky.StarCount = 620
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 17
+        lighting.Brightness = 3.40
+        lighting.FogEnd = 1460
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(255, 180, 60)
+        lighting.Ambient = Color3.fromRGB(215, 140, 20)
+        lighting.OutdoorAmbient = Color3.fromRGB(255, 188, 76)
+        lighting.ColorShift_Top = Color3.fromRGB(255, 180, 60)
+        lighting.ColorShift_Bottom = Color3.fromRGB(89, 62, 24)
+        lighting.EnvironmentDiffuseScale = 0.50
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Solar Vein")
+    Velune.PlayTone(138000255, 0.2)
+end
+Velune.SkyIndex_SolarVein = {
+    name = "Solar Vein",
+    id = "150739310",
+    color = Color3.fromRGB(255, 180, 60),
+    fog = 14,
+    dens = 4,
+    apply = Velune.ApplySky_SolarVein,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_SolarVein)
+function Velune.ApplySky_TidalInk()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_TidalInk"
+        sky.SkyboxBk = "rbxassetid://151339901"
+        sky.SkyboxDn = "rbxassetid://151339901"
+        sky.SkyboxFt = "rbxassetid://151339901"
+        sky.SkyboxLf = "rbxassetid://151339901"
+        sky.SkyboxRt = "rbxassetid://151339901"
+        sky.SkyboxUp = "rbxassetid://151339901"
+        sky.StarCount = 660
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 6
+        lighting.Brightness = 2.50
+        lighting.FogEnd = 1680
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(20, 70, 140)
+        lighting.Ambient = Color3.fromRGB(8, 30, 100)
+        lighting.OutdoorAmbient = Color3.fromRGB(32, 78, 156)
+        lighting.ColorShift_Top = Color3.fromRGB(20, 70, 140)
+        lighting.ColorShift_Bottom = Color3.fromRGB(7, 24, 56)
+        lighting.EnvironmentDiffuseScale = 0.60
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Tidal Ink")
+    Velune.PlayTone(138000272, 0.2)
+end
+Velune.SkyIndex_TidalInk = {
+    name = "Tidal Ink",
+    id = "151339901",
+    color = Color3.fromRGB(20, 70, 140),
+    fog = 8,
+    dens = 8,
+    apply = Velune.ApplySky_TidalInk,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_TidalInk)
+function Velune.ApplySky_PetalAsh()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_PetalAsh"
+        sky.SkyboxBk = "rbxassetid://150739188"
+        sky.SkyboxDn = "rbxassetid://150739188"
+        sky.SkyboxFt = "rbxassetid://150739188"
+        sky.SkyboxLf = "rbxassetid://150739188"
+        sky.SkyboxRt = "rbxassetid://150739188"
+        sky.SkyboxUp = "rbxassetid://150739188"
+        sky.StarCount = 700
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 14
+        lighting.Brightness = 2.40
+        lighting.FogEnd = 1900
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(220, 90, 110)
+        lighting.Ambient = Color3.fromRGB(180, 50, 70)
+        lighting.OutdoorAmbient = Color3.fromRGB(232, 98, 126)
+        lighting.ColorShift_Top = Color3.fromRGB(220, 90, 110)
+        lighting.ColorShift_Bottom = Color3.fromRGB(77, 31, 44)
+        lighting.EnvironmentDiffuseScale = 0.70
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Petal Ash")
+    Velune.PlayTone(138000289, 0.2)
+end
+Velune.SkyIndex_PetalAsh = {
+    name = "Petal Ash",
+    id = "150739188",
+    color = Color3.fromRGB(220, 90, 110),
+    fog = 16,
+    dens = 5,
+    apply = Velune.ApplySky_PetalAsh,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_PetalAsh)
+function Velune.ApplySky_FrostBit()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_FrostBit"
+        sky.SkyboxBk = "rbxassetid://149979410"
+        sky.SkyboxDn = "rbxassetid://149979410"
+        sky.SkyboxFt = "rbxassetid://149979410"
+        sky.SkyboxLf = "rbxassetid://149979410"
+        sky.SkyboxRt = "rbxassetid://149979410"
+        sky.SkyboxUp = "rbxassetid://149979410"
+        sky.StarCount = 740
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 7
+        lighting.Brightness = 2.00
+        lighting.FogEnd = 2120
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(180, 220, 255)
+        lighting.Ambient = Color3.fromRGB(140, 180, 215)
+        lighting.OutdoorAmbient = Color3.fromRGB(192, 228, 255)
+        lighting.ColorShift_Top = Color3.fromRGB(180, 220, 255)
+        lighting.ColorShift_Bottom = Color3.fromRGB(62, 77, 102)
+        lighting.EnvironmentDiffuseScale = 0.80
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Frost Bit")
+    Velune.PlayTone(138000306, 0.2)
+end
+Velune.SkyIndex_FrostBit = {
+    name = "Frost Bit",
+    id = "149979410",
+    color = Color3.fromRGB(180, 220, 255),
+    fog = 6,
+    dens = 9,
+    apply = Velune.ApplySky_FrostBit,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_FrostBit)
+function Velune.ApplySky_MagmaSilk()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_MagmaSilk"
+        sky.SkyboxBk = "rbxassetid://153662501"
+        sky.SkyboxDn = "rbxassetid://153662501"
+        sky.SkyboxFt = "rbxassetid://153662501"
+        sky.SkyboxLf = "rbxassetid://153662501"
+        sky.SkyboxRt = "rbxassetid://153662501"
+        sky.SkyboxUp = "rbxassetid://153662501"
+        sky.StarCount = 780
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 19
+        lighting.Brightness = 3.30
+        lighting.FogEnd = 2340
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(240, 80, 20)
+        lighting.Ambient = Color3.fromRGB(200, 40, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(252, 88, 36)
+        lighting.ColorShift_Top = Color3.fromRGB(240, 80, 20)
+        lighting.ColorShift_Bottom = Color3.fromRGB(84, 28, 8)
+        lighting.EnvironmentDiffuseScale = 0.90
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Magma Silk")
+    Velune.PlayTone(138000323, 0.2)
+end
+Velune.SkyIndex_MagmaSilk = {
+    name = "Magma Silk",
+    id = "153662501",
+    color = Color3.fromRGB(240, 80, 20),
+    fog = 18,
+    dens = 3,
+    apply = Velune.ApplySky_MagmaSilk,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_MagmaSilk)
+function Velune.ApplySky_MossLantern()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_MossLantern"
+        sky.SkyboxBk = "rbxassetid://120641222"
+        sky.SkyboxDn = "rbxassetid://120641222"
+        sky.SkyboxFt = "rbxassetid://120641222"
+        sky.SkyboxLf = "rbxassetid://120641222"
+        sky.SkyboxRt = "rbxassetid://120641222"
+        sky.SkyboxUp = "rbxassetid://120641222"
+        sky.StarCount = 820
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 11
+        lighting.Brightness = 2.60
+        lighting.FogEnd = 2560
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(70, 140, 60)
+        lighting.Ambient = Color3.fromRGB(30, 100, 20)
+        lighting.OutdoorAmbient = Color3.fromRGB(82, 148, 76)
+        lighting.ColorShift_Top = Color3.fromRGB(70, 140, 60)
+        lighting.ColorShift_Bottom = Color3.fromRGB(24, 49, 24)
+        lighting.EnvironmentDiffuseScale = 0.00
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Moss Lantern")
+    Velune.PlayTone(138000340, 0.2)
+end
+Velune.SkyIndex_MossLantern = {
+    name = "Moss Lantern",
+    id = "120641222",
+    color = Color3.fromRGB(70, 140, 60),
+    fog = 13,
+    dens = 7,
+    apply = Velune.ApplySky_MossLantern,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_MossLantern)
+function Velune.ApplySky_VioletRift()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_VioletRift"
+        sky.SkyboxBk = "rbxassetid://149535044"
+        sky.SkyboxDn = "rbxassetid://149535044"
+        sky.SkyboxFt = "rbxassetid://149535044"
+        sky.SkyboxLf = "rbxassetid://149535044"
+        sky.SkyboxRt = "rbxassetid://149535044"
+        sky.SkyboxUp = "rbxassetid://149535044"
+        sky.StarCount = 860
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 5
+        lighting.Brightness = 2.20
+        lighting.FogEnd = 2780
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(120, 50, 200)
+        lighting.Ambient = Color3.fromRGB(80, 10, 160)
+        lighting.OutdoorAmbient = Color3.fromRGB(132, 58, 216)
+        lighting.ColorShift_Top = Color3.fromRGB(120, 50, 200)
+        lighting.ColorShift_Bottom = Color3.fromRGB(42, 17, 80)
+        lighting.EnvironmentDiffuseScale = 0.10
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Violet Rift")
+    Velune.PlayTone(138000357, 0.2)
+end
+Velune.SkyIndex_VioletRift = {
+    name = "Violet Rift",
+    id = "149535044",
+    color = Color3.fromRGB(120, 50, 200),
+    fog = 3,
+    dens = 8,
+    apply = Velune.ApplySky_VioletRift,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_VioletRift)
+function Velune.ApplySky_Sandglass()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_Sandglass"
+        sky.SkyboxBk = "rbxassetid://150739355"
+        sky.SkyboxDn = "rbxassetid://150739355"
+        sky.SkyboxFt = "rbxassetid://150739355"
+        sky.SkyboxLf = "rbxassetid://150739355"
+        sky.SkyboxRt = "rbxassetid://150739355"
+        sky.SkyboxUp = "rbxassetid://150739355"
+        sky.StarCount = 900
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 15
+        lighting.Brightness = 2.90
+        lighting.FogEnd = 3000
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(220, 190, 120)
+        lighting.Ambient = Color3.fromRGB(180, 150, 80)
+        lighting.OutdoorAmbient = Color3.fromRGB(232, 198, 136)
+        lighting.ColorShift_Top = Color3.fromRGB(220, 190, 120)
+        lighting.ColorShift_Bottom = Color3.fromRGB(77, 66, 48)
+        lighting.EnvironmentDiffuseScale = 0.20
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Sandglass")
+    Velune.PlayTone(138000374, 0.2)
+end
+Velune.SkyIndex_Sandglass = {
+    name = "Sandglass",
+    id = "150739355",
+    color = Color3.fromRGB(220, 190, 120),
+    fog = 15,
+    dens = 5,
+    apply = Velune.ApplySky_Sandglass,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_Sandglass)
+function Velune.ApplySky_CarbonHalo()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CarbonHalo"
+        sky.SkyboxBk = "rbxassetid://162619850"
+        sky.SkyboxDn = "rbxassetid://162619850"
+        sky.SkyboxFt = "rbxassetid://162619850"
+        sky.SkyboxLf = "rbxassetid://162619850"
+        sky.SkyboxRt = "rbxassetid://162619850"
+        sky.SkyboxUp = "rbxassetid://162619850"
+        sky.StarCount = 940
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 4
+        lighting.Brightness = 1.60
+        lighting.FogEnd = 3220
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(50, 50, 55)
+        lighting.Ambient = Color3.fromRGB(10, 10, 15)
+        lighting.OutdoorAmbient = Color3.fromRGB(62, 58, 71)
+        lighting.ColorShift_Top = Color3.fromRGB(50, 50, 55)
+        lighting.ColorShift_Bottom = Color3.fromRGB(17, 17, 22)
+        lighting.EnvironmentDiffuseScale = 0.30
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Carbon Halo")
+    Velune.PlayTone(138000391, 0.2)
+end
+Velune.SkyIndex_CarbonHalo = {
+    name = "Carbon Halo",
+    id = "162619850",
+    color = Color3.fromRGB(50, 50, 55),
+    fog = 2,
+    dens = 9,
+    apply = Velune.ApplySky_CarbonHalo,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CarbonHalo)
+function Velune.ApplySky_CherryStatic()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CherryStatic"
+        sky.SkyboxBk = "rbxassetid://150739201"
+        sky.SkyboxDn = "rbxassetid://150739201"
+        sky.SkyboxFt = "rbxassetid://150739201"
+        sky.SkyboxLf = "rbxassetid://150739201"
+        sky.SkyboxRt = "rbxassetid://150739201"
+        sky.SkyboxUp = "rbxassetid://150739201"
+        sky.StarCount = 980
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 16
+        lighting.Brightness = 2.50
+        lighting.FogEnd = 800
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(230, 40, 80)
+        lighting.Ambient = Color3.fromRGB(190, 8, 40)
+        lighting.OutdoorAmbient = Color3.fromRGB(242, 48, 96)
+        lighting.ColorShift_Top = Color3.fromRGB(230, 40, 80)
+        lighting.ColorShift_Bottom = Color3.fromRGB(80, 14, 32)
+        lighting.EnvironmentDiffuseScale = 0.40
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Cherry Static")
+    Velune.PlayTone(138000408, 0.2)
+end
+Velune.SkyIndex_CherryStatic = {
+    name = "Cherry Static",
+    id = "150739201",
+    color = Color3.fromRGB(230, 40, 80),
+    fog = 19,
+    dens = 4,
+    apply = Velune.ApplySky_CherryStatic,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CherryStatic)
+function Velune.ApplySky_TealPulse()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_TealPulse"
+        sky.SkyboxBk = "rbxassetid://151339877"
+        sky.SkyboxDn = "rbxassetid://151339877"
+        sky.SkyboxFt = "rbxassetid://151339877"
+        sky.SkyboxLf = "rbxassetid://151339877"
+        sky.SkyboxRt = "rbxassetid://151339877"
+        sky.SkyboxUp = "rbxassetid://151339877"
+        sky.StarCount = 1020
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 9
+        lighting.Brightness = 2.80
+        lighting.FogEnd = 1020
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(20, 180, 180)
+        lighting.Ambient = Color3.fromRGB(8, 140, 140)
+        lighting.OutdoorAmbient = Color3.fromRGB(32, 188, 196)
+        lighting.ColorShift_Top = Color3.fromRGB(20, 180, 180)
+        lighting.ColorShift_Bottom = Color3.fromRGB(7, 62, 72)
+        lighting.EnvironmentDiffuseScale = 0.50
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Teal Pulse")
+    Velune.PlayTone(138000425, 0.2)
+end
+Velune.SkyIndex_TealPulse = {
+    name = "Teal Pulse",
+    id = "151339877",
+    color = Color3.fromRGB(20, 180, 180),
+    fog = 9,
+    dens = 6,
+    apply = Velune.ApplySky_TealPulse,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_TealPulse)
+function Velune.ApplySky_Goldleaf()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_Goldleaf"
+        sky.SkyboxBk = "rbxassetid://150739366"
+        sky.SkyboxDn = "rbxassetid://150739366"
+        sky.SkyboxFt = "rbxassetid://150739366"
+        sky.SkyboxLf = "rbxassetid://150739366"
+        sky.SkyboxRt = "rbxassetid://150739366"
+        sky.SkyboxUp = "rbxassetid://150739366"
+        sky.StarCount = 1060
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 16
+        lighting.Brightness = 3.10
+        lighting.FogEnd = 1240
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(240, 200, 80)
+        lighting.Ambient = Color3.fromRGB(200, 160, 40)
+        lighting.OutdoorAmbient = Color3.fromRGB(252, 208, 96)
+        lighting.ColorShift_Top = Color3.fromRGB(240, 200, 80)
+        lighting.ColorShift_Bottom = Color3.fromRGB(84, 70, 32)
+        lighting.EnvironmentDiffuseScale = 0.60
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Goldleaf")
+    Velune.PlayTone(138000442, 0.2)
+end
+Velune.SkyIndex_Goldleaf = {
+    name = "Goldleaf",
+    id = "150739366",
+    color = Color3.fromRGB(240, 200, 80),
+    fog = 14,
+    dens = 5,
+    apply = Velune.ApplySky_Goldleaf,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_Goldleaf)
+function Velune.ApplySky_MidnightOil()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_MidnightOil"
+        sky.SkyboxBk = "rbxassetid://162619820"
+        sky.SkyboxDn = "rbxassetid://162619820"
+        sky.SkyboxFt = "rbxassetid://162619820"
+        sky.SkyboxLf = "rbxassetid://162619820"
+        sky.SkyboxRt = "rbxassetid://162619820"
+        sky.SkyboxUp = "rbxassetid://162619820"
+        sky.StarCount = 1100
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 1
+        lighting.Brightness = 1.20
+        lighting.FogEnd = 1460
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(12, 16, 28)
+        lighting.Ambient = Color3.fromRGB(8, 8, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(24, 24, 44)
+        lighting.ColorShift_Top = Color3.fromRGB(12, 16, 28)
+        lighting.ColorShift_Bottom = Color3.fromRGB(4, 5, 11)
+        lighting.EnvironmentDiffuseScale = 0.70
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Midnight Oil")
+    Velune.PlayTone(138000459, 0.2)
+end
+Velune.SkyIndex_MidnightOil = {
+    name = "Midnight Oil",
+    id = "162619820",
+    color = Color3.fromRGB(12, 16, 28),
+    fog = 0,
+    dens = 10,
+    apply = Velune.ApplySky_MidnightOil,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_MidnightOil)
+function Velune.ApplySky_PeachMirage()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_PeachMirage"
+        sky.SkyboxBk = "rbxassetid://150739277"
+        sky.SkyboxDn = "rbxassetid://150739277"
+        sky.SkyboxFt = "rbxassetid://150739277"
+        sky.SkyboxLf = "rbxassetid://150739277"
+        sky.SkyboxRt = "rbxassetid://150739277"
+        sky.SkyboxUp = "rbxassetid://150739277"
+        sky.StarCount = 1140
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 15
+        lighting.Brightness = 2.40
+        lighting.FogEnd = 1680
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(255, 170, 140)
+        lighting.Ambient = Color3.fromRGB(215, 130, 100)
+        lighting.OutdoorAmbient = Color3.fromRGB(255, 178, 156)
+        lighting.ColorShift_Top = Color3.fromRGB(255, 170, 140)
+        lighting.ColorShift_Bottom = Color3.fromRGB(89, 59, 56)
+        lighting.EnvironmentDiffuseScale = 0.80
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Peach Mirage")
+    Velune.PlayTone(138000476, 0.2)
+end
+Velune.SkyIndex_PeachMirage = {
+    name = "Peach Mirage",
+    id = "150739277",
+    color = Color3.fromRGB(255, 170, 140),
+    fog = 16,
+    dens = 5,
+    apply = Velune.ApplySky_PeachMirage,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_PeachMirage)
+function Velune.ApplySky_IndigoWell()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_IndigoWell"
+        sky.SkyboxBk = "rbxassetid://149535110"
+        sky.SkyboxDn = "rbxassetid://149535110"
+        sky.SkyboxFt = "rbxassetid://149535110"
+        sky.SkyboxLf = "rbxassetid://149535110"
+        sky.SkyboxRt = "rbxassetid://149535110"
+        sky.SkyboxUp = "rbxassetid://149535110"
+        sky.StarCount = 1180
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 4
+        lighting.Brightness = 2.00
+        lighting.FogEnd = 1900
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(50, 40, 160)
+        lighting.Ambient = Color3.fromRGB(10, 8, 120)
+        lighting.OutdoorAmbient = Color3.fromRGB(62, 48, 176)
+        lighting.ColorShift_Top = Color3.fromRGB(50, 40, 160)
+        lighting.ColorShift_Bottom = Color3.fromRGB(17, 14, 64)
+        lighting.EnvironmentDiffuseScale = 0.90
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Indigo Well")
+    Velune.PlayTone(138000493, 0.2)
+end
+Velune.SkyIndex_IndigoWell = {
+    name = "Indigo Well",
+    id = "149535110",
+    color = Color3.fromRGB(50, 40, 160),
+    fog = 2,
+    dens = 9,
+    apply = Velune.ApplySky_IndigoWell,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_IndigoWell)
+function Velune.ApplySky_FernGlow()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_FernGlow"
+        sky.SkyboxBk = "rbxassetid://120641355"
+        sky.SkyboxDn = "rbxassetid://120641355"
+        sky.SkyboxFt = "rbxassetid://120641355"
+        sky.SkyboxLf = "rbxassetid://120641355"
+        sky.SkyboxRt = "rbxassetid://120641355"
+        sky.SkyboxUp = "rbxassetid://120641355"
+        sky.StarCount = 1220
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 12
+        lighting.Brightness = 2.70
+        lighting.FogEnd = 2120
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(80, 190, 90)
+        lighting.Ambient = Color3.fromRGB(40, 150, 50)
+        lighting.OutdoorAmbient = Color3.fromRGB(92, 198, 106)
+        lighting.ColorShift_Top = Color3.fromRGB(80, 190, 90)
+        lighting.ColorShift_Bottom = Color3.fromRGB(28, 66, 36)
+        lighting.EnvironmentDiffuseScale = 0.00
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Fern Glow")
+    Velune.PlayTone(138000510, 0.2)
+end
+Velune.SkyIndex_FernGlow = {
+    name = "Fern Glow",
+    id = "120641355",
+    color = Color3.fromRGB(80, 190, 90),
+    fog = 12,
+    dens = 7,
+    apply = Velune.ApplySky_FernGlow,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_FernGlow)
+function Velune.ApplySky_RubyCircuit()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_RubyCircuit"
+        sky.SkyboxBk = "rbxassetid://149979533"
+        sky.SkyboxDn = "rbxassetid://149979533"
+        sky.SkyboxFt = "rbxassetid://149979533"
+        sky.SkyboxLf = "rbxassetid://149979533"
+        sky.SkyboxRt = "rbxassetid://149979533"
+        sky.SkyboxUp = "rbxassetid://149979533"
+        sky.StarCount = 1260
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 18
+        lighting.Brightness = 2.80
+        lighting.FogEnd = 2340
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(210, 20, 50)
+        lighting.Ambient = Color3.fromRGB(170, 8, 10)
+        lighting.OutdoorAmbient = Color3.fromRGB(222, 28, 66)
+        lighting.ColorShift_Top = Color3.fromRGB(210, 20, 50)
+        lighting.ColorShift_Bottom = Color3.fromRGB(73, 7, 20)
+        lighting.EnvironmentDiffuseScale = 0.10
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Ruby Circuit")
+    Velune.PlayTone(138000527, 0.2)
+end
+Velune.SkyIndex_RubyCircuit = {
+    name = "Ruby Circuit",
+    id = "149979533",
+    color = Color3.fromRGB(210, 20, 50),
+    fog = 20,
+    dens = 4,
+    apply = Velune.ApplySky_RubyCircuit,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_RubyCircuit)
+function Velune.ApplySky_CloudBone()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CloudBone"
+        sky.SkyboxBk = "rbxassetid://150739240"
+        sky.SkyboxDn = "rbxassetid://150739240"
+        sky.SkyboxFt = "rbxassetid://150739240"
+        sky.SkyboxLf = "rbxassetid://150739240"
+        sky.SkyboxRt = "rbxassetid://150739240"
+        sky.SkyboxUp = "rbxassetid://150739240"
+        sky.StarCount = 1300
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 14
+        lighting.Brightness = 2.10
+        lighting.FogEnd = 2560
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(230, 230, 235)
+        lighting.Ambient = Color3.fromRGB(190, 190, 195)
+        lighting.OutdoorAmbient = Color3.fromRGB(242, 238, 251)
+        lighting.ColorShift_Top = Color3.fromRGB(230, 230, 235)
+        lighting.ColorShift_Bottom = Color3.fromRGB(80, 80, 94)
+        lighting.EnvironmentDiffuseScale = 0.20
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Cloud Bone")
+    Velune.PlayTone(138000544, 0.2)
+end
+Velune.SkyIndex_CloudBone = {
+    name = "Cloud Bone",
+    id = "150739240",
+    color = Color3.fromRGB(230, 230, 235),
+    fog = 8,
+    dens = 8,
+    apply = Velune.ApplySky_CloudBone,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CloudBone)
+function Velune.ApplySky_AbyssGreen()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_AbyssGreen"
+        sky.SkyboxBk = "rbxassetid://120641280"
+        sky.SkyboxDn = "rbxassetid://120641280"
+        sky.SkyboxFt = "rbxassetid://120641280"
+        sky.SkyboxLf = "rbxassetid://120641280"
+        sky.SkyboxRt = "rbxassetid://120641280"
+        sky.SkyboxUp = "rbxassetid://120641280"
+        sky.StarCount = 1340
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 3
+        lighting.Brightness = 1.80
+        lighting.FogEnd = 2780
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(10, 80, 50)
+        lighting.Ambient = Color3.fromRGB(8, 40, 10)
+        lighting.OutdoorAmbient = Color3.fromRGB(22, 88, 66)
+        lighting.ColorShift_Top = Color3.fromRGB(10, 80, 50)
+        lighting.ColorShift_Bottom = Color3.fromRGB(3, 28, 20)
+        lighting.EnvironmentDiffuseScale = 0.30
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Abyss Green")
+    Velune.PlayTone(138000561, 0.2)
+end
+Velune.SkyIndex_AbyssGreen = {
+    name = "Abyss Green",
+    id = "120641280",
+    color = Color3.fromRGB(10, 80, 50),
+    fog = 2,
+    dens = 9,
+    apply = Velune.ApplySky_AbyssGreen,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_AbyssGreen)
+function Velune.ApplySky_SunsetWire()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_SunsetWire"
+        sky.SkyboxBk = "rbxassetid://153662450"
+        sky.SkyboxDn = "rbxassetid://153662450"
+        sky.SkyboxFt = "rbxassetid://153662450"
+        sky.SkyboxLf = "rbxassetid://153662450"
+        sky.SkyboxRt = "rbxassetid://153662450"
+        sky.SkyboxUp = "rbxassetid://153662450"
+        sky.StarCount = 1380
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 17
+        lighting.Brightness = 3.00
+        lighting.FogEnd = 3000
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(255, 110, 50)
+        lighting.Ambient = Color3.fromRGB(215, 70, 10)
+        lighting.OutdoorAmbient = Color3.fromRGB(255, 118, 66)
+        lighting.ColorShift_Top = Color3.fromRGB(255, 110, 50)
+        lighting.ColorShift_Bottom = Color3.fromRGB(89, 38, 20)
+        lighting.EnvironmentDiffuseScale = 0.40
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Sunset Wire")
+    Velune.PlayTone(138000578, 0.2)
+end
+Velune.SkyIndex_SunsetWire = {
+    name = "Sunset Wire",
+    id = "153662450",
+    color = Color3.fromRGB(255, 110, 50),
+    fog = 18,
+    dens = 4,
+    apply = Velune.ApplySky_SunsetWire,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_SunsetWire)
+function Velune.ApplySky_CobaltDust()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CobaltDust"
+        sky.SkyboxBk = "rbxassetid://151339920"
+        sky.SkyboxDn = "rbxassetid://151339920"
+        sky.SkyboxFt = "rbxassetid://151339920"
+        sky.SkyboxLf = "rbxassetid://151339920"
+        sky.SkyboxRt = "rbxassetid://151339920"
+        sky.SkyboxUp = "rbxassetid://151339920"
+        sky.StarCount = 1420
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 7
+        lighting.Brightness = 2.60
+        lighting.FogEnd = 3220
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(40, 80, 190)
+        lighting.Ambient = Color3.fromRGB(8, 40, 150)
+        lighting.OutdoorAmbient = Color3.fromRGB(52, 88, 206)
+        lighting.ColorShift_Top = Color3.fromRGB(40, 80, 190)
+        lighting.ColorShift_Bottom = Color3.fromRGB(14, 28, 76)
+        lighting.EnvironmentDiffuseScale = 0.50
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Cobalt Dust")
+    Velune.PlayTone(138000595, 0.2)
+end
+Velune.SkyIndex_CobaltDust = {
+    name = "Cobalt Dust",
+    id = "151339920",
+    color = Color3.fromRGB(40, 80, 190),
+    fog = 9,
+    dens = 7,
+    apply = Velune.ApplySky_CobaltDust,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CobaltDust)
+function Velune.ApplySky_WineCellar()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_WineCellar"
+        sky.SkyboxBk = "rbxassetid://149979560"
+        sky.SkyboxDn = "rbxassetid://149979560"
+        sky.SkyboxFt = "rbxassetid://149979560"
+        sky.SkyboxLf = "rbxassetid://149979560"
+        sky.SkyboxRt = "rbxassetid://149979560"
+        sky.SkyboxUp = "rbxassetid://149979560"
+        sky.StarCount = 1460
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 8
+        lighting.Brightness = 1.90
+        lighting.FogEnd = 800
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(120, 20, 40)
+        lighting.Ambient = Color3.fromRGB(80, 8, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(132, 28, 56)
+        lighting.ColorShift_Top = Color3.fromRGB(120, 20, 40)
+        lighting.ColorShift_Bottom = Color3.fromRGB(42, 7, 16)
+        lighting.EnvironmentDiffuseScale = 0.60
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Wine Cellar")
+    Velune.PlayTone(138000612, 0.2)
+end
+Velune.SkyIndex_WineCellar = {
+    name = "Wine Cellar",
+    id = "149979560",
+    color = Color3.fromRGB(120, 20, 40),
+    fog = 19,
+    dens = 6,
+    apply = Velune.ApplySky_WineCellar,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_WineCellar)
+function Velune.ApplySky_LimeStatic()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_LimeStatic"
+        sky.SkyboxBk = "rbxassetid://120641330"
+        sky.SkyboxDn = "rbxassetid://120641330"
+        sky.SkyboxFt = "rbxassetid://120641330"
+        sky.SkyboxLf = "rbxassetid://120641330"
+        sky.SkyboxRt = "rbxassetid://120641330"
+        sky.SkyboxUp = "rbxassetid://120641330"
+        sky.StarCount = 1500
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 13
+        lighting.Brightness = 2.90
+        lighting.FogEnd = 1020
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(140, 230, 70)
+        lighting.Ambient = Color3.fromRGB(100, 190, 30)
+        lighting.OutdoorAmbient = Color3.fromRGB(152, 238, 86)
+        lighting.ColorShift_Top = Color3.fromRGB(140, 230, 70)
+        lighting.ColorShift_Bottom = Color3.fromRGB(49, 80, 28)
+        lighting.EnvironmentDiffuseScale = 0.70
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Lime Static")
+    Velune.PlayTone(138000629, 0.2)
+end
+Velune.SkyIndex_LimeStatic = {
+    name = "Lime Static",
+    id = "120641330",
+    color = Color3.fromRGB(140, 230, 70),
+    fog = 11,
+    dens = 6,
+    apply = Velune.ApplySky_LimeStatic,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_LimeStatic)
+function Velune.ApplySky_PearlDusk()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_PearlDusk"
+        sky.SkyboxBk = "rbxassetid://150739260"
+        sky.SkyboxDn = "rbxassetid://150739260"
+        sky.SkyboxFt = "rbxassetid://150739260"
+        sky.SkyboxLf = "rbxassetid://150739260"
+        sky.SkyboxRt = "rbxassetid://150739260"
+        sky.SkyboxUp = "rbxassetid://150739260"
+        sky.StarCount = 1540
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 14
+        lighting.Brightness = 2.20
+        lighting.FogEnd = 1240
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(240, 210, 200)
+        lighting.Ambient = Color3.fromRGB(200, 170, 160)
+        lighting.OutdoorAmbient = Color3.fromRGB(252, 218, 216)
+        lighting.ColorShift_Top = Color3.fromRGB(240, 210, 200)
+        lighting.ColorShift_Bottom = Color3.fromRGB(84, 73, 80)
+        lighting.EnvironmentDiffuseScale = 0.80
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Pearl Dusk")
+    Velune.PlayTone(138000646, 0.2)
+end
+Velune.SkyIndex_PearlDusk = {
+    name = "Pearl Dusk",
+    id = "150739260",
+    color = Color3.fromRGB(240, 210, 200),
+    fog = 17,
+    dens = 5,
+    apply = Velune.ApplySky_PearlDusk,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_PearlDusk)
+function Velune.ApplySky_Graphite()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_Graphite"
+        sky.SkyboxBk = "rbxassetid://162619880"
+        sky.SkyboxDn = "rbxassetid://162619880"
+        sky.SkyboxFt = "rbxassetid://162619880"
+        sky.SkyboxLf = "rbxassetid://162619880"
+        sky.SkyboxRt = "rbxassetid://162619880"
+        sky.SkyboxUp = "rbxassetid://162619880"
+        sky.StarCount = 1580
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 3
+        lighting.Brightness = 1.50
+        lighting.FogEnd = 1460
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(40, 42, 48)
+        lighting.Ambient = Color3.fromRGB(8, 8, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(52, 50, 64)
+        lighting.ColorShift_Top = Color3.fromRGB(40, 42, 48)
+        lighting.ColorShift_Bottom = Color3.fromRGB(14, 14, 19)
+        lighting.EnvironmentDiffuseScale = 0.90
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Graphite")
+    Velune.PlayTone(138000663, 0.2)
+end
+Velune.SkyIndex_Graphite = {
+    name = "Graphite",
+    id = "162619880",
+    color = Color3.fromRGB(40, 42, 48),
+    fog = 1,
+    dens = 9,
+    apply = Velune.ApplySky_Graphite,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_Graphite)
+function Velune.ApplySky_OrchidBurn()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_OrchidBurn"
+        sky.SkyboxBk = "rbxassetid://149535070"
+        sky.SkyboxDn = "rbxassetid://149535070"
+        sky.SkyboxFt = "rbxassetid://149535070"
+        sky.SkyboxLf = "rbxassetid://149535070"
+        sky.SkyboxRt = "rbxassetid://149535070"
+        sky.SkyboxUp = "rbxassetid://149535070"
+        sky.StarCount = 1620
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 10
+        lighting.Brightness = 2.30
+        lighting.FogEnd = 1680
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(190, 70, 180)
+        lighting.Ambient = Color3.fromRGB(150, 30, 140)
+        lighting.OutdoorAmbient = Color3.fromRGB(202, 78, 196)
+        lighting.ColorShift_Top = Color3.fromRGB(190, 70, 180)
+        lighting.ColorShift_Bottom = Color3.fromRGB(66, 24, 72)
+        lighting.EnvironmentDiffuseScale = 0.00
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Orchid Burn")
+    Velune.PlayTone(138000680, 0.2)
+end
+Velune.SkyIndex_OrchidBurn = {
+    name = "Orchid Burn",
+    id = "149535070",
+    color = Color3.fromRGB(190, 70, 180),
+    fog = 5,
+    dens = 7,
+    apply = Velune.ApplySky_OrchidBurn,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_OrchidBurn)
+function Velune.ApplySky_Honeycomb()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_Honeycomb"
+        sky.SkyboxBk = "rbxassetid://150739340"
+        sky.SkyboxDn = "rbxassetid://150739340"
+        sky.SkyboxFt = "rbxassetid://150739340"
+        sky.SkyboxLf = "rbxassetid://150739340"
+        sky.SkyboxRt = "rbxassetid://150739340"
+        sky.SkyboxUp = "rbxassetid://150739340"
+        sky.StarCount = 1660
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 16
+        lighting.Brightness = 3.00
+        lighting.FogEnd = 1900
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(240, 180, 70)
+        lighting.Ambient = Color3.fromRGB(200, 140, 30)
+        lighting.OutdoorAmbient = Color3.fromRGB(252, 188, 86)
+        lighting.ColorShift_Top = Color3.fromRGB(240, 180, 70)
+        lighting.ColorShift_Bottom = Color3.fromRGB(84, 62, 28)
+        lighting.EnvironmentDiffuseScale = 0.10
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Honeycomb")
+    Velune.PlayTone(138000697, 0.2)
+end
+Velune.SkyIndex_Honeycomb = {
+    name = "Honeycomb",
+    id = "150739340",
+    color = Color3.fromRGB(240, 180, 70),
+    fog = 15,
+    dens = 5,
+    apply = Velune.ApplySky_Honeycomb,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_Honeycomb)
+function Velune.ApplySky_DeepTeal()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_DeepTeal"
+        sky.SkyboxBk = "rbxassetid://151339890"
+        sky.SkyboxDn = "rbxassetid://151339890"
+        sky.SkyboxFt = "rbxassetid://151339890"
+        sky.SkyboxLf = "rbxassetid://151339890"
+        sky.SkyboxRt = "rbxassetid://151339890"
+        sky.SkyboxUp = "rbxassetid://151339890"
+        sky.StarCount = 1700
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 5
+        lighting.Brightness = 2.10
+        lighting.FogEnd = 2120
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(10, 90, 90)
+        lighting.Ambient = Color3.fromRGB(8, 50, 50)
+        lighting.OutdoorAmbient = Color3.fromRGB(22, 98, 106)
+        lighting.ColorShift_Top = Color3.fromRGB(10, 90, 90)
+        lighting.ColorShift_Bottom = Color3.fromRGB(3, 31, 36)
+        lighting.EnvironmentDiffuseScale = 0.20
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Deep Teal")
+    Velune.PlayTone(138000714, 0.2)
+end
+Velune.SkyIndex_DeepTeal = {
+    name = "Deep Teal",
+    id = "151339890",
+    color = Color3.fromRGB(10, 90, 90),
+    fog = 7,
+    dens = 8,
+    apply = Velune.ApplySky_DeepTeal,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_DeepTeal)
+function Velune.ApplySky_ScarletVeil()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_ScarletVeil"
+        sky.SkyboxBk = "rbxassetid://149979490"
+        sky.SkyboxDn = "rbxassetid://149979490"
+        sky.SkyboxFt = "rbxassetid://149979490"
+        sky.SkyboxLf = "rbxassetid://149979490"
+        sky.SkyboxRt = "rbxassetid://149979490"
+        sky.SkyboxUp = "rbxassetid://149979490"
+        sky.StarCount = 1740
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 17
+        lighting.Brightness = 2.70
+        lighting.FogEnd = 2340
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(200, 16, 32)
+        lighting.Ambient = Color3.fromRGB(160, 8, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(212, 24, 48)
+        lighting.ColorShift_Top = Color3.fromRGB(200, 16, 32)
+        lighting.ColorShift_Bottom = Color3.fromRGB(70, 5, 12)
+        lighting.EnvironmentDiffuseScale = 0.30
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Scarlet Veil")
+    Velune.PlayTone(138000731, 0.2)
+end
+Velune.SkyIndex_ScarletVeil = {
+    name = "Scarlet Veil",
+    id = "149979490",
+    color = Color3.fromRGB(200, 16, 32),
+    fog = 20,
+    dens = 4,
+    apply = Velune.ApplySky_ScarletVeil,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_ScarletVeil)
+function Velune.ApplySky_IceOrchard()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_IceOrchard"
+        sky.SkyboxBk = "rbxassetid://149979400"
+        sky.SkyboxDn = "rbxassetid://149979400"
+        sky.SkyboxFt = "rbxassetid://149979400"
+        sky.SkyboxLf = "rbxassetid://149979400"
+        sky.SkyboxRt = "rbxassetid://149979400"
+        sky.SkyboxUp = "rbxassetid://149979400"
+        sky.StarCount = 1780
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 8
+        lighting.Brightness = 2.00
+        lighting.FogEnd = 2560
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(200, 230, 240)
+        lighting.Ambient = Color3.fromRGB(160, 190, 200)
+        lighting.OutdoorAmbient = Color3.fromRGB(212, 238, 255)
+        lighting.ColorShift_Top = Color3.fromRGB(200, 230, 240)
+        lighting.ColorShift_Bottom = Color3.fromRGB(70, 80, 96)
+        lighting.EnvironmentDiffuseScale = 0.40
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Ice Orchard")
+    Velune.PlayTone(138000748, 0.2)
+end
+Velune.SkyIndex_IceOrchard = {
+    name = "Ice Orchard",
+    id = "149979400",
+    color = Color3.fromRGB(200, 230, 240),
+    fog = 6,
+    dens = 9,
+    apply = Velune.ApplySky_IceOrchard,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_IceOrchard)
+function Velune.ApplySky_BronzeMoon()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_BronzeMoon"
+        sky.SkyboxBk = "rbxassetid://153662410"
+        sky.SkyboxDn = "rbxassetid://153662410"
+        sky.SkyboxFt = "rbxassetid://153662410"
+        sky.SkyboxLf = "rbxassetid://153662410"
+        sky.SkyboxRt = "rbxassetid://153662410"
+        sky.SkyboxUp = "rbxassetid://153662410"
+        sky.StarCount = 1820
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 13
+        lighting.Brightness = 2.80
+        lighting.FogEnd = 2780
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(180, 120, 60)
+        lighting.Ambient = Color3.fromRGB(140, 80, 20)
+        lighting.OutdoorAmbient = Color3.fromRGB(192, 128, 76)
+        lighting.ColorShift_Top = Color3.fromRGB(180, 120, 60)
+        lighting.ColorShift_Bottom = Color3.fromRGB(62, 42, 24)
+        lighting.EnvironmentDiffuseScale = 0.50
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Bronze Moon")
+    Velune.PlayTone(138000765, 0.2)
+end
+Velune.SkyIndex_BronzeMoon = {
+    name = "Bronze Moon",
+    id = "153662410",
+    color = Color3.fromRGB(180, 120, 60),
+    fog = 16,
+    dens = 6,
+    apply = Velune.ApplySky_BronzeMoon,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_BronzeMoon)
+function Velune.ApplySky_NeonRain()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_NeonRain"
+        sky.SkyboxBk = "rbxassetid://149535020"
+        sky.SkyboxDn = "rbxassetid://149535020"
+        sky.SkyboxFt = "rbxassetid://149535020"
+        sky.SkyboxLf = "rbxassetid://149535020"
+        sky.SkyboxRt = "rbxassetid://149535020"
+        sky.SkyboxUp = "rbxassetid://149535020"
+        sky.StarCount = 1860
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 9
+        lighting.Brightness = 2.60
+        lighting.FogEnd = 3000
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(80, 255, 180)
+        lighting.Ambient = Color3.fromRGB(40, 215, 140)
+        lighting.OutdoorAmbient = Color3.fromRGB(92, 255, 196)
+        lighting.ColorShift_Top = Color3.fromRGB(80, 255, 180)
+        lighting.ColorShift_Bottom = Color3.fromRGB(28, 89, 72)
+        lighting.EnvironmentDiffuseScale = 0.60
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Neon Rain")
+    Velune.PlayTone(138000782, 0.2)
+end
+Velune.SkyIndex_NeonRain = {
+    name = "Neon Rain",
+    id = "149535020",
+    color = Color3.fromRGB(80, 255, 180),
+    fog = 4,
+    dens = 7,
+    apply = Velune.ApplySky_NeonRain,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_NeonRain)
+function Velune.ApplySky_DustRose()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_DustRose"
+        sky.SkyboxBk = "rbxassetid://150739215"
+        sky.SkyboxDn = "rbxassetid://150739215"
+        sky.SkyboxFt = "rbxassetid://150739215"
+        sky.SkyboxLf = "rbxassetid://150739215"
+        sky.SkyboxRt = "rbxassetid://150739215"
+        sky.SkyboxUp = "rbxassetid://150739215"
+        sky.StarCount = 1900
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 14
+        lighting.Brightness = 2.30
+        lighting.FogEnd = 3220
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(210, 130, 140)
+        lighting.Ambient = Color3.fromRGB(170, 90, 100)
+        lighting.OutdoorAmbient = Color3.fromRGB(222, 138, 156)
+        lighting.ColorShift_Top = Color3.fromRGB(210, 130, 140)
+        lighting.ColorShift_Bottom = Color3.fromRGB(73, 45, 56)
+        lighting.EnvironmentDiffuseScale = 0.70
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Dust Rose")
+    Velune.PlayTone(138000799, 0.2)
+end
+Velune.SkyIndex_DustRose = {
+    name = "Dust Rose",
+    id = "150739215",
+    color = Color3.fromRGB(210, 130, 140),
+    fog = 17,
+    dens = 5,
+    apply = Velune.ApplySky_DustRose,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_DustRose)
+function Velune.ApplySky_InkHarbor()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_InkHarbor"
+        sky.SkyboxBk = "rbxassetid://151339940"
+        sky.SkyboxDn = "rbxassetid://151339940"
+        sky.SkyboxFt = "rbxassetid://151339940"
+        sky.SkyboxLf = "rbxassetid://151339940"
+        sky.SkyboxRt = "rbxassetid://151339940"
+        sky.SkyboxUp = "rbxassetid://151339940"
+        sky.StarCount = 1940
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 3
+        lighting.Brightness = 1.70
+        lighting.FogEnd = 800
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(16, 40, 80)
+        lighting.Ambient = Color3.fromRGB(8, 8, 40)
+        lighting.OutdoorAmbient = Color3.fromRGB(28, 48, 96)
+        lighting.ColorShift_Top = Color3.fromRGB(16, 40, 80)
+        lighting.ColorShift_Bottom = Color3.fromRGB(5, 14, 32)
+        lighting.EnvironmentDiffuseScale = 0.80
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Ink Harbor")
+    Velune.PlayTone(138000816, 0.2)
+end
+Velune.SkyIndex_InkHarbor = {
+    name = "Ink Harbor",
+    id = "151339940",
+    color = Color3.fromRGB(16, 40, 80),
+    fog = 3,
+    dens = 9,
+    apply = Velune.ApplySky_InkHarbor,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_InkHarbor)
+function Velune.ApplySky_CinderPink()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CinderPink"
+        sky.SkyboxBk = "rbxassetid://150739190"
+        sky.SkyboxDn = "rbxassetid://150739190"
+        sky.SkyboxFt = "rbxassetid://150739190"
+        sky.SkyboxLf = "rbxassetid://150739190"
+        sky.SkyboxRt = "rbxassetid://150739190"
+        sky.SkyboxUp = "rbxassetid://150739190"
+        sky.StarCount = 1980
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 16
+        lighting.Brightness = 2.50
+        lighting.FogEnd = 1020
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(255, 90, 130)
+        lighting.Ambient = Color3.fromRGB(215, 50, 90)
+        lighting.OutdoorAmbient = Color3.fromRGB(255, 98, 146)
+        lighting.ColorShift_Top = Color3.fromRGB(255, 90, 130)
+        lighting.ColorShift_Bottom = Color3.fromRGB(89, 31, 52)
+        lighting.EnvironmentDiffuseScale = 0.90
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Cinder Pink")
+    Velune.PlayTone(138000833, 0.2)
+end
+Velune.SkyIndex_CinderPink = {
+    name = "Cinder Pink",
+    id = "150739190",
+    color = Color3.fromRGB(255, 90, 130),
+    fog = 18,
+    dens = 4,
+    apply = Velune.ApplySky_CinderPink,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CinderPink)
+function Velune.ApplySky_VelvetOrbit()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_VelvetOrbit"
+        sky.SkyboxBk = "rbxassetid://149500000"
+        sky.SkyboxDn = "rbxassetid://149500000"
+        sky.SkyboxFt = "rbxassetid://149500000"
+        sky.SkyboxLf = "rbxassetid://149500000"
+        sky.SkyboxRt = "rbxassetid://149500000"
+        sky.SkyboxUp = "rbxassetid://149500000"
+        sky.StarCount = 2020
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 4
+        lighting.Brightness = 1.40
+        lighting.FogEnd = 1240
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(20, 18, 24)
+        lighting.Ambient = Color3.fromRGB(8, 8, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(32, 26, 40)
+        lighting.ColorShift_Top = Color3.fromRGB(20, 18, 24)
+        lighting.ColorShift_Bottom = Color3.fromRGB(7, 6, 9)
+        lighting.EnvironmentDiffuseScale = 0.00
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Velvet Orbit")
+    Velune.PlayTone(138000850, 0.2)
+end
+Velune.SkyIndex_VelvetOrbit = {
+    name = "Velvet Orbit",
+    id = "149500000",
+    color = Color3.fromRGB(20, 18, 24),
+    fog = 0,
+    dens = 4,
+    apply = Velune.ApplySky_VelvetOrbit,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_VelvetOrbit)
+function Velune.ApplySky_AshCathedral()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_AshCathedral"
+        sky.SkyboxBk = "rbxassetid://149501137"
+        sky.SkyboxDn = "rbxassetid://149501137"
+        sky.SkyboxFt = "rbxassetid://149501137"
+        sky.SkyboxLf = "rbxassetid://149501137"
+        sky.SkyboxRt = "rbxassetid://149501137"
+        sky.SkyboxUp = "rbxassetid://149501137"
+        sky.StarCount = 2060
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 5
+        lighting.Brightness = 1.50
+        lighting.FogEnd = 1460
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(67, 47, 77)
+        lighting.Ambient = Color3.fromRGB(27, 8, 37)
+        lighting.OutdoorAmbient = Color3.fromRGB(79, 55, 93)
+        lighting.ColorShift_Top = Color3.fromRGB(67, 47, 77)
+        lighting.ColorShift_Bottom = Color3.fromRGB(23, 16, 30)
+        lighting.EnvironmentDiffuseScale = 0.10
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Ash Cathedral")
+    Velune.PlayTone(138000867, 0.2)
+end
+Velune.SkyIndex_AshCathedral = {
+    name = "Ash Cathedral",
+    id = "149501137",
+    color = Color3.fromRGB(67, 47, 77),
+    fog = 1,
+    dens = 5,
+    apply = Velune.ApplySky_AshCathedral,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_AshCathedral)
+function Velune.ApplySky_GildedFog()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_GildedFog"
+        sky.SkyboxBk = "rbxassetid://149502274"
+        sky.SkyboxDn = "rbxassetid://149502274"
+        sky.SkyboxFt = "rbxassetid://149502274"
+        sky.SkyboxLf = "rbxassetid://149502274"
+        sky.SkyboxRt = "rbxassetid://149502274"
+        sky.SkyboxUp = "rbxassetid://149502274"
+        sky.StarCount = 2100
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 6
+        lighting.Brightness = 1.60
+        lighting.FogEnd = 1680
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(114, 76, 130)
+        lighting.Ambient = Color3.fromRGB(74, 36, 90)
+        lighting.OutdoorAmbient = Color3.fromRGB(126, 84, 146)
+        lighting.ColorShift_Top = Color3.fromRGB(114, 76, 130)
+        lighting.ColorShift_Bottom = Color3.fromRGB(39, 26, 52)
+        lighting.EnvironmentDiffuseScale = 0.20
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Gilded Fog")
+    Velune.PlayTone(138000884, 0.2)
+end
+Velune.SkyIndex_GildedFog = {
+    name = "Gilded Fog",
+    id = "149502274",
+    color = Color3.fromRGB(114, 76, 130),
+    fog = 2,
+    dens = 6,
+    apply = Velune.ApplySky_GildedFog,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_GildedFog)
+function Velune.ApplySky_SilentChrome()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_SilentChrome"
+        sky.SkyboxBk = "rbxassetid://149503411"
+        sky.SkyboxDn = "rbxassetid://149503411"
+        sky.SkyboxFt = "rbxassetid://149503411"
+        sky.SkyboxLf = "rbxassetid://149503411"
+        sky.SkyboxRt = "rbxassetid://149503411"
+        sky.SkyboxUp = "rbxassetid://149503411"
+        sky.StarCount = 2140
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 7
+        lighting.Brightness = 1.70
+        lighting.FogEnd = 1900
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(161, 105, 183)
+        lighting.Ambient = Color3.fromRGB(121, 65, 143)
+        lighting.OutdoorAmbient = Color3.fromRGB(173, 113, 199)
+        lighting.ColorShift_Top = Color3.fromRGB(161, 105, 183)
+        lighting.ColorShift_Bottom = Color3.fromRGB(56, 36, 73)
+        lighting.EnvironmentDiffuseScale = 0.30
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Silent Chrome")
+    Velune.PlayTone(138000901, 0.2)
+end
+Velune.SkyIndex_SilentChrome = {
+    name = "Silent Chrome",
+    id = "149503411",
+    color = Color3.fromRGB(161, 105, 183),
+    fog = 3,
+    dens = 7,
+    apply = Velune.ApplySky_SilentChrome,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_SilentChrome)
+function Velune.ApplySky_CoralNight()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CoralNight"
+        sky.SkyboxBk = "rbxassetid://149504548"
+        sky.SkyboxDn = "rbxassetid://149504548"
+        sky.SkyboxFt = "rbxassetid://149504548"
+        sky.SkyboxLf = "rbxassetid://149504548"
+        sky.SkyboxRt = "rbxassetid://149504548"
+        sky.SkyboxUp = "rbxassetid://149504548"
+        sky.StarCount = 2180
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 8
+        lighting.Brightness = 1.80
+        lighting.FogEnd = 2120
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(208, 134, 26)
+        lighting.Ambient = Color3.fromRGB(168, 94, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(220, 142, 42)
+        lighting.ColorShift_Top = Color3.fromRGB(208, 134, 26)
+        lighting.ColorShift_Bottom = Color3.fromRGB(72, 46, 10)
+        lighting.EnvironmentDiffuseScale = 0.40
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Coral Night")
+    Velune.PlayTone(138000918, 0.2)
+end
+Velune.SkyIndex_CoralNight = {
+    name = "Coral Night",
+    id = "149504548",
+    color = Color3.fromRGB(208, 134, 26),
+    fog = 4,
+    dens = 8,
+    apply = Velune.ApplySky_CoralNight,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CoralNight)
+function Velune.ApplySky_PineSmoke()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_PineSmoke"
+        sky.SkyboxBk = "rbxassetid://149505685"
+        sky.SkyboxDn = "rbxassetid://149505685"
+        sky.SkyboxFt = "rbxassetid://149505685"
+        sky.SkyboxLf = "rbxassetid://149505685"
+        sky.SkyboxRt = "rbxassetid://149505685"
+        sky.SkyboxUp = "rbxassetid://149505685"
+        sky.StarCount = 2220
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 9
+        lighting.Brightness = 1.90
+        lighting.FogEnd = 2340
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(25, 163, 79)
+        lighting.Ambient = Color3.fromRGB(8, 123, 39)
+        lighting.OutdoorAmbient = Color3.fromRGB(37, 171, 95)
+        lighting.ColorShift_Top = Color3.fromRGB(25, 163, 79)
+        lighting.ColorShift_Bottom = Color3.fromRGB(8, 57, 31)
+        lighting.EnvironmentDiffuseScale = 0.50
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Pine Smoke")
+    Velune.PlayTone(138000935, 0.2)
+end
+Velune.SkyIndex_PineSmoke = {
+    name = "Pine Smoke",
+    id = "149505685",
+    color = Color3.fromRGB(25, 163, 79),
+    fog = 5,
+    dens = 9,
+    apply = Velune.ApplySky_PineSmoke,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_PineSmoke)
+function Velune.ApplySky_MercuryPool()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_MercuryPool"
+        sky.SkyboxBk = "rbxassetid://149506822"
+        sky.SkyboxDn = "rbxassetid://149506822"
+        sky.SkyboxFt = "rbxassetid://149506822"
+        sky.SkyboxLf = "rbxassetid://149506822"
+        sky.SkyboxRt = "rbxassetid://149506822"
+        sky.SkyboxUp = "rbxassetid://149506822"
+        sky.StarCount = 2260
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 10
+        lighting.Brightness = 2.00
+        lighting.FogEnd = 2560
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(72, 192, 132)
+        lighting.Ambient = Color3.fromRGB(32, 152, 92)
+        lighting.OutdoorAmbient = Color3.fromRGB(84, 200, 148)
+        lighting.ColorShift_Top = Color3.fromRGB(72, 192, 132)
+        lighting.ColorShift_Bottom = Color3.fromRGB(25, 67, 52)
+        lighting.EnvironmentDiffuseScale = 0.60
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Mercury Pool")
+    Velune.PlayTone(138000952, 0.2)
+end
+Velune.SkyIndex_MercuryPool = {
+    name = "Mercury Pool",
+    id = "149506822",
+    color = Color3.fromRGB(72, 192, 132),
+    fog = 6,
+    dens = 10,
+    apply = Velune.ApplySky_MercuryPool,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_MercuryPool)
+function Velune.ApplySky_LavaLace()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_LavaLace"
+        sky.SkyboxBk = "rbxassetid://149507959"
+        sky.SkyboxDn = "rbxassetid://149507959"
+        sky.SkyboxFt = "rbxassetid://149507959"
+        sky.SkyboxLf = "rbxassetid://149507959"
+        sky.SkyboxRt = "rbxassetid://149507959"
+        sky.SkyboxUp = "rbxassetid://149507959"
+        sky.StarCount = 2300
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 11
+        lighting.Brightness = 2.10
+        lighting.FogEnd = 2780
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(119, 221, 185)
+        lighting.Ambient = Color3.fromRGB(79, 181, 145)
+        lighting.OutdoorAmbient = Color3.fromRGB(131, 229, 201)
+        lighting.ColorShift_Top = Color3.fromRGB(119, 221, 185)
+        lighting.ColorShift_Bottom = Color3.fromRGB(41, 77, 74)
+        lighting.EnvironmentDiffuseScale = 0.70
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Lava Lace")
+    Velune.PlayTone(138000969, 0.2)
+end
+Velune.SkyIndex_LavaLace = {
+    name = "Lava Lace",
+    id = "149507959",
+    color = Color3.fromRGB(119, 221, 185),
+    fog = 7,
+    dens = 4,
+    apply = Velune.ApplySky_LavaLace,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_LavaLace)
+function Velune.ApplySky_WinterPulse()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_WinterPulse"
+        sky.SkyboxBk = "rbxassetid://149509096"
+        sky.SkyboxDn = "rbxassetid://149509096"
+        sky.SkyboxFt = "rbxassetid://149509096"
+        sky.SkyboxLf = "rbxassetid://149509096"
+        sky.SkyboxRt = "rbxassetid://149509096"
+        sky.SkyboxUp = "rbxassetid://149509096"
+        sky.StarCount = 2340
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 12
+        lighting.Brightness = 2.20
+        lighting.FogEnd = 3000
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(166, 30, 28)
+        lighting.Ambient = Color3.fromRGB(126, 8, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(178, 38, 44)
+        lighting.ColorShift_Top = Color3.fromRGB(166, 30, 28)
+        lighting.ColorShift_Bottom = Color3.fromRGB(58, 10, 11)
+        lighting.EnvironmentDiffuseScale = 0.80
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Winter Pulse")
+    Velune.PlayTone(138000986, 0.2)
+end
+Velune.SkyIndex_WinterPulse = {
+    name = "Winter Pulse",
+    id = "149509096",
+    color = Color3.fromRGB(166, 30, 28),
+    fog = 8,
+    dens = 5,
+    apply = Velune.ApplySky_WinterPulse,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_WinterPulse)
+function Velune.ApplySky_OxbloodSky()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_OxbloodSky"
+        sky.SkyboxBk = "rbxassetid://149501233"
+        sky.SkyboxDn = "rbxassetid://149501233"
+        sky.SkyboxFt = "rbxassetid://149501233"
+        sky.SkyboxLf = "rbxassetid://149501233"
+        sky.SkyboxRt = "rbxassetid://149501233"
+        sky.SkyboxUp = "rbxassetid://149501233"
+        sky.StarCount = 2380
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 13
+        lighting.Brightness = 2.30
+        lighting.FogEnd = 3220
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(213, 59, 81)
+        lighting.Ambient = Color3.fromRGB(173, 19, 41)
+        lighting.OutdoorAmbient = Color3.fromRGB(225, 67, 97)
+        lighting.ColorShift_Top = Color3.fromRGB(213, 59, 81)
+        lighting.ColorShift_Bottom = Color3.fromRGB(74, 20, 32)
+        lighting.EnvironmentDiffuseScale = 0.90
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Oxblood Sky")
+    Velune.PlayTone(138001003, 0.2)
+end
+Velune.SkyIndex_OxbloodSky = {
+    name = "Oxblood Sky",
+    id = "149501233",
+    color = Color3.fromRGB(213, 59, 81),
+    fog = 9,
+    dens = 6,
+    apply = Velune.ApplySky_OxbloodSky,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_OxbloodSky)
+function Velune.ApplySky_SeaGlass()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_SeaGlass"
+        sky.SkyboxBk = "rbxassetid://149502370"
+        sky.SkyboxDn = "rbxassetid://149502370"
+        sky.SkyboxFt = "rbxassetid://149502370"
+        sky.SkyboxLf = "rbxassetid://149502370"
+        sky.SkyboxRt = "rbxassetid://149502370"
+        sky.SkyboxUp = "rbxassetid://149502370"
+        sky.StarCount = 2420
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 14
+        lighting.Brightness = 2.40
+        lighting.FogEnd = 800
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(30, 88, 134)
+        lighting.Ambient = Color3.fromRGB(8, 48, 94)
+        lighting.OutdoorAmbient = Color3.fromRGB(42, 96, 150)
+        lighting.ColorShift_Top = Color3.fromRGB(30, 88, 134)
+        lighting.ColorShift_Bottom = Color3.fromRGB(10, 30, 53)
+        lighting.EnvironmentDiffuseScale = 0.00
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Sea Glass")
+    Velune.PlayTone(138001020, 0.2)
+end
+Velune.SkyIndex_SeaGlass = {
+    name = "Sea Glass",
+    id = "149502370",
+    color = Color3.fromRGB(30, 88, 134),
+    fog = 10,
+    dens = 7,
+    apply = Velune.ApplySky_SeaGlass,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_SeaGlass)
+function Velune.ApplySky_NightMarket()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_NightMarket"
+        sky.SkyboxBk = "rbxassetid://149503507"
+        sky.SkyboxDn = "rbxassetid://149503507"
+        sky.SkyboxFt = "rbxassetid://149503507"
+        sky.SkyboxLf = "rbxassetid://149503507"
+        sky.SkyboxRt = "rbxassetid://149503507"
+        sky.SkyboxUp = "rbxassetid://149503507"
+        sky.StarCount = 2460
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 15
+        lighting.Brightness = 2.50
+        lighting.FogEnd = 1020
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(77, 117, 187)
+        lighting.Ambient = Color3.fromRGB(37, 77, 147)
+        lighting.OutdoorAmbient = Color3.fromRGB(89, 125, 203)
+        lighting.ColorShift_Top = Color3.fromRGB(77, 117, 187)
+        lighting.ColorShift_Bottom = Color3.fromRGB(26, 40, 74)
+        lighting.EnvironmentDiffuseScale = 0.10
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Night Market")
+    Velune.PlayTone(138001037, 0.2)
+end
+Velune.SkyIndex_NightMarket = {
+    name = "Night Market",
+    id = "149503507",
+    color = Color3.fromRGB(77, 117, 187),
+    fog = 11,
+    dens = 8,
+    apply = Velune.ApplySky_NightMarket,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_NightMarket)
+function Velune.ApplySky_PaperMoon()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_PaperMoon"
+        sky.SkyboxBk = "rbxassetid://149504644"
+        sky.SkyboxDn = "rbxassetid://149504644"
+        sky.SkyboxFt = "rbxassetid://149504644"
+        sky.SkyboxLf = "rbxassetid://149504644"
+        sky.SkyboxRt = "rbxassetid://149504644"
+        sky.SkyboxUp = "rbxassetid://149504644"
+        sky.StarCount = 2500
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 16
+        lighting.Brightness = 2.60
+        lighting.FogEnd = 1240
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(124, 146, 30)
+        lighting.Ambient = Color3.fromRGB(84, 106, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(136, 154, 46)
+        lighting.ColorShift_Top = Color3.fromRGB(124, 146, 30)
+        lighting.ColorShift_Bottom = Color3.fromRGB(43, 51, 12)
+        lighting.EnvironmentDiffuseScale = 0.20
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Paper Moon")
+    Velune.PlayTone(138001054, 0.2)
+end
+Velune.SkyIndex_PaperMoon = {
+    name = "Paper Moon",
+    id = "149504644",
+    color = Color3.fromRGB(124, 146, 30),
+    fog = 12,
+    dens = 9,
+    apply = Velune.ApplySky_PaperMoon,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_PaperMoon)
+function Velune.ApplySky_VoltGarden()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_VoltGarden"
+        sky.SkyboxBk = "rbxassetid://149505781"
+        sky.SkyboxDn = "rbxassetid://149505781"
+        sky.SkyboxFt = "rbxassetid://149505781"
+        sky.SkyboxLf = "rbxassetid://149505781"
+        sky.SkyboxRt = "rbxassetid://149505781"
+        sky.SkyboxUp = "rbxassetid://149505781"
+        sky.StarCount = 2540
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 17
+        lighting.Brightness = 2.70
+        lighting.FogEnd = 1460
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(171, 175, 83)
+        lighting.Ambient = Color3.fromRGB(131, 135, 43)
+        lighting.OutdoorAmbient = Color3.fromRGB(183, 183, 99)
+        lighting.ColorShift_Top = Color3.fromRGB(171, 175, 83)
+        lighting.ColorShift_Bottom = Color3.fromRGB(59, 61, 33)
+        lighting.EnvironmentDiffuseScale = 0.30
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Volt Garden")
+    Velune.PlayTone(138001071, 0.2)
+end
+Velune.SkyIndex_VoltGarden = {
+    name = "Volt Garden",
+    id = "149505781",
+    color = Color3.fromRGB(171, 175, 83),
+    fog = 13,
+    dens = 10,
+    apply = Velune.ApplySky_VoltGarden,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_VoltGarden)
+function Velune.ApplySky_SableFire()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_SableFire"
+        sky.SkyboxBk = "rbxassetid://149506918"
+        sky.SkyboxDn = "rbxassetid://149506918"
+        sky.SkyboxFt = "rbxassetid://149506918"
+        sky.SkyboxLf = "rbxassetid://149506918"
+        sky.SkyboxRt = "rbxassetid://149506918"
+        sky.SkyboxUp = "rbxassetid://149506918"
+        sky.StarCount = 2580
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 18
+        lighting.Brightness = 2.80
+        lighting.FogEnd = 1680
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(218, 204, 136)
+        lighting.Ambient = Color3.fromRGB(178, 164, 96)
+        lighting.OutdoorAmbient = Color3.fromRGB(230, 212, 152)
+        lighting.ColorShift_Top = Color3.fromRGB(218, 204, 136)
+        lighting.ColorShift_Bottom = Color3.fromRGB(76, 71, 54)
+        lighting.EnvironmentDiffuseScale = 0.40
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Sable Fire")
+    Velune.PlayTone(138001088, 0.2)
+end
+Velune.SkyIndex_SableFire = {
+    name = "Sable Fire",
+    id = "149506918",
+    color = Color3.fromRGB(218, 204, 136),
+    fog = 14,
+    dens = 4,
+    apply = Velune.ApplySky_SableFire,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_SableFire)
+function Velune.ApplySky_OpalDrift()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_OpalDrift"
+        sky.SkyboxBk = "rbxassetid://149508055"
+        sky.SkyboxDn = "rbxassetid://149508055"
+        sky.SkyboxFt = "rbxassetid://149508055"
+        sky.SkyboxLf = "rbxassetid://149508055"
+        sky.SkyboxRt = "rbxassetid://149508055"
+        sky.SkyboxUp = "rbxassetid://149508055"
+        sky.StarCount = 2620
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 19
+        lighting.Brightness = 2.90
+        lighting.FogEnd = 1900
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(35, 233, 189)
+        lighting.Ambient = Color3.fromRGB(8, 193, 149)
+        lighting.OutdoorAmbient = Color3.fromRGB(47, 241, 205)
+        lighting.ColorShift_Top = Color3.fromRGB(35, 233, 189)
+        lighting.ColorShift_Bottom = Color3.fromRGB(12, 81, 75)
+        lighting.EnvironmentDiffuseScale = 0.50
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Opal Drift")
+    Velune.PlayTone(138001105, 0.2)
+end
+Velune.SkyIndex_OpalDrift = {
+    name = "Opal Drift",
+    id = "149508055",
+    color = Color3.fromRGB(35, 233, 189),
+    fog = 15,
+    dens = 5,
+    apply = Velune.ApplySky_OpalDrift,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_OpalDrift)
+function Velune.ApplySky_RustChoir()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_RustChoir"
+        sky.SkyboxBk = "rbxassetid://149509192"
+        sky.SkyboxDn = "rbxassetid://149509192"
+        sky.SkyboxFt = "rbxassetid://149509192"
+        sky.SkyboxLf = "rbxassetid://149509192"
+        sky.SkyboxRt = "rbxassetid://149509192"
+        sky.SkyboxUp = "rbxassetid://149509192"
+        sky.StarCount = 2660
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 4
+        lighting.Brightness = 3.00
+        lighting.FogEnd = 2120
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(82, 42, 32)
+        lighting.Ambient = Color3.fromRGB(42, 8, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(94, 50, 48)
+        lighting.ColorShift_Top = Color3.fromRGB(82, 42, 32)
+        lighting.ColorShift_Bottom = Color3.fromRGB(28, 14, 12)
+        lighting.EnvironmentDiffuseScale = 0.60
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Rust Choir")
+    Velune.PlayTone(138001122, 0.2)
+end
+Velune.SkyIndex_RustChoir = {
+    name = "Rust Choir",
+    id = "149509192",
+    color = Color3.fromRGB(82, 42, 32),
+    fog = 16,
+    dens = 6,
+    apply = Velune.ApplySky_RustChoir,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_RustChoir)
+function Velune.ApplySky_BlueLantern()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_BlueLantern"
+        sky.SkyboxBk = "rbxassetid://149510329"
+        sky.SkyboxDn = "rbxassetid://149510329"
+        sky.SkyboxFt = "rbxassetid://149510329"
+        sky.SkyboxLf = "rbxassetid://149510329"
+        sky.SkyboxRt = "rbxassetid://149510329"
+        sky.SkyboxUp = "rbxassetid://149510329"
+        sky.StarCount = 2700
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 5
+        lighting.Brightness = 3.10
+        lighting.FogEnd = 2340
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(129, 71, 85)
+        lighting.Ambient = Color3.fromRGB(89, 31, 45)
+        lighting.OutdoorAmbient = Color3.fromRGB(141, 79, 101)
+        lighting.ColorShift_Top = Color3.fromRGB(129, 71, 85)
+        lighting.ColorShift_Bottom = Color3.fromRGB(45, 24, 34)
+        lighting.EnvironmentDiffuseScale = 0.70
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Blue Lantern")
+    Velune.PlayTone(138001139, 0.2)
+end
+Velune.SkyIndex_BlueLantern = {
+    name = "Blue Lantern",
+    id = "149510329",
+    color = Color3.fromRGB(129, 71, 85),
+    fog = 17,
+    dens = 7,
+    apply = Velune.ApplySky_BlueLantern,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_BlueLantern)
+function Velune.ApplySky_IvoryEmber()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_IvoryEmber"
+        sky.SkyboxBk = "rbxassetid://149502466"
+        sky.SkyboxDn = "rbxassetid://149502466"
+        sky.SkyboxFt = "rbxassetid://149502466"
+        sky.SkyboxLf = "rbxassetid://149502466"
+        sky.SkyboxRt = "rbxassetid://149502466"
+        sky.SkyboxUp = "rbxassetid://149502466"
+        sky.StarCount = 2740
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 6
+        lighting.Brightness = 3.20
+        lighting.FogEnd = 2560
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(176, 100, 138)
+        lighting.Ambient = Color3.fromRGB(136, 60, 98)
+        lighting.OutdoorAmbient = Color3.fromRGB(188, 108, 154)
+        lighting.ColorShift_Top = Color3.fromRGB(176, 100, 138)
+        lighting.ColorShift_Bottom = Color3.fromRGB(61, 35, 55)
+        lighting.EnvironmentDiffuseScale = 0.80
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Ivory Ember")
+    Velune.PlayTone(138001156, 0.2)
+end
+Velune.SkyIndex_IvoryEmber = {
+    name = "Ivory Ember",
+    id = "149502466",
+    color = Color3.fromRGB(176, 100, 138),
+    fog = 18,
+    dens = 8,
+    apply = Velune.ApplySky_IvoryEmber,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_IvoryEmber)
+function Velune.ApplySky_HollowGold()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_HollowGold"
+        sky.SkyboxBk = "rbxassetid://149503603"
+        sky.SkyboxDn = "rbxassetid://149503603"
+        sky.SkyboxFt = "rbxassetid://149503603"
+        sky.SkyboxLf = "rbxassetid://149503603"
+        sky.SkyboxRt = "rbxassetid://149503603"
+        sky.SkyboxUp = "rbxassetid://149503603"
+        sky.StarCount = 2780
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 7
+        lighting.Brightness = 3.30
+        lighting.FogEnd = 2780
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(223, 129, 191)
+        lighting.Ambient = Color3.fromRGB(183, 89, 151)
+        lighting.OutdoorAmbient = Color3.fromRGB(235, 137, 207)
+        lighting.ColorShift_Top = Color3.fromRGB(223, 129, 191)
+        lighting.ColorShift_Bottom = Color3.fromRGB(78, 45, 76)
+        lighting.EnvironmentDiffuseScale = 0.90
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Hollow Gold")
+    Velune.PlayTone(138001173, 0.2)
+end
+Velune.SkyIndex_HollowGold = {
+    name = "Hollow Gold",
+    id = "149503603",
+    color = Color3.fromRGB(223, 129, 191),
+    fog = 19,
+    dens = 9,
+    apply = Velune.ApplySky_HollowGold,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_HollowGold)
+function Velune.ApplySky_QuartzTide()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_QuartzTide"
+        sky.SkyboxBk = "rbxassetid://149504740"
+        sky.SkyboxDn = "rbxassetid://149504740"
+        sky.SkyboxFt = "rbxassetid://149504740"
+        sky.SkyboxLf = "rbxassetid://149504740"
+        sky.SkyboxRt = "rbxassetid://149504740"
+        sky.SkyboxUp = "rbxassetid://149504740"
+        sky.StarCount = 2820
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 8
+        lighting.Brightness = 1.40
+        lighting.FogEnd = 3000
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(40, 158, 34)
+        lighting.Ambient = Color3.fromRGB(8, 118, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(52, 166, 50)
+        lighting.ColorShift_Top = Color3.fromRGB(40, 158, 34)
+        lighting.ColorShift_Bottom = Color3.fromRGB(14, 55, 13)
+        lighting.EnvironmentDiffuseScale = 0.00
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Quartz Tide")
+    Velune.PlayTone(138001190, 0.2)
+end
+Velune.SkyIndex_QuartzTide = {
+    name = "Quartz Tide",
+    id = "149504740",
+    color = Color3.fromRGB(40, 158, 34),
+    fog = 20,
+    dens = 10,
+    apply = Velune.ApplySky_QuartzTide,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_QuartzTide)
+function Velune.ApplySky_MaroonStatic()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_MaroonStatic"
+        sky.SkyboxBk = "rbxassetid://149505877"
+        sky.SkyboxDn = "rbxassetid://149505877"
+        sky.SkyboxFt = "rbxassetid://149505877"
+        sky.SkyboxLf = "rbxassetid://149505877"
+        sky.SkyboxRt = "rbxassetid://149505877"
+        sky.SkyboxUp = "rbxassetid://149505877"
+        sky.StarCount = 2860
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 9
+        lighting.Brightness = 1.50
+        lighting.FogEnd = 3220
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(87, 187, 87)
+        lighting.Ambient = Color3.fromRGB(47, 147, 47)
+        lighting.OutdoorAmbient = Color3.fromRGB(99, 195, 103)
+        lighting.ColorShift_Top = Color3.fromRGB(87, 187, 87)
+        lighting.ColorShift_Bottom = Color3.fromRGB(30, 65, 34)
+        lighting.EnvironmentDiffuseScale = 0.10
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Maroon Static")
+    Velune.PlayTone(138001207, 0.2)
+end
+Velune.SkyIndex_MaroonStatic = {
+    name = "Maroon Static",
+    id = "149505877",
+    color = Color3.fromRGB(87, 187, 87),
+    fog = 21,
+    dens = 4,
+    apply = Velune.ApplySky_MaroonStatic,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_MaroonStatic)
+function Velune.ApplySky_FogEngine()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_FogEngine"
+        sky.SkyboxBk = "rbxassetid://149507014"
+        sky.SkyboxDn = "rbxassetid://149507014"
+        sky.SkyboxFt = "rbxassetid://149507014"
+        sky.SkyboxLf = "rbxassetid://149507014"
+        sky.SkyboxRt = "rbxassetid://149507014"
+        sky.SkyboxUp = "rbxassetid://149507014"
+        sky.StarCount = 2900
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 10
+        lighting.Brightness = 1.60
+        lighting.FogEnd = 800
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(134, 216, 140)
+        lighting.Ambient = Color3.fromRGB(94, 176, 100)
+        lighting.OutdoorAmbient = Color3.fromRGB(146, 224, 156)
+        lighting.ColorShift_Top = Color3.fromRGB(134, 216, 140)
+        lighting.ColorShift_Bottom = Color3.fromRGB(46, 75, 56)
+        lighting.EnvironmentDiffuseScale = 0.20
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Fog Engine")
+    Velune.PlayTone(138001224, 0.2)
+end
+Velune.SkyIndex_FogEngine = {
+    name = "Fog Engine",
+    id = "149507014",
+    color = Color3.fromRGB(134, 216, 140),
+    fog = 22,
+    dens = 5,
+    apply = Velune.ApplySky_FogEngine,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_FogEngine)
+function Velune.ApplySky_SilkReactor()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_SilkReactor"
+        sky.SkyboxBk = "rbxassetid://149508151"
+        sky.SkyboxDn = "rbxassetid://149508151"
+        sky.SkyboxFt = "rbxassetid://149508151"
+        sky.SkyboxLf = "rbxassetid://149508151"
+        sky.SkyboxRt = "rbxassetid://149508151"
+        sky.SkyboxUp = "rbxassetid://149508151"
+        sky.StarCount = 2940
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 11
+        lighting.Brightness = 1.70
+        lighting.FogEnd = 1020
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(181, 25, 193)
+        lighting.Ambient = Color3.fromRGB(141, 8, 153)
+        lighting.OutdoorAmbient = Color3.fromRGB(193, 33, 209)
+        lighting.ColorShift_Top = Color3.fromRGB(181, 25, 193)
+        lighting.ColorShift_Bottom = Color3.fromRGB(63, 8, 77)
+        lighting.EnvironmentDiffuseScale = 0.30
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Silk Reactor")
+    Velune.PlayTone(138001241, 0.2)
+end
+Velune.SkyIndex_SilkReactor = {
+    name = "Silk Reactor",
+    id = "149508151",
+    color = Color3.fromRGB(181, 25, 193),
+    fog = 23,
+    dens = 6,
+    apply = Velune.ApplySky_SilkReactor,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_SilkReactor)
+function Velune.ApplySky_CedarGlow()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CedarGlow"
+        sky.SkyboxBk = "rbxassetid://149509288"
+        sky.SkyboxDn = "rbxassetid://149509288"
+        sky.SkyboxFt = "rbxassetid://149509288"
+        sky.SkyboxLf = "rbxassetid://149509288"
+        sky.SkyboxRt = "rbxassetid://149509288"
+        sky.SkyboxUp = "rbxassetid://149509288"
+        sky.StarCount = 2980
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 12
+        lighting.Brightness = 1.80
+        lighting.FogEnd = 1240
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(228, 54, 36)
+        lighting.Ambient = Color3.fromRGB(188, 14, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(240, 62, 52)
+        lighting.ColorShift_Top = Color3.fromRGB(228, 54, 36)
+        lighting.ColorShift_Bottom = Color3.fromRGB(79, 18, 14)
+        lighting.EnvironmentDiffuseScale = 0.40
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Cedar Glow")
+    Velune.PlayTone(138001258, 0.2)
+end
+Velune.SkyIndex_CedarGlow = {
+    name = "Cedar Glow",
+    id = "149509288",
+    color = Color3.fromRGB(228, 54, 36),
+    fog = 0,
+    dens = 7,
+    apply = Velune.ApplySky_CedarGlow,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CedarGlow)
+function Velune.ApplySky_NimbusRed()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_NimbusRed"
+        sky.SkyboxBk = "rbxassetid://149510425"
+        sky.SkyboxDn = "rbxassetid://149510425"
+        sky.SkyboxFt = "rbxassetid://149510425"
+        sky.SkyboxLf = "rbxassetid://149510425"
+        sky.SkyboxRt = "rbxassetid://149510425"
+        sky.SkyboxUp = "rbxassetid://149510425"
+        sky.StarCount = 3020
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 13
+        lighting.Brightness = 1.90
+        lighting.FogEnd = 1460
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(45, 83, 89)
+        lighting.Ambient = Color3.fromRGB(8, 43, 49)
+        lighting.OutdoorAmbient = Color3.fromRGB(57, 91, 105)
+        lighting.ColorShift_Top = Color3.fromRGB(45, 83, 89)
+        lighting.ColorShift_Bottom = Color3.fromRGB(15, 29, 35)
+        lighting.EnvironmentDiffuseScale = 0.50
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Nimbus Red")
+    Velune.PlayTone(138001275, 0.2)
+end
+Velune.SkyIndex_NimbusRed = {
+    name = "Nimbus Red",
+    id = "149510425",
+    color = Color3.fromRGB(45, 83, 89),
+    fog = 1,
+    dens = 8,
+    apply = Velune.ApplySky_NimbusRed,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_NimbusRed)
+function Velune.ApplySky_PaleVoltage()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_PaleVoltage"
+        sky.SkyboxBk = "rbxassetid://149511562"
+        sky.SkyboxDn = "rbxassetid://149511562"
+        sky.SkyboxFt = "rbxassetid://149511562"
+        sky.SkyboxLf = "rbxassetid://149511562"
+        sky.SkyboxRt = "rbxassetid://149511562"
+        sky.SkyboxUp = "rbxassetid://149511562"
+        sky.StarCount = 3060
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 14
+        lighting.Brightness = 2.00
+        lighting.FogEnd = 1680
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(92, 112, 142)
+        lighting.Ambient = Color3.fromRGB(52, 72, 102)
+        lighting.OutdoorAmbient = Color3.fromRGB(104, 120, 158)
+        lighting.ColorShift_Top = Color3.fromRGB(92, 112, 142)
+        lighting.ColorShift_Bottom = Color3.fromRGB(32, 39, 56)
+        lighting.EnvironmentDiffuseScale = 0.60
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Pale Voltage")
+    Velune.PlayTone(138001292, 0.2)
+end
+Velune.SkyIndex_PaleVoltage = {
+    name = "Pale Voltage",
+    id = "149511562",
+    color = Color3.fromRGB(92, 112, 142),
+    fog = 2,
+    dens = 9,
+    apply = Velune.ApplySky_PaleVoltage,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_PaleVoltage)
+function Velune.ApplySky_CobwebSun()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CobwebSun"
+        sky.SkyboxBk = "rbxassetid://149503699"
+        sky.SkyboxDn = "rbxassetid://149503699"
+        sky.SkyboxFt = "rbxassetid://149503699"
+        sky.SkyboxLf = "rbxassetid://149503699"
+        sky.SkyboxRt = "rbxassetid://149503699"
+        sky.SkyboxUp = "rbxassetid://149503699"
+        sky.StarCount = 3100
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 15
+        lighting.Brightness = 2.10
+        lighting.FogEnd = 1900
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(139, 141, 195)
+        lighting.Ambient = Color3.fromRGB(99, 101, 155)
+        lighting.OutdoorAmbient = Color3.fromRGB(151, 149, 211)
+        lighting.ColorShift_Top = Color3.fromRGB(139, 141, 195)
+        lighting.ColorShift_Bottom = Color3.fromRGB(48, 49, 78)
+        lighting.EnvironmentDiffuseScale = 0.70
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Cobweb Sun")
+    Velune.PlayTone(138001309, 0.2)
+end
+Velune.SkyIndex_CobwebSun = {
+    name = "Cobweb Sun",
+    id = "149503699",
+    color = Color3.fromRGB(139, 141, 195),
+    fog = 3,
+    dens = 10,
+    apply = Velune.ApplySky_CobwebSun,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CobwebSun)
+function Velune.ApplySky_HarborRose()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_HarborRose"
+        sky.SkyboxBk = "rbxassetid://149504836"
+        sky.SkyboxDn = "rbxassetid://149504836"
+        sky.SkyboxFt = "rbxassetid://149504836"
+        sky.SkyboxLf = "rbxassetid://149504836"
+        sky.SkyboxRt = "rbxassetid://149504836"
+        sky.SkyboxUp = "rbxassetid://149504836"
+        sky.StarCount = 3140
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 16
+        lighting.Brightness = 2.20
+        lighting.FogEnd = 2120
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(186, 170, 38)
+        lighting.Ambient = Color3.fromRGB(146, 130, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(198, 178, 54)
+        lighting.ColorShift_Top = Color3.fromRGB(186, 170, 38)
+        lighting.ColorShift_Bottom = Color3.fromRGB(65, 59, 15)
+        lighting.EnvironmentDiffuseScale = 0.80
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Harbor Rose")
+    Velune.PlayTone(138001326, 0.2)
+end
+Velune.SkyIndex_HarborRose = {
+    name = "Harbor Rose",
+    id = "149504836",
+    color = Color3.fromRGB(186, 170, 38),
+    fog = 4,
+    dens = 4,
+    apply = Velune.ApplySky_HarborRose,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_HarborRose)
+function Velune.ApplySky_ZincBloom()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_ZincBloom"
+        sky.SkyboxBk = "rbxassetid://149505973"
+        sky.SkyboxDn = "rbxassetid://149505973"
+        sky.SkyboxFt = "rbxassetid://149505973"
+        sky.SkyboxLf = "rbxassetid://149505973"
+        sky.SkyboxRt = "rbxassetid://149505973"
+        sky.SkyboxUp = "rbxassetid://149505973"
+        sky.StarCount = 3180
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 17
+        lighting.Brightness = 2.30
+        lighting.FogEnd = 2340
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(233, 199, 91)
+        lighting.Ambient = Color3.fromRGB(193, 159, 51)
+        lighting.OutdoorAmbient = Color3.fromRGB(245, 207, 107)
+        lighting.ColorShift_Top = Color3.fromRGB(233, 199, 91)
+        lighting.ColorShift_Bottom = Color3.fromRGB(81, 69, 36)
+        lighting.EnvironmentDiffuseScale = 0.90
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Zinc Bloom")
+    Velune.PlayTone(138001343, 0.2)
+end
+Velune.SkyIndex_ZincBloom = {
+    name = "Zinc Bloom",
+    id = "149505973",
+    color = Color3.fromRGB(233, 199, 91),
+    fog = 5,
+    dens = 5,
+    apply = Velune.ApplySky_ZincBloom,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_ZincBloom)
+function Velune.ApplySky_EmberLibrary()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_EmberLibrary"
+        sky.SkyboxBk = "rbxassetid://149507110"
+        sky.SkyboxDn = "rbxassetid://149507110"
+        sky.SkyboxFt = "rbxassetid://149507110"
+        sky.SkyboxLf = "rbxassetid://149507110"
+        sky.SkyboxRt = "rbxassetid://149507110"
+        sky.SkyboxUp = "rbxassetid://149507110"
+        sky.StarCount = 20
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 18
+        lighting.Brightness = 2.40
+        lighting.FogEnd = 2560
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(50, 228, 144)
+        lighting.Ambient = Color3.fromRGB(10, 188, 104)
+        lighting.OutdoorAmbient = Color3.fromRGB(62, 236, 160)
+        lighting.ColorShift_Top = Color3.fromRGB(50, 228, 144)
+        lighting.ColorShift_Bottom = Color3.fromRGB(17, 79, 57)
+        lighting.EnvironmentDiffuseScale = 0.00
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Ember Library")
+    Velune.PlayTone(138001360, 0.2)
+end
+Velune.SkyIndex_EmberLibrary = {
+    name = "Ember Library",
+    id = "149507110",
+    color = Color3.fromRGB(50, 228, 144),
+    fog = 6,
+    dens = 6,
+    apply = Velune.ApplySky_EmberLibrary,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_EmberLibrary)
+function Velune.ApplySky_GlassOrchard()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_GlassOrchard"
+        sky.SkyboxBk = "rbxassetid://149508247"
+        sky.SkyboxDn = "rbxassetid://149508247"
+        sky.SkyboxFt = "rbxassetid://149508247"
+        sky.SkyboxLf = "rbxassetid://149508247"
+        sky.SkyboxRt = "rbxassetid://149508247"
+        sky.SkyboxUp = "rbxassetid://149508247"
+        sky.StarCount = 60
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 19
+        lighting.Brightness = 2.50
+        lighting.FogEnd = 2780
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(97, 37, 197)
+        lighting.Ambient = Color3.fromRGB(57, 8, 157)
+        lighting.OutdoorAmbient = Color3.fromRGB(109, 45, 213)
+        lighting.ColorShift_Top = Color3.fromRGB(97, 37, 197)
+        lighting.ColorShift_Bottom = Color3.fromRGB(33, 12, 78)
+        lighting.EnvironmentDiffuseScale = 0.10
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Glass Orchard")
+    Velune.PlayTone(138001377, 0.2)
+end
+Velune.SkyIndex_GlassOrchard = {
+    name = "Glass Orchard",
+    id = "149508247",
+    color = Color3.fromRGB(97, 37, 197),
+    fog = 7,
+    dens = 7,
+    apply = Velune.ApplySky_GlassOrchard,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_GlassOrchard)
+function Velune.ApplySky_NoirTulip()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_NoirTulip"
+        sky.SkyboxBk = "rbxassetid://149509384"
+        sky.SkyboxDn = "rbxassetid://149509384"
+        sky.SkyboxFt = "rbxassetid://149509384"
+        sky.SkyboxLf = "rbxassetid://149509384"
+        sky.SkyboxRt = "rbxassetid://149509384"
+        sky.SkyboxUp = "rbxassetid://149509384"
+        sky.StarCount = 100
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 4
+        lighting.Brightness = 2.60
+        lighting.FogEnd = 3000
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(144, 66, 40)
+        lighting.Ambient = Color3.fromRGB(104, 26, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(156, 74, 56)
+        lighting.ColorShift_Top = Color3.fromRGB(144, 66, 40)
+        lighting.ColorShift_Bottom = Color3.fromRGB(50, 23, 16)
+        lighting.EnvironmentDiffuseScale = 0.20
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Noir Tulip")
+    Velune.PlayTone(138001394, 0.2)
+end
+Velune.SkyIndex_NoirTulip = {
+    name = "Noir Tulip",
+    id = "149509384",
+    color = Color3.fromRGB(144, 66, 40),
+    fog = 8,
+    dens = 8,
+    apply = Velune.ApplySky_NoirTulip,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_NoirTulip)
+function Velune.ApplySky_CopperVeil()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CopperVeil"
+        sky.SkyboxBk = "rbxassetid://149510521"
+        sky.SkyboxDn = "rbxassetid://149510521"
+        sky.SkyboxFt = "rbxassetid://149510521"
+        sky.SkyboxLf = "rbxassetid://149510521"
+        sky.SkyboxRt = "rbxassetid://149510521"
+        sky.SkyboxUp = "rbxassetid://149510521"
+        sky.StarCount = 140
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 5
+        lighting.Brightness = 2.70
+        lighting.FogEnd = 3220
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(191, 95, 93)
+        lighting.Ambient = Color3.fromRGB(151, 55, 53)
+        lighting.OutdoorAmbient = Color3.fromRGB(203, 103, 109)
+        lighting.ColorShift_Top = Color3.fromRGB(191, 95, 93)
+        lighting.ColorShift_Bottom = Color3.fromRGB(66, 33, 37)
+        lighting.EnvironmentDiffuseScale = 0.30
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Copper Veil")
+    Velune.PlayTone(138001411, 0.2)
+end
+Velune.SkyIndex_CopperVeil = {
+    name = "Copper Veil",
+    id = "149510521",
+    color = Color3.fromRGB(191, 95, 93),
+    fog = 9,
+    dens = 9,
+    apply = Velune.ApplySky_CopperVeil,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CopperVeil)
+function Velune.ApplySky_DawnCircuit()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_DawnCircuit"
+        sky.SkyboxBk = "rbxassetid://149511658"
+        sky.SkyboxDn = "rbxassetid://149511658"
+        sky.SkyboxFt = "rbxassetid://149511658"
+        sky.SkyboxLf = "rbxassetid://149511658"
+        sky.SkyboxRt = "rbxassetid://149511658"
+        sky.SkyboxUp = "rbxassetid://149511658"
+        sky.StarCount = 180
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 6
+        lighting.Brightness = 2.80
+        lighting.FogEnd = 800
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(238, 124, 146)
+        lighting.Ambient = Color3.fromRGB(198, 84, 106)
+        lighting.OutdoorAmbient = Color3.fromRGB(250, 132, 162)
+        lighting.ColorShift_Top = Color3.fromRGB(238, 124, 146)
+        lighting.ColorShift_Bottom = Color3.fromRGB(83, 43, 58)
+        lighting.EnvironmentDiffuseScale = 0.40
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Dawn Circuit")
+    Velune.PlayTone(138001428, 0.2)
+end
+Velune.SkyIndex_DawnCircuit = {
+    name = "Dawn Circuit",
+    id = "149511658",
+    color = Color3.fromRGB(238, 124, 146),
+    fog = 10,
+    dens = 10,
+    apply = Velune.ApplySky_DawnCircuit,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_DawnCircuit)
+function Velune.ApplySky_VesperLime()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_VesperLime"
+        sky.SkyboxBk = "rbxassetid://149512795"
+        sky.SkyboxDn = "rbxassetid://149512795"
+        sky.SkyboxFt = "rbxassetid://149512795"
+        sky.SkyboxLf = "rbxassetid://149512795"
+        sky.SkyboxRt = "rbxassetid://149512795"
+        sky.SkyboxUp = "rbxassetid://149512795"
+        sky.StarCount = 220
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 7
+        lighting.Brightness = 2.90
+        lighting.FogEnd = 1020
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(55, 153, 199)
+        lighting.Ambient = Color3.fromRGB(15, 113, 159)
+        lighting.OutdoorAmbient = Color3.fromRGB(67, 161, 215)
+        lighting.ColorShift_Top = Color3.fromRGB(55, 153, 199)
+        lighting.ColorShift_Bottom = Color3.fromRGB(19, 53, 79)
+        lighting.EnvironmentDiffuseScale = 0.50
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Vesper Lime")
+    Velune.PlayTone(138001445, 0.2)
+end
+Velune.SkyIndex_VesperLime = {
+    name = "Vesper Lime",
+    id = "149512795",
+    color = Color3.fromRGB(55, 153, 199),
+    fog = 11,
+    dens = 4,
+    apply = Velune.ApplySky_VesperLime,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_VesperLime)
+function Velune.ApplySky_IvoryRift()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_IvoryRift"
+        sky.SkyboxBk = "rbxassetid://149504932"
+        sky.SkyboxDn = "rbxassetid://149504932"
+        sky.SkyboxFt = "rbxassetid://149504932"
+        sky.SkyboxLf = "rbxassetid://149504932"
+        sky.SkyboxRt = "rbxassetid://149504932"
+        sky.SkyboxUp = "rbxassetid://149504932"
+        sky.StarCount = 260
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 8
+        lighting.Brightness = 3.00
+        lighting.FogEnd = 1240
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(102, 182, 42)
+        lighting.Ambient = Color3.fromRGB(62, 142, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(114, 190, 58)
+        lighting.ColorShift_Top = Color3.fromRGB(102, 182, 42)
+        lighting.ColorShift_Bottom = Color3.fromRGB(35, 63, 16)
+        lighting.EnvironmentDiffuseScale = 0.60
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Ivory Rift")
+    Velune.PlayTone(138001462, 0.2)
+end
+Velune.SkyIndex_IvoryRift = {
+    name = "Ivory Rift",
+    id = "149504932",
+    color = Color3.fromRGB(102, 182, 42),
+    fog = 12,
+    dens = 5,
+    apply = Velune.ApplySky_IvoryRift,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_IvoryRift)
+function Velune.ApplySky_BloodOrange()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_BloodOrange"
+        sky.SkyboxBk = "rbxassetid://149506069"
+        sky.SkyboxDn = "rbxassetid://149506069"
+        sky.SkyboxFt = "rbxassetid://149506069"
+        sky.SkyboxLf = "rbxassetid://149506069"
+        sky.SkyboxRt = "rbxassetid://149506069"
+        sky.SkyboxUp = "rbxassetid://149506069"
+        sky.StarCount = 300
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 9
+        lighting.Brightness = 3.10
+        lighting.FogEnd = 1460
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(149, 211, 95)
+        lighting.Ambient = Color3.fromRGB(109, 171, 55)
+        lighting.OutdoorAmbient = Color3.fromRGB(161, 219, 111)
+        lighting.ColorShift_Top = Color3.fromRGB(149, 211, 95)
+        lighting.ColorShift_Bottom = Color3.fromRGB(52, 73, 38)
+        lighting.EnvironmentDiffuseScale = 0.70
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Blood Orange")
+    Velune.PlayTone(138001479, 0.2)
+end
+Velune.SkyIndex_BloodOrange = {
+    name = "Blood Orange",
+    id = "149506069",
+    color = Color3.fromRGB(149, 211, 95),
+    fog = 13,
+    dens = 6,
+    apply = Velune.ApplySky_BloodOrange,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_BloodOrange)
+function Velune.ApplySky_MintCathedral()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_MintCathedral"
+        sky.SkyboxBk = "rbxassetid://149507206"
+        sky.SkyboxDn = "rbxassetid://149507206"
+        sky.SkyboxFt = "rbxassetid://149507206"
+        sky.SkyboxLf = "rbxassetid://149507206"
+        sky.SkyboxRt = "rbxassetid://149507206"
+        sky.SkyboxUp = "rbxassetid://149507206"
+        sky.StarCount = 340
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 10
+        lighting.Brightness = 3.20
+        lighting.FogEnd = 1680
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(196, 20, 148)
+        lighting.Ambient = Color3.fromRGB(156, 8, 108)
+        lighting.OutdoorAmbient = Color3.fromRGB(208, 28, 164)
+        lighting.ColorShift_Top = Color3.fromRGB(196, 20, 148)
+        lighting.ColorShift_Bottom = Color3.fromRGB(68, 7, 59)
+        lighting.EnvironmentDiffuseScale = 0.80
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Mint Cathedral")
+    Velune.PlayTone(138001496, 0.2)
+end
+Velune.SkyIndex_MintCathedral = {
+    name = "Mint Cathedral",
+    id = "149507206",
+    color = Color3.fromRGB(196, 20, 148),
+    fog = 14,
+    dens = 7,
+    apply = Velune.ApplySky_MintCathedral,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_MintCathedral)
+function Velune.ApplySky_ObsidianTea()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_ObsidianTea"
+        sky.SkyboxBk = "rbxassetid://149508343"
+        sky.SkyboxDn = "rbxassetid://149508343"
+        sky.SkyboxFt = "rbxassetid://149508343"
+        sky.SkyboxLf = "rbxassetid://149508343"
+        sky.SkyboxRt = "rbxassetid://149508343"
+        sky.SkyboxUp = "rbxassetid://149508343"
+        sky.StarCount = 380
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 11
+        lighting.Brightness = 3.30
+        lighting.FogEnd = 1900
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(243, 49, 201)
+        lighting.Ambient = Color3.fromRGB(203, 9, 161)
+        lighting.OutdoorAmbient = Color3.fromRGB(255, 57, 217)
+        lighting.ColorShift_Top = Color3.fromRGB(243, 49, 201)
+        lighting.ColorShift_Bottom = Color3.fromRGB(85, 17, 80)
+        lighting.EnvironmentDiffuseScale = 0.90
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Obsidian Tea")
+    Velune.PlayTone(138001513, 0.2)
+end
+Velune.SkyIndex_ObsidianTea = {
+    name = "Obsidian Tea",
+    id = "149508343",
+    color = Color3.fromRGB(243, 49, 201),
+    fog = 15,
+    dens = 8,
+    apply = Velune.ApplySky_ObsidianTea,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_ObsidianTea)
+function Velune.ApplySky_SatinStorm()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_SatinStorm"
+        sky.SkyboxBk = "rbxassetid://149509480"
+        sky.SkyboxDn = "rbxassetid://149509480"
+        sky.SkyboxFt = "rbxassetid://149509480"
+        sky.SkyboxLf = "rbxassetid://149509480"
+        sky.SkyboxRt = "rbxassetid://149509480"
+        sky.SkyboxUp = "rbxassetid://149509480"
+        sky.StarCount = 420
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 12
+        lighting.Brightness = 1.40
+        lighting.FogEnd = 2120
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(60, 78, 44)
+        lighting.Ambient = Color3.fromRGB(20, 38, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(72, 86, 60)
+        lighting.ColorShift_Top = Color3.fromRGB(60, 78, 44)
+        lighting.ColorShift_Bottom = Color3.fromRGB(21, 27, 17)
+        lighting.EnvironmentDiffuseScale = 0.00
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Satin Storm")
+    Velune.PlayTone(138001530, 0.2)
+end
+Velune.SkyIndex_SatinStorm = {
+    name = "Satin Storm",
+    id = "149509480",
+    color = Color3.fromRGB(60, 78, 44),
+    fog = 16,
+    dens = 9,
+    apply = Velune.ApplySky_SatinStorm,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_SatinStorm)
+function Velune.ApplySky_CherryWell()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CherryWell"
+        sky.SkyboxBk = "rbxassetid://149510617"
+        sky.SkyboxDn = "rbxassetid://149510617"
+        sky.SkyboxFt = "rbxassetid://149510617"
+        sky.SkyboxLf = "rbxassetid://149510617"
+        sky.SkyboxRt = "rbxassetid://149510617"
+        sky.SkyboxUp = "rbxassetid://149510617"
+        sky.StarCount = 460
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 13
+        lighting.Brightness = 1.50
+        lighting.FogEnd = 2340
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(107, 107, 97)
+        lighting.Ambient = Color3.fromRGB(67, 67, 57)
+        lighting.OutdoorAmbient = Color3.fromRGB(119, 115, 113)
+        lighting.ColorShift_Top = Color3.fromRGB(107, 107, 97)
+        lighting.ColorShift_Bottom = Color3.fromRGB(37, 37, 38)
+        lighting.EnvironmentDiffuseScale = 0.10
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Cherry Well")
+    Velune.PlayTone(138001547, 0.2)
+end
+Velune.SkyIndex_CherryWell = {
+    name = "Cherry Well",
+    id = "149510617",
+    color = Color3.fromRGB(107, 107, 97),
+    fog = 17,
+    dens = 10,
+    apply = Velune.ApplySky_CherryWell,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CherryWell)
+function Velune.ApplySky_LeadGarden()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_LeadGarden"
+        sky.SkyboxBk = "rbxassetid://149511754"
+        sky.SkyboxDn = "rbxassetid://149511754"
+        sky.SkyboxFt = "rbxassetid://149511754"
+        sky.SkyboxLf = "rbxassetid://149511754"
+        sky.SkyboxRt = "rbxassetid://149511754"
+        sky.SkyboxUp = "rbxassetid://149511754"
+        sky.StarCount = 500
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 14
+        lighting.Brightness = 1.60
+        lighting.FogEnd = 2560
+        lighting.FogStart = 100
+        lighting.FogColor = Color3.fromRGB(154, 136, 150)
+        lighting.Ambient = Color3.fromRGB(114, 96, 110)
+        lighting.OutdoorAmbient = Color3.fromRGB(166, 144, 166)
+        lighting.ColorShift_Top = Color3.fromRGB(154, 136, 150)
+        lighting.ColorShift_Bottom = Color3.fromRGB(53, 47, 60)
+        lighting.EnvironmentDiffuseScale = 0.20
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Lead Garden")
+    Velune.PlayTone(138001564, 0.2)
+end
+Velune.SkyIndex_LeadGarden = {
+    name = "Lead Garden",
+    id = "149511754",
+    color = Color3.fromRGB(154, 136, 150),
+    fog = 18,
+    dens = 4,
+    apply = Velune.ApplySky_LeadGarden,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_LeadGarden)
+function Velune.ApplySky_AmberChoir()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_AmberChoir"
+        sky.SkyboxBk = "rbxassetid://149512891"
+        sky.SkyboxDn = "rbxassetid://149512891"
+        sky.SkyboxFt = "rbxassetid://149512891"
+        sky.SkyboxLf = "rbxassetid://149512891"
+        sky.SkyboxRt = "rbxassetid://149512891"
+        sky.SkyboxUp = "rbxassetid://149512891"
+        sky.StarCount = 540
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 15
+        lighting.Brightness = 1.70
+        lighting.FogEnd = 2780
+        lighting.FogStart = 115
+        lighting.FogColor = Color3.fromRGB(201, 165, 203)
+        lighting.Ambient = Color3.fromRGB(161, 125, 163)
+        lighting.OutdoorAmbient = Color3.fromRGB(213, 173, 219)
+        lighting.ColorShift_Top = Color3.fromRGB(201, 165, 203)
+        lighting.ColorShift_Bottom = Color3.fromRGB(70, 57, 81)
+        lighting.EnvironmentDiffuseScale = 0.30
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Amber Choir")
+    Velune.PlayTone(138001581, 0.2)
+end
+Velune.SkyIndex_AmberChoir = {
+    name = "Amber Choir",
+    id = "149512891",
+    color = Color3.fromRGB(201, 165, 203),
+    fog = 19,
+    dens = 5,
+    apply = Velune.ApplySky_AmberChoir,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_AmberChoir)
+function Velune.ApplySky_VioletEngine()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_VioletEngine"
+        sky.SkyboxBk = "rbxassetid://149514028"
+        sky.SkyboxDn = "rbxassetid://149514028"
+        sky.SkyboxFt = "rbxassetid://149514028"
+        sky.SkyboxLf = "rbxassetid://149514028"
+        sky.SkyboxRt = "rbxassetid://149514028"
+        sky.SkyboxUp = "rbxassetid://149514028"
+        sky.StarCount = 580
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 16
+        lighting.Brightness = 1.80
+        lighting.FogEnd = 3000
+        lighting.FogStart = 130
+        lighting.FogColor = Color3.fromRGB(248, 194, 46)
+        lighting.Ambient = Color3.fromRGB(208, 154, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(255, 202, 62)
+        lighting.ColorShift_Top = Color3.fromRGB(248, 194, 46)
+        lighting.ColorShift_Bottom = Color3.fromRGB(86, 67, 18)
+        lighting.EnvironmentDiffuseScale = 0.40
+        lighting.EnvironmentSpecularScale = 0.80
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Violet Engine")
+    Velune.PlayTone(138001598, 0.2)
+end
+Velune.SkyIndex_VioletEngine = {
+    name = "Violet Engine",
+    id = "149514028",
+    color = Color3.fromRGB(248, 194, 46),
+    fog = 20,
+    dens = 6,
+    apply = Velune.ApplySky_VioletEngine,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_VioletEngine)
+function Velune.ApplySky_SnowLantern()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_SnowLantern"
+        sky.SkyboxBk = "rbxassetid://149506165"
+        sky.SkyboxDn = "rbxassetid://149506165"
+        sky.SkyboxFt = "rbxassetid://149506165"
+        sky.SkyboxLf = "rbxassetid://149506165"
+        sky.SkyboxRt = "rbxassetid://149506165"
+        sky.SkyboxUp = "rbxassetid://149506165"
+        sky.StarCount = 620
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 17
+        lighting.Brightness = 1.90
+        lighting.FogEnd = 3220
+        lighting.FogStart = 145
+        lighting.FogColor = Color3.fromRGB(65, 223, 99)
+        lighting.Ambient = Color3.fromRGB(25, 183, 59)
+        lighting.OutdoorAmbient = Color3.fromRGB(77, 231, 115)
+        lighting.ColorShift_Top = Color3.fromRGB(65, 223, 99)
+        lighting.ColorShift_Bottom = Color3.fromRGB(22, 78, 39)
+        lighting.EnvironmentDiffuseScale = 0.50
+        lighting.EnvironmentSpecularScale = 0.90
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Snow Lantern")
+    Velune.PlayTone(138001615, 0.2)
+end
+Velune.SkyIndex_SnowLantern = {
+    name = "Snow Lantern",
+    id = "149506165",
+    color = Color3.fromRGB(65, 223, 99),
+    fog = 21,
+    dens = 7,
+    apply = Velune.ApplySky_SnowLantern,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_SnowLantern)
+function Velune.ApplySky_CrimsonPool()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_CrimsonPool"
+        sky.SkyboxBk = "rbxassetid://149507302"
+        sky.SkyboxDn = "rbxassetid://149507302"
+        sky.SkyboxFt = "rbxassetid://149507302"
+        sky.SkyboxLf = "rbxassetid://149507302"
+        sky.SkyboxRt = "rbxassetid://149507302"
+        sky.SkyboxUp = "rbxassetid://149507302"
+        sky.StarCount = 660
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 18
+        lighting.Brightness = 2.00
+        lighting.FogEnd = 800
+        lighting.FogStart = 40
+        lighting.FogColor = Color3.fromRGB(112, 32, 152)
+        lighting.Ambient = Color3.fromRGB(72, 8, 112)
+        lighting.OutdoorAmbient = Color3.fromRGB(124, 40, 168)
+        lighting.ColorShift_Top = Color3.fromRGB(112, 32, 152)
+        lighting.ColorShift_Bottom = Color3.fromRGB(39, 11, 60)
+        lighting.EnvironmentDiffuseScale = 0.60
+        lighting.EnvironmentSpecularScale = 0.40
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Crimson Pool")
+    Velune.PlayTone(138001632, 0.2)
+end
+Velune.SkyIndex_CrimsonPool = {
+    name = "Crimson Pool",
+    id = "149507302",
+    color = Color3.fromRGB(112, 32, 152),
+    fog = 22,
+    dens = 8,
+    apply = Velune.ApplySky_CrimsonPool,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_CrimsonPool)
+function Velune.ApplySky_SageEclipse()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_SageEclipse"
+        sky.SkyboxBk = "rbxassetid://149508439"
+        sky.SkyboxDn = "rbxassetid://149508439"
+        sky.SkyboxFt = "rbxassetid://149508439"
+        sky.SkyboxLf = "rbxassetid://149508439"
+        sky.SkyboxRt = "rbxassetid://149508439"
+        sky.SkyboxUp = "rbxassetid://149508439"
+        sky.StarCount = 700
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 19
+        lighting.Brightness = 2.10
+        lighting.FogEnd = 1020
+        lighting.FogStart = 55
+        lighting.FogColor = Color3.fromRGB(159, 61, 205)
+        lighting.Ambient = Color3.fromRGB(119, 21, 165)
+        lighting.OutdoorAmbient = Color3.fromRGB(171, 69, 221)
+        lighting.ColorShift_Top = Color3.fromRGB(159, 61, 205)
+        lighting.ColorShift_Bottom = Color3.fromRGB(55, 21, 82)
+        lighting.EnvironmentDiffuseScale = 0.70
+        lighting.EnvironmentSpecularScale = 0.50
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Sage Eclipse")
+    Velune.PlayTone(138001649, 0.2)
+end
+Velune.SkyIndex_SageEclipse = {
+    name = "Sage Eclipse",
+    id = "149508439",
+    color = Color3.fromRGB(159, 61, 205),
+    fog = 23,
+    dens = 9,
+    apply = Velune.ApplySky_SageEclipse,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_SageEclipse)
+function Velune.ApplySky_PearlReactor()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_PearlReactor"
+        sky.SkyboxBk = "rbxassetid://149509576"
+        sky.SkyboxDn = "rbxassetid://149509576"
+        sky.SkyboxFt = "rbxassetid://149509576"
+        sky.SkyboxLf = "rbxassetid://149509576"
+        sky.SkyboxRt = "rbxassetid://149509576"
+        sky.SkyboxUp = "rbxassetid://149509576"
+        sky.StarCount = 740
+        sky.CelestialBodiesShown = true
+        sky.Parent = lighting
+        lighting.ClockTime = 4
+        lighting.Brightness = 2.20
+        lighting.FogEnd = 1240
+        lighting.FogStart = 70
+        lighting.FogColor = Color3.fromRGB(206, 90, 48)
+        lighting.Ambient = Color3.fromRGB(166, 50, 8)
+        lighting.OutdoorAmbient = Color3.fromRGB(218, 98, 64)
+        lighting.ColorShift_Top = Color3.fromRGB(206, 90, 48)
+        lighting.ColorShift_Bottom = Color3.fromRGB(72, 31, 19)
+        lighting.EnvironmentDiffuseScale = 0.80
+        lighting.EnvironmentSpecularScale = 0.60
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Pearl Reactor")
+    Velune.PlayTone(138001666, 0.2)
+end
+Velune.SkyIndex_PearlReactor = {
+    name = "Pearl Reactor",
+    id = "149509576",
+    color = Color3.fromRGB(206, 90, 48),
+    fog = 0,
+    dens = 10,
+    apply = Velune.ApplySky_PearlReactor,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_PearlReactor)
+function Velune.ApplySky_BlackOrchid()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSky_BlackOrchid"
+        sky.SkyboxBk = "rbxassetid://149510713"
+        sky.SkyboxDn = "rbxassetid://149510713"
+        sky.SkyboxFt = "rbxassetid://149510713"
+        sky.SkyboxLf = "rbxassetid://149510713"
+        sky.SkyboxRt = "rbxassetid://149510713"
+        sky.SkyboxUp = "rbxassetid://149510713"
+        sky.StarCount = 780
+        sky.CelestialBodiesShown = false
+        sky.Parent = lighting
+        lighting.ClockTime = 5
+        lighting.Brightness = 2.30
+        lighting.FogEnd = 1460
+        lighting.FogStart = 85
+        lighting.FogColor = Color3.fromRGB(23, 119, 101)
+        lighting.Ambient = Color3.fromRGB(8, 79, 61)
+        lighting.OutdoorAmbient = Color3.fromRGB(35, 127, 117)
+        lighting.ColorShift_Top = Color3.fromRGB(23, 119, 101)
+        lighting.ColorShift_Bottom = Color3.fromRGB(8, 41, 40)
+        lighting.EnvironmentDiffuseScale = 0.90
+        lighting.EnvironmentSpecularScale = 0.70
+    end)
+    Velune.Notify("VELUNE", "Skybox applied: Black Orchid")
+    Velune.PlayTone(138001683, 0.2)
+end
+Velune.SkyIndex_BlackOrchid = {
+    name = "Black Orchid",
+    id = "149510713",
+    color = Color3.fromRGB(23, 119, 101),
+    fog = 1,
+    dens = 4,
+    apply = Velune.ApplySky_BlackOrchid,
+}
+
+table.insert(Velune.SkyList, Velune.SkyIndex_BlackOrchid)
+function Velune.RestoreSky()
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") and tostring(ch.Name):find("VeluneSky") then
+                ch:Destroy()
+            end
+        end
+        if Velune.LightingSnap then
+            lighting.ClockTime = Velune.LightingSnap.ClockTime
+            lighting.Brightness = Velune.LightingSnap.Brightness
+            lighting.FogEnd = Velune.LightingSnap.FogEnd
+            lighting.FogStart = Velune.LightingSnap.FogStart
+            lighting.FogColor = Velune.LightingSnap.FogColor
+            lighting.Ambient = Velune.LightingSnap.Ambient
+            lighting.OutdoorAmbient = Velune.LightingSnap.OutdoorAmbient
+        end
+    end)
+    Velune.Notify("VELUNE", "Sky restored.")
+end
+function Velune.ApplySkyByName(name)
+    for _, row in ipairs(Velune.SkyList) do
+        if row.name == name then
+            row.apply()
+            return
+        end
+    end
+    Velune.ApplySkyId(name)
+end
+function Velune.ApplySkyId(id)
+    local lighting = Lighting
+    if not lighting then
+        return
+    end
+    pcall(function()
+        for _, ch in ipairs(lighting:GetChildren()) do
+            if ch:IsA("Sky") then
+                ch:Destroy()
+            end
+        end
+        local sky = Instance.new("Sky")
+        sky.Name = "VeluneSkyCustom"
+        local asset = "rbxassetid://" .. tostring(id)
+        sky.SkyboxBk = asset
+        sky.SkyboxDn = asset
+        sky.SkyboxFt = asset
+        sky.SkyboxLf = asset
+        sky.SkyboxRt = asset
+        sky.SkyboxUp = asset
+        sky.Parent = lighting
+    end)
+    Velune.Notify("VELUNE", "Custom skybox applied — ID: " .. tostring(id))
+end
+
+Velune.CursorList = {}
+function Velune.ApplyCursor_Pulse()
+    Velune.CursorId = "Pulse"
+    Velune.CursorAsset = "7732596388"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://7732596388"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Pulse — enable ShiftLock to see it.")
+    Velune.PlayTone(110000000, 0.18)
+end
+Velune.Cursor_Pulse = { name = "Pulse", id = "7732596388", apply = Velune.ApplyCursor_Pulse }
+
+table.insert(Velune.CursorList, Velune.Cursor_Pulse)
+function Velune.ApplyCursor_Veil()
+    Velune.CursorId = "Veil"
+    Velune.CursorAsset = "11744422935"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11744422935"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Veil — enable ShiftLock to see it.")
+    Velune.PlayTone(110000013, 0.18)
+end
+Velune.Cursor_Veil = { name = "Veil", id = "11744422935", apply = Velune.ApplyCursor_Veil }
+
+table.insert(Velune.CursorList, Velune.Cursor_Veil)
+function Velune.ApplyCursor_Pin()
+    Velune.CursorId = "Pin"
+    Velune.CursorAsset = "11886426936"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11886426936"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Pin — enable ShiftLock to see it.")
+    Velune.PlayTone(110000026, 0.18)
+end
+Velune.Cursor_Pin = { name = "Pin", id = "11886426936", apply = Velune.ApplyCursor_Pin }
+
+table.insert(Velune.CursorList, Velune.Cursor_Pin)
+function Velune.ApplyCursor_Cross()
+    Velune.CursorId = "Cross"
+    Velune.CursorAsset = "13549422277"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://13549422277"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Cross — enable ShiftLock to see it.")
+    Velune.PlayTone(110000039, 0.18)
+end
+Velune.Cursor_Cross = { name = "Cross", id = "13549422277", apply = Velune.ApplyCursor_Cross }
+
+table.insert(Velune.CursorList, Velune.Cursor_Cross)
+function Velune.ApplyCursor_Spec()
+    Velune.CursorId = "Spec"
+    Velune.CursorAsset = "9894461349"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://9894461349"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Spec — enable ShiftLock to see it.")
+    Velune.PlayTone(110000052, 0.18)
+end
+Velune.Cursor_Spec = { name = "Spec", id = "9894461349", apply = Velune.ApplyCursor_Spec }
+
+table.insert(Velune.CursorList, Velune.Cursor_Spec)
+function Velune.ApplyCursor_Ring()
+    Velune.CursorId = "Ring"
+    Velune.CursorAsset = "11532581419"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11532581419"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Ring — enable ShiftLock to see it.")
+    Velune.PlayTone(110000065, 0.18)
+end
+Velune.Cursor_Ring = { name = "Ring", id = "11532581419", apply = Velune.ApplyCursor_Ring }
+
+table.insert(Velune.CursorList, Velune.Cursor_Ring)
+function Velune.ApplyCursor_Mark()
+    Velune.CursorId = "Mark"
+    Velune.CursorAsset = "11600175385"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11600175385"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Mark — enable ShiftLock to see it.")
+    Velune.PlayTone(110000078, 0.18)
+end
+Velune.Cursor_Mark = { name = "Mark", id = "11600175385", apply = Velune.ApplyCursor_Mark }
+
+table.insert(Velune.CursorList, Velune.Cursor_Mark)
+function Velune.ApplyCursor_Blade()
+    Velune.CursorId = "Blade"
+    Velune.CursorAsset = "12436991326"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12436991326"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Blade — enable ShiftLock to see it.")
+    Velune.PlayTone(110000091, 0.18)
+end
+Velune.Cursor_Blade = { name = "Blade", id = "12436991326", apply = Velune.ApplyCursor_Blade }
+
+table.insert(Velune.CursorList, Velune.Cursor_Blade)
+function Velune.ApplyCursor_Shard()
+    Velune.CursorId = "Shard"
+    Velune.CursorAsset = "11263221028"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11263221028"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Shard — enable ShiftLock to see it.")
+    Velune.PlayTone(110000104, 0.18)
+end
+Velune.Cursor_Shard = { name = "Shard", id = "11263221028", apply = Velune.ApplyCursor_Shard }
+
+table.insert(Velune.CursorList, Velune.Cursor_Shard)
+function Velune.ApplyCursor_Halo()
+    Velune.CursorId = "Halo"
+    Velune.CursorAsset = "11918800419"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11918800419"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Halo — enable ShiftLock to see it.")
+    Velune.PlayTone(110000117, 0.18)
+end
+Velune.Cursor_Halo = { name = "Halo", id = "11918800419", apply = Velune.ApplyCursor_Halo }
+
+table.insert(Velune.CursorList, Velune.Cursor_Halo)
+function Velune.ApplyCursor_Needle()
+    Velune.CursorId = "Needle"
+    Velune.CursorAsset = "11419715081"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11419715081"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Needle — enable ShiftLock to see it.")
+    Velune.PlayTone(110000130, 0.18)
+end
+Velune.Cursor_Needle = { name = "Needle", id = "11419715081", apply = Velune.ApplyCursor_Needle }
+
+table.insert(Velune.CursorList, Velune.Cursor_Needle)
+function Velune.ApplyCursor_Orbit()
+    Velune.CursorId = "Orbit"
+    Velune.CursorAsset = "11818642550"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11818642550"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Orbit — enable ShiftLock to see it.")
+    Velune.PlayTone(110000143, 0.18)
+end
+Velune.Cursor_Orbit = { name = "Orbit", id = "11818642550", apply = Velune.ApplyCursor_Orbit }
+
+table.insert(Velune.CursorList, Velune.Cursor_Orbit)
+function Velune.ApplyCursor_Spark()
+    Velune.CursorId = "Spark"
+    Velune.CursorAsset = "10921301524"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://10921301524"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Spark — enable ShiftLock to see it.")
+    Velune.PlayTone(110000156, 0.18)
+end
+Velune.Cursor_Spark = { name = "Spark", id = "10921301524", apply = Velune.ApplyCursor_Spark }
+
+table.insert(Velune.CursorList, Velune.Cursor_Spark)
+function Velune.ApplyCursor_Ash()
+    Velune.CursorId = "Ash"
+    Velune.CursorAsset = "10747382789"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://10747382789"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Ash — enable ShiftLock to see it.")
+    Velune.PlayTone(110000169, 0.18)
+end
+Velune.Cursor_Ash = { name = "Ash", id = "10747382789", apply = Velune.ApplyCursor_Ash }
+
+table.insert(Velune.CursorList, Velune.Cursor_Ash)
+function Velune.ApplyCursor_Iris()
+    Velune.CursorId = "Iris"
+    Velune.CursorAsset = "12142774654"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12142774654"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Iris — enable ShiftLock to see it.")
+    Velune.PlayTone(110000182, 0.18)
+end
+Velune.Cursor_Iris = { name = "Iris", id = "12142774654", apply = Velune.ApplyCursor_Iris }
+
+table.insert(Velune.CursorList, Velune.Cursor_Iris)
+function Velune.ApplyCursor_Knot()
+    Velune.CursorId = "Knot"
+    Velune.CursorAsset = "11378944521"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11378944521"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Knot — enable ShiftLock to see it.")
+    Velune.PlayTone(110000195, 0.18)
+end
+Velune.Cursor_Knot = { name = "Knot", id = "11378944521", apply = Velune.ApplyCursor_Knot }
+
+table.insert(Velune.CursorList, Velune.Cursor_Knot)
+function Velune.ApplyCursor_Flare()
+    Velune.CursorId = "Flare"
+    Velune.CursorAsset = "10849618402"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://10849618402"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Flare — enable ShiftLock to see it.")
+    Velune.PlayTone(110000208, 0.18)
+end
+Velune.Cursor_Flare = { name = "Flare", id = "10849618402", apply = Velune.ApplyCursor_Flare }
+
+table.insert(Velune.CursorList, Velune.Cursor_Flare)
+function Velune.ApplyCursor_Crest()
+    Velune.CursorId = "Crest"
+    Velune.CursorAsset = "12201938445"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12201938445"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Crest — enable ShiftLock to see it.")
+    Velune.PlayTone(110000221, 0.18)
+end
+Velune.Cursor_Crest = { name = "Crest", id = "12201938445", apply = Velune.ApplyCursor_Crest }
+
+table.insert(Velune.CursorList, Velune.Cursor_Crest)
+function Velune.ApplyCursor_Dart()
+    Velune.CursorId = "Dart"
+    Velune.CursorAsset = "11688201933"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11688201933"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Dart — enable ShiftLock to see it.")
+    Velune.PlayTone(110000234, 0.18)
+end
+Velune.Cursor_Dart = { name = "Dart", id = "11688201933", apply = Velune.ApplyCursor_Dart }
+
+table.insert(Velune.CursorList, Velune.Cursor_Dart)
+function Velune.ApplyCursor_Wisp()
+    Velune.CursorId = "Wisp"
+    Velune.CursorAsset = "11029384721"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11029384721"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Wisp — enable ShiftLock to see it.")
+    Velune.PlayTone(110000247, 0.18)
+end
+Velune.Cursor_Wisp = { name = "Wisp", id = "11029384721", apply = Velune.ApplyCursor_Wisp }
+
+table.insert(Velune.CursorList, Velune.Cursor_Wisp)
+function Velune.ApplyCursor_Axis()
+    Velune.CursorId = "Axis"
+    Velune.CursorAsset = "12501938447"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12501938447"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Axis — enable ShiftLock to see it.")
+    Velune.PlayTone(110000260, 0.18)
+end
+Velune.Cursor_Axis = { name = "Axis", id = "12501938447", apply = Velune.ApplyCursor_Axis }
+
+table.insert(Velune.CursorList, Velune.Cursor_Axis)
+function Velune.ApplyCursor_Loom()
+    Velune.CursorId = "Loom"
+    Velune.CursorAsset = "11192837465"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11192837465"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Loom — enable ShiftLock to see it.")
+    Velune.PlayTone(110000273, 0.18)
+end
+Velune.Cursor_Loom = { name = "Loom", id = "11192837465", apply = Velune.ApplyCursor_Loom }
+
+table.insert(Velune.CursorList, Velune.Cursor_Loom)
+function Velune.ApplyCursor_Vane()
+    Velune.CursorId = "Vane"
+    Velune.CursorAsset = "12384920111"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12384920111"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Vane — enable ShiftLock to see it.")
+    Velune.PlayTone(110000286, 0.18)
+end
+Velune.Cursor_Vane = { name = "Vane", id = "12384920111", apply = Velune.ApplyCursor_Vane }
+
+table.insert(Velune.CursorList, Velune.Cursor_Vane)
+function Velune.ApplyCursor_Glyph()
+    Velune.CursorId = "Glyph"
+    Velune.CursorAsset = "10938475621"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://10938475621"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Glyph — enable ShiftLock to see it.")
+    Velune.PlayTone(110000299, 0.18)
+end
+Velune.Cursor_Glyph = { name = "Glyph", id = "10938475621", apply = Velune.ApplyCursor_Glyph }
+
+table.insert(Velune.CursorList, Velune.Cursor_Glyph)
+function Velune.ApplyCursor_Spire()
+    Velune.CursorId = "Spire"
+    Velune.CursorAsset = "11729384655"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11729384655"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Spire — enable ShiftLock to see it.")
+    Velune.PlayTone(110000312, 0.18)
+end
+Velune.Cursor_Spire = { name = "Spire", id = "11729384655", apply = Velune.ApplyCursor_Spire }
+
+table.insert(Velune.CursorList, Velune.Cursor_Spire)
+function Velune.ApplyCursor_Coil()
+    Velune.CursorId = "Coil"
+    Velune.CursorAsset = "11482930122"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11482930122"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Coil — enable ShiftLock to see it.")
+    Velune.PlayTone(110000325, 0.18)
+end
+Velune.Cursor_Coil = { name = "Coil", id = "11482930122", apply = Velune.ApplyCursor_Coil }
+
+table.insert(Velune.CursorList, Velune.Cursor_Coil)
+function Velune.ApplyCursor_Rift()
+    Velune.CursorId = "Rift"
+    Velune.CursorAsset = "12019384766"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12019384766"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Rift — enable ShiftLock to see it.")
+    Velune.PlayTone(110000338, 0.18)
+end
+Velune.Cursor_Rift = { name = "Rift", id = "12019384766", apply = Velune.ApplyCursor_Rift }
+
+table.insert(Velune.CursorList, Velune.Cursor_Rift)
+function Velune.ApplyCursor_Nock()
+    Velune.CursorId = "Nock"
+    Velune.CursorAsset = "11293847501"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11293847501"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Nock — enable ShiftLock to see it.")
+    Velune.PlayTone(110000351, 0.18)
+end
+Velune.Cursor_Nock = { name = "Nock", id = "11293847501", apply = Velune.ApplyCursor_Nock }
+
+table.insert(Velune.CursorList, Velune.Cursor_Nock)
+function Velune.ApplyCursor_Bead()
+    Velune.CursorId = "Bead"
+    Velune.CursorAsset = "11829374650"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11829374650"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Bead — enable ShiftLock to see it.")
+    Velune.PlayTone(110000364, 0.18)
+end
+Velune.Cursor_Bead = { name = "Bead", id = "11829374650", apply = Velune.ApplyCursor_Bead }
+
+table.insert(Velune.CursorList, Velune.Cursor_Bead)
+function Velune.ApplyCursor_Quill()
+    Velune.CursorId = "Quill"
+    Velune.CursorAsset = "11501928374"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11501928374"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Quill — enable ShiftLock to see it.")
+    Velune.PlayTone(110000377, 0.18)
+end
+Velune.Cursor_Quill = { name = "Quill", id = "11501928374", apply = Velune.ApplyCursor_Quill }
+
+table.insert(Velune.CursorList, Velune.Cursor_Quill)
+function Velune.ApplyCursor_Arc()
+    Velune.CursorId = "Arc"
+    Velune.CursorAsset = "12193847560"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12193847560"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Arc — enable ShiftLock to see it.")
+    Velune.PlayTone(110000390, 0.18)
+end
+Velune.Cursor_Arc = { name = "Arc", id = "12193847560", apply = Velune.ApplyCursor_Arc }
+
+table.insert(Velune.CursorList, Velune.Cursor_Arc)
+function Velune.ApplyCursor_Tide()
+    Velune.CursorId = "Tide"
+    Velune.CursorAsset = "11384920100"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11384920100"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Tide — enable ShiftLock to see it.")
+    Velune.PlayTone(110000403, 0.18)
+end
+Velune.Cursor_Tide = { name = "Tide", id = "11384920100", apply = Velune.ApplyCursor_Tide }
+
+table.insert(Velune.CursorList, Velune.Cursor_Tide)
+function Velune.ApplyCursor_Hex()
+    Velune.CursorId = "Hex"
+    Velune.CursorAsset = "11938475611"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11938475611"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Hex — enable ShiftLock to see it.")
+    Velune.PlayTone(110000416, 0.18)
+end
+Velune.Cursor_Hex = { name = "Hex", id = "11938475611", apply = Velune.ApplyCursor_Hex }
+
+table.insert(Velune.CursorList, Velune.Cursor_Hex)
+function Velune.ApplyCursor_Node()
+    Velune.CursorId = "Node"
+    Velune.CursorAsset = "11029384799"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11029384799"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Node — enable ShiftLock to see it.")
+    Velune.PlayTone(110000429, 0.18)
+end
+Velune.Cursor_Node = { name = "Node", id = "11029384799", apply = Velune.ApplyCursor_Node }
+
+table.insert(Velune.CursorList, Velune.Cursor_Node)
+function Velune.ApplyCursor_Brim()
+    Velune.CursorId = "Brim"
+    Velune.CursorAsset = "12401938470"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12401938470"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Brim — enable ShiftLock to see it.")
+    Velune.PlayTone(110000442, 0.18)
+end
+Velune.Cursor_Brim = { name = "Brim", id = "12401938470", apply = Velune.ApplyCursor_Brim }
+
+table.insert(Velune.CursorList, Velune.Cursor_Brim)
+function Velune.ApplyCursor_Sable()
+    Velune.CursorId = "Sable"
+    Velune.CursorAsset = "11629384712"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11629384712"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Sable — enable ShiftLock to see it.")
+    Velune.PlayTone(110000455, 0.18)
+end
+Velune.Cursor_Sable = { name = "Sable", id = "11629384712", apply = Velune.ApplyCursor_Sable }
+
+table.insert(Velune.CursorList, Velune.Cursor_Sable)
+function Velune.ApplyCursor_Pike()
+    Velune.CursorId = "Pike"
+    Velune.CursorAsset = "10829374644"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://10829374644"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Pike — enable ShiftLock to see it.")
+    Velune.PlayTone(110000468, 0.18)
+end
+Velune.Cursor_Pike = { name = "Pike", id = "10829374644", apply = Velune.ApplyCursor_Pike }
+
+table.insert(Velune.CursorList, Velune.Cursor_Pike)
+function Velune.ApplyCursor_Gleam()
+    Velune.CursorId = "Gleam"
+    Velune.CursorAsset = "12293847588"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12293847588"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Gleam — enable ShiftLock to see it.")
+    Velune.PlayTone(110000481, 0.18)
+end
+Velune.Cursor_Gleam = { name = "Gleam", id = "12293847588", apply = Velune.ApplyCursor_Gleam }
+
+table.insert(Velune.CursorList, Velune.Cursor_Gleam)
+function Velune.ApplyCursor_Oath()
+    Velune.CursorId = "Oath"
+    Velune.CursorAsset = "11101928340"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11101928340"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Oath — enable ShiftLock to see it.")
+    Velune.PlayTone(110000494, 0.18)
+end
+Velune.Cursor_Oath = { name = "Oath", id = "11101928340", apply = Velune.ApplyCursor_Oath }
+
+table.insert(Velune.CursorList, Velune.Cursor_Oath)
+function Velune.ApplyCursor_Vesper()
+    Velune.CursorId = "Vesper"
+    Velune.CursorAsset = "12519384701"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12519384701"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Vesper — enable ShiftLock to see it.")
+    Velune.PlayTone(110000507, 0.18)
+end
+Velune.Cursor_Vesper = { name = "Vesper", id = "12519384701", apply = Velune.ApplyCursor_Vesper }
+
+table.insert(Velune.CursorList, Velune.Cursor_Vesper)
+function Velune.ApplyCursor_Lumen()
+    Velune.CursorId = "Lumen"
+    Velune.CursorAsset = "11401928366"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11401928366"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Lumen — enable ShiftLock to see it.")
+    Velune.PlayTone(110000520, 0.18)
+end
+Velune.Cursor_Lumen = { name = "Lumen", id = "11401928366", apply = Velune.ApplyCursor_Lumen }
+
+table.insert(Velune.CursorList, Velune.Cursor_Lumen)
+function Velune.ApplyCursor_Nadir()
+    Velune.CursorId = "Nadir"
+    Velune.CursorAsset = "12084920133"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12084920133"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Nadir — enable ShiftLock to see it.")
+    Velune.PlayTone(110000533, 0.18)
+end
+Velune.Cursor_Nadir = { name = "Nadir", id = "12084920133", apply = Velune.ApplyCursor_Nadir }
+
+table.insert(Velune.CursorList, Velune.Cursor_Nadir)
+function Velune.ApplyCursor_Helix()
+    Velune.CursorId = "Helix"
+    Velune.CursorAsset = "10919384722"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://10919384722"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Helix — enable ShiftLock to see it.")
+    Velune.PlayTone(110000546, 0.18)
+end
+Velune.Cursor_Helix = { name = "Helix", id = "10919384722", apply = Velune.ApplyCursor_Helix }
+
+table.insert(Velune.CursorList, Velune.Cursor_Helix)
+function Velune.ApplyCursor_Mirth()
+    Velune.CursorId = "Mirth"
+    Velune.CursorAsset = "11701928355"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11701928355"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Mirth — enable ShiftLock to see it.")
+    Velune.PlayTone(110000559, 0.18)
+end
+Velune.Cursor_Mirth = { name = "Mirth", id = "11701928355", apply = Velune.ApplyCursor_Mirth }
+
+table.insert(Velune.CursorList, Velune.Cursor_Mirth)
+function Velune.ApplyCursor_Cinder()
+    Velune.CursorId = "Cinder"
+    Velune.CursorAsset = "11284920177"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11284920177"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Cinder — enable ShiftLock to see it.")
+    Velune.PlayTone(110000572, 0.18)
+end
+Velune.Cursor_Cinder = { name = "Cinder", id = "11284920177", apply = Velune.ApplyCursor_Cinder }
+
+table.insert(Velune.CursorList, Velune.Cursor_Cinder)
+function Velune.ApplyCursor_Auric()
+    Velune.CursorId = "Auric"
+    Velune.CursorAsset = "12319384744"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12319384744"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Auric — enable ShiftLock to see it.")
+    Velune.PlayTone(110000585, 0.18)
+end
+Velune.Cursor_Auric = { name = "Auric", id = "12319384744", apply = Velune.ApplyCursor_Auric }
+
+table.insert(Velune.CursorList, Velune.Cursor_Auric)
+function Velune.ApplyCursor_Pell()
+    Velune.CursorId = "Pell"
+    Velune.CursorAsset = "11584920190"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11584920190"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Pell — enable ShiftLock to see it.")
+    Velune.PlayTone(110000598, 0.18)
+end
+Velune.Cursor_Pell = { name = "Pell", id = "11584920190", apply = Velune.ApplyCursor_Pell }
+
+table.insert(Velune.CursorList, Velune.Cursor_Pell)
+function Velune.ApplyCursor_Skein()
+    Velune.CursorId = "Skein"
+    Velune.CursorAsset = "11801928311"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11801928311"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Skein — enable ShiftLock to see it.")
+    Velune.PlayTone(110000611, 0.18)
+end
+Velune.Cursor_Skein = { name = "Skein", id = "11801928311", apply = Velune.ApplyCursor_Skein }
+
+table.insert(Velune.CursorList, Velune.Cursor_Skein)
+function Velune.ApplyCursor_Thorn()
+    Velune.CursorId = "Thorn"
+    Velune.CursorAsset = "11084920145"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://11084920145"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Thorn — enable ShiftLock to see it.")
+    Velune.PlayTone(110000624, 0.18)
+end
+Velune.Cursor_Thorn = { name = "Thorn", id = "11084920145", apply = Velune.ApplyCursor_Thorn }
+
+table.insert(Velune.CursorList, Velune.Cursor_Thorn)
+function Velune.ApplyCursor_Vellum()
+    Velune.CursorId = "Vellum"
+    Velune.CursorAsset = "12419384790"
+    if Velune.CrosshairImage then
+        Velune.CrosshairImage.Image = "rbxassetid://12419384790"
+        Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 52, 0, 52) }, 0.12)
+        task.delay(0.12, function()
+            if Velune.CrosshairImage then
+                Velune.Spring(Velune.CrosshairImage, { Size = UDim2.new(0, 42, 0, 42) }, 0.18)
+            end
+        end)
+    end
+    Velune.Notify("VELUNE", "Cursor: Vellum — enable ShiftLock to see it.")
+    Velune.PlayTone(110000637, 0.18)
+end
+Velune.Cursor_Vellum = { name = "Vellum", id = "12419384790", apply = Velune.ApplyCursor_Vellum }
+
+table.insert(Velune.CursorList, Velune.Cursor_Vellum)
+function Velune.EnsureCrosshair()
+    local host = Velune.HostGui()
+    if Velune.CrosshairImage and Velune.CrosshairImage.Parent then
+        return
+    end
+    local img = Instance.new("ImageLabel")
+    img.Name = "VeluneCrosshair"
+    img.AnchorPoint = Vector2.new(0.5, 0.5)
+    img.Position = UDim2.new(0.5, 0, 0.5, 0)
+    img.Size = UDim2.new(0, 42, 0, 42)
+    img.BackgroundTransparency = 1
+    img.Image = "rbxassetid://" .. tostring(Velune.CursorAsset)
+    img.ZIndex = 80
+    img.Visible = false
+    img.Parent = host
+    Velune.CrosshairImage = img
+    if Velune.CrosshairSpinConn then
+        Velune.CrosshairSpinConn:Disconnect()
+    end
+    Velune.CrosshairSpinConn = Velune.Track(RunService.RenderStepped:Connect(function(dt)
+        if not Velune.CrosshairImage then
+            return
+        end
+        local lock = UserInputService and UserInputService.MouseBehavior == Enum.MouseBehavior.LockCenter
+        local show = Velune.Flags.Crosshair and lock
+        Velune.CrosshairImage.Visible = show
+        if UserInputService then
+            UserInputService.MouseIconEnabled = not show
+        end
+        if show and Velune.Flags.CursorSpin then
+            Velune.CrosshairImage.Rotation = (Velune.CrosshairImage.Rotation + dt * 120) % 360
+        end
+        pcall(function()
+            if LP and LP:FindFirstChild("PlayerGui") then
+                local bar = LP.PlayerGui:FindFirstChild("GameTopbar")
+                if bar and bar:FindFirstChild("Crosshair") then
+                    bar.Crosshair.Visible = false
+                end
+            end
+        end)
+    end))
+end
+function Velune.SetCrosshair(on)
+    Velune.Flags.Crosshair = on
+    if on then
+        Velune.EnsureCrosshair()
+        Velune.Notify("VELUNE", "Crosshair ON — enable ShiftLock to see it!")
+    else
+        if Velune.CrosshairImage then
+            Velune.CrosshairImage:Destroy()
+            Velune.CrosshairImage = nil
+        end
+        if UserInputService then
+            UserInputService.MouseIconEnabled = true
+        end
+        Velune.Notify("VELUNE", "Crosshair OFF")
+    end
+end
+
+function Velune.PlayEmote_sit()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("sit")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808223"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: sit")
+end
+
+function Velune.PlayEmote_zombie()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("zombie")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808242"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: zombie")
+end
+
+function Velune.PlayEmote_ninja()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("ninja")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808261"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: ninja")
+end
+
+function Velune.PlayEmote_zen()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("zen")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808280"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: zen")
+end
+
+function Velune.PlayEmote_floss()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("floss")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808299"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: floss")
+end
+
+function Velune.PlayEmote_dab()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("dab")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808318"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: dab")
+end
+
+function Velune.PlayEmote_wave()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("wave")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808337"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: wave")
+end
+
+function Velune.PlayEmote_laugh()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("laugh")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808356"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: laugh")
+end
+
+function Velune.PlayEmote_point()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("point")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808375"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: point")
+end
+
+function Velune.PlayEmote_dance()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("dance")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808394"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: dance")
+end
+
+function Velune.PlayEmote_cheer()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("cheer")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808413"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: cheer")
+end
+
+function Velune.PlayEmote_shrug()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("shrug")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808432"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: shrug")
+end
+
+function Velune.PlayEmote_salute()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("salute")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808451"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: salute")
+end
+
+function Velune.PlayEmote_think()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("think")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808470"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: think")
+end
+
+function Velune.PlayEmote_confused()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("confused")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808489"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: confused")
+end
+
+function Velune.PlayEmote_agree()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("agree")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808508"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: agree")
+end
+
+function Velune.PlayEmote_disagree()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("disagree")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808527"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: disagree")
+end
+
+function Velune.PlayEmote_sleep()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("sleep")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808546"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: sleep")
+end
+
+function Velune.PlayEmote_clap()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("clap")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808565"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: clap")
+end
+
+function Velune.PlayEmote_bow()
+    local hum = Velune.Hum()
+    if not hum then
+        Velune.Notify("VELUNE", "No character to emote.")
+        return
+    end
+    local ok = false
+    pcall(function()
+        ok = hum:PlayEmote("bow")
+    end)
+    if not ok then
+        pcall(function()
+            local anim = Instance.new("Animation")
+            anim.AnimationId = "rbxassetid://4555808584"
+            local t = hum:LoadAnimation(anim)
+            t:Play()
+        end)
+    end
+    Velune.Notify("VELUNE", "Emote: bow")
+end
+
+function Velune.PlayEmote(name)
+    local fn = Velune["PlayEmote_" .. tostring(name)]
+    if fn then
+        fn()
+        return
+    end
+    Velune.Notify("VELUNE", "Unknown emote.")
+end
+function Velune.ChatRoles()
+    local m = Velune.FindMurderer()
+    local s = Velune.FindSheriff()
+    local line = "VELUNE roles — Murderer: " .. (m and m.Name or "?") .. "  Sheriff: " .. (s and s.Name or "?")
+    pcall(function()
+        if TextChatService and TextChatService.ChatVersion == Enum.ChatVersion.TextChatService then
+            local ch = TextChatService.TextChannels and TextChatService.TextChannels:FindFirstChild("RBXGeneral")
+            if ch then
+                ch:SendAsync(line)
+                return
+            end
+        end
+        StarterGui:SetCore("ChatMakeSystemMessage", { Text = line, Color = Velune.Accent })
+    end)
+    Velune.Notify("VELUNE", line)
+end
+
+function Velune.ClearESP()
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p.Character then
+            local h = p.Character:FindFirstChild("VeluneESP")
+            if h then
+                h:Destroy()
+            end
+            local b = p.Character:FindFirstChild("VeluneBill")
+            if b then
+                b:Destroy()
+            end
+            local r = p.Character:FindFirstChild("HumanoidRootPart")
+            if r then
+                local bb = r:FindFirstChild("VeluneBill")
+                if bb then
+                    bb:Destroy()
+                end
+            end
+        end
+    end
+    for _, d in pairs(Velune.Lines) do
+        pcall(function()
+            d:Remove()
+        end)
+    end
+    Velune.Lines = {}
+    if Velune.GunHighlight then
+        Velune.GunHighlight:Destroy()
+        Velune.GunHighlight = nil
+    end
+    if Velune.GunBill then
+        Velune.GunBill:Destroy()
+        Velune.GunBill = nil
+    end
+    if Velune.GunMarker then
+        Velune.GunMarker:Destroy()
+        Velune.GunMarker = nil
+    end
+end
+function Velune.PaintHighlight(char, color)
+    local h = char:FindFirstChild("VeluneESP")
+    if not h then
+        h = Instance.new("Highlight")
+        h.Name = "VeluneESP"
+        h.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+        h.FillTransparency = 0.68
+        h.OutlineTransparency = 0.12
+        h.OutlineColor = Color3.new(1, 1, 1)
+        h.Parent = char
+    end
+    h.FillColor = color
+    h.Adornee = char
+    return h
+end
+function Velune.PaintName(player, role, color)
+    local char = player.Character
+    if not char then
+        return
+    end
+    local hrp = char:FindFirstChild("HumanoidRootPart") or char:FindFirstChild("Head")
+    if not hrp then
+        return
+    end
+    local gui = hrp:FindFirstChild("VeluneBill")
+    if not gui then
+        gui = Instance.new("BillboardGui")
+        gui.Name = "VeluneBill"
+        gui.Size = UDim2.new(0, 160, 0, 40)
+        gui.StudsOffset = Vector3.new(0, 3.1, 0)
+        gui.AlwaysOnTop = true
+        gui.MaxDistance = 600
+        gui.Parent = hrp
+        local t = Instance.new("TextLabel")
+        t.Name = "Label"
+        t.BackgroundTransparency = 1
+        t.Size = UDim2.new(1, 0, 1, 0)
+        t.Font = Enum.Font.GothamBold
+        t.TextSize = 14
+        t.TextStrokeTransparency = 0.45
+        t.TextStrokeColor3 = Color3.new(0, 0, 0)
+        t.Parent = gui
+    end
+    local lab = gui:FindFirstChild("Label")
+    if lab then
+        lab.TextColor3 = color
+        lab.Text = player.Name .. "  ·  " .. role
+        gui.Enabled = Velune.Flags.Names
+    end
+end
+function Velune.LineFor(player)
+    if not Drawing or not Drawing.new then
+        return nil
+    end
+    if not Velune.Lines[player] then
+        local ok, line = pcall(function()
+            local d = Drawing.new("Line")
+            d.Visible = false
+            d.Thickness = 1.4
+            d.Transparency = 1
+            return d
+        end)
+        if ok then
+            Velune.Lines[player] = line
+        end
+    end
+    return Velune.Lines[player]
+end
+function Velune.BoxFor(player)
+    if not Drawing or not Drawing.new then
+        return nil
+    end
+    local key = tostring(player) .. "_box"
+    if not Velune.Lines[key] then
+        local ok, box = pcall(function()
+            local d = Drawing.new("Square")
+            d.Visible = false
+            d.Filled = false
+            d.Thickness = 1.2
+            return d
+        end)
+        if ok then
+            Velune.Lines[key] = box
+        end
+    end
+    return Velune.Lines[key]
+end
+function Velune.TickESP()
+    if not Velune.Flags.ESP then
+        Velune.ClearESP()
+        return
+    end
+    local cam = Velune.Cam()
+    if not cam or not Players then
+        return
+    end
+    for _, player in ipairs(Players:GetPlayers()) do
+        local char = player.Character
+        if not char or not Velune.Alive(player) then
+            local line = Velune.Lines[player]
+            if line then
+                line.Visible = false
+            end
+        else
+            local role = Velune.RoleOf(player)
+            local show = true
+            if player == LP then
+                show = Velune.Flags.ShowSelf
+            elseif role == "Murderer" then
+                show = Velune.Flags.ShowMurderer
+            elseif role == "Sheriff" then
+                show = Velune.Flags.ShowSheriff
+            elseif role == "Hero" then
+                show = Velune.Flags.ShowHero
+            else
+                show = Velune.Flags.ShowInnocent
+            end
+            local color = Velune.Colors[role] or Color3.fromRGB(200, 200, 200)
+            if not show then
+                local h = char:FindFirstChild("VeluneESP")
+                if h then
+                    h:Destroy()
+                end
+                local line = Velune.Lines[player]
+                if line then
+                    line.Visible = false
+                end
+            else
+                Velune.PaintHighlight(char, color)
+                Velune.PaintName(player, role, color)
+                local hrp = char:FindFirstChild("HumanoidRootPart")
+                if Velune.Flags.Tracers and hrp and cam then
+                    local line = Velune.LineFor(player)
+                    if line then
+                        local v, on = cam:WorldToViewportPoint(hrp.Position)
+                        if on then
+                            line.From = Vector2.new(cam.ViewportSize.X / 2, cam.ViewportSize.Y / 2)
+                            line.To = Vector2.new(v.X, v.Y)
+                            line.Color = color
+                            line.Visible = true
+                        else
+                            line.Visible = false
+                        end
+                    end
+                else
+                    local line = Velune.Lines[player]
+                    if line then
+                        line.Visible = false
+                    end
+                end
+                if Velune.Flags.Boxes and hrp and cam then
+                    local box = Velune.BoxFor(player)
+                    if box then
+                        local v, on = cam:WorldToViewportPoint(hrp.Position)
+                        if on then
+                            local dist = (cam.CFrame.Position - hrp.Position).Magnitude
+                            local sz = math.clamp(2200 / math.max(dist, 8), 18, 90)
+                            box.Size = Vector2.new(sz * 0.72, sz)
+                            box.Position = Vector2.new(v.X - sz * 0.36, v.Y - sz * 0.55)
+                            box.Color = color
+                            box.Visible = true
+                        else
+                            box.Visible = false
+                        end
+                    end
+                end
+            end
+        end
+    end
+    if Velune.Flags.GunESP then
+        Velune.MarkGun(Velune.GunDrop())
+    end
+end
+function Velune.MarkGun(drop)
+    if not drop then
+        if Velune.GunHighlight then
+            Velune.GunHighlight:Destroy()
+            Velune.GunHighlight = nil
+        end
+        if Velune.GunBill then
+            Velune.GunBill:Destroy()
+            Velune.GunBill = nil
+        end
+        if Velune.GunMarker then
+            Velune.GunMarker:Destroy()
+            Velune.GunMarker = nil
+        end
+        return
+    end
+    if not Velune.Flags.GunESP then
+        return
+    end
+    if not Velune.GunHighlight or Velune.GunHighlight.Adornee ~= drop then
+        if Velune.GunHighlight then
+            Velune.GunHighlight:Destroy()
+        end
+        local h = Instance.new("Highlight")
+        h.Adornee = drop
+        h.FillColor = Velune.Colors.Gun
+        h.OutlineColor = Color3.new(1, 1, 1)
+        h.FillTransparency = 0.35
+        h.OutlineTransparency = 0
+        h.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+        h.Parent = drop
+        Velune.GunHighlight = h
+    end
+    local part = drop:FindFirstChild("Handle") or (drop:IsA("Model") and drop.PrimaryPart) or drop:FindFirstChildWhichIsA("BasePart") or (drop:IsA("BasePart") and drop)
+    if part then
+        if not Velune.GunBill or Velune.GunBill.Parent ~= part then
+            if Velune.GunBill then
+                Velune.GunBill:Destroy()
+            end
+            local bill = Instance.new("BillboardGui")
+            bill.Size = UDim2.new(0, 130, 0, 36)
+            bill.StudsOffset = Vector3.new(0, 4, 0)
+            bill.AlwaysOnTop = true
+            bill.MaxDistance = 400
+            bill.Parent = part
+            local f = Instance.new("Frame")
+            f.Size = UDim2.new(1, 0, 1, 0)
+            f.BackgroundColor3 = Color3.new(0, 0, 0)
+            f.BackgroundTransparency = 0.4
+            f.BorderSizePixel = 0
+            f.Parent = bill
+            local c = Instance.new("UICorner")
+            c.CornerRadius = UDim.new(0, 6)
+            c.Parent = f
+            local st = Instance.new("UIStroke")
+            st.Color = Velune.Colors.Gun
+            st.Thickness = 1.5
+            st.Parent = f
+            local t = Instance.new("TextLabel")
+            t.BackgroundTransparency = 1
+            t.Size = UDim2.new(1, 0, 1, 0)
+            t.Font = Enum.Font.GothamBlack
+            t.TextSize = 13
+            t.Text = "GUN ON MAP"
+            t.TextColor3 = Velune.Colors.Gun
+            t.Parent = f
+            Velune.GunBill = bill
+        end
+        if not Velune.GunMarker then
+            local m = Instance.new("Part")
+            m.Name = "VeluneGunMarker"
+            m.Size = Vector3.new(1.5, 0.15, 1.5)
+            m.Anchored = true
+            m.CanCollide = false
+            m.CastShadow = false
+            m.Material = Enum.Material.Neon
+            m.Color = Color3.fromRGB(50, 255, 80)
+            m.Transparency = 0.25
+            m.CFrame = CFrame.new(part.Position + Vector3.new(0, 0.1, 0))
+            m.Parent = Workspace
+            Velune.GunMarker = m
+            task.spawn(function()
+                while m and m.Parent do
+                    for i = 0, 1, 0.05 do
+                        if not m.Parent then
+                            break
+                        end
+                        m.Transparency = 0.25 + 0.5 * math.sin(i * math.pi)
+                        task.wait(0.03)
+                    end
+                end
+            end)
+        else
+            Velune.GunMarker.CFrame = CFrame.new(part.Position + Vector3.new(0, 0.1, 0))
+        end
+    end
+end
+
+function Velune.GoldJump()
+    if Velune.OnCooldown("gold", 2600) then
+        Velune.Notify("VELUNE", "Gold jump cooling.")
+        return
+    end
+    local hrp = Velune.HRP()
+    local hum = Velune.Hum()
+    if not hrp or not hum then
+        return
+    end
+    local lift = 92
+    pcall(function()
+        hrp.AssemblyLinearVelocity = Vector3.new(hrp.AssemblyLinearVelocity.X, lift, hrp.AssemblyLinearVelocity.Z)
+        hum:ChangeState(Enum.HumanoidStateType.Jumping)
+    end)
+    Velune.Notify("VELUNE", "Gold jump.")
+    Velune.BurstAt(hrp.Position, Color3.fromRGB(232, 180, 40))
+end
+function Velune.NormalJump()
+    if Velune.OnCooldown("normal", 1800) then
+        Velune.Notify("VELUNE", "Normal jump cooling.")
+        return
+    end
+    local hrp = Velune.HRP()
+    local hum = Velune.Hum()
+    if not hrp or not hum then
+        return
+    end
+    pcall(function()
+        hrp.AssemblyLinearVelocity = Vector3.new(hrp.AssemblyLinearVelocity.X, 72, hrp.AssemblyLinearVelocity.Z)
+        hum:ChangeState(Enum.HumanoidStateType.Jumping)
+    end)
+    Velune.Notify("VELUNE", "Normal jump.")
+    Velune.BurstAt(hrp.Position, Color3.fromRGB(40, 180, 90))
+end
+function Velune.BurstAt(pos, color)
+    if not Workspace then
+        return
+    end
+    pcall(function()
+        local p = Instance.new("Part")
+        p.Size = Vector3.new(0.4, 0.4, 0.4)
+        p.Shape = Enum.PartType.Ball
+        p.Anchored = true
+        p.CanCollide = false
+        p.Material = Enum.Material.Neon
+        p.Color = color
+        p.CFrame = CFrame.new(pos)
+        p.Parent = Workspace
+        Velune.Tween(p, TweenInfo.new(0.35, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {
+            Size = Vector3.new(6, 6, 6),
+            Transparency = 1,
+        })
+        if Debris then
+            Debris:AddItem(p, 0.4)
+        end
+    end)
+end
+function Velune.WallHop()
+    if Velune.OnCooldown("wallhop", 1600) then
+        Velune.Notify("VELUNE", "Wall hop cooling.")
+        return
+    end
+    local hrp = Velune.HRP()
+    local hum = Velune.Hum()
+    local cam = Velune.Cam()
+    if not hrp or not hum or not cam then
+        return
+    end
+    local look = cam.CFrame.LookVector
+    pcall(function()
+        hrp.CFrame = hrp.CFrame + Vector3.new(0, 4.2, 0) + look * 3.4
+        hrp.AssemblyLinearVelocity = look * 48 + Vector3.new(0, 42, 0)
+        hum:ChangeState(Enum.HumanoidStateType.Jumping)
+    end)
+    Velune.Notify("VELUNE", "Wall hop.")
+end
+function Velune.Flick()
+    if Velune.FlickBusy then
+        return
+    end
+    local hrp = Velune.HRP()
+    local cam = Velune.Cam()
+    if not hrp then
+        return
+    end
+    Velune.FlickBusy = true
+    local locked = false
+    pcall(function()
+        locked = UserInputService.MouseBehavior == Enum.MouseBehavior.LockCenter
+    end)
+    if not locked then
+        local from = hrp.CFrame
+        local dest = from * CFrame.Angles(0, math.pi, 0)
+        for i = 1, 4 do
+            pcall(function()
+                hrp.CFrame = from:Lerp(dest, i / 4)
+            end)
+            RunService.RenderStepped:Wait()
+        end
+        Velune.Notify("VELUNE", "Flick turn 180°")
+    elseif cam then
+        local from = cam.CFrame
+        local look = from.LookVector
+        local dest = CFrame.lookAt(from.Position, from.Position + Vector3.new(-look.X, look.Y, -look.Z))
+        for i = 1, 5 do
+            pcall(function()
+                cam.CFrame = from:Lerp(dest, i / 5)
+            end)
+            RunService.RenderStepped:Wait()
+        end
+        Velune.Notify("VELUNE", "Flick camera 180°")
+    end
+    task.wait(0.15)
+    Velune.FlickBusy = false
+end
+function Velune.ShootOrThrow()
+    if Velune.OnCooldown("shoot", 900) then
+        return
+    end
+    local knife = Velune.HasTool("Knife")
+    local gun = Velune.HasTool("Gun")
+    if knife then
+        Velune.ThrowKnife()
+        return
+    end
+    if gun then
+        Velune.ShootMurderer()
+        return
+    end
+    Velune.Notify("VELUNE", "No gun equipped.")
+end
+function Velune.Equip(tool)
+    local hum = Velune.Hum()
+    if hum and tool then
+        pcall(function()
+            hum:EquipTool(tool)
+        end)
+    end
+end
+function Velune.ShootMurderer()
+    local gun = Velune.HasTool("Gun")
+    local murd = Velune.FindMurderer()
+    if not gun then
+        Velune.Notify("VELUNE", "No gun equipped.")
+        return
+    end
+    if not murd or not murd.Character then
+        Velune.Notify("VELUNE", "No murderer in range.")
+        return
+    end
+    Velune.Equip(gun)
+    local head = murd.Character:FindFirstChild("Head") or murd.Character:FindFirstChild("HumanoidRootPart")
+    local cam = Velune.Cam()
+    if head and cam then
+        local aim = head.Position
+        if Velune.Flags.PingPredict then
+            local hrp = murd.Character:FindFirstChild("HumanoidRootPart")
+            if hrp then
+                aim = aim + hrp.AssemblyLinearVelocity * Velune.Ping()
+            end
+        end
+        cam.CFrame = CFrame.new(cam.CFrame.Position, aim)
+    end
+    pcall(function()
+        gun:Activate()
+    end)
+    local shootEv = Velune.FindRemote("ShootGun", "RemoteEvent") or Velune.FindRemote("Shoot", "RemoteEvent")
+    if shootEv and head then
+        pcall(function()
+            shootEv:FireServer(head.Position, head)
+        end)
+    end
+    Velune.Notify("VELUNE", "Shot " .. murd.Name .. ".")
+end
+function Velune.ThrowKnife()
+    local knife = Velune.HasTool("Knife")
+    if not knife then
+        Velune.Notify("VELUNE", "No knife.")
+        return
+    end
+    local target
+    local best = 1e9
+    local hrp = Velune.HRP()
+    if not Players or not hrp then
+        return
+    end
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= LP and Velune.Alive(p) and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
+            local d = (p.Character.HumanoidRootPart.Position - hrp.Position).Magnitude
+            if d < best then
+                best = d
+                target = p
+            end
+        end
+    end
+    if not target then
+        Velune.Notify("VELUNE", "No throw target.")
+        return
+    end
+    Velune.Equip(knife)
+    local cam = Velune.Cam()
+    local aim = target.Character.HumanoidRootPart.Position
+    if cam then
+        cam.CFrame = CFrame.new(cam.CFrame.Position, aim)
+    end
+    pcall(function()
+        knife:Activate()
+    end)
+    Velune.Notify("VELUNE", "Threw at " .. target.Name .. ".")
+end
+function Velune.SilentThrow()
+    local knife = Velune.HasTool("Knife")
+    if not knife then
+        Velune.Notify("VELUNE", "No knife.")
+        return
+    end
+    local target
+    local best = 1e9
+    local hrp = Velune.HRP()
+    if not hrp or not Players then
+        return
+    end
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= LP and Velune.Alive(p) and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
+            local d = (p.Character.HumanoidRootPart.Position - hrp.Position).Magnitude
+            if d < best then
+                best = d
+                target = p
+            end
+        end
+    end
+    if not target then
+        return
+    end
+    local ev = Velune.FindRemote("ThrowKnife", "RemoteEvent") or Velune.FindRemote("KnifeThrown", "RemoteEvent")
+    local pos = target.Character.HumanoidRootPart.Position
+    if ev then
+        pcall(function()
+            ev:FireServer(pos)
+        end)
+    else
+        Velune.Equip(knife)
+        pcall(function()
+            knife:Activate()
+        end)
+    end
+    Velune.Notify("VELUNE", "Silent throw → " .. target.Name)
+end
+function Velune.GrabGun()
+    local drop = Velune.GunDrop()
+    local hrp = Velune.HRP()
+    if not drop then
+        Velune.Notify("VELUNE", "No gun on map.")
+        return
+    end
+    if not hrp then
+        Velune.Notify("VELUNE", "Gun position not found!")
+        return
+    end
+    local part = drop:IsA("BasePart") and drop or drop:FindFirstChildWhichIsA("BasePart") or drop.PrimaryPart
+    if not part then
+        Velune.Notify("VELUNE", "Gun position not found!")
+        return
+    end
+    local old = hrp.CFrame
+    Velune.PivotTo(part.CFrame + Vector3.new(0, 3, 0))
+    if firetouchinterest then
+        pcall(function()
+            firetouchinterest(hrp, part, 0)
+            task.wait(0.08)
+            firetouchinterest(hrp, part, 1)
+        end)
+    end
+    task.delay(0.2, function()
+        if not Velune.HasTool("Gun") then
+            Velune.PivotTo(old)
+        end
+    end)
+    Velune.Notify("VELUNE", "Teleported to gun!")
+end
+function Velune.FlingPlayer(player)
+    if Velune.FlingBusy then
+        Velune.Notify("VELUNE", "Fling in progress...")
+        return
+    end
+    if not player or not player.Character then
+        return
+    end
+    local hrp = Velune.HRP()
+    local th = player.Character:FindFirstChild("HumanoidRootPart")
+    if not hrp or not th then
+        return
+    end
+    Velune.FlingBusy = true
+    Velune.Notify("VELUNE", "Flinging: " .. player.Name)
+    local old = hrp.CFrame
+    task.spawn(function()
+        local t0 = tick()
+        while tick() - t0 < 1.6 and th and th.Parent and hrp and hrp.Parent do
+            pcall(function()
+                hrp.CFrame = th.CFrame * CFrame.new(0, 0.2, 0)
+                hrp.AssemblyLinearVelocity = Vector3.new(0, 1e5, 0)
+                hrp.AssemblyAngularVelocity = Vector3.new(9e8, 9e8, 9e8)
+            end)
+            RunService.Heartbeat:Wait()
+        end
+        pcall(function()
+            hrp.AssemblyLinearVelocity = Vector3.new()
+            hrp.AssemblyAngularVelocity = Vector3.new()
+            hrp.CFrame = old
+        end)
+        Velune.FlingBusy = false
+    end)
+end
+function Velune.FlingMurderer()
+    local m = Velune.FindMurderer()
+    if not m then
+        Velune.Notify("VELUNE", "No knife player found!")
+        return
+    end
+    Velune.FlingPlayer(m)
+end
+function Velune.FlingSheriff()
+    local s = Velune.FindSheriff()
+    if not s then
+        Velune.Notify("VELUNE", "No gun player found!")
+        return
+    end
+    Velune.FlingPlayer(s)
+end
+function Velune.KillAll()
+    local knife = Velune.HasTool("Knife")
+    if not knife or not Players then
+        Velune.Notify("VELUNE", "Knife required.")
+        return
+    end
+    Velune.Equip(knife)
+    task.spawn(function()
+        for _, p in ipairs(Players:GetPlayers()) do
+            if p ~= LP and Velune.Alive(p) and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
+                local hrp = Velune.HRP()
+                if hrp then
+                    hrp.CFrame = p.Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 2)
+                    pcall(function()
+                        knife:Activate()
+                    end)
+                    task.wait(0.12)
+                end
+            end
+        end
+        Velune.Notify("VELUNE", "Kill all finished.")
+    end)
+end
+function Velune.KnifeAuraTick()
+    if not Velune.Flags.KnifeAura then
+        return
+    end
+    local knife = Velune.HasTool("Knife")
+    local hrp = Velune.HRP()
+    if not knife or not hrp or not Players then
+        return
+    end
+    Velune.Equip(knife)
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= LP and Velune.Alive(p) and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
+            local d = (p.Character.HumanoidRootPart.Position - hrp.Position).Magnitude
+            if d <= Velune.Values.Aura then
+                pcall(function()
+                    knife:Activate()
+                end)
+            end
+        end
+    end
+end
+
+function Velune.SetSpeed(on)
+    Velune.Flags.SpeedOn = on
+    local hum = Velune.Hum()
+    if hum then
+        hum.WalkSpeed = on and math.max(hum.WalkSpeed, Velune.Values.Walk) or 16
+    end
+    Velune.Notify("VELUNE", on and "Speed ON" or "Speed OFF")
+end
+function Velune.SpeedTick()
+    if not Velune.Flags.SpeedOn then
+        return
+    end
+    local hrp = Velune.HRP()
+    local hum = Velune.Hum()
+    if not hrp or not hum then
+        return
+    end
+    local dir = hum.MoveDirection
+    if dir.Magnitude > 0 then
+        hrp.AssemblyLinearVelocity = Vector3.new(dir.X * Velune.Values.Speed, hrp.AssemblyLinearVelocity.Y, dir.Z * Velune.Values.Speed)
+    end
+end
+function Velune.SetStretch(on)
+    Velune.Flags.StretchOn = on
+    local cam = Velune.Cam()
+    if not cam then
+        return
+    end
+    pcall(function()
+        if on then
+            cam.FieldOfView = math.clamp(Velune.Values.FOV * (0.6 + Velune.Values.Stretch * 0.8), 30, 120)
+        else
+            cam.FieldOfView = Velune.Values.FOV
+        end
+    end)
+    Velune.Notify("VELUNE", on and "Stretch ON" or "Stretch OFF")
+end
+function Velune.SetFOV(n)
+    Velune.Values.FOV = n
+    local cam = Velune.Cam()
+    if cam then
+        cam.FieldOfView = n
+    end
+end
+local flyGyro, flyVel, flyConn
+function Velune.SetFly(on)
+    Velune.Flags.Fly = on
+    if flyConn then
+        flyConn:Disconnect()
+        flyConn = nil
+    end
+    if flyGyro then
+        flyGyro:Destroy()
+        flyGyro = nil
+    end
+    if flyVel then
+        flyVel:Destroy()
+        flyVel = nil
+    end
+    local hrp = Velune.HRP()
+    local hum = Velune.Hum()
+    if not on then
+        if hum then
+            hum.PlatformStand = false
+        end
+        Velune.Notify("VELUNE", "Fly OFF")
+        return
+    end
+    if not hrp or not hum then
+        return
+    end
+    flyGyro = Instance.new("BodyGyro")
+    flyGyro.Name = "VeluneFlyGyro"
+    flyGyro.P = 90000
+    flyGyro.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
+    flyGyro.CFrame = hrp.CFrame
+    flyGyro.Parent = hrp
+    flyVel = Instance.new("BodyVelocity")
+    flyVel.Name = "VeluneFlyVel"
+    flyVel.MaxForce = Vector3.new(9e9, 9e9, 9e9)
+    flyVel.Velocity = Vector3.new()
+    flyVel.Parent = hrp
+    flyConn = Velune.Track(RunService.RenderStepped:Connect(function()
+        if not Velune.Flags.Fly or not hrp.Parent then
+            Velune.SetFly(false)
+            return
+        end
+        local cam = Velune.Cam()
+        if not cam then
+            return
+        end
+        hum.PlatformStand = true
+        flyGyro.CFrame = cam.CFrame
+        local move = Vector3.new()
+        if UserInputService:IsKeyDown(Enum.KeyCode.W) then
+            move = move + cam.CFrame.LookVector
+        end
+        if UserInputService:IsKeyDown(Enum.KeyCode.S) then
+            move = move - cam.CFrame.LookVector
+        end
+        if UserInputService:IsKeyDown(Enum.KeyCode.A) then
+            move = move - cam.CFrame.RightVector
+        end
+        if UserInputService:IsKeyDown(Enum.KeyCode.D) then
+            move = move + cam.CFrame.RightVector
+        end
+        if UserInputService:IsKeyDown(Enum.KeyCode.E) or UserInputService:IsKeyDown(Enum.KeyCode.Space) then
+            move = move + Vector3.new(0, 1, 0)
+        end
+        if UserInputService:IsKeyDown(Enum.KeyCode.Q) or UserInputService:IsKeyDown(Enum.KeyCode.LeftControl) then
+            move = move - Vector3.new(0, 1, 0)
+        end
+        if move.Magnitude > 0 then
+            flyVel.Velocity = move.Unit * Velune.Values.FlySpeed
+        else
+            flyVel.Velocity = Vector3.new()
+        end
+    end))
+    Velune.Notify("VELUNE", "Fly ON")
+end
+local noclipConn
+function Velune.SetNoclip(on)
+    Velune.Flags.Noclip = on
+    if noclipConn then
+        noclipConn:Disconnect()
+        noclipConn = nil
+    end
+    if on then
+        noclipConn = Velune.Track(RunService.Stepped:Connect(function()
+            local c = Velune.Char()
+            if not c then
+                return
+            end
+            for _, d in ipairs(c:GetDescendants()) do
+                if d:IsA("BasePart") then
+                    d.CanCollide = false
+                end
+            end
+        end))
+        Velune.Notify("VELUNE", "Noclip ON")
+    else
+        Velune.Notify("VELUNE", "Noclip OFF")
+    end
+end
+function Velune.SetInfiniteJump(on)
+    Velune.Flags.InfiniteJump = on
+    Velune.Notify("VELUNE", on and "Infinite jump ON" or "Infinite jump OFF")
+end
+function Velune.SetWalk(n)
+    Velune.Values.Walk = n
+    local hum = Velune.Hum()
+    if hum then
+        hum.WalkSpeed = n
+    end
+end
+function Velune.SetJump(n)
+    Velune.Values.Jump = n
+    local hum = Velune.Hum()
+    if hum then
+        pcall(function()
+            hum.JumpPower = n
+            hum.UseJumpPower = true
+        end)
+    end
+end
+local antiConn
+function Velune.SetAntiFling(on)
+    Velune.Flags.AntiFling = on
+    if antiConn then
+        antiConn:Disconnect()
+        antiConn = nil
+    end
+    if on then
+        antiConn = Velune.Track(RunService.Heartbeat:Connect(function()
+            local hrp = Velune.HRP()
+            if not hrp then
+                return
+            end
+            local cap = Velune.Values.Cap
+            local v = hrp.AssemblyLinearVelocity
+            if v.Magnitude > cap then
+                hrp.AssemblyLinearVelocity = v.Unit * cap
+            end
+            local a = hrp.AssemblyAngularVelocity
+            if a.Magnitude > cap then
+                hrp.AssemblyAngularVelocity = Vector3.new()
+            end
+        end))
+        Velune.Notify("VELUNE", "Anti-Fling ON")
+    else
+        Velune.Notify("VELUNE", "Anti-Fling OFF")
+    end
+end
+local afkConn
+function Velune.SetAntiAFK(on)
+    Velune.Flags.AntiAFK = on
+    if afkConn then
+        task.cancel(afkConn)
+        afkConn = nil
+    end
+    if on then
+        afkConn = task.spawn(function()
+            while Velune.Flags.AntiAFK do
+                task.wait(300)
+                pcall(function()
+                    if VirtualUser and Camera then
+                        VirtualUser:Button2Down(Vector2.new(0, 0), Camera.CFrame)
+                        task.wait(0.1)
+                        VirtualUser:Button2Up(Vector2.new(0, 0), Camera.CFrame)
+                    end
+                end)
+            end
+        end)
+        Velune.Notify("VELUNE", "Anti-AFK ON")
+    else
+        Velune.Notify("VELUNE", "Anti-AFK OFF")
+    end
+end
+function Velune.FlattenPart(d)
+    pcall(function()
+        if d:IsA("Texture") or d:IsA("Decal") then
+            d.Transparency = 1
+        elseif d:IsA("ParticleEmitter") or d:IsA("Trail") or d:IsA("Smoke") or d:IsA("Fire") or d:IsA("Sparkles") then
+            d.Enabled = false
+        elseif d:IsA("BasePart") then
+            d.Material = Enum.Material.SmoothPlastic
+            d.CastShadow = false
+        end
+    end)
+end
+function Velune.SetLowGFX(on)
+    Velune.Flags.LowGFX = on
+    if on then
+        Velune.Flags.HighGFX = false
+        pcall(function()
+            settings().Rendering.QualityLevel = Enum.QualityLevel.Level01
+        end)
+        pcall(function()
+            if setfpscap then
+                setfpscap(999)
+            end
+        end)
+        if Lighting then
+            Lighting.GlobalShadows = false
+            Lighting.Brightness = 2
+        end
+        if Workspace then
+            for _, d in ipairs(Workspace:GetDescendants()) do
+                Velune.FlattenPart(d)
+            end
+        end
+        Velune.Notify("VELUNE", "Low Graphics ON — FPS boost active")
+    else
+        pcall(function()
+            settings().Rendering.QualityLevel = Enum.QualityLevel.Automatic
+        end)
+        Velune.Notify("VELUNE", "Low Graphics OFF")
+    end
+end
+function Velune.SetHighGFX(on)
+    Velune.Flags.HighGFX = on
+    if on then
+        Velune.Flags.LowGFX = false
+        pcall(function()
+            settings().Rendering.QualityLevel = Enum.QualityLevel.Level21
+        end)
+        if Lighting then
+            Lighting.GlobalShadows = true
+            Lighting.Brightness = 3.5
+            Lighting.Ambient = Color3.fromRGB(80, 80, 100)
+            Lighting.OutdoorAmbient = Color3.fromRGB(100, 110, 130)
+            local bloom = Lighting:FindFirstChildOfClass("BloomEffect") or Instance.new("BloomEffect", Lighting)
+            bloom.Intensity = 0.6
+            bloom.Size = 24
+            bloom.Threshold = 0.95
+            local sun = Lighting:FindFirstChildOfClass("SunRaysEffect") or Instance.new("SunRaysEffect", Lighting)
+            sun.Intensity = 0.25
+            sun.Spread = 1
+            local cc = Lighting:FindFirstChildOfClass("ColorCorrectionEffect") or Instance.new("ColorCorrectionEffect", Lighting)
+            cc.Saturation = 0.2
+            cc.Contrast = 0.1
+            cc.Brightness = 0.05
+        end
+        Velune.Notify("VELUNE", "High Graphics ON")
+    else
+        if Lighting then
+            for _, ch in ipairs(Lighting:GetChildren()) do
+                if ch:IsA("BloomEffect") or ch:IsA("SunRaysEffect") or ch:IsA("ColorCorrectionEffect") then
+                    ch:Destroy()
+                end
+            end
+        end
+        Velune.Notify("VELUNE", "High Graphics OFF")
+    end
+end
+function Velune.TeleportToPlayer(player)
+    if not player or not player.Character then
+        return
+    end
+    local t = player.Character:FindFirstChild("HumanoidRootPart")
+    if t then
+        Velune.PivotTo(t.CFrame * CFrame.new(0, 0, 3))
+        Velune.Notify("VELUNE", "Warped to " .. player.Name)
+    end
+end
+function Velune.TeleportToLobby()
+    local lobby = Velune.LobbyRoot()
+    if not lobby then
+        Velune.Notify("VELUNE", "Lobby not found.")
+        return
+    end
+    local spawns = lobby:FindFirstChild("Spawns") or lobby
+    local parts = {}
+    for _, ch in ipairs(spawns:GetChildren()) do
+        if ch:IsA("BasePart") then
+            table.insert(parts, ch)
+        end
+    end
+    local pick = parts[math.random(1, math.max(#parts, 1))] or spawns:FindFirstChildWhichIsA("BasePart")
+    if pick then
+        Velune.PivotTo(pick.CFrame * CFrame.new(0, 5, 0))
+        Velune.Notify("VELUNE", "Lobby locked in.")
+    end
+end
+function Velune.TeleportToMap()
+    local map = Velune.MapRoot()
+    if not map then
+        Velune.Notify("VELUNE", "Map not found.")
+        return
+    end
+    local spawns = map:FindFirstChild("Spawns")
+    if not spawns then
+        return
+    end
+    local parts = {}
+    for _, ch in ipairs(spawns:GetChildren()) do
+        if ch:IsA("BasePart") then
+            table.insert(parts, ch)
+        end
+    end
+    local pick = parts[math.random(1, math.max(#parts, 1))]
+    if pick then
+        Velune.PivotTo(pick.CFrame * CFrame.new(0, 5, 0))
+        Velune.Notify("VELUNE", "Dropped on a spawn.")
+    end
+end
+function Velune.NearestCoin()
+    local map = Velune.MapRoot()
+    local hrp = Velune.HRP()
+    if not map or not hrp then
+        return nil
+    end
+    local best, dist = nil, Velune.Values.FarmRadius
+    local function scan(node)
+        for _, ch in ipairs(node:GetChildren()) do
+            if ch:IsA("BasePart") and (ch.Name:lower():find("coin") or ch:FindFirstChild("TouchInterest")) then
+                local d = (ch.Position - hrp.Position).Magnitude
+                if d < dist then
+                    dist = d
+                    best = ch
+                end
+            end
+            if #ch:GetChildren() > 0 then
+                scan(ch)
+            end
+        end
+    end
+    local bag = map:FindFirstChild("CoinContainer") or map:FindFirstChild("CoinAreas") or map
+    scan(bag)
+    return best
+end
+function Velune.FarmTick()
+    if not Velune.Flags.AutoFarm then
+        Velune.FarmStats.running = false
+        return
+    end
+    if not Velune.FarmStats.running then
+        Velune.FarmStats.running = true
+        Velune.FarmStats.t0 = tick()
+        Velune.FarmStats.coins = 0
+    end
+    local coin = Velune.NearestCoin()
+    local hrp = Velune.HRP()
+    if coin and hrp then
+        local dest = coin.CFrame * CFrame.new(0, Velune.Values.FarmOffset, 0)
+        Velune.PivotTo(dest)
+        if firetouchinterest then
+            pcall(function()
+                firetouchinterest(hrp, coin, 0)
+                firetouchinterest(hrp, coin, 1)
+            end)
+        end
+        Velune.FarmStats.coins += 1
+        task.wait(Velune.Values.FarmDelay)
+    end
+end
+function Velune.Rejoin()
+    if TeleportService and LP then
+        pcall(function()
+            TeleportService:TeleportToPlaceInstance(game.PlaceId, game.JobId, LP)
+        end)
+    end
+end
+function Velune.ServerHop()
+    if not TeleportService or not HttpService or not LP then
+        return
+    end
+    local url = "https://games.roblox.com/v1/games/" .. game.PlaceId .. "/servers/Public?sortOrder=Asc&limit=100"
+    local ok, raw = pcall(function()
+        return HttpService:JSONDecode(game:HttpGet(url))
+    end)
+    if ok and raw and raw.data then
+        for _, s in ipairs(raw.data) do
+            if s.id ~= game.JobId and s.playing < s.maxPlayers then
+                TeleportService:TeleportToPlaceInstance(game.PlaceId, s.id, LP)
+                return
+            end
+        end
+    end
+    TeleportService:Teleport(game.PlaceId, LP)
+end
+
+
+function Velune.IsMobile()
+    local touch = false
+    local kbd = true
+    pcall(function()
+        touch = UserInputService.TouchEnabled
+        kbd = UserInputService.KeyboardEnabled
+    end)
+    local cam = Velune.Cam()
+    local vp = cam and cam.ViewportSize
+    if touch and not kbd then
+        return true
+    end
+    if vp and vp.X < 760 then
+        return true
+    end
+    return false
+end
+function Velune.PaintTone(node, col)
+    if not node then
+        return
+    end
+    node.color = col
+    if node.lbl then
+        node.lbl.TextColor3 = col
+    end
+    if node.stroke then
+        node.stroke.Color = col
+    end
+    if node.bar then
+        node.bar.BackgroundColor3 = col
+    end
+    if node.gemStroke then
+        node.gemStroke.Color = col
+    end
+    if node.art and not node.photo and node.art:IsA("Frame") then
+        node.art.BackgroundColor3 = col
+    end
+end
+function Velune.EnsureFloorLayer()
+    local host = Velune.HostGui()
+    local layer = host:FindFirstChild("VeluneFloor")
+    if layer then
+        return layer
+    end
+    layer = Instance.new("Frame")
+    layer.Name = "VeluneFloor"
+    layer.BackgroundTransparency = 1
+    layer.Size = UDim2.new(1, 0, 1, 0)
+    layer.ZIndex = 60
+    layer.Parent = host
+    return layer
+end
+function Velune.EnsureMobileDock()
+    local host = Velune.HostGui()
+    local dock = host:FindFirstChild("VeluneMobileDock")
+    if dock then
+        return dock
+    end
+    dock = Instance.new("ScrollingFrame")
+    dock.Name = "VeluneMobileDock"
+    dock.Size = UDim2.new(1, -16, 0, 92)
+    dock.Position = UDim2.new(0, 8, 1, -104)
+    dock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    dock.BackgroundTransparency = 0.48
+    dock.BorderSizePixel = 0
+    dock.ScrollBarThickness = 3
+    dock.CanvasSize = UDim2.new(0, 0, 0, 0)
+    dock.AutomaticCanvasSize = Enum.AutomaticSize.X
+    dock.ScrollingDirection = Enum.ScrollingDirection.X
+    dock.ZIndex = 65
+    dock.Parent = host
+    local c = Instance.new("UICorner")
+    c.CornerRadius = UDim.new(0, 14)
+    c.Parent = dock
+    local st = Instance.new("UIStroke")
+    st.Color = Color3.fromRGB(225, 29, 72)
+    st.Thickness = 1
+    st.Transparency = 0.55
+    st.Parent = dock
+    local pad = Instance.new("UIPadding")
+    pad.PaddingLeft = UDim.new(0, 8)
+    pad.PaddingRight = UDim.new(0, 8)
+    pad.PaddingTop = UDim.new(0, 10)
+    pad.PaddingBottom = UDim.new(0, 10)
+    pad.Parent = dock
+    local list = Instance.new("UIListLayout")
+    list.FillDirection = Enum.FillDirection.Horizontal
+    list.Padding = UDim.new(0, 8)
+    list.VerticalAlignment = Enum.VerticalAlignment.Center
+    list.SortOrder = Enum.SortOrder.LayoutOrder
+    list.Parent = dock
+    return dock
+end
+function Velune.FloorPos(key)
+    local main = UDim2.new(0, 72, 0, 98)
+    local mini = UDim2.new(0, 60, 0, 86)
+    local y = 0.8
+    local map = {
+        GoldBomb = { UDim2.new(0.5, -188, y, -8), main },
+        NormalBomb = { UDim2.new(0.5, -108, y, -8), main },
+        Shoot = { UDim2.new(0.5, -28, y, -16), main },
+        Flick = { UDim2.new(0.5, 52, y, 0), mini },
+        ESP = { UDim2.new(0.5, 118, y, 0), mini },
+        GrabGun = { UDim2.new(0.5, 184, y, 0), mini },
+        WallHop = { UDim2.new(0.5, 250, y, 0), mini },
+        Speed = { UDim2.new(0.5, -320, y, 0), mini },
+        Stretch = { UDim2.new(0.5, -254, y, 0), mini },
+        FlingMurderer = { UDim2.new(0.5, -188, 0.68, 0), mini },
+        FlingSheriff = { UDim2.new(0.5, -122, 0.68, 0), mini },
+        Fly = { UDim2.new(0.5, 52, 0.68, 0), mini },
+        Noclip = { UDim2.new(0.5, 118, 0.68, 0), mini },
+        SilentThrow = { UDim2.new(0.5, 184, 0.68, 0), mini },
+        KillAll = { UDim2.new(0.5, 250, 0.68, 0), mini },
+        Farm = { UDim2.new(0.5, 316, 0.68, 0), mini },
+    }
+    local row = map[key]
+    if row then
+        return row[1], row[2]
+    end
+    return UDim2.new(0.5, 0, 0.78, 0), mini
+end
+function Velune.AttachSpin(node, asset)
+    if not node or not node.gem then
+        return
+    end
+    local img = Instance.new("ImageLabel")
+    img.Name = "SpinImg"
+    img.BackgroundTransparency = 1
+    img.Size = UDim2.new(0.7, 0, 0.7, 0)
+    img.Position = UDim2.new(0.15, 0, 0.15, 0)
+    img.Image = "rbxassetid://" .. tostring(asset)
+    img.ImageColor3 = Color3.new(1, 1, 1)
+    img.ZIndex = node.gem.ZIndex + 2
+    img.Parent = node.gem
+    node.img = img
+    task.spawn(function()
+        while img and img.Parent do
+            img.Rotation = img.Rotation + 4
+            RunService.RenderStepped:Wait()
+        end
+    end)
+    return img
+end
+function Velune.MakeFloorButton(key, label, color, callback, kind, icon)
+    local host = Velune.HostGui()
+    if Velune.Floor[key] and Velune.Floor[key].btn then
+        Velune.Floor[key].btn:Destroy()
+        Velune.Floor[key] = nil
+    end
+    local mobile = Velune.IsMobile()
+    local pos, size = Velune.FloorPos(key)
+    if kind == "main" then
+        size = mobile and UDim2.new(0, 74, 0, 74) or UDim2.new(0, 88, 0, 88)
+    else
+        size = mobile and UDim2.new(0, 58, 0, 58) or size
+    end
+    local parent
+    if mobile then
+        parent = Velune.EnsureMobileDock()
+    else
+        parent = Velune.EnsureFloorLayer()
+    end
+    local px = size.Y.Offset
+    local wide = size.X.Offset
+    local order = {
+        GoldBomb = 1,
+        NormalBomb = 2,
+        Shoot = 3,
+        ESP = 4,
+        Flick = 5,
+        WallHop = 6,
+        GrabGun = 7,
+        Speed = 8,
+        Stretch = 9,
+        FlingMurderer = 10,
+        FlingSheriff = 11,
+        Fly = 12,
+        Noclip = 13,
+        SilentThrow = 14,
+        KillAll = 15,
+        Farm = 16,
+    }
+    local btn = Instance.new("TextButton")
+    btn.Name = "VeluneFloor_" .. key
+    btn.Size = UDim2.new(0, math.floor(wide * 0.86), 0, math.floor(px * 0.86))
+    if mobile then
+        btn.Position = UDim2.new(0, 0, 0, 0)
+        btn.LayoutOrder = order[key] or 20
+    else
+        btn.Position = pos
+        btn.AnchorPoint = Vector2.new(0.5, 0)
+    end
+    btn.BackgroundColor3 = Color3.fromRGB(14, 10, 12)
+    btn.BackgroundTransparency = 0.08
+    btn.Text = ""
+    btn.AutoButtonColor = false
+    btn.BorderSizePixel = 0
+    btn.ZIndex = 70
+    btn.ClipsDescendants = true
+    btn.Parent = parent
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(0, 20)
+    corner.Parent = btn
+    local wash = Instance.new("UIGradient")
+    wash.Rotation = 90
+    wash.Color = ColorSequence.new(Color3.fromRGB(48, 28, 34), Color3.fromRGB(10, 8, 10))
+    wash.Parent = btn
+    local stroke = Instance.new("UIStroke")
+    stroke.Name = "Stroke"
+    stroke.Color = color
+    stroke.Thickness = 1.4
+    stroke.Transparency = 0.28
+    stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+    stroke.Parent = btn
+    local gem = Instance.new("Frame")
+    gem.Name = "Gem"
+    gem.Size = UDim2.new(0, 34, 0, 34)
+    gem.Position = UDim2.new(0.5, -17, 0, 10)
+    gem.BackgroundColor3 = Color3.fromRGB(20, 14, 16)
+    gem.BorderSizePixel = 0
+    gem.ZIndex = 73
+    gem.Parent = btn
+    local gemCorner = Instance.new("UICorner")
+    gemCorner.CornerRadius = UDim.new(0, 12)
+    gemCorner.Parent = gem
+    local gemStroke = Instance.new("UIStroke")
+    gemStroke.Color = color
+    gemStroke.Thickness = 1.2
+    gemStroke.Transparency = 0.15
+    gemStroke.Parent = gem
+    local bar = Instance.new("Frame")
+    bar.Name = "Bar"
+    bar.Size = UDim2.new(1, -18, 0, 3)
+    bar.Position = UDim2.new(0, 9, 1, -10)
+    bar.BackgroundColor3 = color
+    bar.BorderSizePixel = 0
+    bar.ZIndex = 73
+    bar.Parent = btn
+    local barCorner = Instance.new("UICorner")
+    barCorner.CornerRadius = UDim.new(1, 0)
+    barCorner.Parent = bar
+    local lab = Instance.new("TextLabel")
+    lab.Name = "Lbl"
+    lab.BackgroundTransparency = 1
+    lab.Size = UDim2.new(1, -8, 0, 28)
+    lab.Position = UDim2.new(0, 4, 0, 48)
+    lab.Font = Enum.Font.GothamBold
+    lab.Text = (label or ""):gsub("
+", " ")
+    lab.TextColor3 = color
+    lab.TextSize = 11
+    lab.TextWrapped = true
+    lab.TextXAlignment = Enum.TextXAlignment.Center
+    lab.TextYAlignment = Enum.TextYAlignment.Center
+    lab.ZIndex = 74
+    lab.Text = ""
+    lab.Visible = false
+    lab.Parent = btn
+    local art
+    local photo = key == "GoldBomb"
+    if photo then
+        art = Instance.new("ImageLabel")
+        art.Name = "Art"
+        art.BackgroundTransparency = 1
+        art.Size = UDim2.new(0.78, 0, 0.62, 0)
+        art.Position = UDim2.new(0.11, 0, 0.1, 0)
+        art.Image = "rbxassetid://90967307316831"
+        art.ScaleType = Enum.ScaleType.Fit
+        art.ZIndex = 75
+        art.Parent = btn
+    else
+        art = Instance.new("Frame")
+        art.Name = "Mark"
+        art.BackgroundColor3 = color
+        art.BorderSizePixel = 0
+        art.Size = UDim2.new(0, 16, 0, 16)
+        art.Position = UDim2.new(0.5, -8, 0.32, 0)
+        art.ZIndex = 75
+        art.Parent = btn
+        local mc = Instance.new("UICorner")
+        mc.CornerRadius = UDim.new(0, key == "Flick" and 8 or 3)
+        mc.Parent = art
+        if key == "Speed" or key == "WallHop" then
+            art.Rotation = 45
+        end
+    end
+    Velune.Spring(btn, { Size = size, BackgroundTransparency = 0.08 }, 0.22)
+    local node = { btn = btn, stroke = stroke, lbl = lab, art = art, photo = photo, gem = gem, gemStroke = gemStroke, bar = bar, kind = kind, color = color }
+    Velune.Floor[key] = node
+    if icon and icon ~= "" then
+        Velune.AttachSpin(node, icon)
+    end
+    local dragging = false
+    local pressed = false
+    local start, origin
+    btn.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            pressed = true
+            dragging = false
+            start = input.Position
+            origin = btn.Position
+            Velune.Spring(btn, { Size = UDim2.new(0, wide * 0.94, 0, px * 0.94) }, 0.08)
+            Velune.Spring(stroke, { Thickness = 2, Transparency = 0.18 }, 0.08)
+        end
+    end)
+    UserInputService.InputChanged:Connect(function(input)
+        if not pressed then
+            return
+        end
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            local d = input.Position - start
+            if d.Magnitude > 7 and not Velune.Flags.ButtonsLocked and not mobile then
+                dragging = true
+                btn.Position = UDim2.new(origin.X.Scale, origin.X.Offset + d.X, origin.Y.Scale, origin.Y.Offset + d.Y)
+            end
+        end
+    end)
+    UserInputService.InputEnded:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            if pressed and not dragging then
+                Velune.ClickTone()
+                callback()
+            end
+            pressed = false
+            dragging = false
+            Velune.Spring(btn, { Size = size }, 0.14)
+            Velune.Spring(stroke, { Thickness = 1.4, Transparency = 0.28 }, 0.16)
+        end
+    end)
+    return node
+end
+function Velune.DestroyFloor(key)
+    if Velune.Floor[key] and Velune.Floor[key].btn then
+        Velune.Floor[key].btn:Destroy()
+    end
+    Velune.Floor[key] = nil
+end
+function Velune.LoadGoldBomb(on)
+    if on then
+        Velune.Shown.GoldBomb = true
+        Velune.MakeFloorButton("GoldBomb", "GOLD
+JUMP", Color3.fromRGB(255, 215, 0), Velune.GoldJump, "main")
+    else
+        Velune.Shown.GoldBomb = false
+        Velune.DestroyFloor("GoldBomb")
+    end
+end
+function Velune.LoadNormalBomb(on)
+    if on then
+        Velune.Shown.NormalBomb = true
+        Velune.MakeFloorButton("NormalBomb", "NORMAL
+JUMP", Color3.fromRGB(0, 170, 255), Velune.NormalJump, "main")
+    else
+        Velune.Shown.NormalBomb = false
+        Velune.DestroyFloor("NormalBomb")
+    end
+end
+function Velune.LoadShoot(on)
+    if on then
+        Velune.Shown.Shoot = true
+        Velune.MakeFloorButton("Shoot", "SHOOT", Color3.fromRGB(255, 255, 255), Velune.ShootOrThrow, "main")
+    else
+        Velune.Shown.Shoot = false
+        Velune.DestroyFloor("Shoot")
+    end
+end
+function Velune.LoadESP(on)
+    if on then
+        Velune.Shown.ESP = true
+        Velune.MakeFloorButton("ESP", "ESP
+OFF", Color3.fromRGB(10, 140, 30), function()
+            Velune.Flags.ESP = not Velune.Flags.ESP
+            if not Velune.Flags.ESP then
+                Velune.ClearESP()
+            end
+            Velune.Notify("VELUNE", Velune.Flags.ESP and "ESP ON" or "ESP OFF")
+        end, "mini")
+    else
+        Velune.Shown.ESP = false
+        Velune.DestroyFloor("ESP")
+    end
+end
+function Velune.LoadFlick(on)
+    if on then
+        Velune.Shown.Flick = true
+        Velune.MakeFloorButton("Flick", "FLICK", Color3.fromRGB(180, 50, 255), Velune.Flick, "mini")
+    else
+        Velune.Shown.Flick = false
+        Velune.DestroyFloor("Flick")
+    end
+end
+function Velune.LoadWallHop(on)
+    if on then
+        Velune.Shown.WallHop = true
+        Velune.MakeFloorButton("WallHop", "WALL
+HOP", Color3.fromRGB(0, 210, 210), Velune.WallHop, "mini")
+    else
+        Velune.Shown.WallHop = false
+        Velune.DestroyFloor("WallHop")
+    end
+end
+function Velune.LoadGrabGun(on)
+    if on then
+        Velune.Shown.GrabGun = true
+        Velune.MakeFloorButton("GrabGun", "GRAB
+GUN", Color3.fromRGB(200, 120, 0), Velune.GrabGun, "mini")
+    else
+        Velune.Shown.GrabGun = false
+        Velune.DestroyFloor("GrabGun")
+    end
+end
+function Velune.LoadSpeed(on)
+    if on then
+        Velune.Shown.Speed = true
+        Velune.MakeFloorButton("Speed", "SPEED", Color3.fromRGB(0, 140, 120), function()
+            Velune.SetSpeed(not Velune.Flags.SpeedOn)
+        end, "mini")
+    else
+        Velune.Shown.Speed = false
+        Velune.DestroyFloor("Speed")
+    end
+end
+function Velune.LoadStretch(on)
+    if on then
+        Velune.Shown.Stretch = true
+        Velune.MakeFloorButton("Stretch", "STRETCH", Color3.fromRGB(200, 80, 0), function()
+            Velune.SetStretch(not Velune.Flags.StretchOn)
+        end, "mini")
+    else
+        Velune.Shown.Stretch = false
+        Velune.DestroyFloor("Stretch")
+    end
+end
+function Velune.LoadFlingMurderer(on)
+    if on then
+        Velune.Shown.FlingMurderer = true
+        Velune.MakeFloorButton("FlingMurderer", "FLING
+MURD", Color3.fromRGB(255, 50, 50), Velune.FlingMurderer, "mini")
+    else
+        Velune.Shown.FlingMurderer = false
+        Velune.DestroyFloor("FlingMurderer")
+    end
+end
+function Velune.LoadFlingSheriff(on)
+    if on then
+        Velune.Shown.FlingSheriff = true
+        Velune.MakeFloorButton("FlingSheriff", "FLING
+SHERIF", Color3.fromRGB(40, 130, 255), Velune.FlingSheriff, "mini")
+    else
+        Velune.Shown.FlingSheriff = false
+        Velune.DestroyFloor("FlingSheriff")
+    end
+end
+function Velune.LoadFly(on)
+    if on then
+        Velune.Shown.Fly = true
+        Velune.MakeFloorButton("Fly", "FLY", Color3.fromRGB(180, 80, 220), function()
+            Velune.SetFly(not Velune.Flags.Fly)
+        end, "mini")
+    else
+        Velune.Shown.Fly = false
+        Velune.DestroyFloor("Fly")
+    end
+end
+function Velune.LoadNoclip(on)
+    if on then
+        Velune.Shown.Noclip = true
+        Velune.MakeFloorButton("Noclip", "NOCLIP", Color3.fromRGB(90, 90, 110), function()
+            Velune.SetNoclip(not Velune.Flags.Noclip)
+        end, "mini")
+    else
+        Velune.Shown.Noclip = false
+        Velune.DestroyFloor("Noclip")
+    end
+end
+function Velune.LoadSilentThrow(on)
+    if on then
+        Velune.Shown.SilentThrow = true
+        Velune.MakeFloorButton("SilentThrow", "SILENT
+THROW", Color3.fromRGB(255, 140, 40), Velune.SilentThrow, "mini")
+    else
+        Velune.Shown.SilentThrow = false
+        Velune.DestroyFloor("SilentThrow")
+    end
+end
+function Velune.LoadKillAll(on)
+    if on then
+        Velune.Shown.KillAll = true
+        Velune.MakeFloorButton("KillAll", "KILL
+ALL", Color3.fromRGB(180, 20, 40), Velune.KillAll, "mini")
+    else
+        Velune.Shown.KillAll = false
+        Velune.DestroyFloor("KillAll")
+    end
+end
+function Velune.LoadFarm(on)
+    if on then
+        Velune.Shown.Farm = true
+        Velune.MakeFloorButton("Farm", "FARM", Color3.fromRGB(80, 200, 90), function()
+            Velune.Flags.AutoFarm = not Velune.Flags.AutoFarm
+            Velune.Notify("VELUNE", Velune.Flags.AutoFarm and "Farm ON" or "Farm OFF")
+        end, "mini")
+    else
+        Velune.Shown.Farm = false
+        Velune.DestroyFloor("Farm")
+    end
+end
+function Velune.TickFloor()
+    local f = Velune.Floor
+    local lock = false
+    pcall(function()
+        lock = UserInputService.MouseBehavior == Enum.MouseBehavior.LockCenter
+    end)
+    if f.GoldBomb then
+        local wait = (Velune.Cool.gold or 0) > tick()
+        f.GoldBomb.lbl.Text = ""
+        Velune.PaintTone(f.GoldBomb, wait and Color3.fromRGB(255, 120, 0) or Color3.fromRGB(255, 215, 0))
+    end
+    if f.NormalBomb then
+        local wait = (Velune.Cool.normal or 0) > tick()
+        f.NormalBomb.lbl.Text = ""
+        Velune.PaintTone(f.NormalBomb, wait and Color3.fromRGB(255, 120, 0) or Color3.fromRGB(0, 170, 255))
+    end
+    if f.Shoot then
+        local knife = Velune.HasTool("Knife")
+        f.Shoot.lbl.Text = ""
+    end
+    if f.ESP then
+        local on = Velune.Flags.ESP
+        f.ESP.lbl.Text = ""
+        Velune.PaintTone(f.ESP, on and Color3.fromRGB(50, 220, 80) or Color3.fromRGB(10, 140, 30))
+    end
+    if f.Flick then
+        local col = Velune.FlickBusy and Color3.fromRGB(255, 120, 0) or (lock and Color3.fromRGB(120, 200, 255) or Color3.fromRGB(180, 50, 255))
+        f.Flick.lbl.Text = ""
+        Velune.PaintTone(f.Flick, col)
+    end
+    if f.WallHop then
+        local wait = (Velune.Cool.wallhop or 0) > tick()
+        local col = wait and Color3.fromRGB(255, 120, 0) or (lock and Color3.fromRGB(0, 255, 220) or Color3.fromRGB(0, 210, 210))
+        f.WallHop.lbl.Text = ""
+        Velune.PaintTone(f.WallHop, col)
+    end
+    if f.Speed then
+        f.Speed.lbl.Text = ""
+        Velune.PaintTone(f.Speed, Velune.Flags.SpeedOn and Color3.fromRGB(0, 220, 200) or Color3.fromRGB(0, 140, 120))
+    end
+    if f.Stretch then
+        f.Stretch.lbl.Text = ""
+        Velune.PaintTone(f.Stretch, Velune.Flags.StretchOn and Color3.fromRGB(255, 140, 30) or Color3.fromRGB(200, 80, 0))
+    end
+    if f.Fly then
+        f.Fly.lbl.Text = ""
+        Velune.PaintTone(f.Fly, Velune.Flags.Fly and Color3.fromRGB(210, 120, 255) or Color3.fromRGB(180, 80, 220))
+    end
+    if f.Noclip then
+        f.Noclip.lbl.Text = ""
+        Velune.PaintTone(f.Noclip, Velune.Flags.Noclip and Color3.fromRGB(160, 160, 180) or Color3.fromRGB(90, 90, 110))
+    end
+    if f.GrabGun then
+        local drop = Velune.GunDrop()
+        local col = drop and Color3.fromRGB(255, 215, 0) or Color3.fromRGB(200, 100, 0)
+        f.GrabGun.lbl.Text = ""
+        Velune.PaintTone(f.GrabGun, col)
+    end
+    if f.FlingMurderer then
+        local m = Velune.FindMurderer()
+        local col = Velune.FlingBusy and Color3.fromRGB(255, 180, 0) or (m and Color3.fromRGB(255, 50, 50) or Color3.fromRGB(200, 20, 20))
+        f.FlingMurderer.lbl.Text = ""
+        Velune.PaintTone(f.FlingMurderer, col)
+    end
+    if f.FlingSheriff then
+        local s = Velune.FindSheriff()
+        local col = Velune.FlingBusy and Color3.fromRGB(255, 180, 0) or (s and Color3.fromRGB(40, 130, 255) or Color3.fromRGB(10, 80, 200))
+        f.FlingSheriff.lbl.Text = ""
+        Velune.PaintTone(f.FlingSheriff, col)
+    end
+    if f.Farm then
+        f.Farm.lbl.Text = ""
+        Velune.PaintTone(f.Farm, Velune.Flags.AutoFarm and Color3.fromRGB(120, 240, 130) or Color3.fromRGB(80, 200, 90))
+    end
+    if f.SilentThrow then
+        f.SilentThrow.lbl.Text = ""
+    end
+end
+
+function Velune.OpenSkyPicker()
+    local host = Velune.HostGui()
+    local old = host:FindFirstChild("VeluneSkyPicker")
+    if old then
+        old:Destroy()
+        return
+    end
+    local wrap = Instance.new("Frame")
+    wrap.Name = "VeluneSkyPicker"
+    wrap.Size = UDim2.new(0, 310, 0, 420)
+    wrap.Position = UDim2.new(0.5, -155, 0.08, 0)
+    wrap.BackgroundColor3 = Velune.Ink
+    wrap.BackgroundTransparency = 0.04
+    wrap.BorderSizePixel = 0
+    wrap.ZIndex = 90
+    wrap.Parent = host
+    local c = Instance.new("UICorner")
+    c.CornerRadius = UDim.new(0, 12)
+    c.Parent = wrap
+    local st = Instance.new("UIStroke")
+    st.Color = Velune.Accent
+    st.Thickness = 1.5
+    st.Parent = wrap
+    local title = Instance.new("TextLabel")
+    title.BackgroundTransparency = 1
+    title.Size = UDim2.new(1, -44, 0, 38)
+    title.Position = UDim2.new(0, 12, 0, 0)
+    title.Font = Enum.Font.GothamBold
+    title.TextSize = 14
+    title.TextXAlignment = Enum.TextXAlignment.Left
+    title.TextColor3 = Velune.Paper
+    title.Text = "VELUNE  —  Skybox Picker"
+    title.ZIndex = 91
+    title.Parent = wrap
+    local x = Instance.new("TextButton")
+    x.Size = UDim2.new(0, 28, 0, 28)
+    x.Position = UDim2.new(1, -34, 0, 5)
+    x.BackgroundColor3 = Color3.fromRGB(180, 30, 30)
+    x.Text = "X"
+    x.TextColor3 = Color3.new(1, 1, 1)
+    x.Font = Enum.Font.GothamBold
+    x.TextSize = 13
+    x.ZIndex = 92
+    x.Parent = wrap
+    Instance.new("UICorner", x).CornerRadius = UDim.new(0, 6)
+    x.MouseButton1Click:Connect(function()
+        wrap:Destroy()
+    end)
+    local box = Instance.new("TextBox")
+    box.Size = UDim2.new(1, -20, 0, 34)
+    box.Position = UDim2.new(0, 10, 0, 44)
+    box.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+    box.PlaceholderText = "Enter custom Skybox ID, press Enter..."
+    box.Text = ""
+    box.TextColor3 = Color3.new(1, 1, 1)
+    box.Font = Enum.Font.Gotham
+    box.TextSize = 13
+    box.ClearTextOnFocus = false
+    box.ZIndex = 91
+    box.Parent = wrap
+    Instance.new("UICorner", box).CornerRadius = UDim.new(0, 6)
+    box.FocusLost:Connect(function(enter)
+        if enter and box.Text ~= "" then
+            Velune.ApplySkyId(box.Text)
+            box.Text = ""
+        end
+    end)
+    local restore = Instance.new("TextButton")
+    restore.Size = UDim2.new(1, -20, 0, 28)
+    restore.Position = UDim2.new(0, 10, 0, 84)
+    restore.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+    restore.Text = "Restore Default Sky"
+    restore.TextColor3 = Color3.fromRGB(200, 200, 200)
+    restore.Font = Enum.Font.GothamBold
+    restore.TextSize = 12
+    restore.ZIndex = 91
+    restore.Parent = wrap
+    Instance.new("UICorner", restore).CornerRadius = UDim.new(0, 6)
+    restore.MouseButton1Click:Connect(function()
+        Velune.RestoreSky()
+        wrap:Destroy()
+    end)
+    local list = Instance.new("ScrollingFrame")
+    list.Size = UDim2.new(1, -14, 1, -126)
+    list.Position = UDim2.new(0, 7, 0, 124)
+    list.BackgroundTransparency = 1
+    list.BorderSizePixel = 0
+    list.ScrollBarThickness = 4
+    list.CanvasSize = UDim2.new(0, 0, 0, #Velune.SkyList * 56)
+    list.ZIndex = 91
+    list.Parent = wrap
+    local lay = Instance.new("UIListLayout")
+    lay.Padding = UDim.new(0, 6)
+    lay.SortOrder = Enum.SortOrder.LayoutOrder
+    lay.Parent = list
+    for i, row in ipairs(Velune.SkyList) do
+        local b = Instance.new("TextButton")
+        b.Size = UDim2.new(1, -8, 0, 48)
+        b.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+        b.Text = ""
+        b.AutoButtonColor = false
+        b.LayoutOrder = i
+        b.ZIndex = 92
+        b.Parent = list
+        Instance.new("UICorner", b).CornerRadius = UDim.new(0, 8)
+        local sw = Instance.new("Frame")
+        sw.Size = UDim2.new(0, 34, 0, 34)
+        sw.Position = UDim2.new(0, 8, 0.5, -17)
+        sw.BackgroundColor3 = row.color
+        sw.BorderSizePixel = 0
+        sw.ZIndex = 93
+        sw.Parent = b
+        Instance.new("UICorner", sw).CornerRadius = UDim.new(0, 6)
+        local nm = Instance.new("TextLabel")
+        nm.BackgroundTransparency = 1
+        nm.Size = UDim2.new(1, -58, 0, 22)
+        nm.Position = UDim2.new(0, 50, 0, 6)
+        nm.Font = Enum.Font.GothamBold
+        nm.TextSize = 14
+        nm.TextXAlignment = Enum.TextXAlignment.Left
+        nm.TextColor3 = Color3.fromRGB(210, 210, 210)
+        nm.Text = row.name
+        nm.ZIndex = 93
+        nm.Parent = b
+        local idl = Instance.new("TextLabel")
+        idl.BackgroundTransparency = 1
+        idl.Size = UDim2.new(1, -58, 0, 14)
+        idl.Position = UDim2.new(0, 50, 1, -18)
+        idl.Font = Enum.Font.Gotham
+        idl.TextSize = 10
+        idl.TextXAlignment = Enum.TextXAlignment.Left
+        idl.TextColor3 = Color3.fromRGB(100, 100, 100)
+        idl.Text = "ID: " .. row.id
+        idl.ZIndex = 93
+        idl.Parent = b
+        b.MouseButton1Click:Connect(function()
+            row.apply()
+        end)
+    end
+    Velune.MakeDrag(wrap)
+end
+function Velune.OpenCursorPicker()
+    local host = Velune.HostGui()
+    local old = host:FindFirstChild("VeluneCursorPicker")
+    if old then
+        old:Destroy()
+        return
+    end
+    local wrap = Instance.new("Frame")
+    wrap.Name = "VeluneCursorPicker"
+    wrap.Size = UDim2.new(0, 300, 0, 460)
+    wrap.Position = UDim2.new(0.5, -150, 0.06, 0)
+    wrap.BackgroundColor3 = Velune.Ink
+    wrap.BackgroundTransparency = 0.04
+    wrap.BorderSizePixel = 0
+    wrap.ZIndex = 90
+    wrap.Parent = host
+    Instance.new("UICorner", wrap).CornerRadius = UDim.new(0, 12)
+    local st = Instance.new("UIStroke")
+    st.Color = Velune.Accent
+    st.Thickness = 1.5
+    st.Parent = wrap
+    local title = Instance.new("TextLabel")
+    title.BackgroundTransparency = 1
+    title.Size = UDim2.new(1, -44, 0, 38)
+    title.Position = UDim2.new(0, 12, 0, 0)
+    title.Font = Enum.Font.GothamBold
+    title.TextSize = 14
+    title.TextXAlignment = Enum.TextXAlignment.Left
+    title.TextColor3 = Velune.Paper
+    title.Text = "VELUNE  —  Cursor Picker"
+    title.ZIndex = 91
+    title.Parent = wrap
+    local x = Instance.new("TextButton")
+    x.Size = UDim2.new(0, 28, 0, 28)
+    x.Position = UDim2.new(1, -34, 0, 5)
+    x.BackgroundColor3 = Color3.fromRGB(180, 30, 30)
+    x.Text = "X"
+    x.TextColor3 = Color3.new(1, 1, 1)
+    x.Font = Enum.Font.GothamBold
+    x.TextSize = 13
+    x.ZIndex = 92
+    x.Parent = wrap
+    Instance.new("UICorner", x).CornerRadius = UDim.new(0, 6)
+    x.MouseButton1Click:Connect(function()
+        wrap:Destroy()
+    end)
+    local spin = Instance.new("TextButton")
+    spin.Size = UDim2.new(0, 54, 0, 26)
+    spin.Position = UDim2.new(1, -64, 0, 48)
+    spin.BackgroundColor3 = Velune.Flags.CursorSpin and Color3.fromRGB(30, 160, 30) or Color3.fromRGB(80, 20, 20)
+    spin.Text = Velune.Flags.CursorSpin and "ON" or "OFF"
+    spin.TextColor3 = Color3.new(1, 1, 1)
+    spin.Font = Enum.Font.GothamBold
+    spin.TextSize = 12
+    spin.ZIndex = 92
+    spin.Parent = wrap
+    Instance.new("UICorner", spin).CornerRadius = UDim.new(0, 8)
+    spin.MouseButton1Click:Connect(function()
+        Velune.Flags.CursorSpin = not Velune.Flags.CursorSpin
+        spin.BackgroundColor3 = Velune.Flags.CursorSpin and Color3.fromRGB(30, 160, 30) or Color3.fromRGB(80, 20, 20)
+        spin.Text = Velune.Flags.CursorSpin and "ON" or "OFF"
+        Velune.Notify("VELUNE", "Crosshair Spin: " .. (Velune.Flags.CursorSpin and "ON" or "OFF"))
+    end)
+    local list = Instance.new("ScrollingFrame")
+    list.Size = UDim2.new(1, -14, 1, -88)
+    list.Position = UDim2.new(0, 7, 0, 82)
+    list.BackgroundTransparency = 1
+    list.ScrollBarThickness = 4
+    list.CanvasSize = UDim2.new(0, 0, 0, math.ceil(#Velune.CursorList / 2) * 118)
+    list.ZIndex = 91
+    list.Parent = wrap
+    local grid = Instance.new("UIGridLayout")
+    grid.CellSize = UDim2.new(0, 128, 0, 110)
+    grid.CellPadding = UDim2.new(0, 8, 0, 8)
+    grid.Parent = list
+    for i, row in ipairs(Velune.CursorList) do
+        local b = Instance.new("TextButton")
+        b.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+        b.Text = ""
+        b.AutoButtonColor = false
+        b.LayoutOrder = i
+        b.ZIndex = 92
+        b.Parent = list
+        Instance.new("UICorner", b).CornerRadius = UDim.new(0, 8)
+        local img = Instance.new("ImageLabel")
+        img.Size = UDim2.new(0, 58, 0, 58)
+        img.AnchorPoint = Vector2.new(0.5, 0)
+        img.Position = UDim2.new(0.5, 0, 0, 8)
+        img.BackgroundTransparency = 1
+        img.Image = "rbxassetid://" .. row.id
+        img.ZIndex = 93
+        img.Parent = b
+        local nm = Instance.new("TextLabel")
+        nm.BackgroundTransparency = 1
+        nm.Size = UDim2.new(1, -6, 0, 28)
+        nm.Position = UDim2.new(0, 3, 1, -30)
+        nm.Font = Enum.Font.GothamBold
+        nm.TextSize = 11
+        nm.TextWrapped = true
+        nm.Text = row.name
+        nm.TextColor3 = Color3.fromRGB(200, 200, 200)
+        nm.ZIndex = 93
+        nm.Parent = b
+        b.MouseButton1Click:Connect(function()
+            row.apply()
+            wrap:Destroy()
+        end)
+    end
+    Velune.MakeDrag(wrap)
+end
+function Velune.OpenSlider(title, min, max, current, step, apply, reset)
+    local host = Velune.HostGui()
+    local name = "VeluneSlider_" .. title:gsub("%s+", "_")
+    local old = host:FindFirstChild(name)
+    if old then
+        old:Destroy()
+        return
+    end
+    local wrap = Instance.new("Frame")
+    wrap.Name = name
+    wrap.Size = UDim2.new(0, 300, 0, 175)
+    wrap.Position = UDim2.new(0.5, -150, 0.32, 0)
+    wrap.BackgroundColor3 = Velune.Ink
+    wrap.BackgroundTransparency = 0.08
+    wrap.BorderSizePixel = 0
+    wrap.ZIndex = 95
+    wrap.Parent = host
+    Instance.new("UICorner", wrap).CornerRadius = UDim.new(0, 10)
+    local st = Instance.new("UIStroke")
+    st.Color = Velune.Accent
+    st.Thickness = 1.5
+    st.Parent = wrap
+    local t = Instance.new("TextLabel")
+    t.BackgroundTransparency = 1
+    t.Size = UDim2.new(1, -44, 0, 36)
+    t.Position = UDim2.new(0, 12, 0, 0)
+    t.Font = Enum.Font.GothamBold
+    t.TextSize = 14
+    t.TextXAlignment = Enum.TextXAlignment.Left
+    t.TextColor3 = Color3.new(1, 1, 1)
+    t.Text = "VELUNE  —  " .. title
+    t.ZIndex = 96
+    t.Parent = wrap
+    local x = Instance.new("TextButton")
+    x.Size = UDim2.new(0, 28, 0, 28)
+    x.Position = UDim2.new(1, -34, 0, 4)
+    x.BackgroundColor3 = Color3.fromRGB(180, 30, 30)
+    x.Text = "X"
+    x.Font = Enum.Font.GothamBold
+    x.TextSize = 13
+    x.TextColor3 = Color3.new(1, 1, 1)
+    x.ZIndex = 96
+    x.Parent = wrap
+    Instance.new("UICorner", x).CornerRadius = UDim.new(0, 6)
+    x.MouseButton1Click:Connect(function()
+        wrap:Destroy()
+    end)
+    local value = current
+    local valLab = Instance.new("TextLabel")
+    valLab.BackgroundTransparency = 1
+    valLab.Size = UDim2.new(1, 0, 0, 22)
+    valLab.Position = UDim2.new(0, 0, 0, 38)
+    valLab.Font = Enum.Font.Gotham
+    valLab.TextSize = 13
+    valLab.TextColor3 = Color3.fromRGB(210, 210, 210)
+    valLab.Text = title .. ":  " .. tostring(value)
+    valLab.ZIndex = 96
+    valLab.Parent = wrap
+    local track = Instance.new("Frame")
+    track.Size = UDim2.new(1, -30, 0, 10)
+    track.Position = UDim2.new(0, 15, 0, 72)
+    track.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+    track.BorderSizePixel = 0
+    track.ZIndex = 96
+    track.Parent = wrap
+    Instance.new("UICorner", track).CornerRadius = UDim.new(1, 0)
+    local fill = Instance.new("Frame")
+    fill.Size = UDim2.new((value - min) / (max - min), 0, 1, 0)
+    fill.BackgroundColor3 = Velune.Accent
+    fill.BorderSizePixel = 0
+    fill.ZIndex = 97
+    fill.Parent = track
+    Instance.new("UICorner", fill).CornerRadius = UDim.new(1, 0)
+    local knob = Instance.new("TextButton")
+    knob.Size = UDim2.new(0, 26, 0, 26)
+    knob.Position = UDim2.new((value - min) / (max - min), -13, 0.5, -13)
+    knob.BackgroundColor3 = Color3.new(1, 1, 1)
+    knob.Text = ""
+    knob.AutoButtonColor = false
+    knob.ZIndex = 98
+    knob.Parent = track
+    Instance.new("UICorner", knob).CornerRadius = UDim.new(1, 0)
+    local function setFromX(x)
+        local a = math.clamp((x - track.AbsolutePosition.X) / track.AbsoluteSize.X, 0, 1)
+        local n = min + a * (max - min)
+        n = math.round(n)
+        if step and step > 0 then
+            n = math.round(n / step) * step
+        end
+        value = n
+        local u = (value - min) / (max - min)
+        fill.Size = UDim2.new(u, 0, 1, 0)
+        knob.Position = UDim2.new(u, -13, 0.5, -13)
+        valLab.Text = title .. ":  " .. tostring(value)
+    end
+    local hold = false
+    track.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            hold = true
+            setFromX(input.Position.X)
+        end
+    end)
+    UserInputService.InputChanged:Connect(function(input)
+        if hold and (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+            setFromX(input.Position.X)
+        end
+    end)
+    UserInputService.InputEnded:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            hold = false
+        end
+    end)
+    local applyBtn = Instance.new("TextButton")
+    applyBtn.Size = UDim2.new(0.48, 0, 0, 36)
+    applyBtn.Position = UDim2.new(0, 10, 1, -46)
+    applyBtn.BackgroundColor3 = Color3.fromRGB(20, 160, 20)
+    applyBtn.Text = "Apply"
+    applyBtn.Font = Enum.Font.GothamBold
+    applyBtn.TextSize = 13
+    applyBtn.TextColor3 = Color3.new(1, 1, 1)
+    applyBtn.ZIndex = 96
+    applyBtn.Parent = wrap
+    Instance.new("UICorner", applyBtn).CornerRadius = UDim.new(0, 6)
+    applyBtn.MouseButton1Click:Connect(function()
+        apply(value)
+        Velune.Notify("VELUNE", title .. " set to " .. value)
+    end)
+    local resetBtn = Instance.new("TextButton")
+    resetBtn.Size = UDim2.new(0.48, 0, 0, 36)
+    resetBtn.Position = UDim2.new(0.52, 0, 1, -46)
+    resetBtn.BackgroundColor3 = Color3.fromRGB(160, 20, 20)
+    resetBtn.Text = "Reset"
+    resetBtn.Font = Enum.Font.GothamBold
+    resetBtn.TextSize = 13
+    resetBtn.TextColor3 = Color3.new(1, 1, 1)
+    resetBtn.ZIndex = 96
+    resetBtn.Parent = wrap
+    Instance.new("UICorner", resetBtn).CornerRadius = UDim.new(0, 6)
+    resetBtn.MouseButton1Click:Connect(function()
+        reset()
+        wrap:Destroy()
+    end)
+    Velune.MakeDrag(wrap)
+end
+
+
+function Velune.UICorner(obj, r)
+    local c = Instance.new("UICorner")
+    c.CornerRadius = UDim.new(0, r or 10)
+    c.Parent = obj
+    return c
+end
+function Velune.UIStroke(obj, col, thick, trans)
+    local s = Instance.new("UIStroke")
+    s.Color = col or Velune.Accent
+    s.Thickness = thick or 1.2
+    s.Transparency = trans or 0.25
+    s.Parent = obj
+    return s
+end
+function Velune.UIPad(obj, l, t, r, b)
+    local p = Instance.new("UIPadding")
+    p.PaddingLeft = UDim.new(0, l or 10)
+    p.PaddingTop = UDim.new(0, t or 8)
+    p.PaddingRight = UDim.new(0, r or 10)
+    p.PaddingBottom = UDim.new(0, b or 8)
+    p.Parent = obj
+    return p
+end
+function Velune.MakeLabel(parent, text, size, bold, col, h)
+    local l = Instance.new("TextLabel")
+    l.BackgroundTransparency = 1
+    l.Size = UDim2.new(1, 0, 0, h or 18)
+    l.Font = bold and Enum.Font.GothamBold or Enum.Font.Gotham
+    l.TextSize = size or 13
+    l.TextColor3 = col or Velune.Paper
+    l.TextXAlignment = Enum.TextXAlignment.Left
+    l.Text = text
+    l.ZIndex = (parent.ZIndex or 80) + 1
+    l.Parent = parent
+    return l
+end
+function Velune.OpenNativeColor(title, current, apply)
+    local host = Velune.HostGui()
+    local old = host:FindFirstChild("VeluneColor")
+    if old then
+        old:Destroy()
+    end
+    local wrap = Instance.new("Frame")
+    wrap.Name = "VeluneColor"
+    wrap.Size = UDim2.new(0, 280, 0, 220)
+    wrap.Position = UDim2.new(0.5, -140, 0.5, -110)
+    wrap.BackgroundColor3 = Velune.Ink
+    wrap.BorderSizePixel = 0
+    wrap.ZIndex = 140
+    wrap.Parent = host
+    Velune.UICorner(wrap, 12)
+    Velune.UIStroke(wrap, Velune.Accent, 1.4, 0.2)
+    local t = Velune.MakeLabel(wrap, title or "Color", 15, true, Velune.Accent, 28)
+    t.Position = UDim2.new(0, 14, 0, 8)
+    local preview = Instance.new("Frame")
+    preview.Size = UDim2.new(1, -28, 0, 28)
+    preview.Position = UDim2.new(0, 14, 0, 38)
+    preview.BackgroundColor3 = current
+    preview.BorderSizePixel = 0
+    preview.ZIndex = 141
+    preview.Parent = wrap
+    Velune.UICorner(preview, 6)
+    local r, g, b = math.floor(current.R * 255 + 0.5), math.floor(current.G * 255 + 0.5), math.floor(current.B * 255 + 0.5)
+    local function channel(name, y, start, setter)
+        local lab = Velune.MakeLabel(wrap, name, 12, true, Velune.Paper, 16)
+        lab.Position = UDim2.new(0, 14, 0, y)
+        local bar = Instance.new("Frame")
+        bar.Size = UDim2.new(1, -28, 0, 10)
+        bar.Position = UDim2.new(0, 14, 0, y + 18)
+        bar.BackgroundColor3 = Color3.fromRGB(40, 32, 34)
+        bar.BorderSizePixel = 0
+        bar.ZIndex = 141
+        bar.Parent = wrap
+        Velune.UICorner(bar, 5)
+        local fill = Instance.new("Frame")
+        fill.Size = UDim2.new(start / 255, 0, 1, 0)
+        fill.BackgroundColor3 = Velune.Accent
+        fill.BorderSizePixel = 0
+        fill.ZIndex = 142
+        fill.Parent = bar
+        Velune.UICorner(fill, 5)
+        local hold = false
+        local function setFrom(x)
+            local a = math.clamp((x - bar.AbsolutePosition.X) / bar.AbsoluteSize.X, 0, 1)
+            fill.Size = UDim2.new(a, 0, 1, 0)
+            setter(math.floor(a * 255 + 0.5))
+            preview.BackgroundColor3 = Color3.fromRGB(r, g, b)
+        end
+        bar.InputBegan:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                hold = true
+                setFrom(input.Position.X)
+            end
+        end)
+        UserInputService.InputChanged:Connect(function(input)
+            if hold then
+                setFrom(input.Position.X)
+            end
+        end)
+        UserInputService.InputEnded:Connect(function(input)
+            if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+                hold = false
+            end
+        end)
+    end
+    channel("R", 76, r, function(v) r = v end)
+    channel("G", 114, g, function(v) g = v end)
+    channel("B", 152, b, function(v) b = v end)
+    local go = Instance.new("TextButton")
+    go.Size = UDim2.new(1, -28, 0, 32)
+    go.Position = UDim2.new(0, 14, 1, -42)
+    go.BackgroundColor3 = Velune.Accent
+    go.Text = "Apply"
+    go.Font = Enum.Font.GothamBold
+    go.TextSize = 13
+    go.TextColor3 = Color3.new(1, 1, 1)
+    go.ZIndex = 142
+    go.Parent = wrap
+    Velune.UICorner(go, 7)
+    go.MouseButton1Click:Connect(function()
+        apply(Color3.fromRGB(r, g, b))
+        wrap:Destroy()
+    end)
+    Velune.MakeDrag(wrap)
+end
+function Velune.NativeRow(parent, height)
+    local row = Instance.new("Frame")
+    row.BackgroundColor3 = Color3.fromRGB(22, 18, 20)
+    row.BackgroundTransparency = 0.12
+    row.BorderSizePixel = 0
+    row.Size = UDim2.new(1, -8, 0, height or 54)
+    row.ZIndex = 92
+    row.Parent = parent
+    Velune.UICorner(row, 12)
+    Velune.UIStroke(row, Color3.fromRGB(225, 29, 72), 1, 0.72)
+    local tick = Instance.new("Frame")
+    tick.Size = UDim2.new(0, 3, 1, -16)
+    tick.Position = UDim2.new(0, 6, 0, 8)
+    tick.BackgroundColor3 = Velune.Accent
+    tick.BorderSizePixel = 0
+    tick.ZIndex = 93
+    tick.Parent = row
+    Velune.UICorner(tick, 2)
+    return row
+end
+function Velune.NativeToggle(parent, title, desc, value, cb)
+    local row = Velune.NativeRow(parent, desc and 58 or 48)
+    local t = Velune.MakeLabel(row, title, 13, true, Velune.Paper, 18)
+    t.Position = UDim2.new(0, 12, 0, desc and 8 or 14)
+    if desc then
+        local d = Velune.MakeLabel(row, desc, 11, false, Velune.Muted, 16)
+        d.Position = UDim2.new(0, 12, 0, 28)
+        d.Size = UDim2.new(1, -72, 0, 16)
+    end
+    local track = Instance.new("TextButton")
+    track.Size = UDim2.new(0, 42, 0, 24)
+    track.Position = UDim2.new(1, -54, 0.5, -12)
+    track.BackgroundColor3 = value and Velune.Accent or Color3.fromRGB(48, 40, 44)
+    track.Text = ""
+    track.AutoButtonColor = false
+    track.ZIndex = 94
+    track.Parent = row
+    Velune.UICorner(track, 12)
+    local knob = Instance.new("Frame")
+    knob.Size = UDim2.new(0, 18, 0, 18)
+    knob.Position = value and UDim2.new(1, -21, 0.5, -9) or UDim2.new(0, 3, 0.5, -9)
+    knob.BackgroundColor3 = Color3.new(1, 1, 1)
+    knob.BorderSizePixel = 0
+    knob.ZIndex = 95
+    knob.Parent = track
+    Velune.UICorner(knob, 9)
+    local on = value
+    track.MouseButton1Click:Connect(function()
+        on = not on
+        Velune.Spring(knob, { Position = on and UDim2.new(1, -21, 0.5, -9) or UDim2.new(0, 3, 0.5, -9) }, 0.16)
+        Velune.Spring(track, { BackgroundColor3 = on and Velune.Accent or Color3.fromRGB(48, 40, 44) }, 0.16)
+        Velune.ClickTone()
+        cb(on)
+    end)
+    return row
+end
+function Velune.NativeAction(parent, title, desc, cb)
+    local row = Velune.NativeRow(parent, desc and 58 or 46)
+    local t = Velune.MakeLabel(row, title, 13, true, Velune.Paper, 18)
+    t.Position = UDim2.new(0, 12, 0, desc and 8 or 14)
+    if desc then
+        local d = Velune.MakeLabel(row, desc, 11, false, Velune.Muted, 16)
+        d.Position = UDim2.new(0, 12, 0, 28)
+        d.Size = UDim2.new(1, -20, 0, 16)
+    end
+    local hit = Instance.new("TextButton")
+    hit.BackgroundTransparency = 1
+    hit.Size = UDim2.new(1, 0, 1, 0)
+    hit.Text = ""
+    hit.ZIndex = 96
+    hit.Parent = row
+    hit.MouseButton1Click:Connect(function()
+        Velune.ClickTone()
+        Velune.Spring(row, { BackgroundTransparency = 0 }, 0.08)
+        task.delay(0.1, function()
+            Velune.Spring(row, { BackgroundTransparency = 0.12 }, 0.16)
+        end)
+        cb()
+    end)
+    return row
+end
+function Velune.NativeColor(parent, title, get, set)
+    local row = Velune.NativeRow(parent, 48)
+    local t = Velune.MakeLabel(row, title, 13, true, Velune.Paper, 18)
+    t.Position = UDim2.new(0, 12, 0, 14)
+    local sw = Instance.new("TextButton")
+    sw.Size = UDim2.new(0, 28, 0, 28)
+    sw.Position = UDim2.new(1, -42, 0.5, -14)
+    sw.BackgroundColor3 = get()
+    sw.Text = ""
+    sw.AutoButtonColor = false
+    sw.ZIndex = 94
+    sw.Parent = row
+    Velune.UICorner(sw, 8)
+    Velune.UIStroke(sw, Color3.new(1, 1, 1), 1, 0.55)
+    sw.MouseButton1Click:Connect(function()
+        Velune.OpenNativeColor(title, get(), function(c)
+            sw.BackgroundColor3 = c
+            set(c)
+        end)
+    end)
+    return row
+end
+function Velune.PaintNativePage(id)
+    local body = Velune.UI.Body
+    if not body then
+        return
+    end
+    for _, ch in ipairs(body:GetChildren()) do
+        if ch:IsA("GuiObject") and ch.Name ~= "Layout" and ch.Name ~= "Pad" then
+            ch:Destroy()
+        end
+    end
+    if id == "combat" then
+        Velune.MakeLabel(body, "Auto-loaded buttons", 12, true, Velune.Muted, 18)
+        Velune.NativeToggle(body, "Show Gold Bomb", "88px glass jump on the floor.", Velune.Shown.GoldBomb, function(v) Velune.LoadGoldBomb(v) end)
+        Velune.NativeToggle(body, "Show Normal Bomb", nil, Velune.Shown.NormalBomb, function(v) Velune.LoadNormalBomb(v) end)
+        Velune.NativeToggle(body, "Show Shoot / Throw", "Spins the gun asset. Swaps to knife id 9695655416.", Velune.Shown.Shoot, function(v) Velune.LoadShoot(v) end)
+        Velune.MakeLabel(body, "Optional buttons", 12, true, Velune.Muted, 18)
+        Velune.NativeToggle(body, "Load Flick", "180° snap. Shift-lock flips camera, otherwise the character turns.", Velune.Shown.Flick, function(v) Velune.LoadFlick(v) end)
+        Velune.NativeToggle(body, "Load Wall Hop", nil, Velune.Shown.WallHop, function(v) Velune.LoadWallHop(v) end)
+        Velune.NativeToggle(body, "Load Fling Murderer", nil, Velune.Shown.FlingMurderer, function(v) Velune.LoadFlingMurderer(v) end)
+        Velune.NativeToggle(body, "Load Fling Sheriff", nil, Velune.Shown.FlingSheriff, function(v) Velune.LoadFlingSheriff(v) end)
+        Velune.NativeToggle(body, "Load Silent Throw", nil, Velune.Shown.SilentThrow, function(v) Velune.LoadSilentThrow(v) end)
+        Velune.NativeToggle(body, "Load Kill All", nil, Velune.Shown.KillAll, function(v) Velune.LoadKillAll(v) end)
+        Velune.NativeToggle(body, "Silent Aim", "Camera settles on the murderer while you shoot.", Velune.Flags.SilentAim == true, function(v) Velune.SetSilentAim(v) end)
+        Velune.NativeToggle(body, "Show FOV", nil, Velune.Flags.ShowFov == true, function(v) Velune.SetShowFov(v) end)
+        Velune.NativeToggle(body, "Auto Shoot Murderer", nil, Velune.Flags.AutoShoot, function(v) Velune.Flags.AutoShoot = v end)
+        Velune.NativeToggle(body, "Knife Aura", nil, Velune.Flags.KnifeAura, function(v) Velune.Flags.KnifeAura = v end)
+        Velune.NativeToggle(body, "Silent Throw Loop", nil, Velune.Flags.SilentThrow, function(v) Velune.Flags.SilentThrow = v end)
+        Velune.NativeToggle(body, "Wall Bang", nil, Velune.Flags.WallBang, function(v) Velune.Flags.WallBang = v end)
+        Velune.NativeToggle(body, "Ping Prediction", nil, Velune.Flags.PingPredict, function(v) Velune.Flags.PingPredict = v end)
+        Velune.NativeAction(body, "Shoot Murderer", nil, function() Velune.ShootMurderer() end)
+        Velune.NativeAction(body, "Silent Knife Throw", nil, function() Velune.SilentThrow() end)
+        Velune.NativeAction(body, "Kill All", nil, function() Velune.KillAll() end)
+        Velune.NativeAction(body, "Kill Only Sheriff", nil, function() Velune.KillSheriff() end)
+        Velune.NativeToggle(body, "Head Size", "Client head scale. Restores when off.", Velune.Flags.Hitbox == true, function(v) Velune.SetHitbox(v, Velune.Values.Hitbox or 4) end)
+    elseif id == "visual" then
+        Velune.NativeToggle(body, "Enable ESP", nil, Velune.Flags.ESP, function(v)
+            Velune.Flags.ESP = v
+            if not v then
+                Velune.ClearESP()
+            end
+            Velune.Notify("VELUNE", v and "ESP ON" or "ESP OFF")
+        end)
+        Velune.NativeToggle(body, "Load ESP Toggle", "Pins the ESP glass button.", Velune.Shown.ESP, function(v) Velune.LoadESP(v) end)
+        Velune.NativeToggle(body, "Show Murderer", nil, Velune.Flags.ShowMurderer, function(v) Velune.Flags.ShowMurderer = v end)
+        Velune.NativeToggle(body, "Show Sheriff", nil, Velune.Flags.ShowSheriff, function(v) Velune.Flags.ShowSheriff = v end)
+        Velune.NativeToggle(body, "Show Hero", nil, Velune.Flags.ShowHero, function(v) Velune.Flags.ShowHero = v end)
+        Velune.NativeToggle(body, "Show Innocents", nil, Velune.Flags.ShowInnocent, function(v) Velune.Flags.ShowInnocent = v end)
+        Velune.NativeToggle(body, "Show Self", nil, Velune.Flags.ShowSelf, function(v) Velune.Flags.ShowSelf = v end)
+        Velune.NativeToggle(body, "Dropped Gun ESP", nil, Velune.Flags.GunESP, function(v)
+            Velune.Flags.GunESP = v
+            if not v then
+                Velune.MarkGun(nil)
+            end
+        end)
+        Velune.NativeToggle(body, "Names", nil, Velune.Flags.Names, function(v) Velune.Flags.Names = v end)
+        Velune.NativeToggle(body, "Boxes", nil, Velune.Flags.Boxes, function(v) Velune.Flags.Boxes = v end)
+        Velune.NativeToggle(body, "Tracers", nil, Velune.Flags.Tracers, function(v) Velune.Flags.Tracers = v end)
+        Velune.NativeColor(body, "Murderer Color", function() return Velune.Colors.Murderer end, function(c) Velune.Colors.Murderer = c end)
+        Velune.NativeColor(body, "Sheriff Color", function() return Velune.Colors.Sheriff end, function(c) Velune.Colors.Sheriff = c end)
+        Velune.NativeColor(body, "Hero Color", function() return Velune.Colors.Hero end, function(c) Velune.Colors.Hero = c end)
+        Velune.NativeColor(body, "Innocent Color", function() return Velune.Colors.Innocent end, function(c) Velune.Colors.Innocent = c end)
+        Velune.NativeAction(body, "Open Skybox Picker", "100+ lighting presets.", function() Velune.OpenSkyPicker() end)
+        Velune.NativeAction(body, "Restore Default Sky", nil, function() Velune.RestoreSky() end)
+        Velune.NativeToggle(body, "Enable Custom Crosshair", nil, Velune.Flags.Crosshair, function(v) Velune.SetCrosshair(v) end)
+        Velune.NativeAction(body, "Open Cursor Picker", "rbxassetid cursors.", function() Velune.OpenCursorPicker() end)
+        Velune.NativeToggle(body, "Low Graphics (FPS Boost)", nil, Velune.Flags.LowGFX, function(v) Velune.SetLowGFX(v) end)
+        Velune.NativeToggle(body, "High Graphics", nil, Velune.Flags.HighGFX, function(v) Velune.SetHighGFX(v) end)
+        Velune.NativeToggle(body, "Fullbright", nil, Velune.Flags.Fullbright == true, function(v) Velune.SetFullbright(v) end)
+        Velune.NativeToggle(body, "X-Ray", "Fades map parts.", Velune.Flags.Xray == true, function(v) Velune.SetXray(v) end)
+        Velune.NativeAction(body, "FOV Slider", nil, function()
+            Velune.OpenSlider("Field of View", 30, 120, Velune.Values.FOV, 5, function(n)
+                Velune.SetFOV(n)
+            end, function()
+                Velune.SetFOV(70)
+            end)
+        end)
+    elseif id == "move" then
+        Velune.NativeToggle(body, "Load Speed Glitch", nil, Velune.Shown.Speed, function(v) Velune.LoadSpeed(v) end)
+        Velune.NativeAction(body, "Speed Glitch Slider", nil, function()
+            Velune.OpenSlider("Speed Glitch", 50, 600, Velune.Values.Speed, 10, function(n)
+                Velune.Values.Speed = n
+            end, function()
+                Velune.Values.Speed = 200
+            end)
+        end)
+        Velune.NativeToggle(body, "Load Stretch", nil, Velune.Shown.Stretch, function(v) Velune.LoadStretch(v) end)
+        Velune.NativeAction(body, "Stretch Resolution", "10% very wide / 100% normal.", function()
+            Velune.OpenSlider("Stretch Resolution", 10, 100, math.round(Velune.Values.Stretch * 100), 5, function(n)
+                Velune.Values.Stretch = n / 100
+                if Velune.Flags.StretchOn then
+                    Velune.SetStretch(true)
+                end
+            end, function()
+                Velune.Values.Stretch = 0.5
+            end)
+        end)
+        Velune.NativeToggle(body, "Fly", nil, Velune.Flags.Fly, function(v) Velune.SetFly(v) end)
+        Velune.NativeToggle(body, "Load Fly Button", nil, Velune.Shown.Fly, function(v) Velune.LoadFly(v) end)
+        Velune.NativeToggle(body, "Noclip", nil, Velune.Flags.Noclip, function(v) Velune.SetNoclip(v) end)
+        Velune.NativeToggle(body, "Load Noclip Button", nil, Velune.Shown.Noclip, function(v) Velune.LoadNoclip(v) end)
+        Velune.NativeToggle(body, "Infinite Jump", nil, Velune.Flags.InfiniteJump, function(v) Velune.SetInfiniteJump(v) end)
+        Velune.NativeToggle(body, "God Mode", "Reapplies health locally.", Velune.Flags.God == true, function(v) Velune.SetGod(v) end)
+        Velune.NativeToggle(body, "Invisible", nil, Velune.Flags.Invisible == true, function(v) Velune.SetInvisible(v) end)
+        Velune.NativeToggle(body, "Spin", nil, Velune.Flags.Spin == true, function(v) Velune.SetSpin(v) end)
+        Velune.NativeToggle(body, "Bhop", nil, Velune.Flags.Bhop == true, function(v) Velune.SetBhop(v) end)
+        Velune.NativeAction(body, "Gravity", "0 to 196.", function()
+            Velune.OpenSlider("Gravity", 0, 196, Velune.Values.Gravity or 196, 2, function(n)
+                Velune.SetGravity(n)
+            end, function()
+                Velune.SetGravity(196)
+            end)
+        end)
+    elseif id == "world" then
+        Velune.NativeToggle(body, "Load Grab Gun", nil, Velune.Shown.GrabGun, function(v) Velune.LoadGrabGun(v) end)
+        Velune.NativeToggle(body, "Auto Grab Gun", nil, Velune.Flags.AutoGrab, function(v) Velune.Flags.AutoGrab = v end)
+        Velune.NativeToggle(body, "Notify on Gun Drop", nil, Velune.Flags.NotifyGun, function(v) Velune.Flags.NotifyGun = v end)
+        Velune.NativeToggle(body, "Notify on Murderer", nil, Velune.Flags.NotifyMurd, function(v) Velune.Flags.NotifyMurd = v end)
+        Velune.NativeToggle(body, "Notify on Sheriff", nil, Velune.Flags.NotifySher, function(v) Velune.Flags.NotifySher = v end)
+        Velune.NativeToggle(body, "Auto Coin Farm", nil, Velune.Flags.AutoFarm, function(v)
+            Velune.Flags.AutoFarm = v
+            Velune.Notify("VELUNE", v and "Farm ON" or "Farm OFF")
+        end)
+        Velune.NativeToggle(body, "Load Farm Button", nil, Velune.Shown.Farm, function(v) Velune.LoadFarm(v) end)
+        Velune.NativeAction(body, "Teleport to Murderer", nil, function()
+            local m = Velune.FindMurderer()
+            if m then
+                Velune.TeleportToPlayer(m)
+            else
+                Velune.Notify("VELUNE", "No murderer.")
+            end
+        end)
+        Velune.NativeAction(body, "Teleport to Sheriff", nil, function()
+            local s = Velune.FindSheriff()
+            if s then
+                Velune.TeleportToPlayer(s)
+            else
+                Velune.Notify("VELUNE", "No sheriff.")
+            end
+        end)
+        Velune.NativeAction(body, "Teleport to Lobby", nil, function() Velune.TeleportToLobby() end)
+        Velune.NativeAction(body, "Teleport to Map", nil, function() Velune.TeleportToMap() end)
+        Velune.NativeAction(body, "Expose Roles in Chat", nil, function() Velune.ChatRoles() end)
+        Velune.MakeLabel(body, "Troll", 12, true, Velune.Muted, 18)
+        Velune.NativeAction(body, "Fling Murderer", nil, function() Velune.FlingMurderer() end)
+        Velune.NativeAction(body, "Fling Sheriff", nil, function() Velune.FlingSheriff() end)
+        Velune.NativeAction(body, "Fling Everyone", nil, function()
+            task.spawn(function()
+                if not Players then
+                    return
+                end
+                for _, p in ipairs(Players:GetPlayers()) do
+                    if p ~= LP then
+                        Velune.FlingPlayer(p)
+                        task.wait(1.4)
+                    end
+                end
+            end)
+        end)
+    else
+        Velune.NativeToggle(body, "Anti-Fling", nil, Velune.Flags.AntiFling, function(v) Velune.SetAntiFling(v) end)
+        Velune.NativeToggle(body, "Anti-AFK", nil, Velune.Flags.AntiAFK, function(v) Velune.SetAntiAFK(v) end)
+        Velune.NativeToggle(body, "Buttons Locked", "Unlock to drag the glass buttons.", Velune.Flags.ButtonsLocked, function(v) Velune.Flags.ButtonsLocked = v end)
+        Velune.NativeAction(body, "Rejoin Current Server", nil, function() Velune.Rejoin() end)
+        Velune.NativeAction(body, "Server Hop", nil, function() Velune.ServerHop() end)
+        Velune.NativeAction(body, "Save Config", nil, function() Velune.SaveConfig() end)
+        Velune.NativeAction(body, "Reload Config", nil, function() Velune.LoadConfig() end)
+    end
+end
+function Velune.SetNativeOpen(on)
+    Velune.NativeOpen = on
+    local win = Velune.UI.Window
+    local orb = Velune.UI.Orb
+    if win then
+        win.Visible = on
+        if on then
+            win.Size = UDim2.new(0, math.floor(win.Size.X.Offset * 0.94), 0, math.floor(win.Size.Y.Offset * 0.94))
+            Velune.Spring(win, { Size = Velune.UI.WinSize }, 0.22)
+        end
+    end
+    if orb then
+        orb.Visible = not on
+    end
+end
+function Velune.BuildNative()
+    local host = Velune.HostGui()
+    local old = host:FindFirstChild("VeluneNative")
+    if old then
+        old:Destroy()
+    end
+    local mobile = Velune.IsMobile()
+    local cam = Velune.Cam()
+    local vp = cam and cam.ViewportSize or Vector2.new(1280, 720)
+    local winW = mobile and math.min(vp.X - 16, 460) or 860
+    local winH = mobile and math.min(vp.Y * 0.82, 620) or 560
+    Velune.UI.WinSize = UDim2.new(0, winW, 0, winH)
+    local root = Instance.new("Frame")
+    root.Name = "VeluneNative"
+    root.BackgroundTransparency = 1
+    root.Size = UDim2.new(1, 0, 1, 0)
+    root.ZIndex = 80
+    root.Parent = host
+    local win = Instance.new("Frame")
+    win.Name = "Window"
+    win.Size = Velune.UI.WinSize
+    if mobile then
+        win.AnchorPoint = Vector2.new(0.5, 1)
+        win.Position = UDim2.new(0.5, 0, 1, -10)
+    else
+        win.AnchorPoint = Vector2.new(0.5, 0)
+        win.Position = UDim2.new(0.5, 0, 0.1, 0)
+    end
+    win.BackgroundColor3 = Velune.Surface
+    win.BackgroundTransparency = 0.04
+    win.BorderSizePixel = 0
+    win.ClipsDescendants = true
+    win.ZIndex = 81
+    win.Parent = root
+    Velune.UICorner(win, 14)
+    Velune.UIStroke(win, Color3.fromRGB(225, 29, 72), 1.5, 0.25)
+    local top = Instance.new("Frame")
+    top.Size = UDim2.new(1, 0, 0, 48)
+    top.BackgroundColor3 = Color3.fromRGB(16, 12, 14)
+    top.BackgroundTransparency = 0.08
+    top.BorderSizePixel = 0
+    top.ZIndex = 82
+    top.Parent = win
+    local accent = Instance.new("Frame")
+    accent.Size = UDim2.new(1, 0, 0, 2)
+    accent.BackgroundColor3 = Velune.Accent
+    accent.BorderSizePixel = 0
+    accent.ZIndex = 83
+    accent.Parent = top
+    local mark = Instance.new("ImageLabel")
+    mark.BackgroundTransparency = 1
+    mark.Size = UDim2.new(0, 22, 0, 22)
+    mark.Position = UDim2.new(0, 14, 0.5, -11)
+    mark.Image = "rbxassetid://6031075938"
+    mark.ImageColor3 = Velune.Accent
+    mark.ZIndex = 84
+    mark.Parent = top
+    local title = Velune.MakeLabel(top, "VELUNE", 15, true, Velune.Paper, 20)
+    title.Position = UDim2.new(0, 44, 0.5, -10)
+    title.Size = UDim2.new(0, 140, 0, 20)
+    local sub = Velune.MakeLabel(top, "MM2  ·  v2.4", 11, false, Velune.Muted, 16)
+    sub.Position = UDim2.new(0, 130, 0.5, -8)
+    sub.Size = UDim2.new(0, 90, 0, 16)
+    local close = Instance.new("TextButton")
+    close.Size = UDim2.new(0, 32, 0, 32)
+    close.Position = UDim2.new(1, -40, 0.5, -16)
+    close.BackgroundColor3 = Color3.fromRGB(40, 28, 30)
+    close.Text = "×"
+    close.Font = Enum.Font.GothamBold
+    close.TextSize = 18
+    close.TextColor3 = Velune.Paper
+    close.ZIndex = 85
+    close.Parent = top
+    Velune.UICorner(close, 8)
+    close.MouseButton1Click:Connect(function()
+        Velune.SetNativeOpen(false)
+    end)
+    local tabs = Instance.new("Frame")
+    local rail = not mobile
+    if rail then
+        tabs.Size = UDim2.new(0, 168, 1, -48)
+        tabs.Position = UDim2.new(0, 0, 0, 48)
+    else
+        tabs.Size = UDim2.new(1, 0, 0, 40)
+        tabs.Position = UDim2.new(0, 0, 0, 48)
+    end
+    tabs.BackgroundColor3 = Color3.fromRGB(14, 11, 13)
+    tabs.BorderSizePixel = 0
+    tabs.ZIndex = 82
+    tabs.Parent = win
+    local tlist = Instance.new("UIListLayout")
+    tlist.FillDirection = rail and Enum.FillDirection.Vertical or Enum.FillDirection.Horizontal
+    tlist.Padding = UDim.new(0, 4)
+    tlist.VerticalAlignment = rail and Enum.VerticalAlignment.Top or Enum.VerticalAlignment.Center
+    tlist.HorizontalAlignment = Enum.HorizontalAlignment.Center
+    tlist.Parent = tabs
+    local tpad = Instance.new("UIPadding")
+    tpad.PaddingLeft = UDim.new(0, 10)
+    tpad.Parent = tabs
+    local names = {
+        { "combat", "Combat" },
+        { "visual", "Visual" },
+        { "move", "Move" },
+        { "world", "World" },
+        { "system", "System" },
+    }
+    Velune.UI.TabBtns = {}
+    local current = "combat"
+    local function paintTabs()
+        for id, b in pairs(Velune.UI.TabBtns) do
+            b.BackgroundColor3 = id == current and Velune.Accent or Color3.fromRGB(28, 22, 24)
+            b.TextColor3 = id == current and Color3.new(1, 1, 1) or Velune.Muted
+        end
+    end
+    for _, row in ipairs(names) do
+        local b = Instance.new("TextButton")
+        b.Size = rail and UDim2.new(1, -12, 0, 32) or UDim2.new(0, 72, 0, 28)
+        b.BackgroundColor3 = Color3.fromRGB(28, 22, 24)
+        b.Text = row[2]
+        b.Font = Enum.Font.GothamBold
+        b.TextSize = 12
+        b.TextColor3 = Velune.Muted
+        b.AutoButtonColor = false
+        b.ZIndex = 84
+        b.Parent = tabs
+        Velune.UICorner(b, 8)
+        Velune.UI.TabBtns[row[1]] = b
+        b.MouseButton1Click:Connect(function()
+            current = row[1]
+            paintTabs()
+            Velune.PaintNativePage(current)
+        end)
+    end
+    paintTabs()
+    local body = Instance.new("ScrollingFrame")
+    body.Name = "Body"
+    if rail then
+        body.Size = UDim2.new(1, -168, 1, -48)
+        body.Position = UDim2.new(0, 168, 0, 48)
+    else
+        body.Size = UDim2.new(1, 0, 1, -88)
+        body.Position = UDim2.new(0, 0, 0, 88)
+    end
+    body.BackgroundTransparency = 1
+    body.BorderSizePixel = 0
+    body.ScrollBarThickness = 4
+    body.CanvasSize = UDim2.new(0, 0, 0, 0)
+    body.AutomaticCanvasSize = Enum.AutomaticSize.Y
+    body.ZIndex = 82
+    body.Parent = win
+    local layout = Instance.new("UIListLayout")
+    layout.Name = "Layout"
+    layout.Padding = UDim.new(0, 8)
+    layout.SortOrder = Enum.SortOrder.LayoutOrder
+    layout.Parent = body
+    Velune.UIPad(body, 10, 10, 10, 16)
+    Velune.UI.Window = win
+    Velune.UI.Body = body
+    Velune.MakeDrag(win)
+    local orb = Instance.new("TextButton")
+    orb.Name = "VeluneOrb"
+    orb.Size = UDim2.new(0, 52, 0, 52)
+    orb.Position = UDim2.new(1, -68, 1, -68)
+    orb.BackgroundColor3 = Velune.Accent
+    orb.Text = ""
+    orb.AutoButtonColor = false
+    orb.Visible = false
+    orb.ZIndex = 88
+    orb.Parent = root
+    Velune.UICorner(orb, 26)
+    Velune.UIStroke(orb, Color3.fromRGB(255, 180, 190), 1.6, 0.25)
+    local og = Instance.new("UIGradient")
+    og.Color = ColorSequence.new(Color3.fromRGB(225, 29, 72), Color3.fromRGB(159, 18, 57))
+    og.Rotation = 160
+    og.Parent = orb
+    local oMark = Instance.new("ImageLabel")
+    oMark.BackgroundTransparency = 1
+    oMark.Size = UDim2.new(0, 26, 0, 26)
+    oMark.Position = UDim2.new(0.5, -13, 0.5, -13)
+    oMark.Image = "rbxassetid://6031075938"
+    oMark.ImageColor3 = Color3.new(1, 1, 1)
+    oMark.ZIndex = 89
+    oMark.Parent = orb
+    orb.MouseButton1Click:Connect(function()
+        Velune.SetNativeOpen(true)
+    end)
+    Velune.UI.Orb = orb
+    Velune.PaintNativePage("combat")
+    Velune.SetNativeOpen(true)
+    Velune.Notify("VELUNE", "Native UI live. Glass buttons on the floor.")
+end
+
+function Velune.SetGod(on)
+    Velune.Flags.God = on and true or false
+    Velune.Notify("VELUNE", Velune.Flags.God and "God ON" or "God OFF")
+end
+function Velune.SetInvisible(on)
+    Velune.Flags.Invisible = on and true or false
+    local char = Velune.Char()
+    if char then
+        for _, d in ipairs(char:GetDescendants()) do
+            if d:IsA("BasePart") and d.Name ~= "HumanoidRootPart" then
+                d.LocalTransparencyModifier = Velune.Flags.Invisible and 1 or 0
+            end
+        end
+    end
+end
+function Velune.SetSpin(on)
+    Velune.Flags.Spin = on and true or false
+end
+function Velune.SetBhop(on)
+    Velune.Flags.Bhop = on and true or false
+end
+function Velune.SetGravity(n)
+    Velune.Values.Gravity = n
+    if Workspace then
+        pcall(function()
+            Workspace.Gravity = n
+        end)
+    end
+end
+function Velune.SetFullbright(on)
+    Velune.Flags.Fullbright = on and true or false
+    if not Lighting then
+        return
+    end
+    if on then
+        Lighting.Brightness = 3
+        Lighting.ClockTime = 14
+        Lighting.FogEnd = 100000
+        Lighting.Ambient = Color3.new(1, 1, 1)
+        Lighting.OutdoorAmbient = Color3.new(1, 1, 1)
+    elseif Velune.LightingSnap then
+        pcall(function()
+            Lighting.Brightness = Velune.LightingSnap.Brightness
+            Lighting.ClockTime = Velune.LightingSnap.ClockTime
+            Lighting.FogEnd = Velune.LightingSnap.FogEnd
+            Lighting.Ambient = Velune.LightingSnap.Ambient
+            Lighting.OutdoorAmbient = Velune.LightingSnap.OutdoorAmbient
+        end)
+    end
+end
+function Velune.SetXray(on)
+    Velune.Flags.Xray = on and true or false
+    local map = Velune.MapRoot()
+    if not map then
+        return
+    end
+    for _, d in ipairs(map:GetDescendants()) do
+        if d:IsA("BasePart") then
+            if on then
+                if d:GetAttribute("VeluneX") == nil then
+                    d:SetAttribute("VeluneX", d.LocalTransparencyModifier)
+                end
+                d.LocalTransparencyModifier = 0.72
+            else
+                local prev = d:GetAttribute("VeluneX")
+                if typeof(prev) == "number" then
+                    d.LocalTransparencyModifier = prev
+                    d:SetAttribute("VeluneX", nil)
+                end
+            end
+        end
+    end
+end
+function Velune.KillSheriff()
+    local sher = Velune.FindSheriff()
+    if not sher then
+        Velune.Notify("VELUNE", "No sheriff.")
+        return
+    end
+    if Velune.HasTool("Knife") then
+        Velune.ThrowKnife()
+    else
+        Velune.FlingSheriff()
+    end
+end
+function Velune.SetSilentAim(on)
+    Velune.Flags.SilentAim = on and true or false
+end
+function Velune.SetShowFov(on)
+    Velune.Flags.ShowFov = on and true or false
+end
+function Velune.SetHitbox(on, scale)
+    Velune.Flags.Hitbox = on and true or false
+    if scale then
+        Velune.Values.Hitbox = scale
+    end
+    if not Players then
+        return
+    end
+    for _, p in ipairs(Players:GetPlayers()) do
+        if p ~= LP and p.Character then
+            local head = p.Character:FindFirstChild("Head")
+            if head and head:IsA("BasePart") then
+                if Velune.Flags.Hitbox then
+                    if head:GetAttribute("VeluneHead") == nil then
+                        head:SetAttribute("VeluneHead", head.Size)
+                    end
+                    local n = Velune.Values.Hitbox or 4
+                    head.Size = Vector3.new(n, n, n)
+                else
+                    local prev = head:GetAttribute("VeluneHead")
+                    if typeof(prev) == "Vector3" then
+                        head.Size = prev
+                        head:SetAttribute("VeluneHead", nil)
+                    end
+                end
+            end
+        end
+    end
+end
+function Velune.SaveConfig()
+    if not writefile or not HttpService then
+        Velune.Notify("VELUNE", "This executor cannot save files.")
+        return
+    end
+    local ok, data = pcall(function()
+        return HttpService:JSONEncode({ Flags = Velune.Flags, Values = Velune.Values })
+    end)
+    if ok and data then
+        pcall(makefolder, "Velune")
+        writefile("Velune/config.json", data)
+        Velune.Notify("VELUNE", "Config saved.")
+    end
+end
+function Velune.LoadConfig()
+    if not readfile or not isfile or not HttpService then
+        Velune.Notify("VELUNE", "No saved config.")
+        return
+    end
+    if not isfile("Velune/config.json") then
+        Velune.Notify("VELUNE", "No saved config.")
+        return
+    end
+    local ok, data = pcall(function()
+        return HttpService:JSONDecode(readfile("Velune/config.json"))
+    end)
+    if ok and type(data) == "table" then
+        if type(data.Flags) == "table" then
+            for k, v in pairs(data.Flags) do
+                Velune.Flags[k] = v
+            end
+        end
+        if type(data.Values) == "table" then
+            for k, v in pairs(data.Values) do
+                Velune.Values[k] = v
+            end
+        end
+        Velune.Notify("VELUNE", "Config loaded.")
+    end
+end
+
+function Velune.BuildWind()
+    if not WindUI then
+        Velune.Notify("VELUNE", "WindUI missing — floor buttons still live.")
+        return
+    end
+    pcall(function()
+        WindUI:Popup({
+            Title = "VELUNE  ·  Murder Mystery 2",
+            Icon = "sparkles",
+            Content = "v2.4 loaded.\nGlass floor buttons auto-loaded.\nNative UI is the control surface.",
+            Buttons = {
+                { Title = "Start", Icon = "arrow-right", Variant = "Primary", Callback = function() end },
+            },
+        })
+    end)
+    local okWind = pcall(function()
+    local window = WindUI:CreateWindow({
+        Title = "VELUNE",
+        Icon = "sparkles",
+        Author = "Murder Mystery 2",
+        Folder = "Velune",
+        Size = UDim2.fromOffset(700, 550),
+        Theme = "Crimson",
+        Acrylic = false,
+        HideSearchBar = false,
+        OpenButton = {
+            Title = "VELUNE",
+            CornerRadius = UDim.new(1, 0),
+            StrokeThickness = 2,
+            Enabled = true,
+            OnlyMobile = false,
+            Color = ColorSequence.new(Color3.fromHex("#e11d48"), Color3.fromHex("#9f1239")),
+        },
+    })
+    local section = window:Section({ Title = "VELUNE", Opened = true })
+    local combat = section:Tab({ Title = "Combat", Icon = "swords" })
+    local visual = section:Tab({ Title = "Visual", Icon = "eye" })
+    local move = section:Tab({ Title = "Move", Icon = "person-standing" })
+    local world = section:Tab({ Title = "World", Icon = "globe" })
+    local system = section:Tab({ Title = "System", Icon = "settings" })
+    combat:Paragraph({ Title = "Auto-Loaded Buttons", Content = "Gold Bomb, Normal Bomb and Shoot/Throw are enabled by default." })
+    combat:Toggle({ Title = "Show Gold Bomb", Default = true, Callback = function(v) Velune.LoadGoldBomb(v) end })
+    combat:Toggle({ Title = "Show Normal Bomb", Default = true, Callback = function(v) Velune.LoadNormalBomb(v) end })
+    combat:Toggle({ Title = "Show Shoot/Throw", Default = true, Callback = function(v) Velune.LoadShoot(v) end })
+    combat:Divider()
+    combat:Paragraph({ Title = "Optional Buttons", Content = "Toggle to add or remove from screen." })
+    combat:Toggle({ Title = "Load Flick", Default = false, Callback = function(v) Velune.LoadFlick(v) end })
+    combat:Toggle({ Title = "Load Wall Hop", Default = false, Callback = function(v) Velune.LoadWallHop(v) end })
+    combat:Toggle({ Title = "Load Fling Murderer", Default = false, Callback = function(v) Velune.LoadFlingMurderer(v) end })
+    combat:Toggle({ Title = "Load Fling Sheriff", Default = false, Callback = function(v) Velune.LoadFlingSheriff(v) end })
+    combat:Toggle({ Title = "Load Silent Throw", Default = false, Callback = function(v) Velune.LoadSilentThrow(v) end })
+    combat:Toggle({ Title = "Load Kill All", Default = false, Callback = function(v) Velune.LoadKillAll(v) end })
+    combat:Divider()
+    combat:Toggle({ Title = "Silent Aim", Default = false, Callback = function(v) Velune.SetSilentAim(v) end })
+    combat:Toggle({ Title = "Show FOV", Default = false, Callback = function(v) Velune.SetShowFov(v) end })
+    combat:Toggle({ Title = "Auto Shoot Murderer", Default = false, Callback = function(v) Velune.Flags.AutoShoot = v end })
+    combat:Toggle({ Title = "Knife Aura", Default = false, Callback = function(v) Velune.Flags.KnifeAura = v end })
+    combat:Slider({ Title = "Knife Aura Range", Value = { Min = 5, Max = 80, Default = 20 }, Callback = function(v) Velune.Values.Aura = v end })
+    combat:Toggle({ Title = "Silent Throw Loop", Default = false, Callback = function(v) Velune.Flags.SilentThrow = v end })
+    combat:Toggle({ Title = "Wall Bang", Default = false, Callback = function(v) Velune.Flags.WallBang = v end })
+    combat:Toggle({ Title = "Ping Prediction", Default = false, Callback = function(v) Velune.Flags.PingPredict = v end })
+    combat:Button({ Title = "Shoot Murderer", Callback = function() Velune.ShootMurderer() end })
+    combat:Button({ Title = "Silent Knife Throw", Callback = function() Velune.SilentThrow() end })
+    combat:Button({ Title = "Kill All", Callback = function() Velune.KillAll() end })
+    combat:Button({ Title = "Kill Sheriff", Callback = function() Velune.KillSheriff() end })
+    combat:Toggle({ Title = "Head Size", Default = false, Callback = function(v) Velune.SetHitbox(v, Velune.Values.Hitbox or 4) end })
+    combat:Slider({ Title = "Head Scale", Value = { Min = 2, Max = 10, Default = 4 }, Callback = function(v) Velune.SetHitbox(Velune.Flags.Hitbox, v) end })
+    visual:Toggle({ Title = "Enable ESP", Default = false, Callback = function(v)
+        Velune.Flags.ESP = v
+        if not v then
+            Velune.ClearESP()
+        end
+        Velune.Notify("VELUNE", v and "ESP ON" or "ESP OFF")
+    end })
+    visual:Toggle({ Title = "Load ESP Toggle", Default = false, Callback = function(v) Velune.LoadESP(v) end })
+    visual:Divider()
+    visual:Toggle({ Title = "Show Murderer", Default = true, Callback = function(v) Velune.Flags.ShowMurderer = v end })
+    visual:Toggle({ Title = "Show Sheriff", Default = true, Callback = function(v) Velune.Flags.ShowSheriff = v end })
+    visual:Toggle({ Title = "Show Hero", Default = true, Callback = function(v) Velune.Flags.ShowHero = v end })
+    visual:Toggle({ Title = "Show Innocents", Default = true, Callback = function(v) Velune.Flags.ShowInnocent = v end })
+    visual:Toggle({ Title = "Show Self", Default = true, Callback = function(v) Velune.Flags.ShowSelf = v end })
+    visual:Toggle({ Title = "Dropped Gun ESP", Default = true, Callback = function(v)
+        Velune.Flags.GunESP = v
+        if not v then
+            Velune.MarkGun(nil)
+        end
+    end })
+    visual:Toggle({ Title = "Names", Default = true, Callback = function(v) Velune.Flags.Names = v end })
+    visual:Toggle({ Title = "Boxes", Default = false, Callback = function(v) Velune.Flags.Boxes = v end })
+    visual:Toggle({ Title = "Tracers", Default = false, Callback = function(v) Velune.Flags.Tracers = v end })
+    visual:Divider()
+    pcall(function()
+        visual:Colorpicker({ Title = "Murderer Color", Default = Velune.Colors.Murderer, Callback = function(c) Velune.Colors.Murderer = c end })
+    end)
+    pcall(function()
+        visual:Colorpicker({ Title = "Sheriff Color", Default = Velune.Colors.Sheriff, Callback = function(c) Velune.Colors.Sheriff = c end })
+    end)
+    pcall(function()
+        visual:Colorpicker({ Title = "Hero Color", Default = Velune.Colors.Hero, Callback = function(c) Velune.Colors.Hero = c end })
+    end)
+    pcall(function()
+        visual:Colorpicker({ Title = "Innocent Color", Default = Velune.Colors.Innocent, Callback = function(c) Velune.Colors.Innocent = c end })
+    end)
+    visual:Divider()
+    visual:Button({ Title = "Open Skybox Picker", Callback = function() Velune.OpenSkyPicker() end })
+    visual:Button({ Title = "Restore Default Sky", Callback = function() Velune.RestoreSky() end })
+    visual:Divider()
+    visual:Toggle({ Title = "Enable Custom Crosshair", Default = false, Callback = function(v) Velune.SetCrosshair(v) end })
+    visual:Button({ Title = "Open Cursor Picker", Callback = function() Velune.OpenCursorPicker() end })
+    visual:Divider()
+    visual:Toggle({ Title = "Low Graphics (FPS Boost)", Default = false, Callback = function(v) Velune.SetLowGFX(v) end })
+    visual:Toggle({ Title = "High Graphics", Default = false, Callback = function(v) Velune.SetHighGFX(v) end })
+    visual:Toggle({ Title = "Fullbright", Default = false, Callback = function(v) Velune.SetFullbright(v) end })
+    visual:Toggle({ Title = "X-Ray", Default = false, Callback = function(v) Velune.SetXray(v) end })
+    visual:Button({ Title = "FOV Slider", Callback = function()
+        Velune.OpenSlider("Field of View", 30, 120, Velune.Values.FOV, 5, function(n)
+            Velune.SetFOV(n)
+        end, function()
+            Velune.SetFOV(70)
+            Velune.Notify("VELUNE", "FOV reset to 70")
+        end)
+    end })
+    move:Toggle({ Title = "Load Speed Glitch", Default = false, Callback = function(v) Velune.LoadSpeed(v) end })
+    move:Button({ Title = "Speed Glitch Slider", Callback = function()
+        Velune.OpenSlider("Speed Glitch", 50, 600, Velune.Values.Speed, 10, function(n)
+            Velune.Values.Speed = n
+        end, function()
+            Velune.Values.Speed = 200
+            Velune.Notify("VELUNE", "Speed reset to 200")
+        end)
+    end })
+    move:Toggle({ Title = "Load Stretch", Default = false, Callback = function(v) Velune.LoadStretch(v) end })
+    move:Button({ Title = "Stretch Resolution", Callback = function()
+        Velune.OpenSlider("Stretch Resolution", 10, 100, math.round(Velune.Values.Stretch * 100), 5, function(n)
+            Velune.Values.Stretch = n / 100
+            if Velune.Flags.StretchOn then
+                Velune.SetStretch(true)
+            end
+        end, function()
+            Velune.Values.Stretch = 0.5
+            if Velune.Flags.StretchOn then
+                Velune.SetStretch(true)
+            end
+            Velune.Notify("VELUNE", "Stretch reset to 50%")
+        end)
+    end })
+    move:Toggle({ Title = "Fly", Default = false, Callback = function(v) Velune.SetFly(v) end })
+    move:Toggle({ Title = "Load Fly Button", Default = false, Callback = function(v) Velune.LoadFly(v) end })
+    move:Slider({ Title = "Fly Speed", Value = { Min = 20, Max = 220, Default = 90 }, Callback = function(v) Velune.Values.FlySpeed = v end })
+    move:Toggle({ Title = "Noclip", Default = false, Callback = function(v) Velune.SetNoclip(v) end })
+    move:Toggle({ Title = "Load Noclip Button", Default = false, Callback = function(v) Velune.LoadNoclip(v) end })
+    move:Toggle({ Title = "Infinite Jump", Default = false, Callback = function(v) Velune.SetInfiniteJump(v) end })
+    move:Slider({ Title = "Walk Speed", Value = { Min = 16, Max = 80, Default = 16 }, Callback = function(v) Velune.SetWalk(v) end })
+    move:Slider({ Title = "Jump Power", Value = { Min = 50, Max = 200, Default = 50 }, Callback = function(v) Velune.SetJump(v) end })
+    move:Toggle({ Title = "God Mode", Default = false, Callback = function(v) Velune.SetGod(v) end })
+    move:Toggle({ Title = "Invisible", Default = false, Callback = function(v) Velune.SetInvisible(v) end })
+    move:Toggle({ Title = "Spin", Default = false, Callback = function(v) Velune.SetSpin(v) end })
+    move:Toggle({ Title = "Bhop", Default = false, Callback = function(v) Velune.SetBhop(v) end })
+    move:Slider({ Title = "Gravity", Value = { Min = 0, Max = 196, Default = 196 }, Callback = function(v) Velune.SetGravity(v) end })
+    world:Toggle({ Title = "Load Grab Gun", Default = false, Callback = function(v) Velune.LoadGrabGun(v) end })
+    world:Toggle({ Title = "Auto Grab Gun", Default = false, Callback = function(v) Velune.Flags.AutoGrab = v end })
+    world:Toggle({ Title = "Notify on Gun Drop", Default = true, Callback = function(v) Velune.Flags.NotifyGun = v end })
+    world:Toggle({ Title = "Notify on Murderer", Default = false, Callback = function(v) Velune.Flags.NotifyMurd = v end })
+    world:Toggle({ Title = "Notify on Sheriff", Default = false, Callback = function(v) Velune.Flags.NotifySher = v end })
+    world:Divider()
+    world:Toggle({ Title = "Auto Coin Farm", Default = false, Callback = function(v)
+        Velune.Flags.AutoFarm = v
+        Velune.Notify("VELUNE", v and "Farm ON" or "Farm OFF")
+    end })
+    world:Toggle({ Title = "Load Farm Button", Default = false, Callback = function(v) Velune.LoadFarm(v) end })
+    world:Slider({ Title = "Farm Speed", Value = { Min = 0, Max = 25, Default = 25 }, Callback = function(v) Velune.Values.FarmSpeed = v end })
+    world:Slider({ Title = "Height Offset", Value = { Min = -6, Max = 0, Default = -5 }, Callback = function(v) Velune.Values.FarmOffset = v end })
+    world:Slider({ Title = "Search Radius", Value = { Min = 100, Max = 10000, Default = 3000 }, Callback = function(v) Velune.Values.FarmRadius = v end })
+    world:Divider()
+    world:Button({ Title = "Teleport to Murderer", Callback = function()
+        local m = Velune.FindMurderer()
+        if m then
+            Velune.TeleportToPlayer(m)
+        else
+            Velune.Notify("VELUNE", "No murderer.")
+        end
+    end })
+    world:Button({ Title = "Teleport to Sheriff", Callback = function()
+        local s = Velune.FindSheriff()
+        if s then
+            Velune.TeleportToPlayer(s)
+        else
+            Velune.Notify("VELUNE", "No sheriff.")
+        end
+    end })
+    world:Button({ Title = "Teleport to Lobby", Callback = function() Velune.TeleportToLobby() end })
+    world:Button({ Title = "Teleport to Map", Callback = function() Velune.TeleportToMap() end })
+    world:Divider()
+    world:Button({ Title = "Expose Roles in Chat", Callback = function() Velune.ChatRoles() end })
+
+    world:Button({ Title = "Emote: sit", Callback = function() Velune.PlayEmote_sit() end })
+    world:Button({ Title = "Emote: zombie", Callback = function() Velune.PlayEmote_zombie() end })
+    world:Button({ Title = "Emote: ninja", Callback = function() Velune.PlayEmote_ninja() end })
+    world:Button({ Title = "Emote: zen", Callback = function() Velune.PlayEmote_zen() end })
+    world:Button({ Title = "Emote: floss", Callback = function() Velune.PlayEmote_floss() end })
+    world:Button({ Title = "Emote: dab", Callback = function() Velune.PlayEmote_dab() end })
+    world:Button({ Title = "Emote: wave", Callback = function() Velune.PlayEmote_wave() end })
+    world:Button({ Title = "Emote: laugh", Callback = function() Velune.PlayEmote_laugh() end })
+    world:Button({ Title = "Emote: point", Callback = function() Velune.PlayEmote_point() end })
+    world:Button({ Title = "Emote: dance", Callback = function() Velune.PlayEmote_dance() end })
+    world:Button({ Title = "Emote: cheer", Callback = function() Velune.PlayEmote_cheer() end })
+    world:Button({ Title = "Emote: shrug", Callback = function() Velune.PlayEmote_shrug() end })
+    world:Button({ Title = "Emote: salute", Callback = function() Velune.PlayEmote_salute() end })
+    world:Button({ Title = "Emote: think", Callback = function() Velune.PlayEmote_think() end })
+    world:Button({ Title = "Emote: confused", Callback = function() Velune.PlayEmote_confused() end })
+    world:Button({ Title = "Emote: agree", Callback = function() Velune.PlayEmote_agree() end })
+    world:Button({ Title = "Emote: disagree", Callback = function() Velune.PlayEmote_disagree() end })
+    world:Button({ Title = "Emote: sleep", Callback = function() Velune.PlayEmote_sleep() end })
+    world:Button({ Title = "Emote: clap", Callback = function() Velune.PlayEmote_clap() end })
+    world:Button({ Title = "Emote: bow", Callback = function() Velune.PlayEmote_bow() end })
+
+    system:Toggle({ Title = "Anti-Fling", Default = false, Callback = function(v) Velune.SetAntiFling(v) end })
+    system:Dropdown({ Title = "Velocity Cap", Values = { "50", "100", "150", "200", "300", "500" }, Value = "200", Callback = function(v) Velune.Values.Cap = tonumber(v) or 200 end })
+    system:Toggle({ Title = "Anti-AFK", Default = false, Callback = function(v) Velune.SetAntiAFK(v) end })
+    system:Toggle({ Title = "Buttons Locked", Default = true, Callback = function(v) Velune.Flags.ButtonsLocked = v end })
+    system:Divider()
+    system:Button({ Title = "Rejoin Current Server", Callback = function() Velune.Rejoin() end })
+    system:Button({ Title = "Server Hop", Callback = function() Velune.ServerHop() end })
+    system:Button({ Title = "Save Config", Callback = function() Velune.SaveConfig() end })
+    system:Button({ Title = "Reload Config", Callback = function() Velune.LoadConfig() end })
+    end)
+    if not okWind then
+        Velune.Notify("VELUNE", "WindUI skipped — native UI is live.")
+    end
+end
+function Velune.WatchGun()
+    if not Workspace then
+        return
+    end
+    local function attach(inst)
+        if inst.Name == "GunDrop" then
+            task.wait(0.1)
+            if Velune.Flags.GunESP then
+                Velune.MarkGun(inst)
+            end
+            if Velune.Flags.NotifyGun then
+                Velune.Notify("VELUNE", "Gun dropped on the map!")
+            end
+        end
+    end
+    Velune.Track(Workspace.DescendantAdded:Connect(attach))
+    Velune.Track(Workspace.DescendantRemoving:Connect(function(inst)
+        if inst.Name == "GunDrop" then
+            Velune.MarkGun(nil)
+        end
+    end))
+    task.spawn(function()
+        task.wait(1.4)
+        local g = Velune.GunDrop()
+        if g then
+            attach(g)
+        end
+    end)
+end
+function Velune.WatchRoles()
+    local ev = Velune.FindRemote("PlayerDataChanged", "RemoteEvent")
+    if ev then
+        Velune.Track(ev.OnClientEvent:Connect(function(data)
+            if type(data) == "table" then
+                Velune.RoleCache = data
+                Velune.RoleStamp = tick()
+                if Velune.Flags.NotifyMurd then
+                    local m = Velune.FindMurderer()
+                    if m then
+                        Velune.Notify("VELUNE", "Murderer: " .. m.Name)
+                    end
+                end
+                if Velune.Flags.NotifySher then
+                    local s = Velune.FindSheriff()
+                    if s then
+                        Velune.Notify("VELUNE", "Sheriff: " .. s.Name)
+                    end
+                end
+            end
+        end))
+    end
+end
+function Velune.BindInput()
+    Velune.Track(UserInputService.JumpRequest:Connect(function()
+        if Velune.Flags.InfiniteJump then
+            local hum = Velune.Hum()
+            if hum then
+                hum:ChangeState(Enum.HumanoidStateType.Jumping)
+            end
+        end
+    end))
+end
+function Velune.Heartbeat()
+    Velune.Track(RunService.Heartbeat:Connect(function()
+        Velune.TickFloor()
+        Velune.SpeedTick()
+        Velune.KnifeAuraTick()
+        if Velune.Flags.AutoGrab and Velune.GunDrop() and not Velune.HasTool("Gun") and not Velune.OnCooldown("autograb", 400) then
+            Velune.GrabGun()
+        end
+        if Velune.Flags.AutoShoot and Velune.HasTool("Gun") and not Velune.OnCooldown("autoshoot", 900) then
+            local m = Velune.FindMurderer()
+            if m then
+                Velune.ShootMurderer()
+            end
+        end
+        if Velune.Flags.SilentThrow and not Velune.OnCooldown("silentloop", 650) then
+            Velune.SilentThrow()
+        end
+        if Velune.Flags.God then
+            local hum = Velune.Hum()
+            if hum and hum.Health > 0 then
+                hum.Health = hum.MaxHealth
+            end
+        end
+        if Velune.Flags.Spin then
+            local root = Velune.HRP()
+            if root then
+                root.CFrame = root.CFrame * CFrame.Angles(0, 0.35, 0)
+            end
+        end
+        if Velune.Flags.Bhop then
+            local hum = Velune.Hum()
+            if hum and hum.FloorMaterial ~= Enum.Material.Air then
+                hum.Jump = true
+            end
+        end
+        if Velune.Flags.Invisible then
+            Velune.SetInvisible(true)
+        end
+    end))
+    Velune.Track(RunService.RenderStepped:Connect(function()
+        Velune.TickESP()
+    end))
+    task.spawn(function()
+        while true do
+            Velune.FarmTick()
+            task.wait(0.12)
+        end
+    end)
+end
+function Velune.Boot()
+    if Lighting then
+        Velune.LightingSnap = {
+            ClockTime = Lighting.ClockTime,
+            Brightness = Lighting.Brightness,
+            FogEnd = Lighting.FogEnd,
+            FogStart = Lighting.FogStart,
+            FogColor = Lighting.FogColor,
+            Ambient = Lighting.Ambient,
+            OutdoorAmbient = Lighting.OutdoorAmbient,
+        }
+    end
+    Velune.HostGui()
+    Velune.WatchGun()
+    Velune.WatchRoles()
+    Velune.BindInput()
+    Velune.Heartbeat()
+    if LP then
+        Velune.Track(LP.CharacterAdded:Connect(function()
+            task.wait(0.15)
+            Velune.SetWalk(Velune.Values.Walk)
+            Velune.SetJump(Velune.Values.Jump)
+            if Velune.Flags.Fly then
+                Velune.SetFly(true)
+            end
+        end))
+    end
+    task.wait(0.35)
+    Velune.LoadGoldBomb(true)
+    Velune.LoadNormalBomb(true)
+    Velune.LoadShoot(true)
+    pcall(Velune.BuildNative)
+    pcall(Velune.BuildWind)
+    Velune.Notify("VELUNE", "VELUNE v2.4 ready.")
+    print("[VELUNE] v4.0.0 loaded.")
+end
+Velune.Boot()
+return Velune
