@@ -1,28 +1,3 @@
-local env = (getgenv and getgenv()) or _G
-if env.VeluneLoaded then
-    return
-end
-env.VeluneLoaded = true
-if not game:IsLoaded() then
-    pcall(function()
-        game.Loaded:Wait()
-    end)
-end
-local function ref(v)
-    if cloneref then
-        return cloneref(v)
-    end
-    return v
-end
-local function svc(n)
-    local ok, s = pcall(function()
-        return ref(game:GetService(n))
-    end)
-    if ok then
-        return s
-    end
-    return nil
-end
 local Players = svc("Players")
 local Workspace = svc("Workspace")
 local RunService = svc("RunService")
